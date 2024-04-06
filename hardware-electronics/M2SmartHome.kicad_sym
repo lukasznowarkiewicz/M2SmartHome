@@ -6474,15 +6474,15 @@
 			)
 		)
 	)
-	(symbol "USB1055-GF-L-A_REVC3"
+	(symbol "USB2244-AEZG-06"
 		(pin_names
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J"
-			(at -5.0884 8.1414 0)
+		(property "Reference" "U"
+			(at -30.5381 20.8677 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6490,16 +6490,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "USB1055-GF-L-A_REVC3"
-			(at -5.0879 -12.7158 0)
+		(property "Value" "USB2244-AEZG-06"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify bottom)
 			)
 		)
-		(property "Footprint" "footprints:GCT_USB1055-GF-L-A_REVC3"
+		(property "Footprint" "M2SmartHomeFootprints:USB2244-AEZG-06"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6509,7 +6509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/00001979A.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6527,7 +6527,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "GCT"
+		(property "MF" "Microchip"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6537,7 +6537,7 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7.12mm"
+		(property "Description_1" "\nUSB Hub Controller USB 2.0 USB Interface 36-SQFN (6x6)\n"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6547,7 +6547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "VFQFN-36 Microchip"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6567,7 +6567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/USB1055-GF-L-A/Global+Connector+Technology/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/USB2512B/M2/Microchip/view-part/?ref=eda"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6577,7 +6577,7 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB2512B/M2/Microchip/view-part/?ref=snap"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6587,7 +6587,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "C3"
+		(property "MP" "USB2244-AEZG-06"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6597,47 +6597,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB1055-GF-L-A/Global+Connector+Technology/view-part/?ref=snap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "USB1055-GF-L-A"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=5817153&manufacturer=GCT&part_name=USB1055-GF-L-A&search_term= usb1055-gf-l-a"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nUSB-A (USB TYPE-A) USB 2.0 Receptacle Connector 4 Position Board Edge, Cutout; Surface Mount; Through Hole, Right Angle\n"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "GCT"
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=633495&manufacturer=Microchip&part_name=USB2512B/M2&search_term=usb2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6657,7 +6617,7 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "USB1055-GF-L-A"
+		(property "MANUFACTURER" "MICROCHIP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6667,10 +6627,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "USB1055-GF-L-A_REVC3_0_0"
+		(symbol "USB2244-AEZG-06_0_0"
 			(rectangle
-				(start -5.08 7.62)
-				(end 5.08 -10.16)
+				(start -30.48 20.32)
+				(end 27.94 -34.29)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -6679,10 +6639,75 @@
 					(type background)
 				)
 			)
+			(text "VALUE"
+				(at -30.734 -38.862 0)
+				(effects
+					(font
+						(size 2.5424 2.5424)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -26.67 180)
+				(length 2.54)
+				(name "RBIAS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at -10.16 5.08 0)
-				(length 5.08)
-				(name "VBUS"
+				(at 30.48 -20.32 180)
+				(length 2.54)
+				(name "VDDA33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -22.86 180)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "USB2244-AEZG-06_1_0"
+			(pin output line
+				(at 30.48 -2.54 180)
+				(length 2.54)
+				(name "LED"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6698,9 +6723,189 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 2.54 0)
-				(length 5.08)
-				(name "D-"
+				(at -33.02 -11.43 0)
+				(length 2.54)
+				(name "SD_D5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -21.59 0)
+				(length 2.54)
+				(name "SD_CMD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 30.48 2.54 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -10.16 180)
+				(length 2.54)
+				(name "VDD18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -15.24 180)
+				(length 2.54)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 30.48 5.08 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 30.48 7.62 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 30.48 10.16 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -33.02 12.7 0)
+				(length 2.54)
+				(name "~{RESET_N}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 30.48 12.7 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 17.78 0)
+				(length 2.54)
+				(name "USB+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6716,9 +6921,189 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 0 0)
-				(length 5.08)
-				(name "D+"
+				(at -33.02 -8.89 0)
+				(length 2.54)
+				(name "SD_D4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -29.21 180)
+				(length 2.54)
+				(name "CRD_PWR"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -17.78 180)
+				(length 2.54)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -6.35 0)
+				(length 2.54)
+				(name "SD_D3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 30.48 15.24 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -3.81 0)
+				(length 2.54)
+				(name "SD_D2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -24.13 0)
+				(length 2.54)
+				(name "SD_nCD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -31.75 0)
+				(length 2.54)
+				(name "RXD/SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -33.02 10.16 0)
+				(length 2.54)
+				(name "TEST"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 30.48 17.78 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 15.24 0)
+				(length 2.54)
+				(name "USB-"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6733,10 +7118,100 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at -33.02 -26.67 0)
+				(length 2.54)
+				(name "SD_WP"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -29.21 0)
+				(length 2.54)
+				(name "TXD/SCK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -33.02 7.62 0)
+				(length 2.54)
+				(name "XTAL2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -33.02 5.08 0)
+				(length 2.54)
+				(name "XTAL1(CLKIN)"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at -10.16 -2.54 0)
-				(length 5.08)
-				(name "GND"
+				(at 30.48 -7.62 180)
+				(length 2.54)
+				(name "VDD18PLL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -1.27 0)
+				(length 2.54)
+				(name "SD_D1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6751,17 +7226,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -10.16 -7.62 0)
-				(length 5.08)
-				(name "SHIELD"
+			(pin bidirectional line
+				(at -33.02 1.27 0)
+				(length 2.54)
+				(name "SD_D0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "SH1"
+				(number "5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6770,16 +7245,70 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -7.62 0)
-				(length 5.08)
-				(name "SHIELD"
+				(at 30.48 -12.7 180)
+				(length 2.54)
+				(name "VDD33"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "SH2"
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -16.51 0)
+				(length 2.54)
+				(name "SD_D7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -13.97 0)
+				(length 2.54)
+				(name "SD_D6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -19.05 0)
+				(length 2.54)
+				(name "SD_CLK"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
