@@ -4333,7 +4333,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-129N"
+		(property "Footprint" "M2SmartHomeFootprints:PI7C9X440SLBFDE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4343,7 +4343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/115/PERIS05776_1-2544009.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4471,10 +4471,19 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "PCie USB 2.0 bridge"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "PI7C9X440SLBFDE_0_0"
 			(rectangle
-				(start -25.4 -60.96)
-				(end 25.4 60.96)
+				(start -25.4 60.96)
+				(end 25.4 -60.96)
 				(stroke
 					(width 0.254)
 					(type default)
