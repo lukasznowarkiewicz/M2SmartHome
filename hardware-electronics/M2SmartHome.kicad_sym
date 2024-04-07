@@ -1938,7 +1938,7 @@
 			)
 		)
 	)
-	(symbol "EMMC08G-ML36-01B00"
+	(symbol "EMMC16G-MW28-01E10"
 		(pin_names
 			(offset 1.016)
 		)
@@ -1946,7 +1946,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -15.24 26.289 0)
+			(at -25.4449 28.6254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,8 +1954,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "EMMC08G-ML36-01B00"
-			(at -15.24 -27.94 0)
+		(property "Value" "EMMC16G-MW28-01E10"
+			(at 15.2918 -30.5836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1963,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "footprints:BGA153N50P14X14_1300X1150X100N"
+		(property "Footprint" "M2SmartHomeFootprints:EMMC16G-MW28-01E10"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1973,7 +1973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/1389/Kingston_1162024_EMMC16G_MW28_01E10_v1_1-3388392.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2001,7 +2001,7 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0 mm"
+		(property "Description_1" "\n16GB Commercial 5.1 HS400\n"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2011,7 +2011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "BGA-153 WESTERN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2021,77 +2021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EMMC08G-ML36-01B00/Kingston/view-part/?ref=eda"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EMMC08G-ML36-01B00/Kingston/view-part/?ref=snap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EMMC08G-ML36-01B00"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\neMMC 5.1 (HS400) 153B 8GB\n"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Kingston"
+		(property "MP" "EMMC16G-MW28-01E10"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2111,7 +2041,7 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "EMMC08G-ML36-01B00"
+		(property "MANUFACTURER" "Kingston"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2121,10 +2051,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "EMMC08G-ML36-01B00_1_0"
+		(symbol "EMMC16G-MW28-01E10_0_0"
 			(rectangle
-				(start -15.24 -25.4)
-				(end 15.24 25.4)
+				(start -25.4 -27.94)
+				(end 25.4 27.94)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2133,134 +2063,8 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at -20.32 5.08 0)
+				(at 30.48 15.24 180)
 				(length 5.08)
 				(name "DAT0"
 					(effects
@@ -2278,7 +2082,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 2.54 0)
+				(at 30.48 12.7 180)
 				(length 5.08)
 				(name "DAT1"
 					(effects
@@ -2296,7 +2100,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 0 0)
+				(at 30.48 10.16 180)
 				(length 5.08)
 				(name "DAT2"
 					(effects
@@ -2313,143 +2117,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.32 -20.32 0)
+			(pin power_in line
+				(at -2.54 -33.02 90)
 				(length 5.08)
-				(name "NC_1"
+				(name "VSS_A6"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "A8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B14"
+				(number "A6"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2458,7 +2136,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -2.54 0)
+				(at 30.48 7.62 180)
 				(length 5.08)
 				(name "DAT3"
 					(effects
@@ -2476,7 +2154,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -5.08 0)
+				(at 30.48 5.08 180)
 				(length 5.08)
 				(name "DAT4"
 					(effects
@@ -2494,7 +2172,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -7.62 0)
+				(at 30.48 2.54 180)
 				(length 5.08)
 				(name "DAT5"
 					(effects
@@ -2512,7 +2190,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -10.16 0)
+				(at 30.48 0 180)
 				(length 5.08)
 				(name "DAT6"
 					(effects
@@ -2530,7 +2208,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -12.7 0)
+				(at 30.48 -2.54 180)
 				(length 5.08)
 				(name "DAT7"
 					(effects
@@ -2548,169 +2226,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -20.32 0)
-				(length 5.08)
-				(name "NC_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "B9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "C1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "C10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "C11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "C12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "C13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "C14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 22.86 180)
+				(at -30.48 12.7 0)
 				(length 5.08)
 				(name "VDDI"
 					(effects
@@ -2727,17 +2243,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -20.32 180)
+			(pin power_in line
+				(at 2.54 -33.02 90)
 				(length 5.08)
-				(name "NC_2"
+				(name "VSSQ_C4"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "C3"
+				(number "C4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2745,215 +2261,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -20.32 180)
+			(pin power_in line
+				(at 2.54 33.02 270)
 				(length 5.08)
-				(name "NC_2"
+				(name "VCCQ_C6"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "C5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "C7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "C8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -20.32 180)
-				(length 5.08)
-				(name "NC_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "C9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -22.86 0)
-				(length 5.08)
-				(name "NC_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "D1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -22.86 0)
-				(length 5.08)
-				(name "NC_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "D12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -22.86 0)
-				(length 5.08)
-				(name "NC_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "D13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -22.86 0)
-				(length 5.08)
-				(name "NC_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "D14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -22.86 0)
-				(length 5.08)
-				(name "NC_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "D2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -22.86 0)
-				(length 5.08)
-				(name "NC_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "D3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -22.86 0)
-				(length 5.08)
-				(name "NC_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "D4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -22.86 0)
-				(length 5.08)
-				(name "NC_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "E1"
+				(number "C6"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2962,7 +2280,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 2.54 180)
+				(at -30.48 -7.62 0)
 				(length 5.08)
 				(name "VSF2"
 					(effects
@@ -2979,17 +2297,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.32 -22.86 0)
+			(pin power_in line
+				(at -10.16 33.02 270)
 				(length 5.08)
-				(name "NC_3"
+				(name "VCC_E6"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "E12"
+				(number "E6"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2997,71 +2315,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.32 -22.86 0)
+			(pin power_in line
+				(at -15.24 -33.02 90)
 				(length 5.08)
-				(name "NC_3"
+				(name "VSS_E7"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "E13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -22.86 180)
-				(length 5.08)
-				(name "NC_4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "E14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -22.86 0)
-				(length 5.08)
-				(name "NC_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "E2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -22.86 0)
-				(length 5.08)
-				(name "NC_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "E3"
+				(number "E7"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3070,25 +2334,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -5.08 180)
-				(length 5.08)
-				(name "VSF5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "E8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 20.32 5.08 180)
+				(at -30.48 -5.08 0)
 				(length 5.08)
 				(name "VSF1"
 					(effects
@@ -3105,26 +2351,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -22.86 180)
-				(length 5.08)
-				(name "NC_4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "F1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 20.32 0 180)
+				(at -30.48 -10.16 0)
 				(length 5.08)
 				(name "VSF3"
 					(effects
@@ -3141,17 +2369,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -22.86 180)
+			(pin power_in line
+				(at -7.62 33.02 270)
 				(length 5.08)
-				(name "NC_4"
+				(name "VCC_F5"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "F12"
+				(number "F5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3159,17 +2387,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -22.86 180)
+			(pin power_in line
+				(at -12.7 -33.02 90)
 				(length 5.08)
-				(name "NC_4"
+				(name "VSS_G5"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "F13"
+				(number "G5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3177,17 +2405,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -22.86 180)
+			(pin power_in line
+				(at -10.16 -33.02 90)
 				(length 5.08)
-				(name "NC_4"
+				(name "VSS_H10"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "F14"
+				(number "H10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3195,154 +2423,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -22.86 180)
+			(pin output clock
+				(at 30.48 -10.16 180)
 				(length 5.08)
-				(name "NC_4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "F2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -22.86 180)
-				(length 5.08)
-				(name "NC_4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "F3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -22.86 180)
-				(length 5.08)
-				(name "NC_4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "G1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "VSF6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "G10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -22.86 180)
-				(length 5.08)
-				(name "NC_4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "G12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -22.86 180)
-				(length 5.08)
-				(name "NC_4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "G13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -22.86 180)
-				(length 5.08)
-				(name "NC_4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "G14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -22.86 180)
-				(length 5.08)
-				(name "NC_4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "G2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 20.32 15.24 180)
-				(length 5.08)
-				(name "DS"
+				(name "RCLK"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3357,8 +2441,44 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -5.08 33.02 270)
+				(length 5.08)
+				(name "VCC_J10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -33.02 90)
+				(length 5.08)
+				(name "VSS_J5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "J5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at 20.32 -2.54 180)
+				(at -30.48 -12.7 0)
 				(length 5.08)
 				(name "VSF4"
 					(effects
@@ -3376,9 +2496,9 @@
 				)
 			)
 			(pin input line
-				(at -20.32 17.78 0)
+				(at 30.48 -12.7 180)
 				(length 5.08)
-				(name "~{RST}"
+				(name "RST_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3393,8 +2513,62 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -7.62 -33.02 90)
+				(length 5.08)
+				(name "VSS_K8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "K8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 33.02 270)
+				(length 5.08)
+				(name "VCC_K9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "K9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 33.02 270)
+				(length 5.08)
+				(name "VCCQ_M4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "M4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at -20.32 15.24 0)
+				(at 30.48 -5.08 180)
 				(length 5.08)
 				(name "CMD"
 					(effects
@@ -3412,7 +2586,7 @@
 				)
 			)
 			(pin input clock
-				(at -20.32 10.16 0)
+				(at 30.48 -7.62 180)
 				(length 5.08)
 				(name "CLK"
 					(effects
@@ -3429,1085 +2603,10 @@
 					)
 				)
 			)
-		)
-		(symbol "EMMC08G-ML36-01B00_2_0"
-			(rectangle
-				(start -15.24 -20.32)
-				(end 15.24 17.78)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin power_in line
-				(at 20.32 -17.78 180)
+				(at 5.08 -33.02 90)
 				(length 5.08)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 7.62 0)
-				(length 5.08)
-				(name "RFU_A7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "A7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 -15.24 180)
-				(length 5.08)
-				(name "VSSQ"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "C4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 12.7 180)
-				(length 5.08)
-				(name "VCCQ"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "C6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 5.08 0)
-				(length 5.08)
-				(name "RFU_E5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "E5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 15.24 180)
-				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "E6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 -17.78 180)
-				(length 5.08)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "E7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 15.24 180)
-				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "F5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 2.54 0)
-				(length 5.08)
-				(name "RFU_G3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "G3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 -17.78 180)
-				(length 5.08)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "G5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "H1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 -17.78 180)
-				(length 5.08)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "H10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "H12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "H13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "H14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "H2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "H3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "J1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 15.24 180)
-				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "J10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "J12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "J13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "J14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "J2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "J3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 -17.78 180)
-				(length 5.08)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "J5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "K1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "K12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "K13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "K14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "K2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -7.62 0)
-				(length 5.08)
-				(name "NC_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "K3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 2.54 180)
-				(length 5.08)
-				(name "RFU_K6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "K6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 0 180)
-				(length 5.08)
-				(name "RFU_K7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "K7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 -17.78 180)
-				(length 5.08)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "K8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 15.24 180)
-				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "K9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "L1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "L12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "L13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "L14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "L2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "L3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "M1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "M10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "M11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "M12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "M13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "M14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "M2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "M3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 12.7 180)
-				(length 5.08)
-				(name "VCCQ"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "M4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -7.62 180)
-				(length 5.08)
-				(name "NC_6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "M7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "M8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "M9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -10.16 180)
-				(length 5.08)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -10.16 180)
-				(length 5.08)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -10.16 180)
-				(length 5.08)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -10.16 180)
-				(length 5.08)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 -15.24 180)
-				(length 5.08)
-				(name "VSSQ"
+				(name "VSSQ_N2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4522,28 +2621,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 20.32 12.7 180)
+				(at 7.62 33.02 270)
 				(length 5.08)
-				(name "VCCQ"
+				(name "VCCQ_N4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4559,9 +2640,9 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -15.24 180)
+				(at 7.62 -33.02 90)
 				(length 5.08)
-				(name "VSSQ"
+				(name "VSSQ_N5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4576,208 +2657,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -20.32 -10.16 0)
-				(length 5.08)
-				(name "NC_7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "N9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -10.16 180)
-				(length 5.08)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "P1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 5.08 180)
-				(length 5.08)
-				(name "RFU_P10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "P10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -10.16 180)
-				(length 5.08)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "P11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -10.16 180)
-				(length 5.08)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "P12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -10.16 180)
-				(length 5.08)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "P13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -10.16 180)
-				(length 5.08)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "P14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -10.16 180)
-				(length 5.08)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "P2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 20.32 12.7 180)
+				(at 10.16 33.02 270)
 				(length 5.08)
-				(name "VCCQ"
+				(name "VCCQ_P3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4793,9 +2676,9 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -15.24 180)
+				(at 10.16 -33.02 90)
 				(length 5.08)
-				(name "VSSQ"
+				(name "VSSQ_P4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4811,9 +2694,9 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 12.7 180)
+				(at 12.7 33.02 270)
 				(length 5.08)
-				(name "VCCQ"
+				(name "VCCQ_P5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4829,9 +2712,9 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -15.24 180)
+				(at 12.7 -33.02 90)
 				(length 5.08)
-				(name "VSSQ"
+				(name "VSSQ_P6"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4846,53 +2729,19 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 7.62 180)
+		)
+		(symbol "EMMC16G-MW28-01E10_1_0"
+			(pin bidirectional line
+				(at -30.48 -2.54 0)
 				(length 5.08)
-				(name "RFU_P7"
+				(name "VSF0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "P7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -10.16 180)
-				(length 5.08)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "P8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 -10.16 180)
-				(length 5.08)
-				(name "NC_8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "P9"
+				(number "E8"
 					(effects
 						(font
 							(size 1.016 1.016)
