@@ -27,8 +27,9 @@ jobs:
           mkdir -p /workdir/$OUTPUT_DIR &&
           kicad-cli sch export pdf -o /workdir/$OUTPUT_DIR/${REPO_NAME}_sch_${COMMIT_HASH}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_sch &&
           kicad-cli pcb export pdf --layers F.Cu,B.Cu,Edge.Cuts -o /workdir/$OUTPUT_DIR/${REPO_NAME}_pcb_${COMMIT_HASH}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_pcb &&
-          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/${REPO_NAME}_step_${COMMIT_HASH}.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb &&
-          sleep 5
+          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/step.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb &&
+          sleep 5 &&
+          mv /workdir/$OUTPUT_DIR/step.step /workdir/$OUTPUT_DIR/${REPO_NAME}_step_${COMMIT_HASH}.step
         "
 
     - name: Upload PDF Artifacts
