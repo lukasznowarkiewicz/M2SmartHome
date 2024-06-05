@@ -38,7 +38,7 @@ jobs:
         "
 
     - name: List output files
-      run: ls -la kicad_docs
+      run: ls -lR
 
     - name: Upload PDF Artifacts
       uses: actions/upload-artifact@v2
