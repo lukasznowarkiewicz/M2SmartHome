@@ -1,4 +1,3 @@
-
 name: Generate KiCad Documentation
 
 on:
@@ -14,8 +13,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: sudo apt-get update && sudo apt-get install -y kicad-cli
+    - name: Add KiCad repository
+      run: sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
+
+    - name: Update package list
+      run: sudo apt-get update
+
+    - name: Install KiCad
+      run: sudo apt install --install-recommends -y kicad
 
     - name: Generate PDF Documentation
       run: |
