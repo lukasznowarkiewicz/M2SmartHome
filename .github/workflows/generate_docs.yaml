@@ -25,14 +25,15 @@ jobs:
         mkdir -p $OUTPUT_DIR
         docker run --rm -v $(pwd):/workdir kicad/kicad:8.0.3 /bin/bash -c "
           mkdir -p /workdir/$OUTPUT_DIR &&
-          kicad-cli sch export pdf -o /workdir/$OUTPUT_DIR/${REPO_NAME}_sch_${COMMIT_HASH}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_sch &&
-          kicad-cli pcb export pdf --layers F.Cu,B.Cu,Edge.Cuts -o /workdir/$OUTPUT_DIR/${REPO_NAME}_pcb_${COMMIT_HASH}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_pcb &&
-          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/${REPO_NAME}_step_${COMMIT_HASH}.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true &&
-          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/${REPO_NAME}_step_${COMMIT_HASH}.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true 
+          kicad-cli sch export pdf -o /workdir/$OUTPUT_DIR/${REPO_NAME}_sch_${COMMIT_HASH}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_sch || true &&
+          kicad-cli pcb export pdf --layers F.Cu,B.Cu,Edge.Cuts -o /workdir/$OUTPUT_DIR/${REPO_NAME}_pcb_${COMMIT_HASH}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true &&
+          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/${REPO_NAME}_step_${COMMIT_HASH}.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true
         "
+    - name: List output files
+      run: ls -la ${{ env.REPO_NAME }}_kicad_docs_${{ env.COMMIT_HASH }}
 
     - name: Upload PDF Artifacts
       uses: actions/upload-artifact@v2
       with:
         name: kicad-docs
-        path: ${{ env.COMMIT_HASH }}_kicad_docs_${{ env.COMMIT_HASH }}/*
+        path: ${{ env.REPO_NAME }}_kicad_docs_${{ env.COMMIT_HASH }}/*
