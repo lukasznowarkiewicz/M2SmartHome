@@ -13,31 +13,25 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Add KiCad repository
-      run: sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
-
-    - name: Update package list
-      run: sudo apt-get update
-
-    - name: Install KiCad
-      run: sudo apt install --install-recommends -y kicad
-
     - name: Get commit hash
       id: vars
-      run: echo "::set-output name=hash::$(git rev-parse --short HEAD)"
+      run: echo "COMMIT_HASH=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
-    - name: Generate PDF Documentation
+    - name: Generate Documentation in Docker
       run: |
         REPO_NAME=$(basename `git rev-parse --show-toplevel`)
-        COMMIT_HASH=${{ steps.vars.outputs.hash }}
+        COMMIT_HASH=${{ env.COMMIT_HASH }}
         OUTPUT_DIR="${REPO_NAME}_kicad_docs_${COMMIT_HASH}"
         mkdir -p $OUTPUT_DIR
-        kicad-cli sch export pdf -o $OUTPUT_DIR/${REPO_NAME}_sch_${COMMIT_HASH}.pdf hardware-electronics/M2SmartHome.kicad_sch
-        kicad-cli pcb export pdf -o $OUTPUT_DIR/${REPO_NAME}_pcb_${COMMIT_HASH}.pdf hardware-electronics/M2SmartHome.kicad_pcb
-        kicad-cli pcb export step -o $OUTPUT_DIR/${REPO_NAME}_step_${COMMIT_HASH}.step hardware-electronics/M2SmartHome.kicad_pcb
+        docker run --rm -v $(pwd):/workdir kicad/kicad:8.0.3 /bin/bash -c "
+          mkdir -p /workdir/$OUTPUT_DIR &&
+          kicad-cli sch export pdf -o /workdir/$OUTPUT_DIR/${REPO_NAME}_sch_${COMMIT_HASH}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_sch &&
+          kicad-cli pcb export pdf -o /workdir/$OUTPUT_DIR/${REPO_NAME}_pcb_${COMMIT_HASH}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_pcb &&
+          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/${REPO_NAME}_step_${COMMIT_HASH}.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb
+        "
 
     - name: Upload PDF Artifacts
       uses: actions/upload-artifact@v2
       with:
         name: kicad-docs
-        path: ${{ steps.vars.outputs.hash }}_kicad_docs_${{ steps.vars.outputs.hash }}/*
+        path: ${{ env.COMMIT_HASH }}_kicad_docs_${{ env.COMMIT_HASH }}/*
