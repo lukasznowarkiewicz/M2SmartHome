@@ -13,29 +13,23 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Get commit hash and repo name
-      id: vars
-      run: |
-        echo "COMMIT_HASH=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
-        echo "REPO_NAME=$(basename `git rev-parse --show-toplevel`)" >> $GITHUB_ENV
-
     - name: Generate Documentation in Docker
       run: |
-        OUTPUT_DIR="${{ env.REPO_NAME }}_kicad_docs_${{ env.COMMIT_HASH }}"
+        OUTPUT_DIR="kicad_docs"
         mkdir -p $OUTPUT_DIR
         docker run --rm -v $(pwd):/workdir kicad/kicad:8.0.3 /bin/bash -c "
           mkdir -p /workdir/$OUTPUT_DIR &&
-          kicad-cli sch export pdf -o /workdir/$OUTPUT_DIR/${{ env.REPO_NAME }}_sch_${{ env.COMMIT_HASH }}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_sch || true &&
-          kicad-cli pcb export pdf --layers F.Cu,B.Cu,Edge.Cuts -o /workdir/$OUTPUT_DIR/${{ env.REPO_NAME }}_pcb_${{ env.COMMIT_HASH }}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true &&
-          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/${{ env.REPO_NAME }}_step_${{ env.COMMIT_HASH }}.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true &&
+          kicad-cli sch export pdf -o /workdir/$OUTPUT_DIR/schematic.pdf /workdir/hardware-electronics/M2SmartHome.kicad_sch || true &&
+          kicad-cli pcb export pdf --layers F.Cu,B.Cu,Edge.Cuts -o /workdir/$OUTPUT_DIR/pcb.pdf /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true &&
+          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/board.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true &&
           sync
         "
         
     - name: List output files
-      run: ls -la ${{ env.REPO_NAME }}_kicad_docs_${{ env.COMMIT_HASH }}
+      run: ls -la kicad_docs
 
     - name: Upload PDF Artifacts
       uses: actions/upload-artifact@v2
       with:
         name: kicad-docs
-        path: ${{ env.REPO_NAME }}_kicad_docs_${{ env.COMMIT_HASH }}/*
+        path: kicad_docs/*
