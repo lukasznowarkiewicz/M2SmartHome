@@ -25,9 +25,14 @@ jobs:
         mkdir -p $OUTPUT_DIR
         docker run --rm -v $(pwd):/workdir kicad/kicad:8.0.3 /bin/bash -c "
           mkdir -p /workdir/$OUTPUT_DIR &&
+          echo 'Generating schematic PDF...' &&
           kicad-cli sch export pdf -o /workdir/$OUTPUT_DIR/${{ env.REPO_NAME }}_sch_${{ env.COMMIT_HASH }}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_sch || true &&
+          echo 'Generating PCB PDF...' &&
           kicad-cli pcb export pdf --layers F.Cu,B.Cu,Edge.Cuts -o /workdir/$OUTPUT_DIR/${{ env.REPO_NAME }}_pcb_${{ env.COMMIT_HASH }}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true &&
-          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/${{ env.REPO_NAME }}_step_${{ env.COMMIT_HASH }}.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true
+          echo 'Generating STEP file...' &&
+          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/${{ env.REPO_NAME }}_step_${{ env.COMMIT_HASH }}.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true &&
+          echo 'Listing generated files...' &&
+          ls -la /workdir/$OUTPUT_DIR
         "
         
     - name: List output files
@@ -38,3 +43,4 @@ jobs:
       with:
         name: kicad-docs
         path: ${{ env.REPO_NAME }}_kicad_docs_${{ env.COMMIT_HASH }}/*
+        if-no-files-found: warn
