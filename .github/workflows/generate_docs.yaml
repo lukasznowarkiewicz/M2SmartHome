@@ -22,14 +22,22 @@ jobs:
     - name: Install KiCad
       run: sudo apt install --install-recommends -y kicad
 
+    - name: Get commit hash
+      id: vars
+      run: echo "::set-output name=hash::$(git rev-parse --short HEAD)"
+
     - name: Generate PDF Documentation
       run: |
-        mkdir -p output
-        kicad-cli sch export pdf -o output/schematic.pdf hardware-electronics/M2SmartHome.kicad_sch
-        kicad-cli pcb export pdf -o output/pcb.pdf -l F.Cu,B.Cu,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts hardware-electronics/M2SmartHome.kicad_pcb
+        REPO_NAME=$(basename `git rev-parse --show-toplevel`)
+        COMMIT_HASH=${{ steps.vars.outputs.hash }}
+        OUTPUT_DIR="${REPO_NAME}_kicad_docs_${COMMIT_HASH}"
+        mkdir -p $OUTPUT_DIR
+        kicad-cli sch export pdf -o $OUTPUT_DIR/${REPO_NAME}_sch_${COMMIT_HASH}.pdf hardware-electronics/M2SmartHome.kicad_sch
+        kicad-cli pcb export pdf -o $OUTPUT_DIR/${REPO_NAME}_pcb_${COMMIT_HASH}.pdf hardware-electronics/M2SmartHome.kicad_pcb
+        kicad-cli pcb export step -o $OUTPUT_DIR/${REPO_NAME}_step_${COMMIT_HASH}.step hardware-electronics/M2SmartHome.kicad_pcb
 
     - name: Upload PDF Artifacts
       uses: actions/upload-artifact@v2
       with:
         name: kicad-docs
-        path: output/*.pdf
+        path: ${{ steps.vars.outputs.hash }}_kicad_docs_${{ steps.vars.outputs.hash }}/*
