@@ -23,11 +23,12 @@ jobs:
         COMMIT_HASH=${{ env.COMMIT_HASH }}
         OUTPUT_DIR="${REPO_NAME}_kicad_docs_${COMMIT_HASH}"
         mkdir -p $OUTPUT_DIR
-        docker run --rm -v $(pwd):/workdir kicad/kicad:8.0.3 /bin/bash -c "
+        docker run --rm -v $(pwd):/workdir --user $(id -u):$(id -g) kicad/kicad:8.0.3 /bin/bash -c "
           mkdir -p /workdir/$OUTPUT_DIR &&
           kicad-cli sch export pdf -o /workdir/$OUTPUT_DIR/${REPO_NAME}_sch_${COMMIT_HASH}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_sch &&
           kicad-cli pcb export pdf --layers F.Cu,B.Cu,Edge.Cuts -o /workdir/$OUTPUT_DIR/${REPO_NAME}_pcb_${COMMIT_HASH}.pdf /workdir/hardware-electronics/M2SmartHome.kicad_pcb &&
-          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/${REPO_NAME}_step_${COMMIT_HASH}.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb
+          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/${REPO_NAME}_step_${COMMIT_HASH}.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb &&
+          sleep 2
         "
 
     - name: Upload PDF Artifacts
