@@ -7,7 +7,7 @@ on:
 
 jobs:
   generate-docs:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
@@ -16,6 +16,12 @@ jobs:
     - name: Create output directory
       run: mkdir -p kicad_docs
 
+    - name: Test Docker file creation
+      run: |
+        docker run --rm -v $(pwd):/workdir kicad/kicad:8.0.3 /bin/bash -c "
+        echo 'This is a test file.' > /workdir/kicad_docs/testfile.txt
+        "
+    
     - name: Export schematic PDF
       run: |
         docker run --rm -v $(pwd):/workdir kicad/kicad:8.0.3 /bin/bash -c "
