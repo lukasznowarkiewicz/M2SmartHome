@@ -26,7 +26,7 @@ jobs:
       run: |
         mkdir -p output
         kicad-cli sch export pdf -o output/schematic.pdf hardware-electronics/M2SmartHome.kicad_sch
-        kicad-cli pcb export pdf -o output/pcb.pdf hardware-electronics/M2SmartHome.kicad_pcb
+        kicad-cli pcb export pdf -o output/pcb.pdf -l F.Cu,B.Cu,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts hardware-electronics/M2SmartHome.kicad_pcb
 
     - name: Upload PDF Artifacts
       uses: actions/upload-artifact@v2
