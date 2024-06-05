@@ -13,18 +13,30 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Generate Documentation in Docker
+    - name: Create output directory
+      run: mkdir -p kicad_docs
+
+    - name: Export schematic PDF
       run: |
-        OUTPUT_DIR="kicad_docs"
-        mkdir -p $OUTPUT_DIR
         docker run --rm -v $(pwd):/workdir kicad/kicad:8.0.3 /bin/bash -c "
-          mkdir -p /workdir/$OUTPUT_DIR &&
-          kicad-cli sch export pdf -o /workdir/$OUTPUT_DIR/schematic.pdf /workdir/hardware-electronics/M2SmartHome.kicad_sch || true &&
-          kicad-cli pcb export pdf --layers F.Cu,B.Cu,Edge.Cuts -o /workdir/$OUTPUT_DIR/pcb.pdf /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true &&
-          kicad-cli pcb export step -o /workdir/$OUTPUT_DIR/board.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true &&
-          sync
+          mkdir -p /workdir/kicad_docs &&
+          kicad-cli sch export pdf -o /workdir/kicad_docs/schematic.pdf /workdir/hardware-electronics/M2SmartHome.kicad_sch || true
         "
-        
+
+    - name: Export PCB PDF
+      run: |
+        docker run --rm -v $(pwd):/workdir kicad/kicad:8.0.3 /bin/bash -c "
+          mkdir -p /workdir/kicad_docs &&
+          kicad-cli pcb export pdf --layers F.Cu,B.Cu,Edge.Cuts -o /workdir/kicad_docs/pcb.pdf /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true
+        "
+
+    - name: Export STEP file
+      run: |
+        docker run --rm -v $(pwd):/workdir kicad/kicad:8.0.3 /bin/bash -c "
+          mkdir -p /workdir/kicad_docs &&
+          kicad-cli pcb export step -o /workdir/kicad_docs/board.step /workdir/hardware-electronics/M2SmartHome.kicad_pcb || true
+        "
+
     - name: List output files
       run: ls -la kicad_docs
 
