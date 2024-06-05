@@ -1,0 +1,30 @@
+
+name: Generate KiCad Documentation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: sudo apt-get update && sudo apt-get install -y kicad-cli
+
+    - name: Generate PDF Documentation
+      run: |
+        mkdir -p output
+        kicad-cli sch export pdf -o output/schematic.pdf hardware-electronics/M2SmartHome.kicad_sch
+        kicad-cli pcb export pdf -o output/pcb.pdf hardware-electronics/M2SmartHome.kicad_pcb
+
+    - name: Upload PDF Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: kicad-docs
+        path: output/*.pdf
