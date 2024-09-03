@@ -5,4 +5,28 @@
 	(uuid "9baba5dc-7c0f-439c-b761-6bffb48af1ef")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "USB_4_DP+"
+		(shape input)
+		(at 77.47 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c916ba2-0cc5-4119-b510-6a742e937073")
+	)
+	(hierarchical_label "USB_4_DN-"
+		(shape input)
+		(at 77.47 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee4b3e73-5684-4687-99ed-bb05fd9102fd")
+	)
 )

@@ -1663,6 +1663,30 @@
 			)
 		)
 	)
+	(hierarchical_label "USB_1_DP+"
+		(shape input)
+		(at 58.42 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ff38c8c-b4f1-4b83-a785-fc13aa47058d")
+	)
+	(hierarchical_label "USB_1_DN-"
+		(shape input)
+		(at 58.42 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d68b39c2-0277-402a-9560-d6a0f216da12")
+	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:USB2244-AEZG-06")
 		(at 128.27 40.64 0)
