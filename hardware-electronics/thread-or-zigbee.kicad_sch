@@ -531,212 +531,6 @@
 				)
 			)
 		)
-		(symbol "M2SmartHomeSymbols:C_0p5_0201"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_0p5_0201"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "C_0p5_0201:C_0201_0603Metric"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1HR50WA01%23"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.5 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "GRM0335C1HR50WA01D"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Your Name"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "0p5"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "C0G"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0201, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0p5_0201_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_0p5_0201_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "M2SmartHomeSymbols:C_0p9_0201"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1355,7 +1149,7 @@
 				)
 			)
 		)
-		(symbol "M2SmartHomeSymbols:C_1p7_0201"
+		(symbol "M2SmartHomeSymbols:C_1p9_0201"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1371,7 +1165,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_1p7_0201"
+			(property "Value" "C_1p9_0201"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -1382,7 +1176,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "C_1p7_0201:C_0201_0603Metric"
+			(property "Footprint" "C_1p9_0201:C_0201_0603Metric"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -1393,7 +1187,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1H1R7WA01%23"
+			(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1H1R9WA01%23"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -1404,7 +1198,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 1.7 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 1.9 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1413,7 +1207,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GRM0335C1H1R7WA01D"
+			(property "MPN" "GRM0335C1H1R9WA01D"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -1457,7 +1251,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "1p7"
+			(property "Val" "1p9"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -1496,7 +1290,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_1p7_0201_0_1"
+			(symbol "C_1p9_0201_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -1522,7 +1316,7 @@
 					)
 				)
 			)
-			(symbol "C_1p7_0201_1_1"
+			(symbol "C_1p9_0201_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -1729,212 +1523,6 @@
 				)
 			)
 			(symbol "C_1uF_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "M2SmartHomeSymbols:C_2p7_0201"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_2p7_0201"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "C_2p7_0201:C_0201_0603Metric"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1H2R7WA01%23"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 2.7 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "GRM0335C1H2R7WA01D"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Your Name"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "2p7"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "C0G"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0201, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_2p7_0201_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_2p7_0201_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -3291,7 +2879,7 @@
 				)
 			)
 		)
-		(symbol "M2SmartHomeSymbols:L_2n_0201"
+		(symbol "M2SmartHomeSymbols:L_2n1_0201"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3307,7 +2895,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "L_2n_0201"
+			(property "Value" "L_2n1_0201"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -3318,7 +2906,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "L_2n_0201:L_0201_0603Metric"
+			(property "Footprint" "L_2n1_0201:L_0201_0603Metric"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -3329,7 +2917,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=LQP03HQ2N0B02D"
+			(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=LQP03HQ2N1B02D"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -3340,7 +2928,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Inductor, 2 nH, ±0.1 nH, 600 mA, 0201 [0603 Metric], LQP Series"
+			(property "Description" "SMD Inductor, 2.1 nH, ±0.1 nH, 600 mA, 0201 [0603 Metric], LQP Series"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3349,7 +2937,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "LQP03HQ2N0B02D"
+			(property "MPN" "LQP03HQ2N1B02D"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -3393,7 +2981,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "2n"
+			(property "Val" "2n1"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -3403,7 +2991,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Inductance" "2 nH"
+			(property "Inductance" "2.1 nH"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -3432,7 +3020,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_2n_0201_0_1"
+			(symbol "L_2n1_0201_0_1"
 				(arc
 					(start 1.524 0)
 					(mid 1.016 0.5058)
@@ -3482,7 +3070,7 @@
 					)
 				)
 			)
-			(symbol "L_2n_0201_1_1"
+			(symbol "L_2n1_0201_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.508)
@@ -4888,16 +4476,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 137.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00e54b02-2b60-4ddd-93c5-87454b199b30")
-	)
-	(wire
-		(pts
 			(xy 241.3 95.25) (xy 241.3 99.06)
 		)
 		(stroke
@@ -4945,16 +4523,6 @@
 			(type default)
 		)
 		(uuid "118b5fbb-ee49-4cb0-beed-5379286b7cbd")
-	)
-	(wire
-		(pts
-			(xy 93.98 96.52) (xy 97.79 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15541bd0-9983-4804-93a7-1078d90d103b")
 	)
 	(wire
 		(pts
@@ -5258,7 +4826,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 137.16 101.6)
+			(xy 137.16 99.06) (xy 137.16 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5953,37 +5521,27 @@
 		(uuid "b9c60d34-0a2c-41c3-adaf-211e061e6f7b")
 	)
 	(symbol
-		(lib_id "M2SmartHomeSymbols:L_2n_0201")
-		(at 114.3 96.52 0)
+		(lib_id "M2SmartHomeSymbols:C_0p9_0201")
+		(at 109.22 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "09e6dc71-9c97-49da-b16b-1ce189a7c9a2")
-		(property "Reference" "L3"
-			(at 116.84 91.44 0)
+		(uuid "189232b7-53cb-4609-90bc-f0388ba65161")
+		(property "Reference" "C53"
+			(at 111.76 101.5936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "L_2n_0201"
-			(at 134.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "L_2n_0201:L_0201_0603Metric"
-			(at 134.62 109.22 0)
+		(property "Value" "C_0p9_0201"
+			(at 119.38 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,8 +5551,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=LQP03HQ2N0B02D"
-			(at 134.62 111.76 0)
+		(property "Footprint" "C_0p9_0201:C_0201_0603Metric"
+			(at 121.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,8 +5562,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Inductor, 2 nH, ±0.1 nH, 600 mA, 0201 [0603 Metric], LQP Series"
-			(at 114.3 96.52 0)
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1HR90WA01%23"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.9 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
+			(at 109.22 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,8 +5582,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LQP03HQ2N0B02D"
-			(at 134.62 114.3 0)
+		(property "MPN" "GRM0335C1HR90WA01D"
+			(at 127 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +5594,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 134.62 116.84 0)
+			(at 129.54 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +5605,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 134.62 119.38 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +5616,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 134.62 121.92 0)
+			(at 134.62 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,17 +5626,18 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "2n"
-			(at 116.84 93.98 0)
+		(property "Val" "0p9"
+			(at 111.76 104.1336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
-		(property "Inductance" "2 nH"
-			(at 134.62 106.68 0)
+		(property "Voltage" "50V"
+			(at 137.16 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,8 +5646,8 @@
 				(hide yes)
 			)
 		)
-		(property "Current" "600 mA"
-			(at 134.62 110.22 0)
+		(property "Dielectric" "C0G"
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,15 +5657,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f1e5e283-5ecd-4471-867b-24811f68b4f2")
+			(uuid "5f72f506-e107-43a1-a745-a6f28eae47cd")
 		)
 		(pin "1"
-			(uuid "9412615d-a553-43d7-ac6f-146e276772d8")
+			(uuid "4ea93718-8488-4bf2-8286-7980ac2a0994")
 		)
 		(instances
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/a351a459-aa5d-43cb-82d3-d5bdf9396bea"
-					(reference "L3")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -7627,157 +7197,6 @@
 		)
 	)
 	(symbol
-		(lib_id "M2SmartHomeSymbols:C_0p9_0201")
-		(at 123.19 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a41170f-7f8d-4c23-935d-54fe85b4b41b")
-		(property "Reference" "C54"
-			(at 125.73 101.5936 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_0p9_0201"
-			(at 133.35 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C_0p9_0201:C_0201_0603Metric"
-			(at 135.89 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1HR90WA01%23"
-			(at 138.43 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.9 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
-			(at 123.19 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM0335C1HR90WA01D"
-			(at 140.97 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 143.51 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 146.05 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 148.59 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0p9"
-			(at 125.73 104.1336 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 151.13 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 153.67 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5ca43c1-01a1-4ace-aeac-d7302680a26e")
-		)
-		(pin "2"
-			(uuid "8a829479-e075-4c20-809f-42742f115100")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/a351a459-aa5d-43cb-82d3-d5bdf9396bea"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 251.46 135.89 0)
 		(unit 1)
@@ -8058,6 +7477,155 @@
 		)
 	)
 	(symbol
+		(lib_id "M2SmartHomeSymbols:L_2n1_0201")
+		(at 114.3 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ee9184d-d028-4e84-af19-3cff74750a88")
+		(property "Reference" "L3"
+			(at 116.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_2n1_0201"
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "L_2n1_0201:L_0201_0603Metric"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=LQP03HQ2N1B02D"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Inductor, 2.1 nH, ±0.1 nH, 600 mA, 0201 [0603 Metric], LQP Series"
+			(at 114.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQP03HQ2N1B02D"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 134.62 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "2n1"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Inductance" "2.1 nH"
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "600 mA"
+			(at 134.62 110.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7768d7d1-9c53-4815-98fb-127811ff72ca")
+		)
+		(pin "2"
+			(uuid "b3f46b0d-422a-4ba3-a306-45a533e41e82")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/a351a459-aa5d-43cb-82d3-d5bdf9396bea"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 109.22 0)
 		(unit 1)
@@ -8118,6 +7686,157 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/a351a459-aa5d-43cb-82d3-d5bdf9396bea"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M2SmartHomeSymbols:C_1p9_0201")
+		(at 123.19 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6345f131-6698-4ccf-abe3-4425222a1afa")
+		(property "Reference" "C54"
+			(at 125.73 101.5936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_1p9_0201"
+			(at 133.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C_1p9_0201:C_0201_0603Metric"
+			(at 135.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1H1R9WA01%23"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1.9 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM0335C1H1R9WA01D"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 146.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1p9"
+			(at 125.73 104.1336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8bffb30-c86a-4cdb-a71c-a161bdb45031")
+		)
+		(pin "2"
+			(uuid "64552cbf-b1e9-40e7-bcac-bf8009394d5e")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/a351a459-aa5d-43cb-82d3-d5bdf9396bea"
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -8701,157 +8420,6 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/a351a459-aa5d-43cb-82d3-d5bdf9396bea"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "M2SmartHomeSymbols:C_1p7_0201")
-		(at 109.22 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f1b120f-8437-432c-895e-372b20c95ee8")
-		(property "Reference" "C53"
-			(at 111.76 101.6063 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_1p7_0201"
-			(at 99.06 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C_1p7_0201:C_0201_0603Metric"
-			(at 96.52 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1H1R7WA01%23"
-			(at 93.98 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 1.7 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
-			(at 109.22 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM0335C1H1R7WA01D"
-			(at 91.44 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 88.9 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 86.36 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 83.82 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1p7"
-			(at 111.76 104.1463 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 81.28 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 78.74 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61416147-9e6e-4bb8-adae-3a14bba032f3")
-		)
-		(pin "2"
-			(uuid "bcb6023d-9953-4348-8ce7-6b09ba8ead0f")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/a351a459-aa5d-43cb-82d3-d5bdf9396bea"
-					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -10768,155 +10336,6 @@
 		)
 	)
 	(symbol
-		(lib_id "M2SmartHomeSymbols:C_2p7_0201")
-		(at 97.79 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da5eb443-59cf-4a66-99c7-3d0c8afe368f")
-		(property "Reference" "C55"
-			(at 100.3363 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C_2p7_0201"
-			(at 118.11 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C_2p7_0201:C_0201_0603Metric"
-			(at 118.11 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1H2R7WA01%23"
-			(at 118.11 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 2.7 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM0335C1H2R7WA01D"
-			(at 118.11 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 118.11 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 118.11 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 118.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "2p7"
-			(at 100.3363 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 118.11 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 118.11 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9b7bcccb-5141-4834-b6d9-f49193d99932")
-		)
-		(pin "1"
-			(uuid "dcdd6cce-2395-4985-80ad-0edb8a2486d3")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/a351a459-aa5d-43cb-82d3-d5bdf9396bea"
-					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 156.21 118.11 0)
 		(unit 1)
@@ -10977,157 +10396,6 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/a351a459-aa5d-43cb-82d3-d5bdf9396bea"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "M2SmartHomeSymbols:C_0p5_0201")
-		(at 137.16 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e703b778-df2e-4ac0-9bb6-01104b78a9dc")
-		(property "Reference" "C56"
-			(at 139.7 102.8636 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_0p5_0201"
-			(at 147.32 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C_0p5_0201:C_0201_0603Metric"
-			(at 149.86 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1HR50WA01%23"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.5 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM0335C1HR50WA01D"
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 157.48 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0p5"
-			(at 139.7 105.4036 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 165.1 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 167.64 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1b5611b7-1d55-4b9a-8043-53fae2cb2eba")
-		)
-		(pin "1"
-			(uuid "5cada82c-4648-476a-b053-4a6b727b9736")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/a351a459-aa5d-43cb-82d3-d5bdf9396bea"
-					(reference "C56")
 					(unit 1)
 				)
 			)
