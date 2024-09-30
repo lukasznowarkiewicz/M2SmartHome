@@ -5176,6 +5176,14 @@
 		(uuid "1725baf6-3cb3-4723-b8f5-725f808d18c4")
 	)
 	(no_connect
+		(at 201.93 68.58)
+		(uuid "3a1a3183-1d2f-4027-847c-e6a772cf0211")
+	)
+	(no_connect
+		(at 201.93 66.04)
+		(uuid "3a97a5da-d005-4b01-832c-e8b2fbc21eb4")
+	)
+	(no_connect
 		(at 107.95 50.8)
 		(uuid "49880634-b094-4ed5-a2d1-0c71d3455b55")
 	)
@@ -5184,8 +5192,20 @@
 		(uuid "5100dbc7-2ee7-4491-ac74-81a32c8dcd8a")
 	)
 	(no_connect
+		(at 201.93 63.5)
+		(uuid "578287aa-e22a-423c-a06d-dec4ddfe6b49")
+	)
+	(no_connect
+		(at 201.93 71.12)
+		(uuid "8ccdae6e-142e-4977-81ba-8d8ce1c56bef")
+	)
+	(no_connect
 		(at 107.95 45.72)
 		(uuid "903b54a6-aada-4401-9b63-f0507583ffdb")
+	)
+	(no_connect
+		(at 201.93 60.96)
+		(uuid "96bef5cb-64b5-4d05-a87a-617f72067cbf")
 	)
 	(no_connect
 		(at 107.95 53.34)
@@ -5202,6 +5222,10 @@
 	(no_connect
 		(at 107.95 35.56)
 		(uuid "df0360d6-1f73-41ea-8b8c-4806f1cbf244")
+	)
+	(no_connect
+		(at 201.93 58.42)
+		(uuid "ee50582f-e69b-412a-ba74-583becf7a396")
 	)
 	(wire
 		(pts
@@ -6412,6 +6436,16 @@
 			)
 		)
 		(uuid "a3c1789f-7414-4f30-9fe0-8e3f5f40f7fd")
+	)
+	(text "RFGND on ref design - via 0201 element? FB? L? R?"
+		(exclude_from_sim no)
+		(at 221.234 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aab32e0b-ca8b-4f5c-ae71-b73e5ab6f2ae")
 	)
 	(text "verify matching network with PCB stack-up"
 		(exclude_from_sim no)
