@@ -5102,6 +5102,12 @@
 		(uuid "6de0d66c-0090-4d99-b64e-2ed70d20ba66")
 	)
 	(junction
+		(at 148.59 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72cf9c6f-9e33-48d4-92e4-134602be6e71")
+	)
+	(junction
 		(at 232.41 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5166,6 +5172,10 @@
 		(uuid "0be5b591-308d-4fca-a444-ff7ca797d7ec")
 	)
 	(no_connect
+		(at 107.95 38.1)
+		(uuid "1725baf6-3cb3-4723-b8f5-725f808d18c4")
+	)
+	(no_connect
 		(at 107.95 50.8)
 		(uuid "49880634-b094-4ed5-a2d1-0c71d3455b55")
 	)
@@ -5190,12 +5200,8 @@
 		(uuid "d230cd31-c88b-4a67-8115-bef86cb33abf")
 	)
 	(no_connect
-		(at 107.95 40.64)
-		(uuid "df5d591c-7145-4794-8266-6158a43f252f")
-	)
-	(no_connect
-		(at 107.95 43.18)
-		(uuid "eb29fe5c-18ec-48a2-b55c-e18b3c101f04")
+		(at 107.95 35.56)
+		(uuid "df0360d6-1f73-41ea-8b8c-4806f1cbf244")
 	)
 	(wire
 		(pts
@@ -5299,6 +5305,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 67.31) (xy 162.56 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23fe2281-99af-4ebc-9a26-3c595ac471b5")
+	)
+	(wire
+		(pts
 			(xy 166.37 137.16) (xy 172.72 137.16)
 		)
 		(stroke
@@ -5376,6 +5392,16 @@
 			(type default)
 		)
 		(uuid "38dfa06b-e0f0-4d17-be6f-292b4fe338ca")
+	)
+	(wire
+		(pts
+			(xy 156.21 64.77) (xy 162.56 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b72a010-a426-49f2-a4b0-e323ee03ded0")
 	)
 	(wire
 		(pts
@@ -5719,16 +5745,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 35.56) (xy 118.11 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93bf26e0-bf29-400e-b0e2-e7723561d0e2")
-	)
-	(wire
-		(pts
 			(xy 153.67 105.41) (xy 156.21 105.41)
 		)
 		(stroke
@@ -5786,6 +5802,26 @@
 			(type default)
 		)
 		(uuid "9d7d27c3-dfa7-49fa-b446-a16cf16466e5")
+	)
+	(wire
+		(pts
+			(xy 153.67 74.93) (xy 162.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3daee4-5732-4cc1-bf84-96c944eaf6e5")
+	)
+	(wire
+		(pts
+			(xy 138.43 58.42) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e97f469-05ce-45ba-b4c9-b602a0863a37")
 	)
 	(wire
 		(pts
@@ -6149,16 +6185,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 38.1) (xy 118.11 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2a77a9a-6298-4af6-bee5-e6937b7c3c16")
-	)
-	(wire
-		(pts
 			(xy 104.14 99.06) (xy 104.14 100.33)
 		)
 		(stroke
@@ -6166,6 +6192,26 @@
 			(type default)
 		)
 		(uuid "e3adc4f8-f0ba-4c1e-8d59-d0ab636e6196")
+	)
+	(wire
+		(pts
+			(xy 107.95 40.64) (xy 118.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4dec11b-1635-489a-9346-bae13c67d71a")
+	)
+	(wire
+		(pts
+			(xy 153.67 72.39) (xy 162.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5782b88-2cc9-4e2d-af04-b3daac2851f5")
 	)
 	(wire
 		(pts
@@ -6239,6 +6285,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 43.18) (xy 118.11 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f161d795-97d6-4b82-bcbc-b201ec0e08fa")
+	)
+	(wire
+		(pts
 			(xy 201.93 100.33) (xy 218.44 100.33)
 		)
 		(stroke
@@ -6307,6 +6363,16 @@
 		)
 		(uuid "0a11ff3a-f9bb-422d-a80f-c7422681c215")
 	)
+	(text "verified with refernce design"
+		(exclude_from_sim no)
+		(at 141.986 65.278 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2245a80a-5a5c-45c7-967d-3481f7eb85e5")
+	)
 	(text "missing pin 0"
 		(exclude_from_sim no)
 		(at 187.198 114.046 0)
@@ -6316,6 +6382,26 @@
 			)
 		)
 		(uuid "84358c6c-db9f-412c-bade-97fdbfb79ffc")
+	)
+	(text "why C on NC on ref design?\nEMI reduction?"
+		(exclude_from_sim no)
+		(at 87.122 63.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "889ed182-6eaa-49ee-b2b4-ced72d31296e")
+	)
+	(text "where pin 10 NC???\n"
+		(exclude_from_sim no)
+		(at 86.614 60.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9434c0cc-d678-4774-b678-772a50e6f4e2")
 	)
 	(text "11 - RFGND???"
 		(exclude_from_sim no)
@@ -6339,13 +6425,23 @@
 	)
 	(text "maybe required? add btn?"
 		(exclude_from_sim no)
-		(at 133.858 58.166 0)
+		(at 133.858 54.864 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "dacaae14-31d6-40b7-9b29-d88877ccf5a3")
+	)
+	(text "verified with refernce design"
+		(exclude_from_sim no)
+		(at 138.938 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0f7ed34-c844-49aa-86e6-cf2d531f6b8a")
 	)
 	(label "XTAL1"
 		(at 166.37 137.16 0)
@@ -6358,8 +6454,41 @@
 		)
 		(uuid "06014fc1-7775-48b2-8977-45a69998ab23")
 	)
-	(label "TX"
-		(at 118.11 35.56 180)
+	(label "SWCLK"
+		(at 156.21 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f814720-304c-4e47-a737-571b4c4433d4")
+	)
+	(label "UART_RX"
+		(at 153.67 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "128b6451-1452-4eb9-ac66-82c2a3695513")
+	)
+	(label "RESET"
+		(at 138.43 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "229910b1-fe81-4d48-99ef-e1ae10da1871")
+	)
+	(label "UART_TX"
+		(at 118.11 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6367,7 +6496,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3399f6ef-86b3-430e-8b00-182431a595c8")
+		(uuid "2ca451af-80fb-4071-84fa-bbbe7f1d3aaf")
 	)
 	(label "XTAL1"
 		(at 156.21 87.63 0)
@@ -6380,6 +6509,28 @@
 		)
 		(uuid "36ebd0fc-bcd8-47a4-a29a-8fa67a2084e1")
 	)
+	(label "UART_RX"
+		(at 118.11 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64107962-dc54-4519-8a4b-849cfc36c3e2")
+	)
+	(label "SWDIO"
+		(at 156.21 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b669c59-6d55-43db-ac60-1c3d1d95c722")
+	)
 	(label "XTAL2"
 		(at 156.21 90.17 0)
 		(fields_autoplaced yes)
@@ -6391,17 +6542,6 @@
 		)
 		(uuid "7b96c9e2-c741-41f0-bc7c-85b29f4fd614")
 	)
-	(label "RX"
-		(at 118.11 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "94ec42e2-e6c3-461d-9562-84305c2b881f")
-	)
 	(label "XTAL2"
 		(at 194.31 137.16 180)
 		(fields_autoplaced yes)
@@ -6412,6 +6552,17 @@
 			(justify right bottom)
 		)
 		(uuid "b0bfdc33-5579-4d2b-a792-6e8b745daa30")
+	)
+	(label "UART_TX"
+		(at 153.67 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cac97c91-8461-45d5-8431-224feb507618")
 	)
 	(hierarchical_label "USB_3_DP+"
 		(shape input)
