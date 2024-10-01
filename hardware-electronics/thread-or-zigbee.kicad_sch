@@ -2870,7 +2870,7 @@
 				(pin power_in line
 					(at 19.05 -26.67 180)
 					(length 2.54)
-					(name "RFVDD"
+					(name "RFVSS"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6397,16 +6397,6 @@
 		)
 		(uuid "2245a80a-5a5c-45c7-967d-3481f7eb85e5")
 	)
-	(text "missing pin 0"
-		(exclude_from_sim no)
-		(at 187.198 114.046 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "84358c6c-db9f-412c-bade-97fdbfb79ffc")
-	)
 	(text "why C on NC on ref design?\nEMI reduction?"
 		(exclude_from_sim no)
 		(at 87.122 63.246 0)
@@ -6427,19 +6417,9 @@
 		)
 		(uuid "9434c0cc-d678-4774-b678-772a50e6f4e2")
 	)
-	(text "11 - RFGND???"
-		(exclude_from_sim no)
-		(at 210.312 109.474 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a3c1789f-7414-4f30-9fe0-8e3f5f40f7fd")
-	)
 	(text "RFGND on ref design - via 0201 element? FB? L? R?"
 		(exclude_from_sim no)
-		(at 221.234 114.046 0)
+		(at 205.994 118.872 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10017,7 +9997,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 116.84 0)
+		(at 204.47 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10026,7 +10006,7 @@
 		(fields_autoplaced yes)
 		(uuid "946764ea-23f4-48e2-a363-0ab4d80b7788")
 		(property "Reference" "#PWR0102"
-			(at 187.96 123.19 0)
+			(at 204.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10035,7 +10015,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 121.92 0)
+			(at 204.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10043,7 +10023,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 116.84 0)
+			(at 204.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,7 +10032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 116.84 0)
+			(at 204.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,7 +10041,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 116.84 0)
+			(at 204.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
