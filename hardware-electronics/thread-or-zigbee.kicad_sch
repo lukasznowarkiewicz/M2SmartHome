@@ -3409,6 +3409,199 @@
 				)
 			)
 		)
+		(symbol "M2SmartHomeSymbols:FB_1000R_0402"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "FB_1000R_0402"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "FB_1000R_0402:FB_0402_1005Metric"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=BLM15HG102SN1D"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Ferrite Bead, 1000 Ω at 100 MHz, 200 mA, 0.6 Ω max, 0402 [1005 Metric], BLM15H Series"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "BLM15HG102SN1D"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Your Name"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "1000R"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Impedance" "1000 Ω @ 100 MHz"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Current" "200 mA"
+				(at 20.32 -13.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, FERRITE BEAD, PASSIVE, FILTER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FB_1000R_0402_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FB_1000R_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "M2SmartHomeSymbols:FB_120R_0603"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -5249,6 +5442,26 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 109.22) (xy 204.47 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4ccb02-832f-4f9c-a3c2-1356b3979fab")
+	)
+	(wire
+		(pts
+			(xy 201.93 109.22) (xy 204.47 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4f089e-d63b-44ba-8618-a1efe885b17a")
+	)
+	(wire
+		(pts
 			(xy 27.94 48.26) (xy 27.94 49.53)
 		)
 		(stroke
@@ -5629,7 +5842,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 127) (xy 218.44 127)
+			(xy 214.63 127) (xy 218.44 127)
 		)
 		(stroke
 			(width 0)
@@ -5959,6 +6172,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 116.84) (xy 204.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b502354c-c3e0-431c-900e-e731fdb39690")
+	)
+	(wire
+		(pts
 			(xy 52.07 68.58) (xy 43.18 68.58)
 		)
 		(stroke
@@ -5999,7 +6222,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 106.68) (xy 212.09 127)
+			(xy 214.63 106.68) (xy 214.63 127)
 		)
 		(stroke
 			(width 0)
@@ -6369,7 +6592,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 106.68) (xy 212.09 106.68)
+			(xy 201.93 106.68) (xy 214.63 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6416,16 +6639,6 @@
 			)
 		)
 		(uuid "9434c0cc-d678-4774-b678-772a50e6f4e2")
-	)
-	(text "RFGND on ref design - via 0201 element? FB? L? R?"
-		(exclude_from_sim no)
-		(at 205.994 118.872 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aab32e0b-ca8b-4f5c-ae71-b73e5ab6f2ae")
 	)
 	(text "verify matching network with PCB stack-up"
 		(exclude_from_sim no)
@@ -9997,7 +10210,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 111.76 0)
+		(at 204.47 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10006,7 +10219,7 @@
 		(fields_autoplaced yes)
 		(uuid "946764ea-23f4-48e2-a363-0ab4d80b7788")
 		(property "Reference" "#PWR0102"
-			(at 204.47 118.11 0)
+			(at 204.47 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,7 +10228,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 116.84 0)
+			(at 204.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10023,7 +10236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 111.76 0)
+			(at 204.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10032,7 +10245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 111.76 0)
+			(at 204.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,7 +10254,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 111.76 0)
+			(at 204.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11215,6 +11428,157 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/a351a459-aa5d-43cb-82d3-d5bdf9396bea"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M2SmartHomeSymbols:FB_1000R_0402")
+		(at 204.47 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c601c7f4-f457-4288-9e23-262255471e89")
+		(property "Reference" "FB8"
+			(at 207.01 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FB_1000R_0402"
+			(at 214.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FB_1000R_0402:FB_0402_1005Metric"
+			(at 217.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=BLM15HG102SN1D"
+			(at 219.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ferrite Bead, 1000 Ω at 100 MHz, 200 mA, 0.6 Ω max, 0402 [1005 Metric], BLM15H Series"
+			(at 204.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM15HG102SN1D"
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 224.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 227.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 229.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1000R"
+			(at 207.01 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Impedance" "1000 Ω @ 100 MHz"
+			(at 214.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "200 mA"
+			(at 218.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c72ab02b-2943-4963-934c-27452fe1d6b0")
+		)
+		(pin "2"
+			(uuid "132a6950-23b5-4ad5-a22a-75eb38458b70")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/a351a459-aa5d-43cb-82d3-d5bdf9396bea"
+					(reference "FB8")
 					(unit 1)
 				)
 			)
