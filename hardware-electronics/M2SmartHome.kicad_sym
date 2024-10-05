@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "M2SmartHomeFootprints:CAPC1005X56N"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -221,7 +221,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "M2SmartHomeFootprints:0402WGJ0000TCE"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -424,293 +424,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "0900BL15C050E"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -17.78 10.922 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0900BL15C050E"
-			(at -17.78 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "0900BL15C050E:XCVR_0900BL15C050E"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Johanson"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/0900BL15C050E/AN/view-part/?ref=eda"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.3"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0900BL15C050E/AN/view-part/?ref=snap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "0900BL15C050E"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=13610250&manufacturer=Johanson&part_name=0900BL15C050E&search_term=0900bl15c050"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nRF Transformer 1:1 6 Terminal SMD\n"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Johanson"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(symbol "0900BL15C050E_0_0"
-			(rectangle
-				(start -17.78 -10.16)
-				(end 17.78 10.16)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -22.86 7.62 0)
-				(length 5.08)
-				(name "UNBALANCED_PORT(IN)"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -22.86 -5.08 0)
-				(length 5.08)
-				(name "GND/DC_FEED+RF_GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 22.86 0 180)
-				(length 5.08)
-				(name "BALANCED_PORT(OUT2)"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 22.86 2.54 180)
-				(length 5.08)
-				(name "BALANCED_PORT(OUT1)"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 22.86 -7.62 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
 						)
 					)
 				)
@@ -1699,7 +1412,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ABM8-40.000MHZ-B2-T"
+		(property "Footprint" "M2SmartHomeFootprints:ABM8-40.000MHZ-B2-T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2029,356 +1742,6 @@
 			)
 		)
 	)
-	(symbol "BLM18AG601SN1"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "FL"
-			(at -12.7044 5.0815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "BLM18AG601SN1"
-			(at -12.71 -5.0866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "BLM18AG601SN1:BEADC1608X95N"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Murata Electronics"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2754459&manufacturer=Murata Electronics&part_name=BLM18AG601SN1&search_term=blm18ag601sn1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603 Murata Electronics"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BLM18AG601SN1/Murata+Electronics+North+America/view-part/?ref=eda"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BLM18AG601SN1/Murata+Electronics+North+America/view-part/?ref=snap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BLM18AG601SN1"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n600 Ohms @ 100 MHz 1 - Ferrite Bead 0603 (1608 Metric) 500mA 380mOhm\n"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(symbol "BLM18AG601SN1_0_0"
-			(arc
-				(start -10.16 0)
-				(mid -11.43 1.27)
-				(end -12.7 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -7.62 0)
-				(mid -8.89 1.27)
-				(end -10.16 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.08 0)
-				(mid -6.35 1.27)
-				(end -7.62 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 0)
-				(mid -3.81 1.27)
-				(end -5.08 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy -2.54 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0.635 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.635 1.905) (xy 1.905 -1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -1.905) (xy 3.175 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.175 1.905) (xy 4.445 -1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.445 -1.905) (xy 5.715 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.715 1.905) (xy 6.985 -1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.985 -1.905) (xy 8.255 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.255 1.905) (xy 9.525 -1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.525 -1.905) (xy 10.16 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin passive line
-				(at -15.24 0 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "CONMHF1-SMD-T"
 		(pin_names
 			(offset 1.016)
@@ -2404,7 +1767,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CONMHF1-SMD-T:LINX_CONMHF1-SMD-T"
+		(property "Footprint" "M2SmartHomeFootprints:CONMHF1-SMD-T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2414,7 +1777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/418/9/ENG_DS_conmhf1_smd_g_t_ds_A1-3238757.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2762,7 +2125,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CONUFL001-SMD-T:LINX_CONUFL001-SMD-T"
+		(property "Footprint" "M2SmartHomeFootprints:LINX_CONUFL001-SMD-T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2772,7 +2135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/418/9/ENG_DS_CONUFL001_SMD_T_B-3238717.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3662,7 +3025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_0p5_0201:C_0201_0603Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
@@ -3868,7 +3231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_0p9_0201:C_0201_0603Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
@@ -4047,212 +3410,6 @@
 			)
 		)
 	)
-	(symbol "C_0p9_0201_1"
-		(pin_numbers hide)
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 20.32 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "C_0p9_0201"
-			(at 20.32 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C_0p9_0201:C_0201_0603Metric"
-			(at 20.32 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1HR90WA01%23"
-			(at 20.32 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.9 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM0335C1HR90WA01D"
-			(at 20.32 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 20.32 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 20.32 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 20.32 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0p9"
-			(at 20.32 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 20.32 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 20.32 -30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "0201, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "C_0p9_0201_1_0_1"
-			(polyline
-				(pts
-					(xy 2.032 -1.524) (xy 2.032 1.524)
-				)
-				(stroke
-					(width 0.3048)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.048 -1.524) (xy 3.048 1.524)
-				)
-				(stroke
-					(width 0.3302)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "C_0p9_0201_1_1_1"
-			(pin passive line
-				(at 0 0 0)
-				(length 2.032)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.032)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "C_100n_0402"
 		(pin_numbers hide)
 		(pin_names hide)
@@ -4280,7 +3437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_100n_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
@@ -4486,7 +3643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_12p_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
@@ -4692,7 +3849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_1p7_0201:C_0201_0603Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
@@ -4898,7 +4055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_1p9_0201:C_0201_0603Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
@@ -5104,7 +4261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_1uF_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
@@ -5310,7 +4467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_2p7_0201:C_0201_0603Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
@@ -5516,7 +4673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_47n_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
@@ -5722,7 +4879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_4pF_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
@@ -5928,7 +5085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_4u7_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
