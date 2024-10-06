@@ -360,6 +360,570 @@
 				)
 			)
 		)
+		(symbol "M2SmartHomeSymbols:CONMHF1-SMD-T"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -3.81 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CONMHF1-SMD-T"
+				(at -4.064 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CONMHF1-SMD-T:LINX_CONMHF1-SMD-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF1-SMD-T/Linx/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CONMHF1-SMD-T/Linx/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Linx Technologies Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CONMHF1-SMD-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9180173&manufacturer=Linx Technologies Inc.&part_name=CONMHF1-SMD-T&search_term=conmhf1-smd-g-t"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nU.FL/MHF1 Jack 50 Ohm PCB Surface Mount\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CONMHF1-SMD-T_0_0"
+				(circle
+					(center 0 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -3.302) (xy -1.27 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -0.762 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -0.508 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0.762 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.302) (xy 0.254 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.5875 -2.8575)
+					(end 3.4925 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.5875 -0.3175)
+					(end 3.4925 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "M2SmartHomeSymbols:C_0p9_0201"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_0p9_0201"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "C_0p9_0201:C_0201_0603Metric"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1HR90WA01%23"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.9 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM0335C1HR90WA01D"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Your Name"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "0p9"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "C0G"
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0201, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0p9_0201_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0p9_0201_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "M2SmartHomeSymbols:C_100n_0402"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -528,6 +1092,212 @@
 				)
 			)
 			(symbol "C_100n_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "M2SmartHomeSymbols:C_1p9_0201"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_1p9_0201"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "C_1p9_0201:C_0201_0603Metric"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1H1R9WA01%23"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 1.9 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM0335C1H1R9WA01D"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Your Name"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "1p9"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "C0G"
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0201, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1p9_0201_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1p9_0201_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -1108,6 +1878,236 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "M2SmartHomeSymbols:L_2n1_0201"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "L_2n1_0201"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "L_2n1_0201:L_0201_0603Metric"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=LQP03HQ2N1B02D"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Inductor, 2.1 nH, ±0.1 nH, 600 mA, 0201 [0603 Metric], LQP Series"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LQP03HQ2N1B02D"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Your Name"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "2n1"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Inductance" "2.1 nH"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Current" "600 mA"
+				(at 20.32 -13.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0201, SMT, INDUCTOR, PASSIVE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_2n1_0201_0_1"
+				(arc
+					(start 1.524 0)
+					(mid 1.016 0.5058)
+					(end 0.508 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 2.032 0.5058)
+					(end 1.524 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.556 0)
+					(mid 3.048 0.5058)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.572 0)
+					(mid 4.064 0.5058)
+					(end 3.556 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_2n1_0201_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.508)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2569,10 +3569,22 @@
 		(uuid "3ab401d6-9187-48a6-a06b-ac082a417335")
 	)
 	(junction
+		(at 212.09 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54e3d564-adce-4b63-ac2f-c4661e8977ee")
+	)
+	(junction
 		(at 214.63 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5866f51e-c80d-445a-b6be-8d139dd10d02")
+	)
+	(junction
+		(at 226.06 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98691863-7296-4ce0-9570-c9c3ac2ea6ce")
 	)
 	(junction
 		(at 204.47 63.5)
@@ -2600,6 +3612,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 113.03) (xy 226.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064d3ace-47ec-4d63-a81c-7460924f7abb")
+	)
+	(wire
+		(pts
 			(xy 157.48 66.04) (xy 157.48 68.58)
 		)
 		(stroke
@@ -2620,6 +3642,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 109.22) (xy 220.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113ac57f-0ec0-46e9-92bc-2c4c8e21cbae")
+	)
+	(wire
+		(pts
+			(xy 226.06 118.11) (xy 226.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117250d9-a3e7-4093-b0c6-849a425a760e")
+	)
+	(wire
+		(pts
 			(xy 132.08 124.46) (xy 132.08 134.62)
 		)
 		(stroke
@@ -2637,6 +3679,16 @@
 			(type default)
 		)
 		(uuid "1292dccb-935b-426f-a10a-8149c24829fc")
+	)
+	(wire
+		(pts
+			(xy 212.09 109.22) (xy 172.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14668c6d-52c6-4815-bd29-14489b88ae75")
 	)
 	(wire
 		(pts
@@ -2700,6 +3752,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 109.22) (xy 212.09 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b9d90e-2a1e-4308-9daa-bb6c3d3f76c5")
+	)
+	(wire
+		(pts
 			(xy 152.4 68.58) (xy 152.4 59.69)
 		)
 		(stroke
@@ -2707,6 +3769,26 @@
 			(type default)
 		)
 		(uuid "40e788ec-4909-45a3-aaa0-7c3c690faedd")
+	)
+	(wire
+		(pts
+			(xy 232.41 109.22) (xy 226.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f17e61-be40-4b7f-88dc-a6fbae6bac4e")
+	)
+	(wire
+		(pts
+			(xy 212.09 113.03) (xy 212.09 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c5380c-b6cf-4e30-bef9-909558d67c70")
 	)
 	(wire
 		(pts
@@ -2767,6 +3849,16 @@
 			(type default)
 		)
 		(uuid "6572caf4-d035-49b5-9c4b-7a2129c8e982")
+	)
+	(wire
+		(pts
+			(xy 232.41 111.76) (xy 231.14 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c237359-986f-4868-8e08-ab2ee5f70dfd")
 	)
 	(wire
 		(pts
@@ -2970,6 +4062,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 111.76) (xy 231.14 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc2ac0e-c093-453f-944b-540615d75cce")
+	)
+	(wire
+		(pts
 			(xy 179.07 82.55) (xy 175.26 82.55)
 		)
 		(stroke
@@ -3007,6 +4109,16 @@
 			(type default)
 		)
 		(uuid "ef0aa19c-060e-479f-9921-d70f1e903259")
+	)
+	(wire
+		(pts
+			(xy 212.09 118.11) (xy 212.09 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef37d6fe-c65b-4175-af73-050144f5cd3c")
 	)
 	(wire
 		(pts
@@ -3994,6 +5106,225 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 212.09 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "394c4a6c-444e-4749-a04f-bc960de71103")
+		(property "Reference" "#PWR0138"
+			(at 212.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a269d664-95c7-46e7-a818-39dabf1ea6a5")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M2SmartHomeSymbols:C_0p9_0201")
+		(at 226.06 118.11 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "482a9220-305b-4b59-9b44-66b8eb6eea65")
+		(property "Reference" "C59"
+			(at 223.52 114.2936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_0p9_0201"
+			(at 215.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C_0p9_0201:C_0201_0603Metric"
+			(at 213.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1HR90WA01%23"
+			(at 210.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.9 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM0335C1HR90WA01D"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 205.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 203.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0p9"
+			(at 223.52 116.8336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 195.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a595b55-2862-44d5-820e-3bdfee3827ff")
+		)
+		(pin "1"
+			(uuid "1cce74ac-dd05-413a-999c-72496e97ad10")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 115.57 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4120,6 +5451,158 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M2SmartHomeSymbols:C_1p9_0201")
+		(at 212.09 118.11 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c75cab7-32e9-4aa4-ad28-406e5453a359")
+		(property "Reference" "C60"
+			(at 209.55 114.2936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_1p9_0201"
+			(at 201.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C_1p9_0201:C_0201_0603Metric"
+			(at 199.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM0335C1H1R9WA01%23"
+			(at 196.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1.9 pF, 50 V, 0201 [0603 Metric], ±0.05 pF, C0G (NP0), GRM Series"
+			(at 212.09 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM0335C1H1R9WA01D"
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 191.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 189.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1p9"
+			(at 209.55 116.8336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "567d05bb-93b5-4b77-bed6-db14063709b9")
+		)
+		(pin "2"
+			(uuid "cc51eba6-aba5-4718-aa0e-7761327f023c")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -4370,6 +5853,73 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6519c558-1005-4332-a878-e89b6223435b")
+		(property "Reference" "#PWR0137"
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "745b2fa9-ed3b-4bfd-a83b-d7c5fd09de63")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -4809,6 +6359,171 @@
 		)
 	)
 	(symbol
+		(lib_id "M2SmartHomeSymbols:CONMHF1-SMD-T")
+		(at 234.95 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98556754-a8f9-4778-bf4f-c0166047839a")
+		(property "Reference" "J4"
+			(at 236.0228 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONMHF1-SMD-T"
+			(at 236.0228 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CONMHF1-SMD-T:LINX_CONMHF1-SMD-T"
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF1-SMD-T/Linx/view-part/?ref=snap"
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CONMHF1-SMD-T/Linx/view-part/?ref=eda"
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Linx Technologies Inc."
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CONMHF1-SMD-T"
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9180173&manufacturer=Linx Technologies Inc.&part_name=CONMHF1-SMD-T&search_term=conmhf1-smd-g-t"
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nU.FL/MHF1 Jack 50 Ohm PCB Surface Mount\n"
+			(at 234.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "a196d5ca-c331-4dd8-b975-50c70f430880")
+		)
+		(pin "1"
+			(uuid "be981d84-169c-4832-afb4-76bba4d5ca25")
+		)
+		(pin "S3"
+			(uuid "ac1e9dd6-1d66-4f5c-8aba-66011b2fca05")
+		)
+		(pin "S2"
+			(uuid "fbca3140-c776-4b7c-9f37-6a43c2ebfdd1")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 73.66 0)
 		(unit 1)
@@ -4876,6 +6591,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 231.14 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f73bc70-e0a4-4658-878c-98891af95baf")
+		(property "Reference" "#PWR0136"
+			(at 231.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ca83d18-86ad-45bc-9b63-1e9f69121df2")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 186.69 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4936,6 +6718,156 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M2SmartHomeSymbols:L_2n1_0201")
+		(at 220.98 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa8ac8fe-65c6-42bf-ae87-9ab7b14e12f2")
+		(property "Reference" "L4"
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_2n1_0201"
+			(at 200.66 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "L_2n1_0201:L_0201_0603Metric"
+			(at 200.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=LQP03HQ2N1B02D"
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Inductor, 2.1 nH, ±0.1 nH, 600 mA, 0201 [0603 Metric], LQP Series"
+			(at 220.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQP03HQ2N1B02D"
+			(at 200.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 200.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "2n1"
+			(at 218.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Inductance" "2.1 nH"
+			(at 200.66 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "600 mA"
+			(at 200.66 122.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b38ea51e-8fed-471a-9b13-2fcceb9b15c6")
+		)
+		(pin "2"
+			(uuid "0dba851e-405b-4d5d-b335-82c5432e2d6d")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "L4")
 					(unit 1)
 				)
 			)
