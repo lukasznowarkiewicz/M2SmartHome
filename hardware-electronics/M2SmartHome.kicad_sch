@@ -1743,6 +1743,14 @@
 		(uuid "16f28625-0ab9-427a-9247-df506f58ba75")
 	)
 	(no_connect
+		(at 142.24 76.2)
+		(uuid "1dcb7900-c2c4-405e-a392-6566fc3bd64c")
+	)
+	(no_connect
+		(at 142.24 137.16)
+		(uuid "270bb9ec-553d-40fb-bbb6-f234b3e1d7ca")
+	)
+	(no_connect
 		(at 110.49 88.9)
 		(uuid "28d95ee2-d6ed-4456-a887-29510c2de99f")
 	)
@@ -1753,6 +1761,10 @@
 	(no_connect
 		(at 110.49 111.76)
 		(uuid "30570138-de10-4f3f-958d-829b088b9ada")
+	)
+	(no_connect
+		(at 142.24 132.08)
+		(uuid "3fee4c35-84f6-4ec2-a0a2-ef68b9276333")
 	)
 	(no_connect
 		(at 110.49 78.74)
@@ -1771,6 +1783,10 @@
 		(uuid "4bad0890-79e2-4990-964f-5c11cd0d2c14")
 	)
 	(no_connect
+		(at 142.24 111.76)
+		(uuid "53ce1cf5-44ae-4dc2-a323-f29aca25d4b8")
+	)
+	(no_connect
 		(at 110.49 104.14)
 		(uuid "6a85d4eb-136a-47d5-bfb9-b163909946cb")
 	)
@@ -1783,12 +1799,20 @@
 		(uuid "86169d56-692c-4f8a-acb5-fcaef541395b")
 	)
 	(no_connect
+		(at 142.24 143.51)
+		(uuid "9c9ee353-81b8-48bf-9df4-0c50e39ce197")
+	)
+	(no_connect
 		(at 110.49 86.36)
 		(uuid "a092c269-0116-49a1-9229-6741962c085d")
 	)
 	(no_connect
 		(at 142.24 104.14)
 		(uuid "a0ad7eb0-bfae-4557-8c0e-766354129882")
+	)
+	(no_connect
+		(at 142.24 129.54)
+		(uuid "a9de490b-7020-4787-aa43-631f272f4c13")
 	)
 	(no_connect
 		(at 142.24 73.66)
@@ -1805,6 +1829,10 @@
 	(no_connect
 		(at 142.24 116.84)
 		(uuid "c328cf70-0d7a-4f32-a79e-84c4e1d59b47")
+	)
+	(no_connect
+		(at 142.24 134.62)
+		(uuid "c6445923-6d2c-4145-8a11-e374856fcd15")
 	)
 	(no_connect
 		(at 142.24 88.9)
@@ -3700,6 +3728,16 @@
 			"QAISkEB5Agaf5RnXXEH/1qTv2hEIKC4ieEkbJSABCUggDAGDzzCuyjJU/2Zh86GGCCguGnK2W5WA"
 			"BCQggfIECD4d803g6+trvjfo7iTwDwR+AVC0Vk+zKdBkAAAAAElFTkSuQmCC"
 		)
+	)
+	(text "PIN 24? wakeup on bridge?"
+		(exclude_from_sim no)
+		(at 156.972 132.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92f30750-d485-476d-9561-1b05bced1a09")
 	)
 	(text "add capacitors on data lines"
 		(exclude_from_sim no)
