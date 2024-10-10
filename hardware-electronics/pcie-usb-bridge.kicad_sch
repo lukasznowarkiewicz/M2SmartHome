@@ -6170,7 +6170,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 82.55) (xy 106.68 82.55)
+			(xy 104.14 82.55) (xy 106.68 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6237,6 +6237,16 @@
 			(type default)
 		)
 		(uuid "1cd68fe8-2ead-49ad-9b4e-fc4fcd057c2c")
+	)
+	(wire
+		(pts
+			(xy 104.14 74.93) (xy 106.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e17d9fe-1793-45d3-a0d6-a4f4af2cc50a")
 	)
 	(wire
 		(pts
@@ -6430,7 +6440,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 90.17) (xy 106.68 90.17)
+			(xy 104.14 90.17) (xy 106.68 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6440,7 +6450,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 26.67) (xy 240.03 26.67)
+			(xy 232.41 26.67) (xy 234.95 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6450,7 +6460,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 26.67) (xy 232.41 26.67)
+			(xy 217.17 26.67) (xy 227.33 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6467,6 +6477,16 @@
 			(type default)
 		)
 		(uuid "38f01e71-a13a-41ba-9dce-eae3b363a3b9")
+	)
+	(wire
+		(pts
+			(xy 104.14 72.39) (xy 106.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b49572d-bcdb-47fe-b6c4-176623c38b90")
 	)
 	(wire
 		(pts
@@ -6650,7 +6670,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 87.63) (xy 106.68 87.63)
+			(xy 104.14 87.63) (xy 106.68 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7130,7 +7150,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 26.67) (xy 240.03 25.4)
+			(xy 234.95 26.67) (xy 234.95 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7730,7 +7750,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 77.47) (xy 106.68 77.47)
+			(xy 104.14 77.47) (xy 106.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8831,6 +8851,70 @@
 		)
 	)
 	(symbol
+		(lib_id "M2SmartHomeSymbols:TP_SMD_1mm")
+		(at 104.14 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dfd5231-76ff-4e01-88f5-7200198f1bf0")
+		(property "Reference" "TP16"
+			(at 96.012 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 100.33 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1cb69df8-3af7-4415-8410-3a6aa936ffb1")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/d5c056a6-6c83-4beb-8db4-afe66e2a7665"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 96.52 186.69 0)
 		(unit 1)
@@ -9200,7 +9284,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 240.03 25.4 0)
+		(at 234.95 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9209,7 +9293,7 @@
 		(fields_autoplaced yes)
 		(uuid "13bbabf8-1aff-41a0-99a8-b36976c18972")
 		(property "Reference" "#PWR0146"
-			(at 240.03 29.21 0)
+			(at 234.95 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9218,7 +9302,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 240.03 20.32 0)
+			(at 234.95 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9226,7 +9310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 25.4 0)
+			(at 234.95 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9235,7 +9319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 25.4 0)
+			(at 234.95 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9244,7 +9328,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 240.03 25.4 0)
+			(at 234.95 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10470,7 +10554,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:TP_SMD_1mm")
-		(at 93.98 87.63 90)
+		(at 104.14 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10478,7 +10562,7 @@
 		(dnp no)
 		(uuid "2c621565-549f-44a0-9b2d-55494e5cc5fe")
 		(property "Reference" "TP2"
-			(at 86.868 87.63 90)
+			(at 97.028 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10486,7 +10570,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 90.17 85.09 90)
+			(at 100.33 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10494,7 +10578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 87.63 0)
+			(at 104.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +10587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 87.63 0)
+			(at 104.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +10596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 87.63 0)
+			(at 104.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10660,6 +10744,70 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/d5c056a6-6c83-4beb-8db4-afe66e2a7665"
 					(reference "#PWR0200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M2SmartHomeSymbols:TP_SMD_1mm")
+		(at 104.14 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "310f5576-1ba3-4314-bfb0-a227252dae2c")
+		(property "Reference" "TP17"
+			(at 96.012 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 100.33 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9a660ae7-0ffd-4435-9eb7-2dbbd85b6a96")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/d5c056a6-6c83-4beb-8db4-afe66e2a7665"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -11514,7 +11662,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:TP_SMD_1mm")
-		(at 96.52 77.47 90)
+		(at 104.14 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11522,7 +11670,7 @@
 		(dnp no)
 		(uuid "50d9241f-fd16-457b-aa68-150333e4b26d")
 		(property "Reference" "TP8"
-			(at 89.662 77.47 90)
+			(at 97.282 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11530,7 +11678,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 92.71 74.93 90)
+			(at 100.33 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11538,7 +11686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 77.47 0)
+			(at 104.14 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11547,7 +11695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 77.47 0)
+			(at 104.14 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11556,7 +11704,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 77.47 0)
+			(at 104.14 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13887,7 +14035,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:FB_120R_0603")
-		(at 232.41 26.67 0)
+		(at 227.33 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13896,7 +14044,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ca433b2-1798-4a86-b833-39d8489e2894")
 		(property "Reference" "FB9"
-			(at 234.95 22.86 0)
+			(at 229.87 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13905,7 +14053,7 @@
 			)
 		)
 		(property "Value" "FB_120R_0603"
-			(at 252.73 36.83 0)
+			(at 247.65 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13916,7 +14064,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:FB_0603"
-			(at 252.73 39.37 0)
+			(at 247.65 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13927,7 +14075,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=BLM18AG121SN1D"
-			(at 252.73 41.91 0)
+			(at 247.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13938,7 +14086,7 @@
 			)
 		)
 		(property "Description" "SMD Ferrite Bead, 120 Ω @ 100 MHz, 2 A, 0603 [1608 Metric], BLM18A Series"
-			(at 232.41 26.67 0)
+			(at 227.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13947,7 +14095,7 @@
 			)
 		)
 		(property "MPN" "BLM18AG121SN1D"
-			(at 252.73 44.45 0)
+			(at 247.65 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13958,7 +14106,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 252.73 46.99 0)
+			(at 247.65 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13969,7 +14117,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 252.73 49.53 0)
+			(at 247.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13980,7 +14128,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 252.73 52.07 0)
+			(at 247.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13991,7 +14139,7 @@
 			)
 		)
 		(property "Impedance" "120R @ 100 MHz"
-			(at 252.73 54.61 0)
+			(at 247.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14001,7 +14149,7 @@
 			)
 		)
 		(property "Current" "2A"
-			(at 252.73 57.15 0)
+			(at 247.65 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15483,7 +15631,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:TP_SMD_1mm")
-		(at 93.98 82.55 90)
+		(at 104.14 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15491,7 +15639,7 @@
 		(dnp no)
 		(uuid "a1155c01-eb31-4a62-a050-3fb92ae3dfcd")
 		(property "Reference" "TP1"
-			(at 87.122 82.55 90)
+			(at 97.282 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15499,7 +15647,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 90.17 80.01 90)
+			(at 100.33 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15507,7 +15655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 82.55 0)
+			(at 104.14 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15516,7 +15664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 82.55 0)
+			(at 104.14 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15525,7 +15673,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 82.55 0)
+			(at 104.14 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17806,7 +17954,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:TP_SMD_1mm")
-		(at 93.98 90.17 90)
+		(at 104.14 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17814,7 +17962,7 @@
 		(dnp no)
 		(uuid "d63debc4-115b-4661-bc6e-912800c6176f")
 		(property "Reference" "TP3"
-			(at 86.868 90.17 90)
+			(at 97.028 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17822,7 +17970,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 90.17 87.63 90)
+			(at 100.33 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17830,7 +17978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 90.17 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17839,7 +17987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 90.17 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17848,7 +17996,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 90.17 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
