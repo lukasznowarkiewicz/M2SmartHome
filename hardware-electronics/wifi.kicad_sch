@@ -3757,7 +3757,7 @@
 		)
 	)
 	(junction
-		(at 198.12 93.98)
+		(at 200.66 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ab401d6-9187-48a6-a06b-ac082a417335")
@@ -3769,10 +3769,16 @@
 		(uuid "54e3d564-adce-4b63-ac2f-c4661e8977ee")
 	)
 	(junction
-		(at 214.63 63.5)
+		(at 223.52 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5866f51e-c80d-445a-b6be-8d139dd10d02")
+	)
+	(junction
+		(at 264.16 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7baf1b7f-d37f-4dd5-b5c5-2f03f28af516")
 	)
 	(junction
 		(at 128.27 156.21)
@@ -3787,16 +3793,34 @@
 		(uuid "98691863-7296-4ce0-9570-c9c3ac2ea6ce")
 	)
 	(junction
+		(at 254 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a432f549-7c78-47c7-8103-80c5445881a3")
+	)
+	(junction
 		(at 153.67 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf8e78a1-b727-4c41-9869-2aeb33fe7611")
 	)
 	(junction
-		(at 204.47 63.5)
+		(at 233.68 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c33fa5d5-4c7f-41a5-b5d2-f96cfba21d7c")
+	)
+	(junction
+		(at 213.36 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d090cdea-c40a-4ed3-ac1e-fd87a607b2f2")
+	)
+	(junction
+		(at 243.84 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1c10ddc-00ae-4f33-ad21-72adbb485063")
 	)
 	(junction
 		(at 175.26 88.9)
@@ -3928,7 +3952,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 71.12) (xy 214.63 73.66)
+			(xy 223.52 62.23) (xy 223.52 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3958,7 +3982,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 68.58) (xy 137.16 58.42)
+			(xy 254 54.61) (xy 264.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c874031-8c06-4fbc-b168-3b445cc446e8")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 137.16 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3978,7 +4012,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 93.98) (xy 198.12 91.44)
+			(xy 200.66 93.98) (xy 200.66 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4038,13 +4072,23 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 63.5) (xy 223.52 62.23)
+			(xy 269.24 54.61) (xy 269.24 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ea038e7-bcc9-47ea-83e4-52aa60904506")
+	)
+	(wire
+		(pts
+			(xy 173.99 83.82) (xy 172.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4efa74f1-6f72-485b-9172-4fd5f93b075f")
 	)
 	(wire
 		(pts
@@ -4068,7 +4112,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 85.09) (xy 198.12 86.36)
+			(xy 264.16 54.61) (xy 264.16 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a12757-f6a4-47f0-bbc5-5ed8ddc3575f")
+	)
+	(wire
+		(pts
+			(xy 200.66 85.09) (xy 200.66 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4078,7 +4132,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 182.88 104.14)
+			(xy 172.72 104.14) (xy 175.26 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4095,6 +4149,26 @@
 			(type default)
 		)
 		(uuid "6c237359-986f-4868-8e08-ab2ee5f70dfd")
+	)
+	(wire
+		(pts
+			(xy 243.84 54.61) (xy 243.84 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cac7409-f2da-49c6-8a21-4a22fe1a42c8")
+	)
+	(wire
+		(pts
+			(xy 233.68 62.23) (xy 233.68 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ece823-f555-4953-a422-123d42b1a79d")
 	)
 	(wire
 		(pts
@@ -4118,7 +4192,17 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 63.5) (xy 214.63 66.04)
+			(xy 243.84 54.61) (xy 254 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba2cac7-dc10-43db-8685-f3bbee27a991")
+	)
+	(wire
+		(pts
+			(xy 223.52 54.61) (xy 223.52 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4138,17 +4222,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 182.88 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85c32b05-c3fc-4f78-9e0b-7c1e30aa6e17")
-	)
-	(wire
-		(pts
-			(xy 204.47 63.5) (xy 214.63 63.5)
+			(xy 213.36 54.61) (xy 223.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4158,7 +4232,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 63.5) (xy 223.52 63.5)
+			(xy 223.52 54.61) (xy 233.68 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4168,17 +4242,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 74.93) (xy 172.72 83.82)
+			(xy 269.24 54.61) (xy 264.16 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9544a363-d025-47bb-acdd-44e595d1d966")
+		(uuid "961eb9f7-b057-4aa8-a79b-773ea1c19ffe")
 	)
 	(wire
 		(pts
-			(xy 193.04 60.96) (xy 193.04 63.5)
+			(xy 201.93 52.07) (xy 201.93 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4228,13 +4302,33 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 93.98) (xy 198.12 96.52)
+			(xy 200.66 93.98) (xy 200.66 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab51ca05-0e0a-4ce6-8d8f-e06a3ab70184")
+	)
+	(wire
+		(pts
+			(xy 254 62.23) (xy 254 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3dce9d-db12-4f55-a963-fc12559962b3")
+	)
+	(wire
+		(pts
+			(xy 233.68 54.61) (xy 243.84 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1ceda4-d2b1-4ebc-b8da-8999ea9c5c23")
 	)
 	(wire
 		(pts
@@ -4258,6 +4352,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 62.23) (xy 264.16 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b793c924-eb64-4e0a-8435-a5bdd54d8c59")
+	)
+	(wire
+		(pts
 			(xy 175.26 91.44) (xy 175.26 88.9)
 		)
 		(stroke
@@ -4265,6 +4369,16 @@
 			(type default)
 		)
 		(uuid "b94e7871-f6f9-40c6-a252-9a41c5dff5ef")
+	)
+	(wire
+		(pts
+			(xy 243.84 62.23) (xy 243.84 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c3d633-c4f0-405e-80f0-f0099319a198")
 	)
 	(wire
 		(pts
@@ -4278,13 +4392,23 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 71.12) (xy 204.47 73.66)
+			(xy 213.36 62.23) (xy 213.36 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c6abe37b-c1fa-4ed8-9bb1-4893669a7e63")
+	)
+	(wire
+		(pts
+			(xy 173.99 81.28) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a79f6f-a0db-4555-96b1-556c32fc2d96")
 	)
 	(wire
 		(pts
@@ -4308,16 +4432,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 74.93) (xy 182.88 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d24da8fa-1af6-43bc-acb5-533215178c99")
-	)
-	(wire
-		(pts
 			(xy 142.24 124.46) (xy 142.24 132.08)
 		)
 		(stroke
@@ -4328,7 +4442,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 101.6) (xy 198.12 102.87)
+			(xy 200.66 101.6) (xy 200.66 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4338,7 +4452,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 99.06) (xy 182.88 99.06)
+			(xy 172.72 99.06) (xy 175.26 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4388,7 +4502,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 63.5) (xy 195.58 63.5)
+			(xy 201.93 54.61) (xy 204.47 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4428,7 +4542,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 63.5) (xy 204.47 63.5)
+			(xy 209.55 54.61) (xy 213.36 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4458,13 +4572,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 68.58) (xy 132.08 58.42)
+			(xy 132.08 68.58) (xy 132.08 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f4d82a74-0e28-4898-8d55-69167d05d329")
+	)
+	(wire
+		(pts
+			(xy 254 54.61) (xy 254 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f596beaa-c43f-4140-961b-9fd89a7b9ba3")
 	)
 	(wire
 		(pts
@@ -4475,6 +4599,16 @@
 			(type default)
 		)
 		(uuid "f8c98d3d-6c78-4ef9-903b-7c4ad15e27cb")
+	)
+	(wire
+		(pts
+			(xy 233.68 54.61) (xy 233.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9084028-469c-4618-afc1-22261d84b36b")
 	)
 	(wire
 		(pts
@@ -4498,7 +4632,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 63.5) (xy 204.47 66.04)
+			(xy 213.36 54.61) (xy 213.36 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4508,7 +4642,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 93.98) (xy 198.12 93.98)
+			(xy 172.72 93.98) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4516,7 +4650,7 @@
 		)
 		(uuid "fcc99898-8ef4-4443-ad58-e46cc3f114ba")
 	)
-	(text "Datasheet not specifying PULLUP or PULLDOWN\n"
+	(text "Datasheet not specyfing PULLUP or PULLDOWN\n"
 		(exclude_from_sim no)
 		(at 224.028 93.98 0)
 		(effects
@@ -4868,7 +5002,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:FB_120R_0603")
-		(at 195.58 63.5 0)
+		(at 204.47 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4877,7 +5011,7 @@
 		(fields_autoplaced yes)
 		(uuid "05665b2a-40e1-4833-8b8d-c4c0378fbc47")
 		(property "Reference" "FB8"
-			(at 198.12 59.69 0)
+			(at 207.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +5020,7 @@
 			)
 		)
 		(property "Value" "FB_120R_0603"
-			(at 215.9 73.66 0)
+			(at 224.79 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +5031,7 @@
 			)
 		)
 		(property "Footprint" "FB_120R_0603:FB_0603_1608Metric"
-			(at 215.9 76.2 0)
+			(at 224.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,7 +5042,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=BLM18AG121SN1D"
-			(at 215.9 78.74 0)
+			(at 224.79 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4919,7 +5053,7 @@
 			)
 		)
 		(property "Description" "SMD Ferrite Bead, 120 Ω @ 100 MHz, 2 A, 0603 [1608 Metric], BLM18A Series"
-			(at 195.58 63.5 0)
+			(at 204.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4928,7 +5062,7 @@
 			)
 		)
 		(property "MPN" "BLM18AG121SN1D"
-			(at 215.9 81.28 0)
+			(at 224.79 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +5073,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 215.9 83.82 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +5084,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 215.9 86.36 0)
+			(at 224.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +5095,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 215.9 88.9 0)
+			(at 224.79 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +5106,7 @@
 			)
 		)
 		(property "Impedance" "120R @ 100 MHz"
-			(at 215.9 91.44 0)
+			(at 224.79 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +5116,7 @@
 			)
 		)
 		(property "Current" "2A"
-			(at 215.9 93.98 0)
+			(at 224.79 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +5142,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 137.16 58.42 0)
+		(at 137.16 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5016,7 +5150,7 @@
 		(dnp no)
 		(uuid "07475a68-0d05-4af3-96e5-b6dc0b1780c9")
 		(property "Reference" "#PWR0177"
-			(at 137.16 62.23 0)
+			(at 137.16 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,7 +5159,7 @@
 			)
 		)
 		(property "Value" "+3V3_wifi"
-			(at 137.16 50.292 90)
+			(at 137.16 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 58.42 0)
+			(at 137.16 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 58.42 0)
+			(at 137.16 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5185,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 137.16 58.42 0)
+			(at 137.16 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5339,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 193.04 60.96 0)
+		(at 201.93 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5214,7 +5348,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eb75f9c-b734-432e-91e7-747c4df18cd0")
 		(property "Reference" "#PWR0131"
-			(at 193.04 64.77 0)
+			(at 201.93 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5357,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 193.04 55.88 0)
+			(at 201.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,7 +5365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 60.96 0)
+			(at 201.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 60.96 0)
+			(at 201.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,7 +5383,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 193.04 60.96 0)
+			(at 201.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5405,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 198.12 85.09 0)
+		(at 200.66 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5279,7 +5413,7 @@
 		(dnp no)
 		(uuid "1f7ed223-7762-45a4-a202-273f6dfe97c4")
 		(property "Reference" "#PWR0166"
-			(at 198.12 88.9 0)
+			(at 200.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5288,7 +5422,7 @@
 			)
 		)
 		(property "Value" "+3V3_wifi"
-			(at 198.12 81.026 0)
+			(at 200.66 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 85.09 0)
+			(at 200.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 85.09 0)
+			(at 200.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +5448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 198.12 85.09 0)
+			(at 200.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,7 +5470,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:R_10k_0402")
-		(at 198.12 91.44 90)
+		(at 200.66 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5345,7 +5479,7 @@
 		(fields_autoplaced yes)
 		(uuid "2734f846-f5e4-435e-b408-4646aeac2ec0")
 		(property "Reference" "R42"
-			(at 200.66 87.63 90)
+			(at 203.2 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,17 +5489,6 @@
 			)
 		)
 		(property "Value" "R_10k_0402"
-			(at 210.82 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "R_10k_0402:R_0402_1005Metric"
 			(at 213.36 71.12 0)
 			(effects
 				(font
@@ -5376,7 +5499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/crcw0402.pdf"
+		(property "Footprint" "R_10k_0402:R_0402_1005Metric"
 			(at 215.9 71.12 0)
 			(effects
 				(font
@@ -5387,16 +5510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Thick Film Resistor, 10 kΩ, ±1%, 1/16 W, 0402 [1005 Metric], CRCW Series"
-			(at 198.12 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW040210K0FKED"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/crcw0402.pdf"
 			(at 218.44 71.12 0)
 			(effects
 				(font
@@ -5407,7 +5521,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Description" "SMD Thick Film Resistor, 10 kΩ, ±1%, 1/16 W, 0402 [1005 Metric], CRCW Series"
+			(at 200.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW040210K0FKED"
 			(at 220.98 71.12 0)
 			(effects
 				(font
@@ -5418,7 +5541,7 @@
 				(hide yes)
 			)
 		)
-		(property "License" "Apache-2.0"
+		(property "Manufacturer" "Vishay"
 			(at 223.52 71.12 0)
 			(effects
 				(font
@@ -5429,7 +5552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "Your Name"
+		(property "License" "Apache-2.0"
 			(at 226.06 71.12 0)
 			(effects
 				(font
@@ -5440,8 +5563,19 @@
 				(hide yes)
 			)
 		)
+		(property "Author" "Your Name"
+			(at 228.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "Val" "10k"
-			(at 200.66 90.17 90)
+			(at 203.2 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5585,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 208.28 71.12 0)
+			(at 210.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,7 +5595,7 @@
 			)
 		)
 		(property "Power" "1/16 W"
-			(at 211.82 71.12 0)
+			(at 214.36 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,6 +5614,157 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M2SmartHomeSymbols:C_100n_0402")
+		(at 264.16 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28388b4c-3285-4b77-87b8-8d067d15c709")
+		(property "Reference" "C78"
+			(at 266.7 58.4136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 274.32 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C_100n_0402:C_0402_1005Metric"
+			(at 276.86 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
+			(at 279.4 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
+			(at 264.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A104KE01D"
+			(at 281.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 284.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 287.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 289.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 266.7 60.9536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 292.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 294.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "515a3f5a-755d-48fc-9bb2-416dadb091d9")
+		)
+		(pin "1"
+			(uuid "377448b5-1e00-4f3b-ba9f-7e928b448a53")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -5613,6 +5898,72 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bee79de-fff7-4651-90ed-e46570194bc4")
+		(property "Reference" "#PWR0211"
+			(at 243.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fe164ac-da0f-4127-9bd1-d584e97e82ac")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -5839,7 +6190,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 102.87 0)
+		(at 200.66 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5848,7 +6199,7 @@
 		(fields_autoplaced yes)
 		(uuid "585b87cf-c448-40c5-b291-967e48940be9")
 		(property "Reference" "#PWR0130"
-			(at 198.12 109.22 0)
+			(at 200.66 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +6208,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 107.95 0)
+			(at 200.66 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5865,7 +6216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 102.87 0)
+			(at 200.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,7 +6225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 102.87 0)
+			(at 200.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,7 +6234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 102.87 0)
+			(at 200.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,6 +7091,157 @@
 		)
 	)
 	(symbol
+		(lib_id "M2SmartHomeSymbols:C_1uF_0402")
+		(at 233.68 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "835bf694-2703-40d9-a270-1b690aa78157")
+		(property "Reference" "C75"
+			(at 236.22 58.4136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_1uF_0402"
+			(at 243.84 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C_1uF_0402:C_0402_1005Metric"
+			(at 246.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H105KE92%23"
+			(at 248.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 50 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H105KE92D"
+			(at 251.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 254 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 259.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1uF"
+			(at 236.22 60.9536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 261.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 264.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0b0aab8-cec6-4497-8b67-7faddd50408d")
+		)
+		(pin "1"
+			(uuid "325e19c2-c4d1-4a27-b9d9-e0c774c08bb4")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 132.08 127 90)
 		(unit 1)
@@ -6871,7 +7373,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 182.88 104.14 270)
+		(at 175.26 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6879,7 +7381,7 @@
 		(dnp no)
 		(uuid "9120ece7-03de-4bee-b742-51eb8eb540ed")
 		(property "Reference" "#PWR0171"
-			(at 179.07 104.14 0)
+			(at 171.45 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,7 +7390,7 @@
 			)
 		)
 		(property "Value" "+3V3_wifi"
-			(at 191.008 104.14 90)
+			(at 183.388 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +7398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 104.14 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +7407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 104.14 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,7 +7416,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 182.88 104.14 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +7438,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 182.88 73.66 0)
+		(at 173.99 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6945,7 +7447,7 @@
 		(fields_autoplaced yes)
 		(uuid "915ef6c0-d8fa-4724-831c-519e1855f1e6")
 		(property "Reference" "#PWR0165"
-			(at 182.88 77.47 0)
+			(at 173.99 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +7456,7 @@
 			)
 		)
 		(property "Value" "+3V3_wifi"
-			(at 182.88 68.58 0)
+			(at 173.99 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6962,7 +7464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 73.66 0)
+			(at 173.99 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6971,7 +7473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 73.66 0)
+			(at 173.99 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,7 +7482,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 182.88 73.66 0)
+			(at 173.99 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,8 +7503,159 @@
 		)
 	)
 	(symbol
+		(lib_id "M2SmartHomeSymbols:C_100n_0402")
+		(at 243.84 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94862ade-fafa-48a5-ba12-114cfe3848fc")
+		(property "Reference" "C76"
+			(at 246.38 58.4136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 254 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C_100n_0402:C_0402_1005Metric"
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
+			(at 259.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
+			(at 243.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A104KE01D"
+			(at 261.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 264.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 269.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 246.38 60.9536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 271.78 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 274.32 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04b77561-87ab-48d0-8d7a-8ce8f7b3aad7")
+		)
+		(pin "1"
+			(uuid "9c9453c0-30ae-4cb8-89e0-c32500b15c29")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 214.63 73.66 0)
+		(at 223.52 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7011,7 +7664,7 @@
 		(fields_autoplaced yes)
 		(uuid "95465afa-c1d3-4105-847c-a3cf83b44e23")
 		(property "Reference" "#PWR0133"
-			(at 214.63 80.01 0)
+			(at 223.52 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7020,7 +7673,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 78.74 0)
+			(at 223.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +7681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 73.66 0)
+			(at 223.52 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,7 +7690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 73.66 0)
+			(at 223.52 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7046,7 +7699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 73.66 0)
+			(at 223.52 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,7 +7721,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:C_100n_0402")
-		(at 214.63 71.12 90)
+		(at 223.52 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7077,7 +7730,7 @@
 		(fields_autoplaced yes)
 		(uuid "95fbff88-9210-402d-9749-fa96f28de6bd")
 		(property "Reference" "C56"
-			(at 217.17 67.3036 90)
+			(at 226.06 58.4136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +7740,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 224.79 50.8 0)
+			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7098,7 +7751,7 @@
 			)
 		)
 		(property "Footprint" "C_100n_0402:C_0402_1005Metric"
-			(at 227.33 50.8 0)
+			(at 236.22 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,7 +7762,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
-			(at 229.87 50.8 0)
+			(at 238.76 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +7773,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 214.63 71.12 0)
+			(at 223.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +7782,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61A104KE01D"
-			(at 232.41 50.8 0)
+			(at 241.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7140,7 +7793,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 234.95 50.8 0)
+			(at 243.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +7804,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 237.49 50.8 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +7815,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 240.03 50.8 0)
+			(at 248.92 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7173,7 +7826,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 217.17 69.8436 90)
+			(at 226.06 60.9536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +7836,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 242.57 50.8 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +7846,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 245.11 50.8 0)
+			(at 254 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7384,7 +8037,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 73.66 0)
+		(at 213.36 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7393,7 +8046,7 @@
 		(fields_autoplaced yes)
 		(uuid "9daa7600-be29-441c-9f9a-8c13ddafd843")
 		(property "Reference" "#PWR0132"
-			(at 204.47 80.01 0)
+			(at 213.36 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7402,7 +8055,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 78.74 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,7 +8063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 73.66 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +8072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 73.66 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +8081,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 73.66 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,17 +8301,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 223.52 62.23 0)
+		(lib_id "power:GND")
+		(at 254 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a816a67a-0faf-4b2a-bbae-6c7ac4487261")
-		(property "Reference" "#PWR0163"
-			(at 223.52 66.04 0)
+		(uuid "a6dd1b3b-c772-4cb3-9c20-7bc170861912")
+		(property "Reference" "#PWR0212"
+			(at 254 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,8 +8319,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_wifi"
-			(at 223.52 57.15 0)
+		(property "Value" "GND"
+			(at 254 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7675,7 +8328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 62.23 0)
+			(at 254 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,7 +8337,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 62.23 0)
+			(at 254 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70417a9a-7fe1-42c4-a587-5eea499ad0a6")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 269.24 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a816a67a-0faf-4b2a-bbae-6c7ac4487261")
+		(property "Reference" "#PWR0163"
+			(at 269.24 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_wifi"
+			(at 269.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,7 +8412,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 223.52 62.23 0)
+			(at 269.24 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,6 +8648,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 233.68 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad39ff42-fa29-4805-bdeb-11a339fddfc2")
+		(property "Reference" "#PWR0210"
+			(at 233.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1c622a6-8acb-4821-ae4f-ed7ec3d60677")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "M2SmartHomeSymbols:KP-1608CGCK")
 		(at 111.76 104.14 0)
 		(unit 1)
@@ -7998,7 +8783,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:C_1uF_0402")
-		(at 204.47 71.12 90)
+		(at 213.36 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8007,7 +8792,7 @@
 		(fields_autoplaced yes)
 		(uuid "b78053d7-1742-47af-bb77-a158e41f0665")
 		(property "Reference" "C55"
-			(at 207.01 67.3036 90)
+			(at 215.9 58.4136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8017,7 +8802,7 @@
 			)
 		)
 		(property "Value" "C_1uF_0402"
-			(at 214.63 50.8 0)
+			(at 223.52 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,7 +8813,7 @@
 			)
 		)
 		(property "Footprint" "C_1uF_0402:C_0402_1005Metric"
-			(at 217.17 50.8 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,7 +8824,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H105KE92%23"
-			(at 219.71 50.8 0)
+			(at 228.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +8835,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 50 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 204.47 71.12 0)
+			(at 213.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,7 +8844,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H105KE92D"
-			(at 222.25 50.8 0)
+			(at 231.14 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8855,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 224.79 50.8 0)
+			(at 233.68 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8081,7 +8866,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 227.33 50.8 0)
+			(at 236.22 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +8877,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 229.87 50.8 0)
+			(at 238.76 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,7 +8888,7 @@
 			)
 		)
 		(property "Val" "1uF"
-			(at 207.01 69.8436 90)
+			(at 215.9 60.9536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,7 +8898,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 232.41 50.8 0)
+			(at 241.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,7 +8908,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 234.95 50.8 0)
+			(at 243.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8148,8 +8933,159 @@
 		)
 	)
 	(symbol
+		(lib_id "M2SmartHomeSymbols:C_1uF_0402")
+		(at 254 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cec69d15-f22a-4d78-92b4-1af09ca5acdb")
+		(property "Reference" "C77"
+			(at 256.54 58.4136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_1uF_0402"
+			(at 264.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C_1uF_0402:C_0402_1005Metric"
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H105KE92%23"
+			(at 269.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 50 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
+			(at 254 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H105KE92D"
+			(at 271.78 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 274.32 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 276.86 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 279.4 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1uF"
+			(at 256.54 60.9536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 281.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 284.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7fbae28f-4471-4e11-bf7d-9e04a048ced2")
+		)
+		(pin "1"
+			(uuid "300afe02-f12b-4d23-9e47-5ca838ac8512")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 182.88 99.06 270)
+		(at 175.26 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8157,7 +9093,7 @@
 		(dnp no)
 		(uuid "d053dbaa-0450-4dff-8ee4-a6ff5132e669")
 		(property "Reference" "#PWR0170"
-			(at 179.07 99.06 0)
+			(at 171.45 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +9102,7 @@
 			)
 		)
 		(property "Value" "+3V3_wifi"
-			(at 191.008 99.06 90)
+			(at 183.388 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,7 +9110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 99.06 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,7 +9119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 99.06 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,7 +9128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 182.88 99.06 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8430,7 +9366,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:R_10k_0402")
-		(at 198.12 101.6 90)
+		(at 200.66 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8439,7 +9375,7 @@
 		(fields_autoplaced yes)
 		(uuid "d398281a-88d2-40df-8870-7522667d5da7")
 		(property "Reference" "R43"
-			(at 200.66 97.79 90)
+			(at 203.2 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,17 +9385,6 @@
 			)
 		)
 		(property "Value" "R_10k_0402"
-			(at 210.82 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "R_10k_0402:R_0402_1005Metric"
 			(at 213.36 81.28 0)
 			(effects
 				(font
@@ -8470,7 +9395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/crcw0402.pdf"
+		(property "Footprint" "R_10k_0402:R_0402_1005Metric"
 			(at 215.9 81.28 0)
 			(effects
 				(font
@@ -8481,16 +9406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Thick Film Resistor, 10 kΩ, ±1%, 1/16 W, 0402 [1005 Metric], CRCW Series"
-			(at 198.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW040210K0FKED"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/crcw0402.pdf"
 			(at 218.44 81.28 0)
 			(effects
 				(font
@@ -8501,7 +9417,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Description" "SMD Thick Film Resistor, 10 kΩ, ±1%, 1/16 W, 0402 [1005 Metric], CRCW Series"
+			(at 200.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW040210K0FKED"
 			(at 220.98 81.28 0)
 			(effects
 				(font
@@ -8512,7 +9437,7 @@
 				(hide yes)
 			)
 		)
-		(property "License" "Apache-2.0"
+		(property "Manufacturer" "Vishay"
 			(at 223.52 81.28 0)
 			(effects
 				(font
@@ -8523,7 +9448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "Your Name"
+		(property "License" "Apache-2.0"
 			(at 226.06 81.28 0)
 			(effects
 				(font
@@ -8534,8 +9459,19 @@
 				(hide yes)
 			)
 		)
+		(property "Author" "Your Name"
+			(at 228.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "Val" "10k"
-			(at 200.66 100.33 90)
+			(at 203.2 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,7 +9481,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 208.28 81.28 0)
+			(at 210.82 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,7 +9491,7 @@
 			)
 		)
 		(property "Power" "1/16 W"
-			(at 211.82 81.28 0)
+			(at 214.36 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8730,7 +9666,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 132.08 58.42 0)
+		(at 132.08 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8738,7 +9674,7 @@
 		(dnp no)
 		(uuid "d3e7deb8-25f7-49b5-8d86-9556098dddc4")
 		(property "Reference" "#PWR0176"
-			(at 132.08 62.23 0)
+			(at 132.08 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +9683,7 @@
 			)
 		)
 		(property "Value" "+3V3_wifi"
-			(at 132.08 50.546 90)
+			(at 132.08 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,7 +9691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 58.42 0)
+			(at 132.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +9700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 58.42 0)
+			(at 132.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +9709,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 132.08 58.42 0)
+			(at 132.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,6 +10223,72 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff711777-5747-4a04-8e66-3083823510b2")
+		(property "Reference" "#PWR0213"
+			(at 264.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a302e26-83d5-40b2-8498-6172ea9b5032")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)

@@ -2507,7 +2507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/368/efr32zg14_datasheet-1855460.pdf"
+		(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2617,8 +2617,8 @@
 		)
 		(symbol "CP2102N-A02-GQFN20_0_0"
 			(rectangle
-				(start -15.24 -12.7)
-				(end 15.24 12.7)
+				(start -15.24 12.7)
+				(end 15.24 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
