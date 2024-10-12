@@ -326,7 +326,7 @@
 	(footprint "M2SmartHomeFootprints:LED_KPT-1608ZGC"
 		(layer "F.Cu")
 		(uuid "006da35f-ef99-48f5-9c74-82c27d4e0f18")
-		(at 47.25 143.6)
+		(at 65.82 127.25)
 		(property "Reference" "D3"
 			(at 0.557 -1.3564 0)
 			(layer "F.SilkS")
@@ -516,7 +516,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "0105aaef-0e08-4441-8bc7-c1ec464325d1")
-		(at 65.695 130.4)
+		(at 111.54 86.97)
 		(property "Reference" "C49"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -783,7 +783,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "048e2437-0c9b-466a-9cab-d7828a8133d4")
-		(at 46.345 105.87)
+		(at 113.285 142.3)
 		(property "Reference" "R4"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -1037,7 +1037,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "0619c5a2-8922-4122-96ce-2cb0522fedbf")
-		(at 27.405 97.27)
+		(at 113.8878 153.7954)
 		(property "Reference" "R46"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -1304,7 +1304,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "077b7f5a-118e-4a51-bd6e-91ea896023f4")
-		(at 64.85 161.2)
+		(at 66.1 157.7)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP5"
@@ -1414,7 +1414,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "07c13f9b-77e7-45de-af4f-60e8accb04d8")
-		(at 71.39 133.7)
+		(at 117.235 90.27)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C46"
@@ -1708,7 +1708,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "07deecb7-ef6d-450e-8b80-81f301d0b4eb")
-		(at 27.405 103.72)
+		(at 113.8878 160.2454)
 		(property "Reference" "R49"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -1975,7 +1975,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "081908ab-ac28-41fe-8d1e-048202ddc334")
-		(at 49.325 101.57)
+		(at 116.265 138)
 		(property "Reference" "R10"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -2229,9 +2229,9 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "08a6c339-d6c4-4bec-aeaa-4276f42d2c40")
-		(at 89.15 176.435 -90)
+		(at 100.8 161.3)
 		(property "Reference" "R69"
-			(at 1.032 -1.1564 90)
+			(at 1.032 -1.1564 360)
 			(layer "F.SilkS")
 			(uuid "a2a1150c-b166-44d2-b52e-159360dc9bdb")
 			(effects
@@ -2242,7 +2242,7 @@
 			)
 		)
 		(property "Value" "R_0_0402"
-			(at 3.8768 1.0936 90)
+			(at 3.8768 1.0936 360)
 			(layer "F.Fab")
 			(uuid "f23d3efd-29af-4718-94a8-22cb0c0dc001")
 			(effects
@@ -2253,7 +2253,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:R_0402"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/crcw0402.pdf"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2277,7 +2277,7 @@
 			)
 		)
 		(property "Description" "SMD Thick Film Resistor, 0 Ω, Jumper, 1/16 W, 0402 [1005 Metric], CRCW Series"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2289,7 +2289,7 @@
 			)
 		)
 		(property "MPN" "CRCW04020000Z0ED"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2302,7 +2302,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2315,7 +2315,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2328,7 +2328,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2341,7 +2341,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2354,7 +2354,7 @@
 			)
 		)
 		(property "Power" "1/16 W"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2371,26 +2371,6 @@
 		(sheetfile "M2SmartHome.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "259f5192-981d-4d73-9bb0-a675ad6a8ca6")
-		)
-		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8f112223-090a-4c8d-88a9-36253b30eb0e")
-		)
-		(fp_line
 			(start -0.965 -0.55)
 			(end 0.965 -0.55)
 			(stroke
@@ -2399,6 +2379,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "28b69fe8-0a95-43bb-9ba9-13bc08597aac")
+		)
+		(fp_line
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "259f5192-981d-4d73-9bb0-a675ad6a8ca6")
 		)
 		(fp_line
 			(start 0.965 -0.55)
@@ -2411,24 +2401,14 @@
 			(uuid "a5b55e8b-1ffa-4738-be23-9bb2ca658598")
 		)
 		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
+			(start 0.965 0.55)
+			(end -0.965 0.55)
 			(stroke
-				(width 0.127)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "9ebcf501-f32a-4d5d-ba77-f97c7ab29981")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b832d2c9-6a3d-49af-94aa-127c3ffbfdb1")
+			(layer "F.CrtYd")
+			(uuid "8f112223-090a-4c8d-88a9-36253b30eb0e")
 		)
 		(fp_line
 			(start -0.5 -0.25)
@@ -2441,6 +2421,16 @@
 			(uuid "8e9fbc59-df41-42f9-990c-c1f65e726702")
 		)
 		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9ebcf501-f32a-4d5d-ba77-f97c7ab29981")
+		)
+		(fp_line
 			(start 0.5 -0.25)
 			(end 0.5 0.25)
 			(stroke
@@ -2450,8 +2440,18 @@
 			(layer "F.Fab")
 			(uuid "294c070a-9d06-4821-9434-0b1e9abbd0ef")
 		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b832d2c9-6a3d-49af-94aa-127c3ffbfdb1")
+		)
 		(pad "1" smd rect
-			(at -0.435 0 270)
+			(at -0.435 0)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "GND")
@@ -2460,7 +2460,7 @@
 			(uuid "15dd3bc4-e608-416c-9de6-c99bebb53760")
 		)
 		(pad "2" smd rect
-			(at 0.435 0 270)
+			(at 0.435 0)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 77 "Net-(J1-CONFIG_3)")
@@ -2483,7 +2483,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "096fee6b-ce03-4086-9bd3-a10dfd318388")
-		(at 43.1 137.2)
+		(at 61.67 120.85)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C34"
@@ -2777,7 +2777,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "097a8634-42e3-400d-88b1-19d32363552e")
-		(at 52.305 103.72)
+		(at 119.245 140.15)
 		(property "Reference" "R19"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -3044,7 +3044,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "0c402d15-a872-42b1-81c6-595b70f40616")
-		(at 70.95 161.2)
+		(at 72.2 157.7)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP17"
@@ -3560,7 +3560,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "100248d6-3dad-4bb3-9adc-19a22c925ac4")
-		(at 43.365 108.02)
+		(at 110.305 144.45)
 		(property "Reference" "C15"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -3827,7 +3827,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "11857168-5fd8-483f-ab25-fc9ae156f355")
-		(at 48.795 134.7)
+		(at 67.365 118.35)
 		(property "Reference" "C35"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -5819,7 +5819,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "13a00743-51b0-4fea-b7a6-b2aee38233e9")
-		(at 21.445 97.27)
+		(at 107.9278 153.7954)
 		(property "Reference" "C61"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -6086,7 +6086,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "14860b43-4b9c-4142-adf2-ac30c951b4fe")
-		(at 43.1 140.7)
+		(at 61.67 124.35)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C37"
@@ -6380,7 +6380,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "15bb9e89-7585-4332-bac7-2c3422c2da74")
-		(at 27.14 118.47)
+		(at 69.76 86.85)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C57"
@@ -7515,7 +7515,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "1957de24-7ba4-4811-ad81-51a3f64358f3")
-		(at 24.425 119.07)
+		(at 67.045 87.45)
 		(property "Reference" "R38"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -7782,7 +7782,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "1abdb8c9-ab98-4c66-adea-27b646f25e2b")
-		(at 24.425 121.22)
+		(at 67.045 89.6)
 		(property "Reference" "R41"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -8049,7 +8049,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "1cef13da-a6eb-48a1-a7f6-0cf274ba946c")
-		(at 24.425 95.12)
+		(at 110.9078 151.6454)
 		(property "Reference" "C70"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -8316,7 +8316,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "1cff7faf-dc68-4230-b282-add0e3ac4fb7")
-		(at 48.795 130.4)
+		(at 67.365 114.05)
 		(property "Reference" "C31"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -8583,7 +8583,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "1d4a6459-f932-4cfe-b986-8f338dd8ace5")
-		(at 45.815 134.7)
+		(at 64.385 118.35)
 		(property "Reference" "C25"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -8850,7 +8850,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "1d92a7ea-6205-44e1-9d1c-f4308d984c5b")
-		(at 64.85 155.1)
+		(at 66.1 151.6)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
@@ -8960,7 +8960,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "1dc1ca54-6898-4bfb-865a-ec0527c55f31")
-		(at 76 149)
+		(at 77.25 145.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP18"
@@ -9070,7 +9070,7 @@
 	(footprint "M2SmartHomeFootprints:FB_0603"
 		(layer "F.Cu")
 		(uuid "1f0f386b-69d0-4e57-8c95-6bf48c772fc0")
-		(at 36.86 108.86)
+		(at 123.3428 165.3854)
 		(descr "Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "Ferrite bead")
 		(property "Reference" "FB3"
@@ -9357,7 +9357,7 @@
 	(footprint "M2SmartHomeFootprints:FB_0603"
 		(layer "F.Cu")
 		(uuid "21eccf8c-40ea-4faf-af54-5460e2b51514")
-		(at 55.14 141.33)
+		(at 73.71 124.98)
 		(descr "Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "Ferrite bead")
 		(property "Reference" "FB5"
@@ -9644,7 +9644,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "2336346f-73f1-4759-ab4e-7b80ac3ebb4b")
-		(at 33.365 103.72)
+		(at 119.8478 160.2454)
 		(property "Reference" "R65"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -9898,7 +9898,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "238f8a3c-a859-4013-a8ec-c176791f8efc")
-		(at 57.735 130.4)
+		(at 76.305 114.05)
 		(property "Reference" "R34"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -10152,7 +10152,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "247b3a75-214b-47a1-8b2b-583d1b2f03ef")
-		(at 45.815 136.85)
+		(at 64.385 120.5)
 		(property "Reference" "C27"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -10419,7 +10419,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "265f4d19-7e6e-476d-960b-8bc88da1ffec")
-		(at 27.14 125.47)
+		(at 69.76 93.85)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C77"
@@ -10713,7 +10713,7 @@
 	(footprint "M2SmartHomeFootprints:FB_0603"
 		(layer "F.Cu")
 		(uuid "268b5a97-4eba-4a16-bfc3-60816641957b")
-		(at 58.25 95.5)
+		(at 125.19 131.93)
 		(descr "Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "Ferrite bead")
 		(property "Reference" "FB1"
@@ -11000,7 +11000,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "27d7d669-68c2-457c-9b69-62a346c34a1d")
-		(at 54.755 136.85)
+		(at 73.325 120.5)
 		(property "Reference" "R32"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -11267,7 +11267,7 @@
 	(footprint "M2SmartHomeFootprints:FB_0603"
 		(layer "F.Cu")
 		(uuid "280097c5-064c-4696-a95a-e71603457f7f")
-		(at 68.78 141.33)
+		(at 114.625 97.9)
 		(descr "Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "Ferrite bead")
 		(property "Reference" "FB6"
@@ -11554,7 +11554,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "2d48831a-4129-4739-88db-56c3469e1781")
-		(at 24.425 116.92)
+		(at 67.045 85.3)
 		(property "Reference" "C78"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -11821,7 +11821,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "2ee37c31-9e8a-4deb-83f5-4761a6270cb0")
-		(at 55.02 101.52)
+		(at 121.96 137.95)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C17"
@@ -12115,7 +12115,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "2f052feb-6368-44f5-92e7-cb0f4cb5410b")
-		(at 51.775 136.85)
+		(at 70.345 120.5)
 		(property "Reference" "R24"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -12382,7 +12382,7 @@
 	(footprint "M2SmartHomeFootprints:FB_0603"
 		(layer "F.Cu")
 		(uuid "325a32b5-0073-44cd-971a-bc25c07073b6")
-		(at 30.37 131.72)
+		(at 72.99 100.1)
 		(descr "Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "Ferrite bead")
 		(property "Reference" "FB8"
@@ -12669,7 +12669,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "33e4e7d7-3147-41eb-bcc7-7afad97cc6ef")
-		(at 71.39 130.2)
+		(at 117.235 86.77)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C42"
@@ -12963,7 +12963,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "34996343-9fdd-4a31-a05d-131544c3ce53")
-		(at 68.675 134.7)
+		(at 114.52 91.27)
 		(property "Reference" "R40"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -13230,7 +13230,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "3768d264-a5ed-450c-af64-6f85f2e158be")
-		(at 21.445 123.37)
+		(at 64.065 91.75)
 		(property "Reference" "C68"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -13510,7 +13510,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "38f4edfb-df10-4d57-8ffa-44f6d6b633fd")
-		(at 24.425 103.72)
+		(at 110.9078 160.2454)
 		(property "Reference" "C74"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -13777,7 +13777,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "391772df-3e4f-41ce-bcce-65482f2c7914")
-		(at 67.9 158.15)
+		(at 69.15 154.65)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP10"
@@ -13887,7 +13887,7 @@
 	(footprint "M2SmartHomeFootprints:FB_0603"
 		(layer "F.Cu")
 		(uuid "39c5134d-3edb-4cd6-ae04-03665ea75c32")
-		(at 36.86 106.35)
+		(at 123.3428 162.8754)
 		(descr "Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "Ferrite bead")
 		(property "Reference" "FB2"
@@ -14174,7 +14174,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "3a7119b1-d400-4b15-9e0a-b4edc12ed775")
-		(at 70.95 155.1)
+		(at 72.2 151.6)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP15"
@@ -14284,7 +14284,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "3c0c1ea0-3379-4694-be03-4dfec49f40dc")
-		(at 45.815 130.4)
+		(at 64.385 114.05)
 		(property "Reference" "C20"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -14551,7 +14551,7 @@
 	(footprint "M2SmartHomeFootprints:L_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "3c7c76e9-7a82-4839-b336-4c71a1eea355")
-		(at 30.105 141.5)
+		(at 94.805 78.7)
 		(descr "Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L4"
@@ -14845,7 +14845,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "3f3df0b2-a6b6-4e89-a457-5fa6aee7064a")
-		(at 49.325 99.42)
+		(at 116.265 135.85)
 		(property "Reference" "R9"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -15112,7 +15112,7 @@
 	(footprint "M2SmartHomeFootprints:FB_0603"
 		(layer "F.Cu")
 		(uuid "3f72f936-7fbb-4323-8a9d-d3ec83d81d64")
-		(at 36.86 111.37)
+		(at 123.3428 167.8954)
 		(descr "Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "Ferrite bead")
 		(property "Reference" "FB9"
@@ -15399,7 +15399,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "41dc0f4c-88c3-4c21-9551-abb1ac51cee1")
-		(at 55.02 92.77)
+		(at 121.96 129.2)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -15693,7 +15693,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "41eb518a-3698-440c-b2fe-1f71f965035f")
-		(at 27.14 123.72)
+		(at 69.76 92.1)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C75"
@@ -16241,7 +16241,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "435f027c-5091-43c8-bbcc-8867ebe7350d")
-		(at 62.715 139)
+		(at 108.56 95.57)
 		(property "Reference" "C47"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -16508,7 +16508,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "439d1412-e5fa-4b8c-9a8d-a924ada6f0f6")
-		(at 43.365 92.97)
+		(at 110.305 129.4)
 		(property "Reference" "C3"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -16775,7 +16775,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "444cc2cc-5881-42d5-bce2-55410a3ef223")
-		(at 46.345 99.42)
+		(at 113.285 135.85)
 		(property "Reference" "C22"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -17042,7 +17042,7 @@
 	(footprint "M2SmartHomeFootprints:LED_KPT-1608ZGC"
 		(layer "F.Cu")
 		(uuid "44cc5ee2-3c09-446e-81ba-eb573c66eac0")
-		(at 47.25 141.25)
+		(at 65.82 124.9)
 		(property "Reference" "D2"
 			(at 0.557 -1.3564 0)
 			(layer "F.SilkS")
@@ -17232,7 +17232,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "458eb560-0bbf-49c2-bd0d-bf3d4f62c159")
-		(at 21.445 95.12)
+		(at 107.9278 151.6454)
 		(property "Reference" "C2"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -17512,7 +17512,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "460406ad-c04e-4b88-99f6-f8123c96526d")
-		(at 30.385 99.42)
+		(at 116.8678 155.9454)
 		(property "Reference" "R55"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -17779,7 +17779,7 @@
 	(footprint "M2SmartHomeFootprints:XFL4015-471MEB"
 		(layer "F.Cu")
 		(uuid "460c590b-4fd6-4c52-927b-d02bd4b27f89")
-		(at 37.03 99.245)
+		(at 123.5128 155.7704)
 		(property "Reference" "L5"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -18381,7 +18381,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "4a4a0282-e3e5-44f7-a09f-1fb2d6e89670")
-		(at 30.385 92.97)
+		(at 116.8678 149.4954)
 		(property "Reference" "R52"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -18648,7 +18648,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "4ab2e7e0-0c1d-42a1-a69e-f748a1a84be2")
-		(at 24.425 123.37)
+		(at 67.045 91.75)
 		(property "Reference" "R42"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -18915,7 +18915,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "4e1598eb-5818-4840-b5ef-e43c897e90b6")
-		(at 55.02 99.77)
+		(at 121.96 136.2)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
@@ -19209,7 +19209,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "4ee5dd4c-c4dc-4a64-a485-f203f3a3a725")
-		(at 30.385 103.72)
+		(at 116.8678 160.2454)
 		(property "Reference" "R57"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -20314,7 +20314,7 @@
 	(footprint "M2SmartHomeFootprints:ECS-240-10-47-CKM-TR"
 		(layer "F.Cu")
 		(uuid "528d2ba9-3f46-430c-9cae-5b7167f53c91")
-		(at 51.46 141.55)
+		(at 70.03 125.2)
 		(property "Reference" "Y3"
 			(at -0.483905 -1.247973 0)
 			(layer "F.SilkS")
@@ -20573,7 +20573,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "565cbf96-5908-41bc-b0d3-93a621d20a2c")
-		(at 71.39 135.45)
+		(at 117.235 92.02)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C48"
@@ -20867,7 +20867,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "575c6730-b534-40ef-aa50-6fa2443b6bfa")
-		(at 21.445 116.92)
+		(at 64.065 85.3)
 		(property "Reference" "C56"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -21134,7 +21134,7 @@
 	(footprint "M2SmartHomeFootprints:ABM8-40.000MHZ-B2-T"
 		(layer "F.Cu")
 		(uuid "583b1872-148d-4c86-af8a-116e16541583")
-		(at 22.805 129.17)
+		(at 65.425 97.55)
 		(property "Reference" "Y5"
 			(at 1.525 -2.885 0)
 			(layer "F.SilkS")
@@ -22288,7 +22288,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "5b7960ac-e2c4-4486-bd38-e206f2c3981b")
-		(at 93.45 176.435 -90)
+		(at 84 161.4 -90)
 		(property "Reference" "R67"
 			(at 1.032 -1.1564 90)
 			(layer "F.SilkS")
@@ -22542,7 +22542,7 @@
 	(footprint "M2SmartHomeFootprints:L_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "5b92aea8-933f-49d5-9a08-e2d4c5c7db2c")
-		(at 25.655 143.25)
+		(at 90.355 80.45)
 		(descr "Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L2"
@@ -22836,7 +22836,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "5c166dd0-2bd4-4304-8a3e-b6d0577533a1")
-		(at 57.735 132.55)
+		(at 76.305 116.2)
 		(property "Reference" "R35"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -23103,9 +23103,9 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "5f18ed42-f526-4788-bc57-976ff4836ef7")
-		(at 91.3 176.435 -90)
+		(at 95.7 161.9)
 		(property "Reference" "R68"
-			(at 1.032 -1.1564 90)
+			(at 1.032 -1.1564 360)
 			(layer "F.SilkS")
 			(uuid "c5d9cf3b-f634-424d-ab0f-1dcf74d5d207")
 			(effects
@@ -23116,7 +23116,7 @@
 			)
 		)
 		(property "Value" "R_0_0402"
-			(at 3.8768 1.0936 90)
+			(at 3.8768 1.0936 360)
 			(layer "F.Fab")
 			(uuid "b94f6162-278a-4860-8551-9e2b26e14e5d")
 			(effects
@@ -23127,7 +23127,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:R_0402"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23139,7 +23139,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/crcw0402.pdf"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23151,7 +23151,7 @@
 			)
 		)
 		(property "Description" "SMD Thick Film Resistor, 0 Ω, Jumper, 1/16 W, 0402 [1005 Metric], CRCW Series"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23163,7 +23163,7 @@
 			)
 		)
 		(property "MPN" "CRCW04020000Z0ED"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23176,7 +23176,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23189,7 +23189,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23202,7 +23202,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23215,7 +23215,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23228,7 +23228,7 @@
 			)
 		)
 		(property "Power" "1/16 W"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23245,26 +23245,6 @@
 		(sheetfile "M2SmartHome.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d05d7d60-3cf1-46da-8c81-ab42fc603b32")
-		)
-		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "519f2aab-bf0c-450f-81a9-3a73bdf8c00e")
-		)
-		(fp_line
 			(start -0.965 -0.55)
 			(end 0.965 -0.55)
 			(stroke
@@ -23273,6 +23253,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "0392bddd-688e-4273-9d94-a244ee55feb4")
+		)
+		(fp_line
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d05d7d60-3cf1-46da-8c81-ab42fc603b32")
 		)
 		(fp_line
 			(start 0.965 -0.55)
@@ -23285,24 +23275,14 @@
 			(uuid "e9ff1be7-53f0-441c-ab02-a74003066a72")
 		)
 		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
+			(start 0.965 0.55)
+			(end -0.965 0.55)
 			(stroke
-				(width 0.127)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "bb983e00-ad18-45cf-980e-17a8be078303")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "50ab31fa-e2c7-40ec-a26c-1f5602488afc")
+			(layer "F.CrtYd")
+			(uuid "519f2aab-bf0c-450f-81a9-3a73bdf8c00e")
 		)
 		(fp_line
 			(start -0.5 -0.25)
@@ -23315,6 +23295,16 @@
 			(uuid "606e13fc-004a-4519-9a83-bb8f0f8ba4d4")
 		)
 		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb983e00-ad18-45cf-980e-17a8be078303")
+		)
+		(fp_line
 			(start 0.5 -0.25)
 			(end 0.5 0.25)
 			(stroke
@@ -23324,8 +23314,18 @@
 			(layer "F.Fab")
 			(uuid "800633e1-b322-4eb7-8777-825f64c0c015")
 		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "50ab31fa-e2c7-40ec-a26c-1f5602488afc")
+		)
 		(pad "1" smd rect
-			(at -0.435 0 270)
+			(at -0.435 0)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "GND")
@@ -23334,7 +23334,7 @@
 			(uuid "2e83b0ec-c5a7-4b37-8622-5f283e5bdcc7")
 		)
 		(pad "2" smd rect
-			(at 0.435 0 270)
+			(at 0.435 0)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 63 "Net-(J1-CONFIG_0)")
@@ -23357,7 +23357,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "60bb5eb0-654e-4d8e-b4c7-16f3f54df7a7")
-		(at 43.365 95.12)
+		(at 110.305 131.55)
 		(property "Reference" "C4"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -23624,7 +23624,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "60fc3c57-914e-4fc2-ab6e-f0a4a0d82372")
-		(at 52.305 99.42)
+		(at 119.245 135.85)
 		(property "Reference" "R17"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -23891,7 +23891,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "630aabd5-0982-48e9-ac6e-cdfee46068e1")
-		(at 27.405 105.87)
+		(at 113.8878 162.3954)
 		(property "Reference" "R50"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -24158,7 +24158,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "631e3856-c3e2-403f-9653-71f33b859cdf")
-		(at 76 155.1)
+		(at 77.25 151.6)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP20"
@@ -24268,7 +24268,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "65613892-13c3-4638-8870-3e37547230ca")
-		(at 21.445 119.07)
+		(at 64.065 87.45)
 		(property "Reference" "C58"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -24535,7 +24535,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "6646072b-85d2-4eb8-b165-e905a3a6bd9c")
-		(at 21.445 103.72)
+		(at 107.9278 160.2454)
 		(property "Reference" "C64"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -24802,7 +24802,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "67abeb03-e7bf-4c50-b556-ea0dc10e8ea3")
-		(at 43.365 97.27)
+		(at 110.305 133.7)
 		(property "Reference" "C5"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -25069,7 +25069,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "68dd5b54-06da-4b70-838b-a70ef9b69183")
-		(at 48.795 139)
+		(at 67.365 122.65)
 		(property "Reference" "C39"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -25336,7 +25336,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "6aba0ab1-f179-4d1d-b1eb-2537c0d493f8")
-		(at 76 152.05)
+		(at 77.25 148.55)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP19"
@@ -25446,7 +25446,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "6b226bd1-e6ec-4d72-b06b-b1355a365856")
-		(at 46.345 97.27)
+		(at 113.285 133.7)
 		(property "Reference" "C19"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -25713,7 +25713,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "6c7c6582-f695-41e5-a256-e250438700e1")
-		(at 49.325 103.72)
+		(at 116.265 140.15)
 		(property "Reference" "R11"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -25980,7 +25980,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "6d8f6ad7-0624-4884-a50c-cbd0b52065e1")
-		(at 49.325 108.02)
+		(at 116.265 144.45)
 		(property "Reference" "R13"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -26247,7 +26247,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "6dec645f-c6d5-4cbd-bc3b-eb4a021e186f")
-		(at 64.85 158.15)
+		(at 66.1 154.65)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
@@ -26357,7 +26357,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "70a3f43d-14aa-48b0-9fe0-6230cd6a8b18")
-		(at 33.365 97.27)
+		(at 119.8478 153.7954)
 		(property "Reference" "R62"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -29292,7 +29292,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "73d0b6d1-dd2d-457b-a5c6-cf6896f30c73")
-		(at 21.445 105.87)
+		(at 107.9278 162.3954)
 		(property "Reference" "C65"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -29559,7 +29559,7 @@
 	(footprint "M2SmartHomeFootprints:LED_KPT-1608ZGC"
 		(layer "F.Cu")
 		(uuid "753c150a-14fb-45d3-97cc-9baa737e6172")
-		(at 59.17 93.07)
+		(at 126.11 129.5)
 		(property "Reference" "D1"
 			(at 0.557 -1.3564 0)
 			(layer "F.SilkS")
@@ -29749,7 +29749,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "755ec9a6-7369-4d1d-95e2-2edeb3e42a9c")
-		(at 24.425 108.02)
+		(at 110.9078 164.5454)
 		(property "Reference" "R3"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -30016,7 +30016,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "7723f07f-1d81-495c-b997-18b39dd43b75")
-		(at 65.695 132.55)
+		(at 111.54 89.12)
 		(property "Reference" "C50"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -30283,7 +30283,7 @@
 	(footprint "M2SmartHomeFootprints:XTAL_ABM8-12.000MHZ-B2-T"
 		(layer "F.Cu")
 		(uuid "78938ec8-25ca-4d05-aaee-4393e764045e")
-		(at 37.705 94.47)
+		(at 124.1878 150.9954)
 		(property "Reference" "Y1"
 			(at 1.525 -2.885 0)
 			(layer "F.SilkS")
@@ -30666,7 +30666,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "7c67eac9-1096-4e48-815d-f3893f180ac3")
-		(at 51.775 130.4)
+		(at 70.345 114.05)
 		(property "Reference" "R21"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -30933,7 +30933,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "7cb0079b-07bb-4e5b-b244-5dc2b6b86cf4")
-		(at 33.365 95.12)
+		(at 119.8478 151.6454)
 		(property "Reference" "R61"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -31200,7 +31200,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "7e14f23d-fde6-49f2-9f7a-07479c055b88")
-		(at 54.755 130.4)
+		(at 73.325 114.05)
 		(property "Reference" "R26"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -31467,7 +31467,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "7e3203c5-83c4-41ca-a6de-c283ba0d03cb")
-		(at 45.815 132.55)
+		(at 64.385 116.2)
 		(property "Reference" "C24"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -31734,7 +31734,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "7ee64573-3255-4399-b6d4-8b370632cf02")
-		(at 51.775 134.7)
+		(at 70.345 118.35)
 		(property "Reference" "R23"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -32001,7 +32001,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "7f7e6b7c-3a25-467d-867c-f71f7966ba7a")
-		(at 43.365 99.42)
+		(at 110.305 135.85)
 		(property "Reference" "C6"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -32268,7 +32268,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "8039c3d4-4c0c-4937-badb-83d418f6a024")
-		(at 43.1 133.7)
+		(at 61.67 117.35)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C30"
@@ -32562,7 +32562,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "82d4c041-904f-4c7c-8ad7-8eafd3f7cf69")
-		(at 67.9 152.05)
+		(at 69.15 148.55)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP8"
@@ -32672,7 +32672,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "8951988e-e1c4-454c-b52d-ac7804ae3b67")
-		(at 24.425 92.97)
+		(at 110.9078 149.4954)
 		(property "Reference" "C69"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -32939,7 +32939,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "8bfef68e-a521-407f-a4f0-b5474f49e36d")
-		(at 24.425 125.52)
+		(at 67.045 93.9)
 		(property "Reference" "R43"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -33206,7 +33206,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "8dda4a57-5f1f-4281-9d67-6bcb8b333064")
-		(at 27.14 120.22)
+		(at 69.76 88.6)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C59"
@@ -33500,7 +33500,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "8ed39dd4-42c2-4c5b-8ec1-0b9e23ffa522")
-		(at 54.755 134.7)
+		(at 73.325 118.35)
 		(property "Reference" "R28"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -33767,7 +33767,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "8edf21de-f842-437b-b6f3-148b1d282a90")
-		(at 55.02 98.02)
+		(at 121.96 134.45)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
@@ -34061,7 +34061,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "8ef1bab2-b8ca-4ad5-aebf-f7fe27fa043d")
-		(at 67.9 161.2)
+		(at 69.15 157.7)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP11"
@@ -34171,7 +34171,7 @@
 	(footprint "M2SmartHomeFootprints:L_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "8fd57fd8-461c-4132-9122-cb0efa838384")
-		(at 25.655 145)
+		(at 90.355 82.2)
 		(descr "Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L3"
@@ -34465,7 +34465,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "907d4d88-ffb2-4785-857d-a9c1823f4c5d")
-		(at 24.425 105.87)
+		(at 110.9078 162.3954)
 		(property "Reference" "R1"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -34732,7 +34732,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "9181ea34-edf6-4c9e-b561-fd06ab884efc")
-		(at 64.85 164.25)
+		(at 66.1 160.75)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP6"
@@ -34842,7 +34842,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "94ae94de-cf68-477d-af77-ed0ef00dfa7f")
-		(at 71.39 131.95)
+		(at 117.235 88.52)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C43"
@@ -35136,7 +35136,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "9893496b-5bba-4913-bb2d-e1638897d771")
-		(at 33.365 99.42)
+		(at 119.8478 155.9454)
 		(property "Reference" "R63"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -35403,7 +35403,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "9a019055-275b-40c1-a5d4-1aaf844c2d64")
-		(at 30.385 101.57)
+		(at 116.8678 158.0954)
 		(property "Reference" "R56"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -35670,7 +35670,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "9ac0088f-38ea-472e-abb1-1ce2976f14e9")
-		(at 24.425 99.42)
+		(at 110.9078 155.9454)
 		(property "Reference" "C72"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -35937,7 +35937,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "9bdc8892-82cb-4068-90cd-07688bed6f29")
-		(at 65.695 134.7)
+		(at 111.54 91.27)
 		(property "Reference" "C51"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -36204,7 +36204,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "9cfc747f-c5f3-43ae-a3a2-86714e8dab3b")
-		(at 51.775 139)
+		(at 70.345 122.65)
 		(property "Reference" "R25"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -36877,7 +36877,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "9d8a8b1b-4acb-4b21-b5e5-c70cf3c45832")
-		(at 30.385 97.27)
+		(at 116.8678 153.7954)
 		(property "Reference" "R54"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -37144,7 +37144,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "9f4fc1f5-fb3b-487d-bb07-d8b43702d3de")
-		(at 68.675 132.55)
+		(at 114.52 89.12)
 		(property "Reference" "R31"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -37411,7 +37411,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "a1424282-f7aa-4e10-ab84-eb809190a572")
-		(at 67.9 155.1)
+		(at 69.15 151.6)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP9"
@@ -37521,7 +37521,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "a2ffd7e0-f716-4b7f-8179-f060a47af2a9")
-		(at 49.325 97.27)
+		(at 116.265 133.7)
 		(property "Reference" "R8"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -37788,7 +37788,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "a325c24c-fb4b-49b2-b0fd-b04495a71de1")
-		(at 46.345 95.12)
+		(at 113.285 131.55)
 		(property "Reference" "C18"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -38826,7 +38826,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "a4ba8a9a-fd7b-408d-a1f5-e405d69a0e4b")
-		(at 57.735 134.7)
+		(at 76.305 118.35)
 		(property "Reference" "R36"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -39119,7 +39119,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "a5cabc39-5f14-458f-9b17-13cd0284030a")
-		(at 43.1 130.2)
+		(at 61.67 113.85)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C26"
@@ -39413,7 +39413,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "a5e1fd88-3542-4252-b043-d8cdc867df78")
-		(at 43.365 105.87)
+		(at 110.305 142.3)
 		(property "Reference" "C13"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -39680,7 +39680,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "a71abce3-cf24-44ed-aacb-8c765fced812")
-		(at 24.425 101.57)
+		(at 110.9078 158.0954)
 		(property "Reference" "C73"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -39947,7 +39947,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "a776c6b9-ab59-48c1-b511-438848b55400")
-		(at 70.95 149)
+		(at 72.2 145.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP13"
@@ -40693,7 +40693,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "a903612a-5d36-45a0-8dbb-afce943b21a6")
-		(at 43.365 101.57)
+		(at 110.305 138)
 		(property "Reference" "C8"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -40960,7 +40960,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "aa976e30-4432-4db8-9ee1-bfe43c53eb66")
-		(at 21.445 99.42)
+		(at 107.9278 155.9454)
 		(property "Reference" "C62"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -41227,7 +41227,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "aaed1238-1a01-4cf0-a365-6a67960b7573")
-		(at 62.715 134.7)
+		(at 108.56 91.27)
 		(property "Reference" "C44"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -41494,7 +41494,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "acd3864c-b051-4e67-8dfc-1d2126bc753d")
-		(at 62.715 130.4)
+		(at 108.56 86.97)
 		(property "Reference" "C40"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -41761,7 +41761,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "ae4d322c-2c9f-4aa0-bdbf-6f5c5bf52c84")
-		(at 46.345 92.97)
+		(at 113.285 129.4)
 		(property "Reference" "C16"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -42028,7 +42028,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "b0243f25-60f8-4194-81ad-c241b23bf512")
-		(at 27.14 116.72)
+		(at 69.76 85.1)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C55"
@@ -42322,7 +42322,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "b23cc469-9312-46d8-b4b0-d26f9834442d")
-		(at 51.775 132.55)
+		(at 70.345 116.2)
 		(property "Reference" "R22"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -42589,7 +42589,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "b27a4cda-fbb8-4c7d-993e-d3a6ccd9a8f6")
-		(at 70.95 158.15)
+		(at 72.2 154.65)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP16"
@@ -42699,7 +42699,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "b58fe704-39a9-4343-8c04-378594d4d0ad")
-		(at 67.9 149)
+		(at 69.15 145.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP7"
@@ -42809,7 +42809,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "b61176de-b462-478b-aa8c-3fb034d41d9c")
-		(at 21.445 101.57)
+		(at 107.9278 158.0954)
 		(property "Reference" "C63"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -43076,7 +43076,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "b6130146-eb85-4be5-b465-032304f46add")
-		(at 21.445 121.22)
+		(at 64.065 89.6)
 		(property "Reference" "C67"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -43356,7 +43356,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "b62407f6-a4b4-469a-9a24-85b09cea96c2")
-		(at 54.755 132.55)
+		(at 73.325 116.2)
 		(property "Reference" "R27"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -43623,7 +43623,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "b6322688-1eaa-49ea-aae4-f3f8f61ccf22")
-		(at 27.405 95.12)
+		(at 113.8878 151.6454)
 		(property "Reference" "R45"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -43890,7 +43890,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "b7a5c07c-a396-4cae-be14-5398776913e7")
-		(at 65.695 139)
+		(at 111.54 95.57)
 		(property "Reference" "R29"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -44157,9 +44157,9 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "b7ffdcd7-3a2e-42f3-b9b0-2a2983574504")
-		(at 95.6 176.435 -90)
+		(at 90.1 162.2 90)
 		(property "Reference" "C80"
-			(at 1.032 -1.1564 90)
+			(at 1.032 -1.1564 270)
 			(layer "F.SilkS")
 			(uuid "dfe37326-f39c-49d0-883f-cf442c30ce49")
 			(effects
@@ -44170,7 +44170,7 @@
 			)
 		)
 		(property "Value" "C_220nF_0402"
-			(at 3.8768 1.0936 90)
+			(at 3.8768 1.0936 270)
 			(layer "F.Fab")
 			(uuid "8c2d6b82-f8ed-461b-9277-74d428112daf")
 			(effects
@@ -44181,7 +44181,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44193,7 +44193,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A224KE19D"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44205,7 +44205,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 220 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44217,7 +44217,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61A224KE19D"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44230,7 +44230,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44243,7 +44243,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44256,7 +44256,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44269,7 +44269,7 @@
 			)
 		)
 		(property "Val" "220nF"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44282,7 +44282,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44295,7 +44295,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44312,24 +44312,14 @@
 		(sheetfile "M2SmartHome.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
+			(start 0.965 -0.55)
+			(end 0.965 0.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3a326816-970c-48e2-bcbf-52bc7bacc4f1")
-		)
-		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "42a4d754-dfe5-4e05-80f1-20f41b21f565")
+			(uuid "0b3f519f-2f81-491c-9326-eba8185e2117")
 		)
 		(fp_line
 			(start -0.965 -0.55)
@@ -44342,34 +44332,34 @@
 			(uuid "577d5805-5abb-4e90-a39e-5d9224c3872f")
 		)
 		(fp_line
-			(start 0.965 -0.55)
-			(end 0.965 0.55)
+			(start 0.965 0.55)
+			(end -0.965 0.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0b3f519f-2f81-491c-9326-eba8185e2117")
+			(uuid "42a4d754-dfe5-4e05-80f1-20f41b21f565")
 		)
 		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3a326816-970c-48e2-bcbf-52bc7bacc4f1")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4b97bcf7-0d67-437b-9b45-acf37bb85e8d")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "67022ffb-cd45-45b2-a511-efe712306a3a")
+			(uuid "2fb2671a-2bc2-4e5a-a74b-a6d196735836")
 		)
 		(fp_line
 			(start -0.5 -0.25)
@@ -44382,17 +44372,27 @@
 			(uuid "7d6abe06-a4f6-4e3d-8bd8-f9fa37234520")
 		)
 		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
+			(start 0.5 0.25)
+			(end -0.5 0.25)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2fb2671a-2bc2-4e5a-a74b-a6d196735836")
+			(uuid "67022ffb-cd45-45b2-a511-efe712306a3a")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4b97bcf7-0d67-437b-9b45-acf37bb85e8d")
 		)
 		(pad "1" smd rect
-			(at -0.435 0 270)
+			(at -0.435 0 90)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 50 "Net-(J1-SATA-A-{slash}PETn0)")
@@ -44401,7 +44401,7 @@
 			(uuid "6a3fe75d-a6a7-488e-89dd-7a9f98e43f41")
 		)
 		(pad "2" smd rect
-			(at 0.435 0 270)
+			(at 0.435 0 90)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 52 "/pcie-usb-bridge/PETN-")
@@ -44424,7 +44424,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "bb59fc9d-66d5-4d2b-8767-2deca91ad230")
-		(at 57.735 136.85)
+		(at 76.305 120.5)
 		(property "Reference" "R37"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -44691,7 +44691,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "bc2bb5bb-fead-492e-bc92-ecbd61e8a8e7")
-		(at 21.445 108.02)
+		(at 107.9278 164.5454)
 		(property "Reference" "C66"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -44958,7 +44958,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "bf8f7196-50a0-4067-9113-3795008d8dce")
-		(at 21.445 125.52)
+		(at 64.065 93.9)
 		(property "Reference" "C76"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -45225,7 +45225,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "c3b9fd8b-1488-468a-a690-6e2d802fc4de")
-		(at 27.405 108.02)
+		(at 113.8878 164.5454)
 		(property "Reference" "R51"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -45492,7 +45492,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "c5e8740d-e662-42e1-b4d9-f66caf0c5d95")
-		(at 46.345 101.57)
+		(at 113.285 138)
 		(property "Reference" "C23"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -45759,7 +45759,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "c6e78cb9-63de-46a9-8ec0-5cc50d3ecb50")
-		(at 27.14 121.97)
+		(at 69.76 90.35)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C60"
@@ -46053,7 +46053,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "c8f62da8-aa68-4d08-9166-10b2f32843b5")
-		(at 21.445 92.97)
+		(at 107.9278 149.4954)
 		(property "Reference" "C1"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -46333,7 +46333,7 @@
 	(footprint "M2SmartHomeFootprints:LED_KPT-1608ZGC"
 		(layer "F.Cu")
 		(uuid "c99fb3d2-5b0a-4f47-9f2b-f939ec7340fe")
-		(at 31.29 129.29)
+		(at 73.91 97.67)
 		(property "Reference" "D4"
 			(at 0.557 -1.3564 0)
 			(layer "F.SilkS")
@@ -46523,7 +46523,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "cb5b47ee-cc62-45dd-aa7f-ce12597a0ce6")
-		(at 52.305 105.87)
+		(at 119.245 142.3)
 		(property "Reference" "R20"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -46790,7 +46790,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "cc66be9e-db86-4843-b3a0-b35a3262f78d")
-		(at 76 158.15)
+		(at 77.25 154.65)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP21"
@@ -46900,7 +46900,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "ccb71490-c340-418f-85c2-57d6f9a8e86e")
-		(at 48.795 136.85)
+		(at 67.365 120.5)
 		(property "Reference" "C38"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -47167,7 +47167,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "ccbf82c3-f320-48a2-9b8c-b1bef2ede1d2")
-		(at 27.405 99.42)
+		(at 113.8878 155.9454)
 		(property "Reference" "R47"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -47434,7 +47434,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "cda04442-ebc8-4bbe-b3bc-ccfab2b7a0e6")
-		(at 45.815 139)
+		(at 64.385 122.65)
 		(property "Reference" "C29"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -47701,7 +47701,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "ce032e01-eaad-4f55-b9f3-ec61d092b8e0")
-		(at 43.1 131.95)
+		(at 61.67 115.6)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C28"
@@ -47995,7 +47995,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "ce3ed4dd-a303-412a-8b70-43c8344c8159")
-		(at 43.365 103.72)
+		(at 110.305 140.15)
 		(property "Reference" "C10"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -48262,7 +48262,7 @@
 	(footprint "M2SmartHomeFootprints:24AA04T-I_OT"
 		(layer "F.Cu")
 		(uuid "d00bcf10-1c9b-432b-bd18-8dbe90cbc55a")
-		(at 22.8172 111.4746)
+		(at 109.3 168)
 		(property "Reference" "U10"
 			(at -0.09329 -8.7407 0)
 			(layer "F.SilkS")
@@ -48898,7 +48898,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "d027b85f-edd5-4d35-a474-27c05005a71f")
-		(at 24.425 97.27)
+		(at 110.9078 153.7954)
 		(property "Reference" "C71"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -49165,7 +49165,7 @@
 	(footprint "M2SmartHomeFootprints:ECS-240-10-47-CKM-TR"
 		(layer "F.Cu")
 		(uuid "d2605e1d-6fa8-4a1d-9751-780b3e5274f5")
-		(at 58.46 98.23)
+		(at 125.4 134.66)
 		(property "Reference" "Y2"
 			(at -0.483905 -1.247973 0)
 			(layer "F.SilkS")
@@ -49424,7 +49424,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "d3b0312a-3217-43e6-aace-198f5a28642d")
-		(at 55.02 94.52)
+		(at 121.96 130.95)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
@@ -49718,7 +49718,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "d7f2e9f3-b3c9-46ed-be5b-9b4f26a15155")
-		(at 54.755 139)
+		(at 73.325 122.65)
 		(property "Reference" "R33"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -49985,7 +49985,7 @@
 	(footprint "M2SmartHomeFootprints:TPS62822DLCR"
 		(layer "F.Cu")
 		(uuid "d898fda7-e410-4012-9be8-14f805a173a9")
-		(at 37.3 103.27)
+		(at 123.7828 159.7954)
 		(property "Reference" "U11"
 			(at 1.515 -2.017 0)
 			(layer "F.SilkS")
@@ -50805,7 +50805,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "da00b886-1c6f-432d-b44a-067dbdf0cf63")
-		(at 52.305 95.12)
+		(at 119.245 131.55)
 		(property "Reference" "R15"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -51072,7 +51072,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "dafea467-e75c-4547-b190-d73bc752f37d")
-		(at 65.695 136.85)
+		(at 111.54 93.42)
 		(property "Reference" "C52"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -51339,7 +51339,7 @@
 	(footprint "M2SmartHomeFootprints:L_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "db7ed009-5376-4790-a0be-192906104629")
-		(at 25.655 141.5)
+		(at 90.355 78.7)
 		(descr "Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L1"
@@ -51633,7 +51633,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "dba88236-c331-4037-acf5-1893a3b51945")
-		(at 62.715 136.85)
+		(at 108.56 93.42)
 		(property "Reference" "C45"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -51900,7 +51900,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "dbab478e-a913-4d12-9c55-5536e0af4556")
-		(at 46.345 108.02)
+		(at 113.285 144.45)
 		(property "Reference" "R5"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -52167,7 +52167,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "de43dbda-b060-4842-ad03-f92c044ac82e")
-		(at 27.405 101.57)
+		(at 113.8878 158.0954)
 		(property "Reference" "R48"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -52434,7 +52434,7 @@
 	(footprint "M2SmartHomeFootprints:FB_0603"
 		(layer "F.Cu")
 		(uuid "debb8440-cb0f-44ff-9396-556582add35f")
-		(at 68.78 143.84)
+		(at 114.625 100.41)
 		(descr "Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "Ferrite bead")
 		(property "Reference" "FB7"
@@ -52721,7 +52721,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "df923a24-0244-4d88-9490-017f3e6197b9")
-		(at 49.325 95.12)
+		(at 116.265 131.55)
 		(property "Reference" "R7"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -53014,7 +53014,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "e0cffebc-9054-4b06-b6f7-f3d58b1d0f7a")
-		(at 49.325 105.87)
+		(at 116.265 142.3)
 		(property "Reference" "R12"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -53281,7 +53281,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "e0fb0099-2e2a-433e-89ce-b5fc5ebbde60")
-		(at 49.325 92.97)
+		(at 116.265 129.4)
 		(property "Reference" "R6"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -53548,7 +53548,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "e3566bed-6307-45d6-bfea-5abbb15db705")
-		(at 55.02 96.27)
+		(at 121.96 132.7)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
@@ -53842,7 +53842,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "e4006313-afc3-4e34-ada7-61c688dec789")
-		(at 43.1 135.45)
+		(at 61.67 119.1)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C32"
@@ -54136,7 +54136,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "e42c1e41-5b1f-4754-8bb1-a1a339d2ee29")
-		(at 70.95 152.05)
+		(at 72.2 148.55)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP14"
@@ -54246,7 +54246,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "e44c20c5-d373-4d6b-b6b5-6e54f4c550b9")
-		(at 43.1 138.95)
+		(at 61.67 122.6)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C36"
@@ -54540,7 +54540,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "e44c50bf-a874-4743-be20-b69243c2f7e2")
-		(at 62.715 132.55)
+		(at 108.56 89.12)
 		(property "Reference" "C41"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -54807,7 +54807,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "e55ea4db-058e-46d5-b1bf-ff3d2bc74d5a")
-		(at 67.9 164.25)
+		(at 69.15 160.75)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP12"
@@ -54917,7 +54917,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "e62ac2f7-7e8d-4d1c-871c-1e657c3f22e9")
-		(at 71.39 138.95)
+		(at 117.235 95.52)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C54"
@@ -55211,7 +55211,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "ea91dd2a-3721-4b0d-a356-32f0ce4341dc")
-		(at 30.385 95.12)
+		(at 116.8678 151.6454)
 		(property "Reference" "R53"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -55478,7 +55478,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "ea9f0282-e06b-4db6-b300-b88f7c3d9830")
-		(at 83 162.435 -90)
+		(at 82.8 161.4 -90)
 		(property "Reference" "R70"
 			(at 1.032 -1.1564 90)
 			(layer "F.SilkS")
@@ -55732,7 +55732,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "eb0579a2-96da-4d37-840a-f61d3d7ce3f7")
-		(at 55.02 103.27)
+		(at 121.96 139.7)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C21"
@@ -56026,7 +56026,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "ed2c1470-fa57-4874-b4d0-74c048fe0c77")
-		(at 27.405 92.97)
+		(at 113.8878 149.4954)
 		(property "Reference" "R44"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -56293,7 +56293,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "f0cb920f-e7ca-47b9-ad84-ccd35710cff1")
-		(at 68.675 130.4)
+		(at 114.52 86.97)
 		(property "Reference" "R30"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -56560,7 +56560,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "f2a6c852-8c1b-4367-a482-1052dd8289e1")
-		(at 30.385 108.02)
+		(at 116.8678 164.5454)
 		(property "Reference" "R59"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -56827,7 +56827,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "f66fcbdb-60e7-400b-a247-92808b19719a")
-		(at 33.365 101.57)
+		(at 119.8478 158.0954)
 		(property "Reference" "R64"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -57094,7 +57094,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "f6aa6f01-7508-4239-8ff9-5182dc1e092f")
-		(at 33.365 92.97)
+		(at 119.8478 149.4954)
 		(property "Reference" "R60"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -58793,7 +58793,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "f832fec1-1314-4642-bf26-e08e033aa4b8")
-		(at 64.85 149)
+		(at 66.1 145.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -58903,7 +58903,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "f8610ebe-7e88-4612-a7ac-4401e758cf60")
-		(at 57.735 139)
+		(at 76.305 122.65)
 		(property "Reference" "R39"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -59170,7 +59170,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "f930333b-86a0-49ed-9799-b206c0fbfbcf")
-		(at 52.305 92.97)
+		(at 119.245 129.4)
 		(property "Reference" "R14"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -59437,7 +59437,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "f9afc623-f08c-4655-a87a-0d960a7d8385")
-		(at 52.305 97.27)
+		(at 119.245 133.7)
 		(property "Reference" "R16"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -59704,7 +59704,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "f9dbecef-36b5-4c39-a547-7834ff38b19d")
-		(at 46.345 103.72)
+		(at 113.285 140.15)
 		(property "Reference" "R2"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -59971,7 +59971,7 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "fb0129ad-2b72-4b6a-8ffb-1a577c2699b1")
-		(at 64.85 152.05)
+		(at 66.1 148.55)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
@@ -60081,7 +60081,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "fb3da98e-e52f-4e11-826c-6c900b0887ec")
-		(at 30.385 105.87)
+		(at 116.8678 162.3954)
 		(property "Reference" "R58"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -60348,7 +60348,7 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "fc29a2cd-6aed-4def-aa41-b5cc469d4326")
-		(at 48.795 132.55)
+		(at 67.365 116.2)
 		(property "Reference" "C33"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -60615,7 +60615,7 @@
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "fce94cf9-cf9d-4610-96da-4dbfc0a404ee")
-		(at 71.39 137.2)
+		(at 117.235 93.77)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C53"
@@ -60909,7 +60909,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "fee735c2-7590-4209-aee1-2e3fc705cd5b")
-		(at 52.305 101.57)
+		(at 119.245 138)
 		(property "Reference" "R18"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -61176,9 +61176,9 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "ff0d53a9-ec36-462b-951a-f18c8d116db7")
-		(at 97.75 176.435 -90)
+		(at 88.8 162.2 90)
 		(property "Reference" "C79"
-			(at 1.032 -1.1564 90)
+			(at 1.032 -1.1564 270)
 			(layer "F.SilkS")
 			(uuid "5d0ca5e7-db51-4565-b66e-3776b00d46d9")
 			(effects
@@ -61189,7 +61189,7 @@
 			)
 		)
 		(property "Value" "C_220nF_0402"
-			(at 3.8768 1.0936 90)
+			(at 3.8768 1.0936 270)
 			(layer "F.Fab")
 			(uuid "c28a0cfa-a568-4930-a955-930e1b6ceb95")
 			(effects
@@ -61200,7 +61200,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -61212,7 +61212,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A224KE19D"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -61224,7 +61224,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 220 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -61236,7 +61236,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61A224KE19D"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -61249,7 +61249,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -61262,7 +61262,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -61275,7 +61275,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -61288,7 +61288,7 @@
 			)
 		)
 		(property "Val" "220nF"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -61301,7 +61301,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -61314,7 +61314,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -61331,24 +61331,14 @@
 		(sheetfile "M2SmartHome.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
+			(start 0.965 -0.55)
+			(end 0.965 0.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3e3a1457-94cf-49ad-a92f-373ece4a8fbe")
-		)
-		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6fe534d4-945c-4031-9e0d-93cc5c691460")
+			(uuid "62ab8657-c791-4779-bc88-3f26b2f98456")
 		)
 		(fp_line
 			(start -0.965 -0.55)
@@ -61361,34 +61351,34 @@
 			(uuid "116c273d-e6ce-4ff1-b3e3-ac0837f31c6e")
 		)
 		(fp_line
-			(start 0.965 -0.55)
-			(end 0.965 0.55)
+			(start 0.965 0.55)
+			(end -0.965 0.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "62ab8657-c791-4779-bc88-3f26b2f98456")
+			(uuid "6fe534d4-945c-4031-9e0d-93cc5c691460")
 		)
 		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3e3a1457-94cf-49ad-a92f-373ece4a8fbe")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "957881fc-29e2-40b4-a596-3ebe23dfaf39")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3d03533a-e665-44ac-9554-843ab9a114f3")
+			(uuid "846a2f9d-8570-4e7f-8671-8d545fd98cb7")
 		)
 		(fp_line
 			(start -0.5 -0.25)
@@ -61401,17 +61391,27 @@
 			(uuid "3042f170-3b04-43d6-9dbf-2e85adf50a55")
 		)
 		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
+			(start 0.5 0.25)
+			(end -0.5 0.25)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "846a2f9d-8570-4e7f-8671-8d545fd98cb7")
+			(uuid "3d03533a-e665-44ac-9554-843ab9a114f3")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "957881fc-29e2-40b4-a596-3ebe23dfaf39")
 		)
 		(pad "1" smd rect
-			(at -0.435 0 270)
+			(at -0.435 0 90)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 49 "Net-(J1-SATA-A+{slash}PETp0)")
@@ -61420,7 +61420,7 @@
 			(uuid "ce433b39-6761-4f39-b154-fb122f1801d4")
 		)
 		(pad "2" smd rect
-			(at 0.435 0 270)
+			(at 0.435 0 90)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 48 "/pcie-usb-bridge/PETP+")
