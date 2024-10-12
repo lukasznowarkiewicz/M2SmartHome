@@ -427,7 +427,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/24AA04-24LC04B-24FC04-4K-I2C-Serial-EEPROM-20001708P.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -537,8 +537,8 @@
 			)
 			(symbol "24AA04T-I_OT_0_0"
 				(rectangle
-					(start -12.7 -12.7)
-					(end 12.7 12.7)
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
 					(stroke
 						(width 0.41)
 						(type default)
@@ -666,7 +666,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "C_100n_0402:C_0402_1005Metric"
+			(property "Footprint" "M2SmartHomeFootprints:C_0402"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -872,7 +872,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "C_1uF_0402:C_0402_1005Metric"
+			(property "Footprint" "M2SmartHomeFootprints:C_0201"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -1078,7 +1078,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "C_4pF_0402:C_0402_1005Metric"
+			(property "Footprint" "M2SmartHomeFootprints:C_0402"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -1284,7 +1284,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "C_4u7_0402:C_0402_1005Metric"
+			(property "Footprint" "M2SmartHomeFootprints:C_0402"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -1659,7 +1659,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "FB_120R_0603:FB_0603_1608Metric"
+			(property "Footprint" "M2SmartHomeFootprints:FB_0603"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -2011,7 +2011,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "R_0_0402:R_0402_1005Metric"
+			(property "Footprint" "M2SmartHomeFootprints:R_0402"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -2194,7 +2194,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "R_10k_0402:R_0402_1005Metric"
+			(property "Footprint" "M2SmartHomeFootprints:R_0402"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -2387,7 +2387,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "R_12k_0402:R_0402_1005Metric"
+			(property "Footprint" "M2SmartHomeFootprints:R_0402"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -2600,7 +2600,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "R_1M_0402:R_0402_1005Metric"
+			(property "Footprint" "M2SmartHomeFootprints:R_0402"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -2793,7 +2793,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "R_49k9_0402:R_0402_1005Metric"
+			(property "Footprint" "M2SmartHomeFootprints:R_0402"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -2986,7 +2986,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "R_4k7_0402:R_0402_1005Metric"
+			(property "Footprint" "M2SmartHomeFootprints:R_0402"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -3179,7 +3179,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "R_500R_0402:R_0402_1005Metric"
+			(property "Footprint" "M2SmartHomeFootprints:R_0402"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -6545,7 +6545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_49k9_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 128.27 48.26 0)
 			(effects
 				(font
@@ -6958,7 +6958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_49k9_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 123.19 48.26 0)
 			(effects
 				(font
@@ -7108,7 +7108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_1uF_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 205.74 86.36 0)
 			(effects
 				(font
@@ -7389,7 +7389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_1M_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 60.96 163.83 0)
 			(effects
 				(font
@@ -7603,7 +7603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_500R_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 175.26 59.69 0)
 			(effects
 				(font
@@ -7752,7 +7752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_49k9_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 118.11 48.26 0)
 			(effects
 				(font
@@ -7967,7 +7967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_100n_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 240.03 78.74 0)
 			(effects
 				(font
@@ -8118,7 +8118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_4pF_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 46.99 137.16 0)
 			(effects
 				(font
@@ -8269,7 +8269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_1uF_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 91.44 60.96 0)
 			(effects
 				(font
@@ -8486,7 +8486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_4u7_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 127 87.63 0)
 			(effects
 				(font
@@ -8703,7 +8703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_10k_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 93.98 52.07 0)
 			(effects
 				(font
@@ -8853,7 +8853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_100n_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 222.25 78.74 0)
 			(effects
 				(font
@@ -9004,7 +9004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_4k7_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 96.52 173.99 0)
 			(effects
 				(font
@@ -9630,7 +9630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/24AA04-24LC04B-24FC04-4K-I2C-Serial-EEPROM-20001708P.pdf"
 			(at 142.24 166.37 0)
 			(effects
 				(font
@@ -9793,7 +9793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_500R_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 111.76 93.98 0)
 			(effects
 				(font
@@ -10470,7 +10470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_49k9_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 113.03 48.26 0)
 			(effects
 				(font
@@ -10686,7 +10686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_49k9_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 134.62 48.26 0)
 			(effects
 				(font
@@ -10902,7 +10902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FB_120R_0603:FB_0603_1608Metric"
+		(property "Footprint" "M2SmartHomeFootprints:FB_0603"
 			(at 259.08 101.6 0)
 			(effects
 				(font
@@ -11042,7 +11042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_1uF_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 271.78 74.93 0)
 			(effects
 				(font
@@ -11257,7 +11257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_1uF_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 288.29 68.58 0)
 			(effects
 				(font
@@ -11474,7 +11474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_4pF_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 63.5 137.16 0)
 			(effects
 				(font
@@ -11890,7 +11890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_0_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 143.51 86.36 0)
 			(effects
 				(font
@@ -12031,7 +12031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_10k_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 138.43 48.26 0)
 			(effects
 				(font
@@ -12445,7 +12445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_10k_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 99.06 142.24 0)
 			(effects
 				(font
@@ -12596,7 +12596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_100n_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 118.11 87.63 0)
 			(effects
 				(font
@@ -12747,7 +12747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_12k_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -12982,7 +12982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_100n_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 279.4 68.58 0)
 			(effects
 				(font
@@ -13395,7 +13395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_100n_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 262.89 74.93 0)
 			(effects
 				(font
@@ -13545,7 +13545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_1uF_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 248.92 78.74 0)
 			(effects
 				(font
@@ -13760,7 +13760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_100n_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 175.26 142.24 0)
 			(effects
 				(font
@@ -14239,7 +14239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_100n_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
 			(at 196.85 86.36 0)
 			(effects
 				(font
@@ -14455,7 +14455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_1uF_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 96.52 154.94 0)
 			(effects
 				(font
@@ -14605,7 +14605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_1uF_0402:C_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:C_0201"
 			(at 231.14 78.74 0)
 			(effects
 				(font
@@ -14890,7 +14890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "R_4k7_0402:R_0402_1005Metric"
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
 			(at 137.16 138.43 0)
 			(effects
 				(font
