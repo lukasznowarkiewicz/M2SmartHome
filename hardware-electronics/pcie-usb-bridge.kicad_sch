@@ -5872,6 +5872,12 @@
 		(uuid "31b6b958-ac39-4db3-9831-6b914b7547d8")
 	)
 	(junction
+		(at 46.99 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "398cd5e4-ba61-48d4-92c8-6ba8c26f7249")
+	)
+	(junction
 		(at 96.52 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5900,12 +5906,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85fbae78-4df1-4fef-ac15-0fb4d4822970")
-	)
-	(junction
-		(at 45.72 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8667c7e5-600a-41c7-a45e-fbe16506fba4")
 	)
 	(junction
 		(at 111.76 166.37)
@@ -6535,7 +6535,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 166.37) (xy 49.53 166.37)
+			(xy 36.83 166.37) (xy 40.64 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7005,7 +7005,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 165.1) (xy 45.72 166.37)
+			(xy 36.83 165.1) (xy 36.83 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7022,6 +7022,16 @@
 			(type default)
 		)
 		(uuid "83bfcd86-f4a6-4a7a-84e0-29a251eb88dd")
+	)
+	(wire
+		(pts
+			(xy 46.99 166.37) (xy 57.15 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85aa9cf6-d018-4d65-8419-2e46fcf8f16b")
 	)
 	(wire
 		(pts
@@ -7425,16 +7435,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 166.37) (xy 45.72 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf226f69-5245-4d8a-901b-726cb063ffc0")
-	)
-	(wire
-		(pts
 			(xy 120.65 166.37) (xy 111.76 166.37)
 		)
 		(stroke
@@ -7645,6 +7645,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 166.37) (xy 46.99 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7fc4fb-a4dc-47c7-b293-3b7ef834b6de")
+	)
+	(wire
+		(pts
 			(xy 87.63 181.61) (xy 87.63 184.15)
 		)
 		(stroke
@@ -7735,7 +7745,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 166.37) (xy 57.15 166.37)
+			(xy 45.72 166.37) (xy 46.99 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7775,7 +7785,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 173.99) (xy 45.72 176.53)
+			(xy 46.99 173.99) (xy 46.99 176.53)
 		)
 		(stroke
 			(width 0)
@@ -9273,10 +9283,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b940943-e64e-4e36-9e17-21de03264a5b")
+			(uuid "6b940943-e64e-4e36-9e17-21de03264a5c")
 		)
 		(pin "2"
-			(uuid "587f7985-5678-4af3-969a-b3d4fcd0d1d2")
+			(uuid "587f7985-5678-4af3-969a-b3d4fcd0d1d3")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -9408,7 +9418,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "35effe00-8092-4bd2-b8f6-b8c1e6be2bb0")
+			(uuid "35effe00-8092-4bd2-b8f6-b8c1e6be2bb1")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -9421,7 +9431,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:FB_120R_0603")
-		(at 49.53 166.37 0)
+		(at 40.64 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9430,7 +9440,7 @@
 		(fields_autoplaced yes)
 		(uuid "188159ed-96ec-4774-baa3-d883987636c0")
 		(property "Reference" "FB3"
-			(at 52.07 162.56 0)
+			(at 43.18 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9439,7 +9449,7 @@
 			)
 		)
 		(property "Value" "FB_120R_0603"
-			(at 69.85 176.53 0)
+			(at 60.96 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,7 +9460,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:FB_0603"
-			(at 69.85 179.07 0)
+			(at 60.96 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9461,7 +9471,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=BLM18AG121SN1D"
-			(at 69.85 181.61 0)
+			(at 60.96 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9482,7 @@
 			)
 		)
 		(property "Description" "SMD Ferrite Bead, 120 Ω @ 100 MHz, 2 A, 0603 [1608 Metric], BLM18A Series"
-			(at 49.53 166.37 0)
+			(at 40.64 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +9491,7 @@
 			)
 		)
 		(property "MPN" "BLM18AG121SN1D"
-			(at 69.85 184.15 0)
+			(at 60.96 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +9502,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 69.85 186.69 0)
+			(at 60.96 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9503,7 +9513,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 69.85 189.23 0)
+			(at 60.96 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9514,7 +9524,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 69.85 191.77 0)
+			(at 60.96 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9525,7 +9535,7 @@
 			)
 		)
 		(property "Impedance" "120R @ 100 MHz"
-			(at 69.85 194.31 0)
+			(at 60.96 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9545,7 @@
 			)
 		)
 		(property "Current" "2A"
-			(at 69.85 196.85 0)
+			(at 60.96 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10479,7 +10489,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "35effe00-8092-4bd2-b8f6-b8c1e6be2bb0")
+			(uuid "35effe00-8092-4bd2-b8f6-b8c1e6be2bb2")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -11232,7 +11242,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 45.72 165.1 0)
+		(at 36.83 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11241,7 +11251,7 @@
 		(fields_autoplaced yes)
 		(uuid "438ccacb-a84f-49ff-a6f5-92ede93a31ae")
 		(property "Reference" "#PWR0196"
-			(at 45.72 168.91 0)
+			(at 36.83 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11250,7 +11260,7 @@
 			)
 		)
 		(property "Value" "+3V3_Bridge"
-			(at 45.72 160.02 0)
+			(at 36.83 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11258,7 +11268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 165.1 0)
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11267,7 +11277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 165.1 0)
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11276,7 +11286,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 45.72 165.1 0)
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11731,7 +11741,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 176.53 0)
+		(at 46.99 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11740,7 +11750,7 @@
 		(fields_autoplaced yes)
 		(uuid "52cf810d-d2cb-4e82-a491-679e23914104")
 		(property "Reference" "#PWR0197"
-			(at 45.72 182.88 0)
+			(at 46.99 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11749,7 +11759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 181.61 0)
+			(at 46.99 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11757,7 +11767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 176.53 0)
+			(at 46.99 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11766,7 +11776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 176.53 0)
+			(at 46.99 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11775,7 +11785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 176.53 0)
+			(at 46.99 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13671,7 +13681,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:C_4u7_0402")
-		(at 45.72 173.99 90)
+		(at 46.99 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13680,7 +13690,7 @@
 		(fields_autoplaced yes)
 		(uuid "747469c2-cdd7-4a08-8646-b7c8bca45113")
 		(property "Reference" "C70"
-			(at 48.26 170.1736 90)
+			(at 49.53 170.1736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13690,7 +13700,7 @@
 			)
 		)
 		(property "Value" "C_4u7_0402"
-			(at 55.88 153.67 0)
+			(at 57.15 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13701,7 +13711,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 58.42 153.67 0)
+			(at 59.69 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13712,7 +13722,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R60J475ME47%23"
-			(at 60.96 153.67 0)
+			(at 62.23 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13723,7 +13733,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 4.7 µF, 6.3 V, 0402 [1005 Metric], ±20%, X5R, GRM Series"
-			(at 45.72 173.99 0)
+			(at 46.99 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13732,7 +13742,7 @@
 			)
 		)
 		(property "MPN" "GRM155R60J475ME47D"
-			(at 63.5 153.67 0)
+			(at 64.77 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13743,7 +13753,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 66.04 153.67 0)
+			(at 67.31 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13754,7 +13764,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 68.58 153.67 0)
+			(at 69.85 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13765,7 +13775,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 71.12 153.67 0)
+			(at 72.39 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13776,7 +13786,7 @@
 			)
 		)
 		(property "Val" "4u7"
-			(at 48.26 172.7136 90)
+			(at 49.53 172.7136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13786,7 +13796,7 @@
 			)
 		)
 		(property "Voltage" "6.3V"
-			(at 73.66 153.67 0)
+			(at 74.93 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13796,7 +13806,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 76.2 153.67 0)
+			(at 77.47 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14024,10 +14034,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bbfbcc2a-65e6-413b-984f-d0b9fab20347")
+			(uuid "bbfbcc2a-65e6-413b-984f-d0b9fab20348")
 		)
 		(pin "2"
-			(uuid "38cb5c4a-ec08-430f-9e70-22544d3bf68b")
+			(uuid "38cb5c4a-ec08-430f-9e70-22544d3bf68c")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -14616,10 +14626,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb08d379-ac23-4149-bc76-e8e276ff0b01")
+			(uuid "eb08d379-ac23-4149-bc76-e8e276ff0b02")
 		)
 		(pin "2"
-			(uuid "36e9395d-33a5-4cde-8ece-ab844cc1a80b")
+			(uuid "36e9395d-33a5-4cde-8ece-ab844cc1a80c")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -14836,7 +14846,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "35effe00-8092-4bd2-b8f6-b8c1e6be2bb0")
+			(uuid "35effe00-8092-4bd2-b8f6-b8c1e6be2bb3")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -15342,7 +15352,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "32be3433-5afc-47d3-9413-dd6a6e645e2b")
+			(uuid "32be3433-5afc-47d3-9413-dd6a6e645e2c")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -15408,7 +15418,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fef46a37-4fba-4f37-b529-ac7ef3479471")
+			(uuid "fef46a37-4fba-4f37-b529-ac7ef3479472")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -15556,10 +15566,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f987ea4f-98ce-4fcb-8e03-5d740e9ce43c")
+			(uuid "f987ea4f-98ce-4fcb-8e03-5d740e9ce43d")
 		)
 		(pin "1"
-			(uuid "7c5d6279-0d8a-4f34-a13e-9a1d18e04401")
+			(uuid "7c5d6279-0d8a-4f34-a13e-9a1d18e04402")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -15623,7 +15633,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7bdae4e8-030d-47a5-9512-94eb896b3f26")
+			(uuid "7bdae4e8-030d-47a5-9512-94eb896b3f27")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -15687,7 +15697,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7bdae4e8-030d-47a5-9512-94eb896b3f26")
+			(uuid "7bdae4e8-030d-47a5-9512-94eb896b3f28")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -15753,7 +15763,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ded12d2-1cc9-4230-ac81-e28a6c823dc9")
+			(uuid "4ded12d2-1cc9-4230-ac81-e28a6c823dca")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -16382,7 +16392,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "35effe00-8092-4bd2-b8f6-b8c1e6be2bb0")
+			(uuid "35effe00-8092-4bd2-b8f6-b8c1e6be2bb4")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -17098,7 +17108,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ded12d2-1cc9-4230-ac81-e28a6c823dc9")
+			(uuid "4ded12d2-1cc9-4230-ac81-e28a6c823dcb")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -17731,7 +17741,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fef46a37-4fba-4f37-b529-ac7ef3479471")
+			(uuid "fef46a37-4fba-4f37-b529-ac7ef3479473")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -17877,10 +17887,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f9b67e8-ecb3-4716-a392-61786565b8d5")
+			(uuid "0f9b67e8-ecb3-4716-a392-61786565b8d6")
 		)
 		(pin "2"
-			(uuid "caea9931-67ee-4ea3-a7e6-630325574c2d")
+			(uuid "caea9931-67ee-4ea3-a7e6-630325574c2e")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -17946,7 +17956,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ded12d2-1cc9-4230-ac81-e28a6c823dc9")
+			(uuid "4ded12d2-1cc9-4230-ac81-e28a6c823dcc")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -18010,7 +18020,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7bdae4e8-030d-47a5-9512-94eb896b3f26")
+			(uuid "7bdae4e8-030d-47a5-9512-94eb896b3f29")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -18390,7 +18400,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7bdae4e8-030d-47a5-9512-94eb896b3f26")
+			(uuid "7bdae4e8-030d-47a5-9512-94eb896b3f2a")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -18736,10 +18746,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bbfbcc2a-65e6-413b-984f-d0b9fab20347")
+			(uuid "bbfbcc2a-65e6-413b-984f-d0b9fab20349")
 		)
 		(pin "2"
-			(uuid "38cb5c4a-ec08-430f-9e70-22544d3bf68b")
+			(uuid "38cb5c4a-ec08-430f-9e70-22544d3bf68d")
 		)
 		(instances
 			(project "M2SmartHome"
@@ -18805,7 +18815,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fef46a37-4fba-4f37-b529-ac7ef3479471")
+			(uuid "fef46a37-4fba-4f37-b529-ac7ef3479474")
 		)
 		(instances
 			(project "M2SmartHome"
