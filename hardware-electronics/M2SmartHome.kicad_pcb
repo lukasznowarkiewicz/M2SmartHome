@@ -3,12 +3,14 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(general
-		(thickness 1.6)
+		(thickness 0.7732)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
+		(1 "In1.Cu" signal)
+		(2 "In2.Cu" signal)
 		(31 "B.Cu" signal)
 		(32 "B.Adhes" user "B.Adhesive")
 		(33 "F.Adhes" user "F.Adhesive")
@@ -39,6 +41,68 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.0764)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.0152)
+			)
+			(layer "dielectric 2"
+				(type "core")
+				(thickness 0.5)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.0152)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.0764)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "ENIG")
+			(dielectric_constraints yes)
+			(edge_connector yes)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -2231,7 +2295,7 @@
 		(uuid "08a6c339-d6c4-4bec-aeaa-4276f42d2c40")
 		(at 100.8 161.3)
 		(property "Reference" "R69"
-			(at 1.032 -1.1564 360)
+			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
 			(uuid "a2a1150c-b166-44d2-b52e-159360dc9bdb")
 			(effects
@@ -2242,7 +2306,7 @@
 			)
 		)
 		(property "Value" "R_0_0402"
-			(at 3.8768 1.0936 360)
+			(at 3.8768 1.0936 0)
 			(layer "F.Fab")
 			(uuid "f23d3efd-29af-4718-94a8-22cb0c0dc001")
 			(effects
@@ -15989,7 +16053,7 @@
 		(uuid "4293b6bc-141b-4182-a88b-c343d1a58bb6")
 		(at 107.675 100.965 90)
 		(property "Reference" "R66"
-			(at 1.032 -1.1564 270)
+			(at 1.032 -1.1564 -90)
 			(layer "F.SilkS")
 			(uuid "bee88bca-5fbd-4a6f-82fa-96175f89fdd3")
 			(effects
@@ -16000,7 +16064,7 @@
 			)
 		)
 		(property "Value" "R_66k5_0402"
-			(at 3.8768 1.0936 270)
+			(at 3.8768 1.0936 -90)
 			(layer "F.Fab")
 			(uuid "5b36ccbc-ec76-4465-ae30-12d65eb157f7")
 			(effects
@@ -23105,7 +23169,7 @@
 		(uuid "5f18ed42-f526-4788-bc57-976ff4836ef7")
 		(at 95.7 161.9)
 		(property "Reference" "R68"
-			(at 1.032 -1.1564 360)
+			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
 			(uuid "c5d9cf3b-f634-424d-ab0f-1dcf74d5d207")
 			(effects
@@ -23116,7 +23180,7 @@
 			)
 		)
 		(property "Value" "R_0_0402"
-			(at 3.8768 1.0936 360)
+			(at 3.8768 1.0936 0)
 			(layer "F.Fab")
 			(uuid "b94f6162-278a-4860-8551-9e2b26e14e5d")
 			(effects
@@ -42809,9 +42873,9 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "b61176de-b462-478b-aa8c-3fb034d41d9c")
-		(at 107.9278 158.0954)
+		(at 101.8 157.8 -90)
 		(property "Reference" "C63"
-			(at 1.032 -1.1564 0)
+			(at 1.032 -1.1564 90)
 			(layer "F.SilkS")
 			(uuid "da56c152-13ac-45f8-9638-6dcb83008c4d")
 			(effects
@@ -42822,7 +42886,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 3.8768 1.0936 0)
+			(at 3.8768 1.0936 90)
 			(layer "F.Fab")
 			(uuid "01b6745c-b12f-4e86-8750-62791942a371")
 			(effects
@@ -42833,7 +42897,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42845,7 +42909,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42857,7 +42921,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42869,7 +42933,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61A104KE01D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42882,7 +42946,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42895,7 +42959,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42908,7 +42972,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42921,7 +42985,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42934,7 +42998,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42947,7 +43011,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42964,16 +43028,6 @@
 		(sheetfile "pcie-usb-bridge.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.965 -0.55)
-			(end 0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3b4c0bfa-d168-4408-95d0-db674cb47853")
-		)
-		(fp_line
 			(start -0.965 0.55)
 			(end -0.965 -0.55)
 			(stroke
@@ -42982,16 +43036,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "72175351-f7ac-4e14-8991-935446369c91")
-		)
-		(fp_line
-			(start 0.965 -0.55)
-			(end 0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0f4d67fe-37b0-43f3-ad1f-e97f396dea13")
 		)
 		(fp_line
 			(start 0.965 0.55)
@@ -43004,14 +43048,24 @@
 			(uuid "881bdbfa-9ab4-406b-9b53-1ef6f1fac507")
 		)
 		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
+			(start -0.965 -0.55)
+			(end 0.965 -0.55)
 			(stroke
-				(width 0.127)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "abc6d827-3356-4682-b7e1-bf5ffd53a5b3")
+			(layer "F.CrtYd")
+			(uuid "3b4c0bfa-d168-4408-95d0-db674cb47853")
+		)
+		(fp_line
+			(start 0.965 -0.55)
+			(end 0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0f4d67fe-37b0-43f3-ad1f-e97f396dea13")
 		)
 		(fp_line
 			(start -0.5 0.25)
@@ -43024,16 +43078,6 @@
 			(uuid "9406f940-9cc0-4e99-8d69-fe88ea157aa8")
 		)
 		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1fe782d6-1b68-46bf-be84-09855b2d4c4e")
-		)
-		(fp_line
 			(start 0.5 0.25)
 			(end -0.5 0.25)
 			(stroke
@@ -43043,8 +43087,28 @@
 			(layer "F.Fab")
 			(uuid "303111db-3a72-42dc-8b68-6f8e0746c4f6")
 		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "abc6d827-3356-4682-b7e1-bf5ffd53a5b3")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1fe782d6-1b68-46bf-be84-09855b2d4c4e")
+		)
 		(pad "1" smd rect
-			(at -0.435 0)
+			(at -0.435 0 270)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "GND")
@@ -43053,7 +43117,7 @@
 			(uuid "d1f4ea10-5b8d-4dcc-b0ef-b128e9fc9341")
 		)
 		(pad "2" smd rect
-			(at 0.435 0)
+			(at 0.435 0 270)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 40 "+3V3_Bridge")
@@ -44159,7 +44223,7 @@
 		(uuid "b7ffdcd7-3a2e-42f3-b9b0-2a2983574504")
 		(at 90.1 162.2 90)
 		(property "Reference" "C80"
-			(at 1.032 -1.1564 270)
+			(at 1.032 -1.1564 -90)
 			(layer "F.SilkS")
 			(uuid "dfe37326-f39c-49d0-883f-cf442c30ce49")
 			(effects
@@ -44170,7 +44234,7 @@
 			)
 		)
 		(property "Value" "C_220nF_0402"
-			(at 3.8768 1.0936 270)
+			(at 3.8768 1.0936 -90)
 			(layer "F.Fab")
 			(uuid "8c2d6b82-f8ed-461b-9277-74d428112daf")
 			(effects
@@ -50264,7 +50328,7 @@
 		(uuid "d8d95323-4978-43f1-98ee-e96f30653a55")
 		(at 91 114 90)
 		(property "Reference" "J2"
-			(at -4.41177 -12.95097 270)
+			(at -4.41177 -12.95097 -90)
 			(layer "F.SilkS")
 			(uuid "973a6092-312d-4a24-bd21-b611924f085a")
 			(effects
@@ -50275,7 +50339,7 @@
 			)
 		)
 		(property "Value" "Micro_SD_Card_Det_Hirose_DM3AT"
-			(at 3.85859 -10.78719 270)
+			(at 3.85859 -10.78719 -90)
 			(layer "F.Fab")
 			(uuid "dd073a79-16b4-4f67-b5e3-326f8ff5812d")
 			(effects
@@ -50529,7 +50593,7 @@
 			(uuid "1648f304-53c3-481b-ae4d-6c0d59568217")
 		)
 		(fp_text user "PCB Edge"
-			(at -2.36766 9.12 270)
+			(at -2.36766 9.12 -90)
 			(layer "F.Fab")
 			(uuid "9bba62b5-72cf-4fd6-ba43-e6b6379ce4ab")
 			(effects
@@ -61178,7 +61242,7 @@
 		(uuid "ff0d53a9-ec36-462b-951a-f18c8d116db7")
 		(at 88.8 162.2 90)
 		(property "Reference" "C79"
-			(at 1.032 -1.1564 270)
+			(at 1.032 -1.1564 -90)
 			(layer "F.SilkS")
 			(uuid "5d0ca5e7-db51-4565-b66e-3776b00d46d9")
 			(effects
@@ -61189,7 +61253,7 @@
 			)
 		)
 		(property "Value" "C_220nF_0402"
-			(at 3.8768 1.0936 270)
+			(at 3.8768 1.0936 -90)
 			(layer "F.Fab")
 			(uuid "c28a0cfa-a568-4930-a955-930e1b6ceb95")
 			(effects
