@@ -3082,273 +3082,6 @@
 	)
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
-		(uuid "100248d6-3dad-4bb3-9adc-19a22c925ac4")
-		(at 110.305 144.45)
-		(property "Reference" "C15"
-			(at 1.032 -1.1564 0)
-			(layer "F.SilkS")
-			(uuid "47e1630f-45cf-4d5b-a64e-2160b33cea4e")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C_100n_0402"
-			(at 3.8768 1.0936 0)
-			(layer "F.Fab")
-			(uuid "b566cbbb-9fd4-4f31-a652-cd4a9a85d5f5")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3a4f8183-f841-4ed1-96a1-77727f58f47b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78b62a8c-7331-4255-be60-50ed829eeae5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8eaa22ae-6b06-4021-8c97-91dc15548d66")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R61A104KE01D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41df475d-1dc6-4ca5-8e5b-fe2038d3e3e4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7cebafd2-f512-415b-85bb-89d2729ccea5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dd94e313-f5db-41c3-bad7-b9773cbd38d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "48dac800-ab0d-45d4-950c-2f4be649855a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "100n"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a8b0c466-ee55-43ca-84b6-d458c3793a13")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fb94191d-56d1-4f98-9cca-ef1b11010451")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52f12183-444e-4c8e-8923-bec7ab0c1492")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/56b40db6-0ced-45db-b60b-c3c37382e14f")
-		(sheetname "emmc")
-		(sheetfile "emmc.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.965 -0.55)
-			(end 0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "52558fa2-8706-4d1e-83d8-dbeb800af788")
-		)
-		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1de227db-5720-47a6-aba0-2a0ef3dd97ce")
-		)
-		(fp_line
-			(start 0.965 -0.55)
-			(end 0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4ade720a-cbe8-4031-b980-e8f2163240d1")
-		)
-		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bc2d7655-7037-430c-8604-c52a50cc4d41")
-		)
-		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c44df118-8967-4e83-9aba-3ac76d23373d")
-		)
-		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d3de857b-bf77-4e19-b038-b95caa8cabd6")
-		)
-		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6bf1afa8-4755-4c87-b166-6fa4e3e48d74")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "767ea31c-57f6-4dbf-a445-383e160aa7aa")
-		)
-		(pad "1" smd rect
-			(at -0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "c5994d28-d56d-4650-8f26-7f80341fa4d4")
-		)
-		(pad "2" smd rect
-			(at 0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 7 "+3V3_eMMC")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "450163e9-da0a-4c89-b856-eaf02713ce71")
-		)
-		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-	)
-	(footprint "M2SmartHomeFootprints:C_0402"
-		(layer "F.Cu")
 		(uuid "11857168-5fd8-483f-ab25-fc9ae156f355")
 		(at 67.365 118.35)
 		(property "Reference" "C35"
@@ -7251,7 +6984,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "1abdb8c9-ab98-4c66-adea-27b646f25e2b")
-		(at 82.1 97.765 180)
+		(at 82.3 96.7 180)
 		(property "Reference" "R41"
 			(at 1.032 -1.1564 180)
 			(layer "F.SilkS")
@@ -11137,273 +10870,6 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "1fbb1c45-008a-442a-a7e8-1c8002cc4b52")
-		)
-		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-	)
-	(footprint "M2SmartHomeFootprints:C_0402"
-		(layer "F.Cu")
-		(uuid "2ee37c31-9e8a-4deb-83f5-4761a6270cb0")
-		(at 121.96 137.95)
-		(property "Reference" "C17"
-			(at 1.032 -1.1564 0)
-			(layer "F.SilkS")
-			(uuid "2300b635-bb01-4a76-8869-42ec509f8031")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C_1uF_0402"
-			(at 3.8768 1.0936 0)
-			(layer "F.Fab")
-			(uuid "ab5063aa-03f6-4f65-b802-8a71a633b119")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5ff706e3-56fe-49de-8f65-08f28a4bd653")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H105KE92%23"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6e7d7c9f-c1e5-47e0-8187-515638831bd2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 50 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd90d53a-ce14-41b2-ae0f-10d7cdd8e979")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R61H105KE92D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "735bc620-0700-4e3c-82f0-d3dd502985c8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1d683736-33f1-40c4-a593-dfaab19f1d73")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d11bd476-f317-4090-a452-4691295e99bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7284aeeb-db83-4550-afe3-52f0465c7655")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "1uF"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bded68f0-4298-42a0-9f19-3084f0686946")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c53d35e-adaa-4b2d-89e9-cfb7a3eb44f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "07e6e771-2157-4d5d-ad45-e31eb7996758")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/3546de9c-87e4-4e80-9659-d7af055a6fb5")
-		(sheetname "emmc")
-		(sheetfile "emmc.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.965 -0.55)
-			(end 0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a70b6610-0973-4eb5-8997-3d2b6ac68e4c")
-		)
-		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c45dfdb2-f7f9-4fd6-944c-2bb91dcd9bce")
-		)
-		(fp_line
-			(start 0.965 -0.55)
-			(end 0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "79f40987-3b84-4098-93c9-6e939f9822d8")
-		)
-		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b115524f-1a78-4324-ad0a-d6555486fd5b")
-		)
-		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9622f79d-798f-4216-a2d9-29574e7572f2")
-		)
-		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f475b30d-2bc2-42c5-ae2e-d6ff481b7e05")
-		)
-		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ac17331b-5b47-4969-adb8-2a235df5a10d")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "189f55b6-82fd-4591-85b7-b5b8eb5dc945")
-		)
-		(pad "1" smd rect
-			(at -0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "5fcee579-d61d-4207-9c83-4d03dd6650e7")
-		)
-		(pad "2" smd rect
-			(at 0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 7 "+3V3_eMMC")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "9826c717-14a0-462d-b37e-70ed5b2cbd89")
 		)
 		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
 			(offset
@@ -15886,273 +15352,6 @@
 			)
 		)
 	)
-	(footprint "M2SmartHomeFootprints:C_0402"
-		(layer "F.Cu")
-		(uuid "444cc2cc-5881-42d5-bce2-55410a3ef223")
-		(at 113.285 135.85)
-		(property "Reference" "C22"
-			(at 1.032 -1.1564 0)
-			(layer "F.SilkS")
-			(uuid "546f19f1-bb52-4479-9acf-152affe2684f")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C_100n_0402"
-			(at 3.8768 1.0936 0)
-			(layer "F.Fab")
-			(uuid "a8c87dbf-2bad-49cd-91d3-3e58eadd952b")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "854d3156-dfa3-4678-8e36-d421d2eca0d6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d0c063b4-b64d-4254-942a-dd1391f0d481")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4649984e-94af-4106-aa36-daa648b27071")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R61A104KE01D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ad7d589d-2f3a-4f22-96fe-dc343dc63e8d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cad8a458-a493-461f-868c-f28ebd238fb7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e1b27fa5-5f01-407f-b560-6aa226960683")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "efa774ae-5225-4464-b3b6-20aa10709a54")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "100n"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92dbaa58-c783-4c68-9c26-325321c26cf7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4037bda1-f9af-45b3-80c3-206b32603f1a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0dedc21-1bbf-429e-8850-dd93653243e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/91b33eb0-f39a-4438-ab62-d007d9ce21ba")
-		(sheetname "emmc")
-		(sheetfile "emmc.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.965 -0.55)
-			(end 0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "441e9d05-fb07-48c9-8ded-9316b94d74b0")
-		)
-		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "827119d8-a482-41ef-9306-b44ab53da28f")
-		)
-		(fp_line
-			(start 0.965 -0.55)
-			(end 0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1f9f5cc7-a67a-4c8e-b916-1a2fe6f996f2")
-		)
-		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "51b4b8b4-8893-4594-8c10-e771ccf8c63d")
-		)
-		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "877cd931-4fd4-4ce7-ac10-1b84cc8c29f8")
-		)
-		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "65855fe9-d4fb-4c6d-8c87-43963fb25007")
-		)
-		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "39ab7264-6e6e-4523-9f5d-c65006bfaaff")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ab311e7a-d375-4719-ad70-05c1ba68d1d4")
-		)
-		(pad "1" smd rect
-			(at -0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "e0e20c76-a172-4f26-9385-1877bc38781c")
-		)
-		(pad "2" smd rect
-			(at 0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 12 "Net-(U2-VDDI)")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "f859094a-e004-47c0-9ccc-10aeb1b541af")
-		)
-		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-	)
 	(footprint "M2SmartHomeFootprints:LED_KPT-1608ZGC"
 		(layer "F.Cu")
 		(uuid "44cc5ee2-3c09-446e-81ba-eb573c66eac0")
@@ -19776,9 +18975,9 @@
 	(footprint "M2SmartHomeFootprints:USB2244-AEZG-06"
 		(layer "F.Cu")
 		(uuid "5987d6a3-035e-4b94-b58e-a443f8a898b8")
-		(at 85.9 135.8 90)
+		(at 85.83975 131.87 180)
 		(property "Reference" "U8"
-			(at -1.896263 -4.306544 270)
+			(at -1.896263 -4.306544 180)
 			(layer "F.SilkS")
 			(uuid "0c6aad12-d60c-466c-97ba-4886bc567fa1")
 			(effects
@@ -19789,7 +18988,7 @@
 			)
 		)
 		(property "Value" "USB2244-AEZG-06"
-			(at 5.430133 4.498839 270)
+			(at 5.430133 4.498839 180)
 			(layer "F.Fab")
 			(uuid "173bd03a-3eb1-4534-ab50-62a2425ae579")
 			(effects
@@ -19800,7 +18999,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:USB2244-AEZG-06"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19812,7 +19011,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/00001979A.pdf"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19824,7 +19023,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19836,7 +19035,7 @@
 			)
 		)
 		(property "MF" "Microchip"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19849,7 +19048,7 @@
 			)
 		)
 		(property "Description_1" "\nUSB Hub Controller USB 2.0 USB Interface 36-SQFN (6x6)\n"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19862,7 +19061,7 @@
 			)
 		)
 		(property "Package" "VFQFN-36 Microchip"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19875,7 +19074,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19888,7 +19087,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/USB2512B/M2/Microchip/view-part/?ref=eda"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19901,7 +19100,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB2512B/M2/Microchip/view-part/?ref=snap"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19914,7 +19113,7 @@
 			)
 		)
 		(property "MP" "USB2244-AEZG-06"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19927,7 +19126,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=633495&manufacturer=Microchip&part_name=USB2512B/M2&search_term=usb2"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19940,7 +19139,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19953,7 +19152,7 @@
 			)
 		)
 		(property "MANUFACTURER" "MICROCHIP"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19982,56 +19181,6 @@
 			(uuid "bc122328-b5c0-448e-ab61-2a56d205d900")
 		)
 		(fp_line
-			(start 3 -3)
-			(end 3 -2.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d992d0bc-5cbf-4ecb-93ba-49210f352a91")
-		)
-		(fp_line
-			(start 2.4 -3)
-			(end 3 -3)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "773d0a54-a0df-476d-9a0e-0679efaa4c38")
-		)
-		(fp_line
-			(start -3 -3)
-			(end -2.4 -3)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4812d192-9a4c-46c7-b540-9ce9ce2bc635")
-		)
-		(fp_line
-			(start -3 -2.4)
-			(end -3 -3)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "96c7f406-4b30-42bb-8079-ec713881a9db")
-		)
-		(fp_line
-			(start -3 2.4)
-			(end -3 3)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2937950c-a969-4add-91ce-957eb809523d")
-		)
-		(fp_line
 			(start 3 3)
 			(end 3 2.4)
 			(stroke
@@ -20040,6 +19189,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "958d90dd-46d1-4e53-b93f-18ee09f7eb45")
+		)
+		(fp_line
+			(start 3 -3)
+			(end 3 -2.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d992d0bc-5cbf-4ecb-93ba-49210f352a91")
 		)
 		(fp_line
 			(start 2.4 3)
@@ -20052,6 +19211,16 @@
 			(uuid "34abc50a-c095-4738-96c5-94e470702883")
 		)
 		(fp_line
+			(start 2.4 -3)
+			(end 3 -3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "773d0a54-a0df-476d-9a0e-0679efaa4c38")
+		)
+		(fp_line
 			(start -3 3)
 			(end -2.4 3)
 			(stroke
@@ -20060,6 +19229,36 @@
 			)
 			(layer "F.SilkS")
 			(uuid "5a897c5b-884e-4e73-af83-8feb561fb333")
+		)
+		(fp_line
+			(start -3 2.4)
+			(end -3 3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2937950c-a969-4add-91ce-957eb809523d")
+		)
+		(fp_line
+			(start -3 -2.4)
+			(end -3 -3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "96c7f406-4b30-42bb-8079-ec713881a9db")
+		)
+		(fp_line
+			(start -3 -3)
+			(end -2.4 -3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4812d192-9a4c-46c7-b540-9ce9ce2bc635")
 		)
 		(fp_circle
 			(center -3.843 -2.058)
@@ -20073,26 +19272,6 @@
 			(uuid "abe7c143-66a7-4794-9b67-d6a19bc0240a")
 		)
 		(fp_line
-			(start 3.608 -3.575)
-			(end 3.608 3.655)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9642fd9b-a87d-40bb-bd1c-84fabe8d7946")
-		)
-		(fp_line
-			(start -3.665 -3.575)
-			(end 3.608 -3.575)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a3ee81bf-19b1-45c2-b85e-58e9057cbc76")
-		)
-		(fp_line
 			(start 3.608 3.655)
 			(end -3.665 3.655)
 			(stroke
@@ -20101,6 +19280,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "2aa840d8-7ea3-4f42-8b3b-cc9aebc1ec1a")
+		)
+		(fp_line
+			(start 3.608 -3.575)
+			(end 3.608 3.655)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9642fd9b-a87d-40bb-bd1c-84fabe8d7946")
 		)
 		(fp_line
 			(start -3.665 3.655)
@@ -20113,14 +19302,14 @@
 			(uuid "c81dcf91-af9e-4f0f-841c-e39b96381c78")
 		)
 		(fp_line
-			(start 3 -3)
-			(end -3 -3)
+			(start -3.665 -3.575)
+			(end 3.608 -3.575)
 			(stroke
-				(width 0.2)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "1b7dbf1a-8502-40ee-9c1b-543f95bcab52")
+			(layer "F.CrtYd")
+			(uuid "a3ee81bf-19b1-45c2-b85e-58e9057cbc76")
 		)
 		(fp_line
 			(start 3 3)
@@ -20143,6 +19332,16 @@
 			(uuid "486e0cdc-0da6-4870-a1c0-b3e472d31e5d")
 		)
 		(fp_line
+			(start 3 -3)
+			(end -3 -3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1b7dbf1a-8502-40ee-9c1b-543f95bcab52")
+		)
+		(fp_line
 			(start -3 3)
 			(end -3 -3)
 			(stroke
@@ -20163,7 +19362,7 @@
 			(uuid "a7a6afc6-4f0c-44a8-ab88-f6bbc06fd487")
 		)
 		(pad "1" smd rect
-			(at -2.815 -2 180)
+			(at -2.815 -2 270)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 54 "Net-(D1-A)")
@@ -20173,7 +19372,7 @@
 			(uuid "e1ba44ed-369e-45a3-9ab3-7a25e3c36cab")
 		)
 		(pad "2" smd rect
-			(at -2.815 -1.5 180)
+			(at -2.815 -1.5 270)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 178 "/emmc/USB_1_DP+")
@@ -20183,7 +19382,7 @@
 			(uuid "3d32d112-29e3-4b09-bccd-671e95fa9625")
 		)
 		(pad "3" smd rect
-			(at -2.815 -1 180)
+			(at -2.815 -1 270)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 187 "/emmc/USB_1_DN-")
@@ -20193,7 +19392,7 @@
 			(uuid "73e21a6f-8970-40d1-ba48-6fb8cbc07e59")
 		)
 		(pad "4" smd rect
-			(at -2.815 -0.5 180)
+			(at -2.815 -0.5 270)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 140 "Net-(U2-DAT1)")
@@ -20203,7 +19402,7 @@
 			(uuid "2942b9e0-c7aa-4350-9f80-4c5ba2f5d9e6")
 		)
 		(pad "5" smd rect
-			(at -2.815 0 180)
+			(at -2.815 0 270)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 139 "Net-(U2-DAT0)")
@@ -20213,7 +19412,7 @@
 			(uuid "86057af1-2387-47dd-8183-9ad5aac79c9f")
 		)
 		(pad "6" smd rect
-			(at -2.815 0.5 180)
+			(at -2.815 0.5 270)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 7 "+3V3_eMMC")
@@ -20223,7 +19422,7 @@
 			(uuid "68650b9f-0cb6-4d6f-8200-7fd9a2fb8377")
 		)
 		(pad "7" smd rect
-			(at -2.815 1 180)
+			(at -2.815 1 270)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 146 "Net-(U2-DAT7)")
@@ -20233,7 +19432,7 @@
 			(uuid "3dd90de0-5b34-4f2a-830b-5a5ccacbd971")
 		)
 		(pad "8" smd rect
-			(at -2.815 1.5 180)
+			(at -2.815 1.5 270)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 145 "Net-(U2-DAT6)")
@@ -20243,7 +19442,7 @@
 			(uuid "e7e1c542-e3f7-4cd1-9e02-886929173a79")
 		)
 		(pad "9" smd rect
-			(at -2.815 2 180)
+			(at -2.815 2 270)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 147 "Net-(U2-CLK)")
@@ -20253,7 +19452,7 @@
 			(uuid "80f0bdfc-289c-4d0b-bd16-b410daa39ed0")
 		)
 		(pad "10" smd rect
-			(at -2 2.815 270)
+			(at -2 2.815)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 144 "Net-(U2-DAT5)")
@@ -20263,7 +19462,7 @@
 			(uuid "2a35fadf-05ed-40fd-aa83-865000c2774d")
 		)
 		(pad "11" smd rect
-			(at -1.5 2.815 270)
+			(at -1.5 2.815)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 148 "Net-(U2-CMD)")
@@ -20273,7 +19472,7 @@
 			(uuid "378bcc02-fa23-4945-8c42-68035a87d3b6")
 		)
 		(pad "12" smd rect
-			(at -1 2.815 270)
+			(at -1 2.815)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 224 "unconnected-(U8-NC-Pad12)")
@@ -20283,7 +19482,7 @@
 			(uuid "020b1121-74d4-499e-a1cd-2ed6342ca762")
 		)
 		(pad "13" smd rect
-			(at -0.5 2.815 270)
+			(at -0.5 2.815)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 8 "Net-(U8-VDD18)")
@@ -20293,7 +19492,7 @@
 			(uuid "a22d4de7-50af-4748-952f-646c666d90b7")
 		)
 		(pad "14" smd rect
-			(at 0 2.815 270)
+			(at 0 2.815)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 7 "+3V3_eMMC")
@@ -20303,7 +19502,7 @@
 			(uuid "de26e08c-c58d-475e-967d-cd691e1a69d6")
 		)
 		(pad "15" smd rect
-			(at 0.5 2.815 270)
+			(at 0.5 2.815)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 229 "unconnected-(U8-NC-Pad15)")
@@ -20313,7 +19512,7 @@
 			(uuid "78e6672e-00ad-4369-8eca-62518e6f89af")
 		)
 		(pad "16" smd rect
-			(at 1 2.815 270)
+			(at 1 2.815)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 225 "unconnected-(U8-NC-Pad16)")
@@ -20323,7 +19522,7 @@
 			(uuid "272dbb81-a585-4f29-88c3-4460de65ded2")
 		)
 		(pad "17" smd rect
-			(at 1.5 2.815 270)
+			(at 1.5 2.815)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 230 "unconnected-(U8-NC-Pad17)")
@@ -20333,7 +19532,7 @@
 			(uuid "e51725f5-b885-4e3b-b8b9-0e1a2f3d231a")
 		)
 		(pad "18" smd rect
-			(at 2 2.815 270)
+			(at 2 2.815)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 10 "/emmc/~{reset}")
@@ -20343,7 +19542,7 @@
 			(uuid "d2d4e239-2923-4453-80eb-ab4888232920")
 		)
 		(pad "19" smd rect
-			(at 2.815 2)
+			(at 2.815 2 90)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 228 "unconnected-(U8-NC-Pad19)")
@@ -20353,7 +19552,7 @@
 			(uuid "750028fc-3c70-400b-af55-ff0f1d98227b")
 		)
 		(pad "20" smd rect
-			(at 2.815 1.5)
+			(at 2.815 1.5 90)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 143 "Net-(U2-DAT4)")
@@ -20363,7 +19562,7 @@
 			(uuid "bfeaa89d-dca2-4a84-93c9-2f9fbdccf8cb")
 		)
 		(pad "21" smd rect
-			(at 2.815 1)
+			(at 2.815 1 90)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 203 "Net-(U2-RST_N)")
@@ -20373,7 +19572,7 @@
 			(uuid "5a45cbe4-b6ea-4d67-998f-db839e1dfab6")
 		)
 		(pad "22" smd rect
-			(at 2.815 0.5)
+			(at 2.815 0.5 90)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 7 "+3V3_eMMC")
@@ -20383,7 +19582,7 @@
 			(uuid "6f4732de-8dd4-4440-9f06-231723a051d4")
 		)
 		(pad "23" smd rect
-			(at 2.815 0)
+			(at 2.815 0 90)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 142 "Net-(U2-DAT3)")
@@ -20393,7 +19592,7 @@
 			(uuid "6a868d87-c2c9-4a47-8fac-df950dd06aa6")
 		)
 		(pad "24" smd rect
-			(at 2.815 -0.5)
+			(at 2.815 -0.5 90)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 227 "unconnected-(U8-NC-Pad24)")
@@ -20403,7 +19602,7 @@
 			(uuid "733b2227-ca48-4bce-9151-eec20a650160")
 		)
 		(pad "25" smd rect
-			(at 2.815 -1)
+			(at 2.815 -1 90)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 141 "Net-(U2-DAT2)")
@@ -20413,7 +19612,7 @@
 			(uuid "fb79a749-ddb7-4f7f-b54a-f6a7e0c99882")
 		)
 		(pad "26" smd rect
-			(at 2.815 -1.5)
+			(at 2.815 -1.5 90)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 138 "Net-(U8-SD_nCD)")
@@ -20423,7 +19622,7 @@
 			(uuid "c64928f6-7af4-4c6c-9742-eacaf6dc8f43")
 		)
 		(pad "27" smd rect
-			(at 2.815 -2)
+			(at 2.815 -2 90)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 136 "/emmc/SDA")
@@ -20433,7 +19632,7 @@
 			(uuid "e222ba25-523f-4bbc-b219-9d117641a2ef")
 		)
 		(pad "28" smd rect
-			(at 2 -2.815 90)
+			(at 2 -2.815 180)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "GND")
@@ -20443,7 +19642,7 @@
 			(uuid "45c32aea-6c98-4b5f-8fe1-1b01a8364f97")
 		)
 		(pad "29" smd rect
-			(at 1.5 -2.815 90)
+			(at 1.5 -2.815 180)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 226 "unconnected-(U8-NC-Pad29)")
@@ -20453,7 +19652,7 @@
 			(uuid "2d6c0b66-595e-47b4-b6c7-bea545f6487a")
 		)
 		(pad "30" smd rect
-			(at 1 -2.815 90)
+			(at 1 -2.815 180)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 134 "Net-(U8-SD_WP)")
@@ -20463,7 +19662,7 @@
 			(uuid "e9a0ed2c-ae37-43ef-a0f6-288ce12ba0a8")
 		)
 		(pad "31" smd rect
-			(at 0.5 -2.815 90)
+			(at 0.5 -2.815 180)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 135 "/emmc/SCK")
@@ -20473,7 +19672,7 @@
 			(uuid "69977f77-d836-45be-aca0-872454e66fe1")
 		)
 		(pad "32" smd rect
-			(at 0 -2.815 90)
+			(at 0 -2.815 180)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 9 "/emmc/XTAL2")
@@ -20483,7 +19682,7 @@
 			(uuid "0c85daac-0c03-4b94-bd73-b1258638da74")
 		)
 		(pad "33" smd rect
-			(at -0.5 -2.815 90)
+			(at -0.5 -2.815 180)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 6 "/emmc/XTAL1")
@@ -20493,7 +19692,7 @@
 			(uuid "28408f0d-d6f9-4bc1-b448-60c86d5d11ac")
 		)
 		(pad "34" smd rect
-			(at -1 -2.815 90)
+			(at -1 -2.815 180)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 5 "Net-(U8-VDD18PLL)")
@@ -20503,7 +19702,7 @@
 			(uuid "fd0f7e3a-a469-4816-9124-9d3fa66a65d7")
 		)
 		(pad "35" smd rect
-			(at -1.5 -2.815 90)
+			(at -1.5 -2.815 180)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 137 "Net-(U8-RBIAS)")
@@ -20513,7 +19712,7 @@
 			(uuid "22bfbc08-6d61-476c-bfaa-321ccd1bfda9")
 		)
 		(pad "36" smd rect
-			(at -2 -2.815 90)
+			(at -2 -2.815 180)
 			(size 0.26 1.08)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 7 "+3V3_eMMC")
@@ -20523,7 +19722,7 @@
 			(uuid "cd2b6836-ea5f-4725-80ae-99274e08520e")
 		)
 		(pad "37" smd rect
-			(at 0 0 90)
+			(at 0 0 180)
 			(size 3.7 3.7)
 			(layers "F.Cu" "F.Mask")
 			(net 1 "GND")
@@ -21616,9 +20815,9 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "60bb5eb0-654e-4d8e-b4c7-16f3f54df7a7")
-		(at 110.305 131.55)
+		(at 87.6 138 -90)
 		(property "Reference" "C4"
-			(at 1.032 -1.1564 0)
+			(at 1.032 -1.1564 90)
 			(layer "F.SilkS")
 			(uuid "d34ce75d-d5d1-4b4c-bf15-0d172a155043")
 			(effects
@@ -21629,7 +20828,7 @@
 			)
 		)
 		(property "Value" "C_4pF_0402"
-			(at 3.8768 1.0936 0)
+			(at 3.8768 1.0936 90)
 			(layer "F.Fab")
 			(uuid "72587f83-2532-408e-9763-ef2f1a14f8bb")
 			(effects
@@ -21640,7 +20839,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21652,7 +20851,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM1555C1H4R0CA01%23"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21664,7 +20863,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 4.0 pF, 50 V, 0402 [1005 Metric], ±0.25 pF, C0G/NP0, GRM Series"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21676,7 +20875,7 @@
 			)
 		)
 		(property "MPN" "GRM1555C1H4R0CA01D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21689,7 +20888,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21702,7 +20901,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21715,7 +20914,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21728,7 +20927,7 @@
 			)
 		)
 		(property "Val" "4pF"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21741,7 +20940,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21754,7 +20953,7 @@
 			)
 		)
 		(property "Dielectric" "C0G"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21771,16 +20970,6 @@
 		(sheetfile "emmc.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.965 -0.55)
-			(end 0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "236904a4-238e-47e4-a2ea-dc3ab42da355")
-		)
-		(fp_line
 			(start -0.965 0.55)
 			(end -0.965 -0.55)
 			(stroke
@@ -21789,16 +20978,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "612e2e7d-6193-4f47-8979-d48403f0b830")
-		)
-		(fp_line
-			(start 0.965 -0.55)
-			(end 0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6cc71429-a927-4e74-9baf-ee71ff8f18ae")
 		)
 		(fp_line
 			(start 0.965 0.55)
@@ -21811,14 +20990,24 @@
 			(uuid "95e91639-9384-490c-aaae-d49524814fc8")
 		)
 		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
+			(start -0.965 -0.55)
+			(end 0.965 -0.55)
 			(stroke
-				(width 0.127)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "3632ace7-d140-454c-b2be-c3ef3aec867c")
+			(layer "F.CrtYd")
+			(uuid "236904a4-238e-47e4-a2ea-dc3ab42da355")
+		)
+		(fp_line
+			(start 0.965 -0.55)
+			(end 0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6cc71429-a927-4e74-9baf-ee71ff8f18ae")
 		)
 		(fp_line
 			(start -0.5 0.25)
@@ -21831,16 +21020,6 @@
 			(uuid "236f837f-3f1d-4fe9-90d1-e6265e624605")
 		)
 		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6574a6fb-5397-4072-aff4-4e59e90fd650")
-		)
-		(fp_line
 			(start 0.5 0.25)
 			(end -0.5 0.25)
 			(stroke
@@ -21850,8 +21029,28 @@
 			(layer "F.Fab")
 			(uuid "5f0caba8-1b96-4599-b0e1-c4ba197e73ef")
 		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3632ace7-d140-454c-b2be-c3ef3aec867c")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6574a6fb-5397-4072-aff4-4e59e90fd650")
+		)
 		(pad "1" smd rect
-			(at -0.435 0)
+			(at -0.435 0 270)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "GND")
@@ -21860,7 +21059,7 @@
 			(uuid "0b9fd300-bbe4-4408-8f4e-545257cba760")
 		)
 		(pad "2" smd rect
-			(at 0.435 0)
+			(at 0.435 0 270)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 6 "/emmc/XTAL1")
@@ -23202,273 +22401,6 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "374fdde7-6f73-4756-b19a-63dea7679869")
-		)
-		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-	)
-	(footprint "M2SmartHomeFootprints:C_0402"
-		(layer "F.Cu")
-		(uuid "6b226bd1-e6ec-4d72-b06b-b1355a365856")
-		(at 113.285 133.7)
-		(property "Reference" "C19"
-			(at 1.032 -1.1564 0)
-			(layer "F.SilkS")
-			(uuid "89fcf069-04a0-4b62-a4e0-45efa36c472f")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C_100n_0402"
-			(at 3.8768 1.0936 0)
-			(layer "F.Fab")
-			(uuid "a3946e87-8ec0-4a5d-b9bc-cb4a9d406c30")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "25293457-ab1d-472b-9a77-7ce3bd70e215")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cdac03e9-32ea-45bd-a171-3e58702ec4b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4398f623-98e3-433f-9ce4-ed75a90f5e3c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R61A104KE01D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "08d26d12-8934-4830-9689-8d8415ceed56")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2131bb03-9efe-4f90-936f-6b88ba770434")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e15d7009-a83e-45bb-a833-58023f380fa6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74f4dc80-bd72-47fb-8d06-42514edfc99d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "100n"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e3d9ebea-39c5-4e66-b6f6-3794acbcc17f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "897c26a7-e9ed-4531-bfd6-0ea04ee42f24")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fd6ee771-11ba-4e5b-9ab6-700dd5687b35")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/5510f180-d6a5-44cc-86bf-8dca6f63646f")
-		(sheetname "emmc")
-		(sheetfile "emmc.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.965 -0.55)
-			(end 0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8275125d-528b-4c0a-8e7a-32a7e408a006")
-		)
-		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "998e7034-81ad-44d0-a4cd-0f19bd6719ff")
-		)
-		(fp_line
-			(start 0.965 -0.55)
-			(end 0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "efe62194-6216-4b03-a44f-e8062b999c4d")
-		)
-		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2ab2cf1d-a08a-45a7-bbfe-22af9b76d70e")
-		)
-		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e957dbea-6858-4aa6-83f1-80fb76ac1849")
-		)
-		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d8743515-8636-4e46-8be9-c021f583bf0b")
-		)
-		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7d387de3-6d5d-471e-a0cc-c8c3096f33d9")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d46bc244-7aea-4ab7-a969-9bab8ad80809")
-		)
-		(pad "1" smd rect
-			(at -0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "48075bde-9205-4426-9917-b21ea0b22db2")
-		)
-		(pad "2" smd rect
-			(at 0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 7 "+3V3_eMMC")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "d413c71c-94c3-4471-8357-84406d3307a4")
 		)
 		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
 			(offset
@@ -30491,9 +29423,9 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "8edf21de-f842-437b-b6f3-148b1d282a90")
-		(at 121.96 134.45)
+		(at 82.865 127.6)
 		(property "Reference" "C12"
-			(at 1.032 -1.1564 0)
+			(at 1.032 -1.1564 360)
 			(layer "F.SilkS")
 			(uuid "a7b1d9f4-e874-4c01-9326-6e7dc84c7214")
 			(effects
@@ -30504,7 +29436,7 @@
 			)
 		)
 		(property "Value" "C_1uF_0402"
-			(at 3.8768 1.0936 0)
+			(at 3.8768 1.0936 360)
 			(layer "F.Fab")
 			(uuid "6d0431b1-5f1f-4cde-a560-8f170670543c")
 			(effects
@@ -32526,7 +31458,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "a2ffd7e0-f716-4b7f-8179-f060a47af2a9")
-		(at 116.265 133.7)
+		(at 86.1 136.1)
 		(property "Reference" "R8"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -32790,277 +31722,10 @@
 			)
 		)
 	)
-	(footprint "M2SmartHomeFootprints:C_0402"
-		(layer "F.Cu")
-		(uuid "a325c24c-fb4b-49b2-b0fd-b04495a71de1")
-		(at 113.285 131.55)
-		(property "Reference" "C18"
-			(at 1.032 -1.1564 0)
-			(layer "F.SilkS")
-			(uuid "50d6549d-e42a-42e5-b38c-c2e73b608368")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C_4u7_0402"
-			(at 3.8768 1.0936 0)
-			(layer "F.Fab")
-			(uuid "99a16ebd-1e12-4800-882f-1553128d9d99")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b7fe942-bc26-4352-abcf-6f95d1f0016f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R60J475ME47%23"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "def55cb8-e71e-4213-890f-e6742c91c7b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 4.7 µF, 6.3 V, 0402 [1005 Metric], ±20%, X5R, GRM Series"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37efff8f-3111-4a79-8517-8bdd2ffc663d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R60J475ME47D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "786f57fc-7a48-40a0-9a68-ec65955e6c61")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "be8d4b6b-0cf4-4d0b-8db6-a82fec228c3c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "abb2f788-c17f-47a5-9423-837d8bb56a8c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89026787-d221-4750-839f-d97b3f64f0a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "4u7"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ed2e7675-ab48-4c3e-b02a-3f32f9197754")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "6.3V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "daaf9817-6d58-413d-bf6c-4f8aafb8bad8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2c15d4ed-e518-4fc3-bb15-18e82bfb3162")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/42a05918-3f74-4532-aad3-353fb9003d3d")
-		(sheetname "emmc")
-		(sheetfile "emmc.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.965 -0.55)
-			(end 0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "229a777a-80cb-4567-961b-b44e60b81d24")
-		)
-		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "568282ac-2e74-4e2b-8012-37d017614b8b")
-		)
-		(fp_line
-			(start 0.965 -0.55)
-			(end 0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4eed9bc8-2a0a-4598-8dbe-40c7106d084d")
-		)
-		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1460cd3d-e52f-4574-be7a-670f83a81b47")
-		)
-		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6e03b7cc-8161-4403-be4a-6bbfae05196b")
-		)
-		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "64af2a09-8a6e-4b4b-858f-21217228ec55")
-		)
-		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3cc9a53d-2a3b-4108-8926-855022fcc59d")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9adb6f11-3cb6-4377-90f7-5948f9528066")
-		)
-		(pad "1" smd rect
-			(at -0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "35b382d0-f3de-4c82-b554-07afff7d1650")
-		)
-		(pad "2" smd rect
-			(at 0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 7 "+3V3_eMMC")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "67a29276-c7ad-4f90-b8aa-ec6bffc301f3")
-		)
-		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-	)
 	(footprint "M2SmartHomeFootprints:USB2244-AEZG-06"
 		(layer "F.Cu")
 		(uuid "a377408b-c153-49f2-a587-b25d166561cc")
-		(at 86.185 127 180)
+		(at 85.7 122.615 180)
 		(property "Reference" "U9"
 			(at -1.896263 -4.306544 180)
 			(layer "F.SilkS")
@@ -34658,9 +33323,9 @@
 	(footprint "M2SmartHomeFootprints:24AA04T-I_OT"
 		(layer "F.Cu")
 		(uuid "a805dbcb-8fef-4faa-b300-1d69bb0451ac")
-		(at 78.4716 135.4)
+		(at 83.3 141.8 -90)
 		(property "Reference" "U4"
-			(at -0.09329 -8.7407 0)
+			(at -0.09329 -8.7407 90)
 			(layer "F.SilkS")
 			(uuid "cce7897e-b644-482b-8381-d22a594fbbe8")
 			(effects
@@ -34671,7 +33336,7 @@
 			)
 		)
 		(property "Value" "24AA04T-I_OT"
-			(at 12.45727 8.610455 0)
+			(at 12.45727 8.610455 90)
 			(layer "F.Fab")
 			(uuid "4940ff50-913a-4480-9c55-149f8299edb3")
 			(effects
@@ -34682,7 +33347,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:24AA04T-I_OT"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34694,7 +33359,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/24AA04-24LC04B-24FC04-4K-I2C-Serial-EEPROM-20001708P.pdf"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34706,7 +33371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34718,7 +33383,7 @@
 			)
 		)
 		(property "MF" "Microchip"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34731,7 +33396,7 @@
 			)
 		)
 		(property "Description_1" "\n4K, 512 X 8 1.8V SERIAL EEPROM, IND | Microchip Technology Inc. 24AA04T-I/OT\n"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34744,7 +33409,7 @@
 			)
 		)
 		(property "Package" "SOT-23-5 Microchip"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34757,7 +33422,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34770,7 +33435,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/24AA04T-I/OT/Microchip/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34783,7 +33448,7 @@
 			)
 		)
 		(property "MP" "24AA04T-I/OT"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34796,7 +33461,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=138237&manufacturer=Microchip&part_name=24AA04T-I/OT&search_term=24aa04t-i/ot"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34809,7 +33474,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34822,7 +33487,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/24AA04T-I/OT/Microchip/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34880,16 +33545,6 @@
 			(uuid "07064414-0ed6-4cd4-bc71-e9e14f1d221d")
 		)
 		(fp_line
-			(start -2.286 -1.8034)
-			(end 2.286 -1.8034)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "00d6d1be-c852-4ee8-9d4a-5c56780d4567")
-		)
-		(fp_line
 			(start -2.286 1.8034)
 			(end -2.286 -1.8034)
 			(stroke
@@ -34898,16 +33553,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "e7d683e2-7c4f-48ce-803a-446a677f4ea6")
-		)
-		(fp_line
-			(start 2.286 -1.8034)
-			(end 2.286 1.8034)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1c9d08a0-0f45-4def-8f03-a49971730152")
 		)
 		(fp_line
 			(start 2.286 1.8034)
@@ -34920,154 +33565,34 @@
 			(uuid "4e7778cf-c865-4e2c-8765-eeeb5a1a5c94")
 		)
 		(fp_line
-			(start -1.6002 -1.1938)
-			(end -1.6002 -0.6858)
+			(start -2.286 -1.8034)
+			(end 2.286 -1.8034)
 			(stroke
 				(width 0.1524)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "59692e12-fe14-491e-bc66-32c6a2519f7f")
+			(layer "F.CrtYd")
+			(uuid "00d6d1be-c852-4ee8-9d4a-5c56780d4567")
 		)
 		(fp_line
-			(start -1.6002 -0.6858)
-			(end -0.889 -0.6858)
+			(start 2.286 -1.8034)
+			(end 2.286 1.8034)
 			(stroke
 				(width 0.1524)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "c41634c3-2d5e-49d6-b43d-76859dfe9627")
+			(layer "F.CrtYd")
+			(uuid "1c9d08a0-0f45-4def-8f03-a49971730152")
 		)
 		(fp_line
-			(start -1.6002 -0.254)
-			(end -1.6002 0.254)
+			(start -0.889 1.5494)
+			(end 0.889 1.5494)
 			(stroke
 				(width 0.1524)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8bcf89d9-0fc1-491f-a931-619c4426da91")
-		)
-		(fp_line
-			(start -1.6002 0.254)
-			(end -0.889 0.254)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "48b96a26-d5ec-4ab0-988d-0a056b1bb8fa")
-		)
-		(fp_line
-			(start -1.6002 0.6858)
-			(end -1.6002 1.1938)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f1da3e2e-1ede-44ff-b19a-6e079de1084e")
-		)
-		(fp_line
-			(start -1.6002 1.1938)
-			(end -0.889 1.1938)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e22c73f5-2456-40bf-8627-402e99426e3e")
-		)
-		(fp_line
-			(start -0.889 -1.5494)
-			(end -0.889 -1.1938)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "78635577-cc39-4bd5-98e5-1e47677de7c0")
-		)
-		(fp_line
-			(start -0.889 -1.1938)
-			(end -1.6002 -1.1938)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "eecb3b56-d786-4ef7-82c8-fe308e3ff066")
-		)
-		(fp_line
-			(start -0.889 -1.1938)
-			(end -0.889 -0.6858)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0cc6d913-207f-4c60-bc0e-89d7161cc5e6")
-		)
-		(fp_line
-			(start -0.889 -0.6858)
-			(end -0.889 -0.254)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "afe7ae0e-54df-479a-8871-e69205ef2a28")
-		)
-		(fp_line
-			(start -0.889 -0.254)
-			(end -1.6002 -0.254)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8bffcf79-8693-4df7-9ed6-949706c7dcf5")
-		)
-		(fp_line
-			(start -0.889 -0.254)
-			(end -0.889 0.254)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "86164912-29f6-4341-8b91-c16c5afa6fdf")
-		)
-		(fp_line
-			(start -0.889 0.254)
-			(end -0.889 0.6858)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2183af92-fe3d-4159-962d-9f56493bbdbf")
-		)
-		(fp_line
-			(start -0.889 0.6858)
-			(end -1.6002 0.6858)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a251e6ca-2fc7-4352-be01-6b64e0b0ad5a")
-		)
-		(fp_line
-			(start -0.889 1.1938)
-			(end -0.889 0.6858)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c39347e7-e23e-4817-823a-9fd281ef63d9")
+			(uuid "15b2d30a-f9c3-418a-ae06-05945ff7142b")
 		)
 		(fp_line
 			(start -0.889 1.5494)
@@ -35080,14 +33605,254 @@
 			(uuid "5b700968-d095-4254-942d-9faa8c370af5")
 		)
 		(fp_line
-			(start -0.889 1.5494)
-			(end 0.889 1.5494)
+			(start 0.889 1.5494)
+			(end 0.889 1.1938)
 			(stroke
 				(width 0.1524)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "15b2d30a-f9c3-418a-ae06-05945ff7142b")
+			(uuid "7f59b31c-7caf-4551-8cdd-30b107fa266f")
+		)
+		(fp_line
+			(start -1.6002 1.1938)
+			(end -0.889 1.1938)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e22c73f5-2456-40bf-8627-402e99426e3e")
+		)
+		(fp_line
+			(start -0.889 1.1938)
+			(end -0.889 0.6858)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c39347e7-e23e-4817-823a-9fd281ef63d9")
+		)
+		(fp_line
+			(start 0.889 1.1938)
+			(end 1.6002 1.1938)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "323d8b6d-16da-4a05-bfa3-3469afd9518c")
+		)
+		(fp_line
+			(start 0.889 1.1938)
+			(end 0.889 0.6858)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7ae1a304-d527-4de5-9d05-f166d2a89f23")
+		)
+		(fp_line
+			(start 1.6002 1.1938)
+			(end 1.6002 0.6858)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "831762aa-c65e-492f-b1a3-96a638b41c21")
+		)
+		(fp_line
+			(start -1.6002 0.6858)
+			(end -1.6002 1.1938)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f1da3e2e-1ede-44ff-b19a-6e079de1084e")
+		)
+		(fp_line
+			(start -0.889 0.6858)
+			(end -1.6002 0.6858)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a251e6ca-2fc7-4352-be01-6b64e0b0ad5a")
+		)
+		(fp_line
+			(start 0.889 0.6858)
+			(end 0.889 -0.6858)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ed8bf5f5-567f-455e-9125-c7576addbd7e")
+		)
+		(fp_line
+			(start 1.6002 0.6858)
+			(end 0.889 0.6858)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bf1d0985-cdc7-43a9-960b-c59466184c42")
+		)
+		(fp_line
+			(start -1.6002 0.254)
+			(end -0.889 0.254)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "48b96a26-d5ec-4ab0-988d-0a056b1bb8fa")
+		)
+		(fp_line
+			(start -0.889 0.254)
+			(end -0.889 0.6858)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2183af92-fe3d-4159-962d-9f56493bbdbf")
+		)
+		(fp_line
+			(start -1.6002 -0.254)
+			(end -1.6002 0.254)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8bcf89d9-0fc1-491f-a931-619c4426da91")
+		)
+		(fp_line
+			(start -0.889 -0.254)
+			(end -0.889 0.254)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "86164912-29f6-4341-8b91-c16c5afa6fdf")
+		)
+		(fp_line
+			(start -0.889 -0.254)
+			(end -1.6002 -0.254)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8bffcf79-8693-4df7-9ed6-949706c7dcf5")
+		)
+		(fp_line
+			(start -1.6002 -0.6858)
+			(end -0.889 -0.6858)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c41634c3-2d5e-49d6-b43d-76859dfe9627")
+		)
+		(fp_line
+			(start -0.889 -0.6858)
+			(end -0.889 -0.254)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "afe7ae0e-54df-479a-8871-e69205ef2a28")
+		)
+		(fp_line
+			(start 0.889 -0.6858)
+			(end 1.6002 -0.6858)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "44ccbe2a-e925-4711-abb8-760557ad13e9")
+		)
+		(fp_line
+			(start 1.6002 -0.6858)
+			(end 1.6002 -1.1938)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "74813ff6-c12e-4b53-bb15-5f4d1dcd7f94")
+		)
+		(fp_line
+			(start -1.6002 -1.1938)
+			(end -1.6002 -0.6858)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "59692e12-fe14-491e-bc66-32c6a2519f7f")
+		)
+		(fp_line
+			(start -0.889 -1.1938)
+			(end -0.889 -0.6858)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0cc6d913-207f-4c60-bc0e-89d7161cc5e6")
+		)
+		(fp_line
+			(start -0.889 -1.1938)
+			(end -1.6002 -1.1938)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eecb3b56-d786-4ef7-82c8-fe308e3ff066")
+		)
+		(fp_line
+			(start 0.889 -1.1938)
+			(end 0.889 -0.6858)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "72816abf-d7e8-49dc-8a82-336fd546766d")
+		)
+		(fp_line
+			(start 1.6002 -1.1938)
+			(end 0.889 -1.1938)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d8bf9948-47ad-403b-96d8-64853e28bfc1")
+		)
+		(fp_line
+			(start -0.889 -1.5494)
+			(end -0.889 -1.1938)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "78635577-cc39-4bd5-98e5-1e47677de7c0")
 		)
 		(fp_line
 			(start -0.3048 -1.5494)
@@ -35111,16 +33876,6 @@
 		)
 		(fp_line
 			(start 0.889 -1.5494)
-			(end 0.3048 -1.5494)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "57f7050a-0725-4aa3-865e-ee988ed9361b")
-		)
-		(fp_line
-			(start 0.889 -1.5494)
 			(end 0.889 -1.1938)
 			(stroke
 				(width 0.1524)
@@ -35130,104 +33885,14 @@
 			(uuid "0af2f34a-27da-4dad-933f-1d8abdada3df")
 		)
 		(fp_line
-			(start 0.889 -1.1938)
-			(end 0.889 -0.6858)
+			(start 0.889 -1.5494)
+			(end 0.3048 -1.5494)
 			(stroke
 				(width 0.1524)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "72816abf-d7e8-49dc-8a82-336fd546766d")
-		)
-		(fp_line
-			(start 0.889 -0.6858)
-			(end 1.6002 -0.6858)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "44ccbe2a-e925-4711-abb8-760557ad13e9")
-		)
-		(fp_line
-			(start 0.889 0.6858)
-			(end 0.889 -0.6858)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ed8bf5f5-567f-455e-9125-c7576addbd7e")
-		)
-		(fp_line
-			(start 0.889 1.1938)
-			(end 0.889 0.6858)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7ae1a304-d527-4de5-9d05-f166d2a89f23")
-		)
-		(fp_line
-			(start 0.889 1.1938)
-			(end 1.6002 1.1938)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "323d8b6d-16da-4a05-bfa3-3469afd9518c")
-		)
-		(fp_line
-			(start 0.889 1.5494)
-			(end 0.889 1.1938)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7f59b31c-7caf-4551-8cdd-30b107fa266f")
-		)
-		(fp_line
-			(start 1.6002 -1.1938)
-			(end 0.889 -1.1938)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d8bf9948-47ad-403b-96d8-64853e28bfc1")
-		)
-		(fp_line
-			(start 1.6002 -0.6858)
-			(end 1.6002 -1.1938)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "74813ff6-c12e-4b53-bb15-5f4d1dcd7f94")
-		)
-		(fp_line
-			(start 1.6002 0.6858)
-			(end 0.889 0.6858)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bf1d0985-cdc7-43a9-960b-c59466184c42")
-		)
-		(fp_line
-			(start 1.6002 1.1938)
-			(end 1.6002 0.6858)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "831762aa-c65e-492f-b1a3-96a638b41c21")
+			(uuid "57f7050a-0725-4aa3-865e-ee988ed9361b")
 		)
 		(fp_arc
 			(start 0.3048 -1.5494)
@@ -35241,7 +33906,7 @@
 			(uuid "c575fd71-6f2a-40d3-ac48-9a0469fa02f2")
 		)
 		(pad "1" smd rect
-			(at -1.3716 -0.9398)
+			(at -1.3716 -0.9398 270)
 			(size 1.3208 0.5588)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 135 "/emmc/SCK")
@@ -35251,7 +33916,7 @@
 			(uuid "98f5e190-d2c6-4491-b6b6-94ad357644bc")
 		)
 		(pad "2" smd rect
-			(at -1.3716 0)
+			(at -1.3716 0 270)
 			(size 1.3208 0.5588)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "GND")
@@ -35261,7 +33926,7 @@
 			(uuid "ad51196c-961d-4641-a85e-35e3b38b4e93")
 		)
 		(pad "3" smd rect
-			(at -1.3716 0.9398)
+			(at -1.3716 0.9398 270)
 			(size 1.3208 0.5588)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 136 "/emmc/SDA")
@@ -35271,7 +33936,7 @@
 			(uuid "fa072e52-02f2-40d6-93f0-1ebfd4e33ab1")
 		)
 		(pad "4" smd rect
-			(at 1.3716 0.9398)
+			(at 1.3716 0.9398 270)
 			(size 1.3208 0.5588)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 7 "+3V3_eMMC")
@@ -35281,7 +33946,7 @@
 			(uuid "6ebf7f3a-73a1-466c-add9-6f8e63811038")
 		)
 		(pad "5" smd rect
-			(at 1.3716 -0.9398)
+			(at 1.3716 -0.9398 270)
 			(size 1.3208 0.5588)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "GND")
@@ -36346,273 +35011,6 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "486ace93-f087-4c0a-83cf-e2b99649b842")
-		)
-		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-	)
-	(footprint "M2SmartHomeFootprints:C_0402"
-		(layer "F.Cu")
-		(uuid "ae4d322c-2c9f-4aa0-bdbf-6f5c5bf52c84")
-		(at 113.285 129.4)
-		(property "Reference" "C16"
-			(at 1.032 -1.1564 0)
-			(layer "F.SilkS")
-			(uuid "9dcfadcb-b8a1-47df-b82f-baa25cb2b77c")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C_100n_0402"
-			(at 3.8768 1.0936 0)
-			(layer "F.Fab")
-			(uuid "4af17abd-c734-4aa8-96a7-5306a5aa43da")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f52ced61-55de-47c6-8bcb-b2fed5289ed0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a26cef80-8186-4408-a1e3-3a98cee25416")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e632b335-339c-4a16-a617-50f46118f3b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R61A104KE01D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "badaba52-cf52-4392-b87c-4556818b7c6c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92dfbb5c-0152-401a-a5d4-1837513af3a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "01114b32-20bb-436f-8741-8f217a2460da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bc7db6f7-4ca8-4bb0-8ba2-3699802f1aa4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "100n"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f934b407-49ad-4964-8808-93e3fa69a6c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3eacd37-9833-43f0-9036-47f2df2d6ba9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "11baff51-7171-4e14-99d6-87417a430814")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/8bd89034-fcbd-43dc-8713-f06c33dd0cdb")
-		(sheetname "emmc")
-		(sheetfile "emmc.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.965 -0.55)
-			(end 0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "58a40872-44cb-4909-83ff-a21ad91078aa")
-		)
-		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "db96774e-320c-436e-8263-062bd54fb32d")
-		)
-		(fp_line
-			(start 0.965 -0.55)
-			(end 0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a164c9e6-8b06-4b2d-a0ac-e67e2a02ac82")
-		)
-		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a29a85cf-808d-4023-89f6-b89274a8a5ad")
-		)
-		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0a266cb8-1c4c-48d3-b8c0-c3fe2d341916")
-		)
-		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a33432d6-2c7d-4c1a-93cf-5ec6951996e3")
-		)
-		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3eb1620d-772b-4b5e-8c8b-c000ca54e1e9")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "faf4641e-4e02-4cc1-95e3-2b63c7231f63")
-		)
-		(pad "1" smd rect
-			(at -0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "1c22d893-6719-48a5-adb9-df07a5917d62")
-		)
-		(pad "2" smd rect
-			(at 0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 7 "+3V3_eMMC")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "e3261efc-ff94-4bf5-8dbe-4b8431f64ae2")
 		)
 		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
 			(offset
@@ -39576,273 +37974,6 @@
 			)
 		)
 	)
-	(footprint "M2SmartHomeFootprints:C_0402"
-		(layer "F.Cu")
-		(uuid "c5e8740d-e662-42e1-b4d9-f66caf0c5d95")
-		(at 113.285 138)
-		(property "Reference" "C23"
-			(at 1.032 -1.1564 0)
-			(layer "F.SilkS")
-			(uuid "b566f1b7-0ced-4444-b8a3-4b0c44ae4c1b")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C_4u7_0402"
-			(at 3.8768 1.0936 0)
-			(layer "F.Fab")
-			(uuid "d24e1bc5-23b2-48b2-8c6a-0500fe2ed5ca")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2c768b67-81dd-4c3d-b260-c8c79c93c453")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R60J475ME47%23"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba394cbf-80ef-4330-85bc-60a59aeaf6ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 4.7 µF, 6.3 V, 0402 [1005 Metric], ±20%, X5R, GRM Series"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9dea5cf4-15d3-4e2f-9e5a-785e6208d5b6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R60J475ME47D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "be04ac50-869d-4e0d-8fac-fdb25b9e5233")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e72db2d9-bba7-4f3d-bbb9-d7370ec3dc34")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3043da4b-5a3f-437a-b4c8-0bfda3f74e5f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "40b87989-ae13-4f01-83c5-5de64e28ee45")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "4u7"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "019a5002-fcc3-48a7-85a3-fd3cd95807a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "6.3V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b001fe5-4cd2-4724-96c3-a2128c1619ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0138f8a7-01f5-468f-bedc-8c33f875d6ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/3e8c1d16-2de0-40e4-8db9-9572b36cde52")
-		(sheetname "emmc")
-		(sheetfile "emmc.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.965 -0.55)
-			(end 0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0f5d492c-c4a2-4f19-93c8-868a8e49277e")
-		)
-		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7f3db8ce-a2d3-4a9b-9eb0-84eb61579d81")
-		)
-		(fp_line
-			(start 0.965 -0.55)
-			(end 0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1c92a3ef-9191-41a4-812a-b9d64a16e561")
-		)
-		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f209638f-fc01-4cda-a843-df607e868ab5")
-		)
-		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4508a64d-bebd-4f62-a696-0095c52108a0")
-		)
-		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "325a07a2-b0f0-4c77-badc-2027e371551d")
-		)
-		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "85ae1352-4739-45e4-9fc0-d158a9c8f6ef")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1c50042d-2820-45de-9d72-cc918d9e35ed")
-		)
-		(pad "1" smd rect
-			(at -0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "aaf218ab-3470-4531-9a72-1dcb6f6f0b01")
-		)
-		(pad "2" smd rect
-			(at 0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 7 "+3V3_eMMC")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "4c168c66-dfe0-4d96-ac5b-9fbf322230c9")
-		)
-		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-	)
 	(footprint "M2SmartHomeFootprints:C_0201"
 		(layer "F.Cu")
 		(uuid "c6e78cb9-63de-46a9-8ec0-5cc50d3ecb50")
@@ -41678,9 +39809,9 @@
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "F.Cu")
 		(uuid "ce3ed4dd-a303-412a-8b70-43c8344c8159")
-		(at 110.305 140.15)
+		(at 84.5 137.9 90)
 		(property "Reference" "C10"
-			(at 1.032 -1.1564 0)
+			(at 1.032 -1.1564 270)
 			(layer "F.SilkS")
 			(uuid "53b6fe3e-76f7-4405-8bde-50b9c10a86f8")
 			(effects
@@ -41691,7 +39822,7 @@
 			)
 		)
 		(property "Value" "C_4pF_0402"
-			(at 3.8768 1.0936 0)
+			(at 3.8768 1.0936 270)
 			(layer "F.Fab")
 			(uuid "6df93d59-9d61-4f2b-8c88-183bc28ae065")
 			(effects
@@ -41702,7 +39833,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -41714,7 +39845,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM1555C1H4R0CA01%23"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -41726,7 +39857,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 4.0 pF, 50 V, 0402 [1005 Metric], ±0.25 pF, C0G/NP0, GRM Series"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -41738,7 +39869,7 @@
 			)
 		)
 		(property "MPN" "GRM1555C1H4R0CA01D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -41751,7 +39882,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -41764,7 +39895,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -41777,7 +39908,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -41790,7 +39921,7 @@
 			)
 		)
 		(property "Val" "4pF"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -41803,7 +39934,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -41816,7 +39947,7 @@
 			)
 		)
 		(property "Dielectric" "C0G"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -41833,26 +39964,6 @@
 		(sheetfile "emmc.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.965 -0.55)
-			(end 0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b5b5a67f-b511-423f-8fe1-b7dd73837fb8")
-		)
-		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "30c48b6d-a4c1-4171-8a98-e858d8428476")
-		)
-		(fp_line
 			(start 0.965 -0.55)
 			(end 0.965 0.55)
 			(stroke
@@ -41861,6 +39972,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "abf2d941-cc15-40c8-9d73-56d41d1d23a5")
+		)
+		(fp_line
+			(start -0.965 -0.55)
+			(end 0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b5b5a67f-b511-423f-8fe1-b7dd73837fb8")
 		)
 		(fp_line
 			(start 0.965 0.55)
@@ -41873,24 +39994,14 @@
 			(uuid "a8e036ec-7d14-47be-9190-2454d583e757")
 		)
 		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
 			(stroke
-				(width 0.127)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "28b4b584-a7ca-48c7-8998-dc3757284363")
-		)
-		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e88e1c1f-b1ec-4be5-8edd-e942c67f0d82")
+			(layer "F.CrtYd")
+			(uuid "30c48b6d-a4c1-4171-8a98-e858d8428476")
 		)
 		(fp_line
 			(start 0.5 -0.25)
@@ -41903,6 +40014,16 @@
 			(uuid "25ddca31-f217-40d4-8611-0d0a4b29f1a7")
 		)
 		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "28b4b584-a7ca-48c7-8998-dc3757284363")
+		)
+		(fp_line
 			(start 0.5 0.25)
 			(end -0.5 0.25)
 			(stroke
@@ -41912,8 +40033,18 @@
 			(layer "F.Fab")
 			(uuid "835f23c1-baa0-4d2b-ab54-593571dc5804")
 		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e88e1c1f-b1ec-4be5-8edd-e942c67f0d82")
+		)
 		(pad "1" smd rect
-			(at -0.435 0)
+			(at -0.435 0 90)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "GND")
@@ -41922,7 +40053,7 @@
 			(uuid "1479d105-6de0-4947-9e2c-189fee22c62f")
 		)
 		(pad "2" smd rect
-			(at 0.435 0)
+			(at 0.435 0 90)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 9 "/emmc/XTAL2")
@@ -42212,9 +40343,9 @@
 	(footprint "M2SmartHomeFootprints:ECS-240-10-47-CKM-TR"
 		(layer "F.Cu")
 		(uuid "d2605e1d-6fa8-4a1d-9751-780b3e5274f5")
-		(at 125.4 134.66)
+		(at 86.08 138.1 -90)
 		(property "Reference" "Y2"
-			(at -0.483905 -1.247973 0)
+			(at -0.483905 -1.247973 90)
 			(layer "F.SilkS")
 			(uuid "545ee26d-5726-4134-8bcb-2dd04251a52b")
 			(effects
@@ -42225,7 +40356,7 @@
 			)
 		)
 		(property "Value" "ECS-240-10-47-CKM-TR"
-			(at 2.435312 1.249205 0)
+			(at 2.435312 1.249205 90)
 			(layer "F.Fab")
 			(uuid "32536190-8415-4fc2-ac57-53dde639bf3d")
 			(effects
@@ -42236,7 +40367,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:ECS-240-10-47-CKM-TR"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42248,7 +40379,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/3182832.pdf"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42260,7 +40391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42272,7 +40403,7 @@
 			)
 		)
 		(property "PARTREV" "2017"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42285,7 +40416,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42298,7 +40429,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ECS Inc."
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42326,16 +40457,6 @@
 			(uuid "72754656-7372-4131-8986-d4eb23e17045")
 		)
 		(fp_line
-			(start -1.15 -0.95)
-			(end -1.15 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "70f0ff4a-7e23-4908-acfd-5622cd60040d")
-		)
-		(fp_line
 			(start -1.15 0.95)
 			(end 1.15 0.95)
 			(stroke
@@ -42344,16 +40465,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "097c7db9-7c49-4d9c-a24b-e7c0746fc71d")
-		)
-		(fp_line
-			(start 1.15 -0.95)
-			(end -1.15 -0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5d4b0568-b40f-41d5-894e-776e79db89fb")
 		)
 		(fp_line
 			(start 1.15 0.95)
@@ -42366,14 +40477,24 @@
 			(uuid "6fc02cbc-d14c-43c0-a10c-a3034b9a0373")
 		)
 		(fp_line
-			(start -0.8 -0.6)
-			(end -0.8 0.6)
+			(start -1.15 -0.95)
+			(end -1.15 0.95)
 			(stroke
-				(width 0.127)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "6ce811d8-52c4-45c3-8b20-24cc1a93f67b")
+			(layer "F.CrtYd")
+			(uuid "70f0ff4a-7e23-4908-acfd-5622cd60040d")
+		)
+		(fp_line
+			(start 1.15 -0.95)
+			(end -1.15 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5d4b0568-b40f-41d5-894e-776e79db89fb")
 		)
 		(fp_line
 			(start -0.8 0.6)
@@ -42386,16 +40507,6 @@
 			(uuid "b1811802-b7bc-4564-a440-4c2ae40abc0f")
 		)
 		(fp_line
-			(start 0.8 -0.6)
-			(end -0.8 -0.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e321d68e-4b6e-4956-a7ce-dd1dd8f6abce")
-		)
-		(fp_line
 			(start 0.8 0.6)
 			(end 0.8 -0.6)
 			(stroke
@@ -42404,6 +40515,26 @@
 			)
 			(layer "F.Fab")
 			(uuid "aaca1dc3-9262-48c5-8a46-232636af046d")
+		)
+		(fp_line
+			(start -0.8 -0.6)
+			(end -0.8 0.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6ce811d8-52c4-45c3-8b20-24cc1a93f67b")
+		)
+		(fp_line
+			(start 0.8 -0.6)
+			(end -0.8 -0.6)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e321d68e-4b6e-4956-a7ce-dd1dd8f6abce")
 		)
 		(fp_circle
 			(center -1.515 0.5398)
@@ -42417,7 +40548,7 @@
 			(uuid "b0aa43ba-6a6d-46a0-89c9-9114c2e4fc69")
 		)
 		(pad "1" smd rect
-			(at -0.525 0.375)
+			(at -0.525 0.375 270)
 			(size 0.75 0.65)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 9 "/emmc/XTAL2")
@@ -42427,7 +40558,7 @@
 			(uuid "61e9ed23-e11a-4577-b7a8-50b697ac94c6")
 		)
 		(pad "2" smd rect
-			(at 0.525 0.375)
+			(at 0.525 0.375 270)
 			(size 0.75 0.65)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "GND")
@@ -42437,7 +40568,7 @@
 			(uuid "3327946c-f413-4f4f-9523-8d4646aac527")
 		)
 		(pad "3" smd rect
-			(at 0.525 -0.375)
+			(at 0.525 -0.375 270)
 			(size 0.75 0.65)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 6 "/emmc/XTAL1")
@@ -42447,7 +40578,7 @@
 			(uuid "27f3c242-3acf-4360-a02d-e82fd8ab5642")
 		)
 		(pad "4" smd rect
-			(at -0.525 -0.375)
+			(at -0.525 -0.375 270)
 			(size 0.75 0.65)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "GND")
@@ -43282,7 +41413,7 @@
 	(footprint "M2SmartHomeFootprints:HRS_DM3AT-SF-PEJM5"
 		(layer "F.Cu")
 		(uuid "d8d95323-4978-43f1-98ee-e96f30653a55")
-		(at 91 114 90)
+		(at 93.2 110.6 90)
 		(property "Reference" "J2"
 			(at -4.41177 -12.95097 -90)
 			(layer "F.SilkS")
@@ -43705,7 +41836,7 @@
 			)
 			(polygon
 				(pts
-					(xy 83.475 121.225) (xy 83.475 120.475) (xy 86.725 120.475) (xy 86.725 121.225)
+					(xy 85.675 117.825) (xy 85.675 117.075) (xy 88.925 117.075) (xy 88.925 117.825)
 				)
 			)
 		)
@@ -43733,7 +41864,7 @@
 			)
 			(polygon
 				(pts
-					(xy 87.925 121.225) (xy 87.925 120.475) (xy 91.525 120.475) (xy 91.525 121.225)
+					(xy 90.125 117.825) (xy 90.125 117.075) (xy 93.725 117.075) (xy 93.725 117.825)
 				)
 			)
 		)
@@ -43761,7 +41892,7 @@
 			)
 			(polygon
 				(pts
-					(xy 88.025 119.425) (xy 88.025 110.725) (xy 89.625 110.725) (xy 89.625 119.425)
+					(xy 90.225 116.025) (xy 90.225 107.325) (xy 91.825 107.325) (xy 91.825 116.025)
 				)
 			)
 		)
@@ -43789,7 +41920,7 @@
 			)
 			(polygon
 				(pts
-					(xy 89.325 120.125) (xy 89.325 119.425) (xy 96.925 119.425) (xy 96.925 120.125)
+					(xy 91.525 116.725) (xy 91.525 116.025) (xy 99.125 116.025) (xy 99.125 116.725)
 				)
 			)
 		)
@@ -43817,7 +41948,7 @@
 			)
 			(polygon
 				(pts
-					(xy 97.725 111.075) (xy 97.725 108.525) (xy 99.075 108.525) (xy 99.075 111.075)
+					(xy 99.925 107.675) (xy 99.925 105.125) (xy 101.275 105.125) (xy 101.275 107.675)
 				)
 			)
 		)
@@ -44920,9 +43051,9 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "dbab478e-a913-4d12-9c55-5536e0af4556")
-		(at 113.285 144.45)
+		(at 82.6 138.1 180)
 		(property "Reference" "R5"
-			(at 1.032 -1.1564 0)
+			(at 1.032 -1.1564 180)
 			(layer "F.SilkS")
 			(uuid "6d6bf938-4ffb-4f0a-a619-c4a9357a805b")
 			(effects
@@ -44933,7 +43064,7 @@
 			)
 		)
 		(property "Value" "R_4k7_0402"
-			(at 3.8768 1.0936 0)
+			(at 3.8768 1.0936 180)
 			(layer "F.Fab")
 			(uuid "f1d746ff-3caf-427c-a49b-ecc0632feccd")
 			(effects
@@ -44944,7 +43075,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:R_0402"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44956,7 +43087,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/crcw0402.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44968,7 +43099,7 @@
 			)
 		)
 		(property "Description" "SMD Thick Film Resistor, 4.7 kΩ, ±1%, 1/16 W, 0402 [1005 Metric], CRCW Series"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44980,7 +43111,7 @@
 			)
 		)
 		(property "MPN" "CRCW04024K70FKED"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44993,7 +43124,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -45006,7 +43137,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -45019,7 +43150,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -45032,7 +43163,7 @@
 			)
 		)
 		(property "Val" "4k7"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -45045,7 +43176,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -45058,7 +43189,7 @@
 			)
 		)
 		(property "Power" "1/16 W"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -45075,24 +43206,14 @@
 		(sheetfile "emmc.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.965 -0.55)
-			(end 0.965 -0.55)
+			(start 0.965 0.55)
+			(end -0.965 0.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e9b2d320-cf45-4257-b0ad-8b2da2111b2b")
-		)
-		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6fac4b4f-02b0-456e-9053-acad9d90943d")
+			(uuid "e90e3580-247a-4c3d-8edc-27f391f14cd3")
 		)
 		(fp_line
 			(start 0.965 -0.55)
@@ -45105,34 +43226,34 @@
 			(uuid "2313620e-5b9e-4bab-8682-269b29efcaa4")
 		)
 		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e90e3580-247a-4c3d-8edc-27f391f14cd3")
+			(uuid "6fac4b4f-02b0-456e-9053-acad9d90943d")
 		)
 		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
+			(start -0.965 -0.55)
+			(end 0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e9b2d320-cf45-4257-b0ad-8b2da2111b2b")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "eb1d9a17-aa8b-4370-ab4b-94da2672b1e1")
-		)
-		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "79a56a5e-e4ab-4a01-b8b4-8abac86d7de6")
+			(uuid "08c3a309-fdbd-4531-8115-6d0e064f79df")
 		)
 		(fp_line
 			(start 0.5 -0.25)
@@ -45145,17 +43266,27 @@
 			(uuid "c9f4c2ea-a706-4541-9d2e-a713e51d6e6a")
 		)
 		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "08c3a309-fdbd-4531-8115-6d0e064f79df")
+			(uuid "79a56a5e-e4ab-4a01-b8b4-8abac86d7de6")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eb1d9a17-aa8b-4370-ab4b-94da2672b1e1")
 		)
 		(pad "1" smd rect
-			(at -0.435 0)
+			(at -0.435 0 180)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 135 "/emmc/SCK")
@@ -45164,7 +43295,7 @@
 			(uuid "52576c7d-99a3-4724-b316-7e588607ed57")
 		)
 		(pad "2" smd rect
-			(at 0.435 0)
+			(at 0.435 0 180)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 7 "+3V3_eMMC")
@@ -46301,9 +44432,9 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "e0fb0099-2e2a-433e-89ce-b5fc5ebbde60")
-		(at 116.265 129.4)
+		(at 82.3 136.2)
 		(property "Reference" "R6"
-			(at 1.032 -1.1564 0)
+			(at 1.032 -1.1564 360)
 			(layer "F.SilkS")
 			(uuid "3d158d64-a884-4a30-90c7-1edb873c3594")
 			(effects
@@ -46314,7 +44445,7 @@
 			)
 		)
 		(property "Value" "R_4k7_0402"
-			(at 3.8768 1.0936 0)
+			(at 3.8768 1.0936 360)
 			(layer "F.Fab")
 			(uuid "a8c48050-9fa5-45d4-a644-305c45c11911")
 			(effects
@@ -48168,273 +46299,6 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "5d63e754-c443-4888-be02-220d3eee6333")
-		)
-		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-	)
-	(footprint "M2SmartHomeFootprints:C_0402"
-		(layer "F.Cu")
-		(uuid "eb0579a2-96da-4d37-840a-f61d3d7ce3f7")
-		(at 121.96 139.7)
-		(property "Reference" "C21"
-			(at 1.032 -1.1564 0)
-			(layer "F.SilkS")
-			(uuid "24dd175e-90fd-47e8-9aa5-a655c2a7508a")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C_1uF_0402"
-			(at 3.8768 1.0936 0)
-			(layer "F.Fab")
-			(uuid "55f2227d-500f-46d8-8781-f6b30b831c37")
-			(effects
-				(font
-					(size 0.64 0.64)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "08a7f54b-a2b9-4c3b-8b1d-3add9804c00a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H105KE92%23"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "af000b75-f169-4f74-8d83-b88e424659ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 50 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "175399c0-a714-4b91-a07c-23adbe29fb32")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R61H105KE92D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee1965e4-9eeb-4457-bbcb-e16eab117290")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cfd1fd0f-f52c-4e67-ae3e-066692505bfc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "34f05bfa-feb5-45c4-9bf1-78ed9d6e22bf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1150e2ca-52e7-4b7d-90a1-8716c68a0d83")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "1uF"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd202877-bfc6-4887-bb84-e48e2f447b35")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a7f95fb-b56b-4959-9ec1-23b35581ddb7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23e71e81-fbb2-4634-a187-3f26c26d2d04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/ad31770e-6adb-4cd7-9254-346a9284068b")
-		(sheetname "emmc")
-		(sheetfile "emmc.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.965 -0.55)
-			(end 0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3d25b712-e22f-4d94-8d17-1ae6c5ea50a2")
-		)
-		(fp_line
-			(start -0.965 0.55)
-			(end -0.965 -0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "653faf8d-108d-419b-9ac1-ac6c448e3327")
-		)
-		(fp_line
-			(start 0.965 -0.55)
-			(end 0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "eb0a31c3-563d-4d97-9ab0-07a2ef1b1505")
-		)
-		(fp_line
-			(start 0.965 0.55)
-			(end -0.965 0.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d91d4c27-9662-444a-98a0-f972ec9a1752")
-		)
-		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "52d31eb2-c4fa-4b6d-9cd7-e77400af2fb3")
-		)
-		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5ff2968a-a664-43a2-a49f-2af6c34ffe77")
-		)
-		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8eeed33d-89c4-460b-8f11-020a7fb03e49")
-		)
-		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c27d7401-a783-4a7a-bc4c-7bddfb94222a")
-		)
-		(pad "1" smd rect
-			(at -0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "d099b6e9-1e29-478d-b49f-d126157f0089")
-		)
-		(pad "2" smd rect
-			(at 0.435 0)
-			(size 0.56 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 12 "Net-(U2-VDDI)")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "5180b353-e355-45db-ba7e-07eb0bd8640a")
 		)
 		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
 			(offset
@@ -50951,7 +48815,7 @@
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "F.Cu")
 		(uuid "f9dbecef-36b5-4c39-a547-7834ff38b19d")
-		(at 113.285 140.15)
+		(at 84.83 127.6)
 		(property "Reference" "R2"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -53088,6 +50952,285 @@
 			(uuid "8580deb6-98a9-4eb8-b4ab-478037503268")
 		)
 	)
+	(footprint "M2SmartHomeFootprints:C_0402"
+		(layer "B.Cu")
+		(uuid "100248d6-3dad-4bb3-9adc-19a22c925ac4")
+		(at 94.54 130.1 90)
+		(property "Reference" "C15"
+			(at 1.032 1.1564 270)
+			(layer "B.SilkS")
+			(uuid "47e1630f-45cf-4d5b-a64e-2160b33cea4e")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 3.8768 -1.0936 270)
+			(layer "B.Fab")
+			(uuid "b566cbbb-9fd4-4f31-a652-cd4a9a85d5f5")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3a4f8183-f841-4ed1-96a1-77727f58f47b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "78b62a8c-7331-4255-be60-50ed829eeae5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8eaa22ae-6b06-4021-8c97-91dc15548d66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "GRM155R61A104KE01D"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "41df475d-1dc6-4ca5-8e5b-fe2038d3e3e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7cebafd2-f512-415b-85bb-89d2729ccea5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dd94e313-f5db-41c3-bad7-b9773cbd38d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "48dac800-ab0d-45d4-950c-2f4be649855a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Val" "100n"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a8b0c466-ee55-43ca-84b6-d458c3793a13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fb94191d-56d1-4f98-9cca-ef1b11010451")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "52f12183-444e-4c8e-8923-bec7ab0c1492")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/56b40db6-0ced-45db-b60b-c3c37382e14f")
+		(sheetname "emmc")
+		(sheetfile "emmc.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0.965 -0.55)
+			(end 0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "4ade720a-cbe8-4031-b980-e8f2163240d1")
+		)
+		(fp_line
+			(start -0.965 -0.55)
+			(end 0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "bc2d7655-7037-430c-8604-c52a50cc4d41")
+		)
+		(fp_line
+			(start 0.965 0.55)
+			(end -0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "52558fa2-8706-4d1e-83d8-dbeb800af788")
+		)
+		(fp_line
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "1de227db-5720-47a6-aba0-2a0ef3dd97ce")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "6bf1afa8-4755-4c87-b166-6fa4e3e48d74")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "767ea31c-57f6-4dbf-a445-383e160aa7aa")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "c44df118-8967-4e83-9aba-3ac76d23373d")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "d3de857b-bf77-4e19-b038-b95caa8cabd6")
+		)
+		(pad "1" smd rect
+			(at -0.435 0 90)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "c5994d28-d56d-4650-8f26-7f80341fa4d4")
+		)
+		(pad "2" smd rect
+			(at 0.435 0 90)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 7 "+3V3_eMMC")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "450163e9-da0a-4c89-b856-eaf02713ce71")
+		)
+		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "1d92a7ea-6205-44e1-9d1c-f4308d984c5b")
@@ -53204,6 +51347,285 @@
 			(uuid "a83106b4-2924-4dd6-aefb-491aa66b112c")
 		)
 	)
+	(footprint "M2SmartHomeFootprints:C_0402"
+		(layer "B.Cu")
+		(uuid "2ee37c31-9e8a-4deb-83f5-4761a6270cb0")
+		(at 79.965 139.04 180)
+		(property "Reference" "C17"
+			(at 1.032 1.1564 180)
+			(layer "B.SilkS")
+			(uuid "2300b635-bb01-4a76-8869-42ec509f8031")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "C_1uF_0402"
+			(at 3.8768 -1.0936 180)
+			(layer "B.Fab")
+			(uuid "ab5063aa-03f6-4f65-b802-8a71a633b119")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ff706e3-56fe-49de-8f65-08f28a4bd653")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H105KE92%23"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e7d7c9f-c1e5-47e0-8187-515638831bd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 50 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bd90d53a-ce14-41b2-ae0f-10d7cdd8e979")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "GRM155R61H105KE92D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "735bc620-0700-4e3c-82f0-d3dd502985c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1d683736-33f1-40c4-a593-dfaab19f1d73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d11bd476-f317-4090-a452-4691295e99bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7284aeeb-db83-4550-afe3-52f0465c7655")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Val" "1uF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bded68f0-4298-42a0-9f19-3084f0686946")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0c53d35e-adaa-4b2d-89e9-cfb7a3eb44f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "07e6e771-2157-4d5d-ad45-e31eb7996758")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/3546de9c-87e4-4e80-9659-d7af055a6fb5")
+		(sheetname "emmc")
+		(sheetfile "emmc.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0.965 0.55)
+			(end -0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "a70b6610-0973-4eb5-8997-3d2b6ac68e4c")
+		)
+		(fp_line
+			(start 0.965 -0.55)
+			(end 0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "79f40987-3b84-4098-93c9-6e939f9822d8")
+		)
+		(fp_line
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c45dfdb2-f7f9-4fd6-944c-2bb91dcd9bce")
+		)
+		(fp_line
+			(start -0.965 -0.55)
+			(end 0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "b115524f-1a78-4324-ad0a-d6555486fd5b")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "9622f79d-798f-4216-a2d9-29574e7572f2")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "ac17331b-5b47-4969-adb8-2a235df5a10d")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "f475b30d-2bc2-42c5-ae2e-d6ff481b7e05")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "189f55b6-82fd-4591-85b7-b5b8eb5dc945")
+		)
+		(pad "1" smd rect
+			(at -0.435 0 180)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5fcee579-d61d-4207-9c83-4d03dd6650e7")
+		)
+		(pad "2" smd rect
+			(at 0.435 0 180)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 7 "+3V3_eMMC")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "9826c717-14a0-462d-b37e-70ed5b2cbd89")
+		)
+		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "391772df-3e4f-41ce-bcce-65482f2c7914")
@@ -53318,6 +51740,285 @@
 			(net 204 "Net-(U3-IO_HIT_I)")
 			(pintype "bidirectional")
 			(uuid "9c4b5cde-3757-4683-bba0-d86f4a7ae560")
+		)
+	)
+	(footprint "M2SmartHomeFootprints:C_0402"
+		(layer "B.Cu")
+		(uuid "444cc2cc-5881-42d5-bce2-55410a3ef223")
+		(at 93.39 128.54 90)
+		(property "Reference" "C22"
+			(at 1.032 1.1564 270)
+			(layer "B.SilkS")
+			(uuid "546f19f1-bb52-4479-9acf-152affe2684f")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 3.8768 -1.0936 270)
+			(layer "B.Fab")
+			(uuid "a8c87dbf-2bad-49cd-91d3-3e58eadd952b")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "854d3156-dfa3-4678-8e36-d421d2eca0d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d0c063b4-b64d-4254-942a-dd1391f0d481")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4649984e-94af-4106-aa36-daa648b27071")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "GRM155R61A104KE01D"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ad7d589d-2f3a-4f22-96fe-dc343dc63e8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cad8a458-a493-461f-868c-f28ebd238fb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e1b27fa5-5f01-407f-b560-6aa226960683")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "efa774ae-5225-4464-b3b6-20aa10709a54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Val" "100n"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "92dbaa58-c783-4c68-9c26-325321c26cf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4037bda1-f9af-45b3-80c3-206b32603f1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f0dedc21-1bbf-429e-8850-dd93653243e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/91b33eb0-f39a-4438-ab62-d007d9ce21ba")
+		(sheetname "emmc")
+		(sheetfile "emmc.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0.965 -0.55)
+			(end 0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "1f9f5cc7-a67a-4c8e-b916-1a2fe6f996f2")
+		)
+		(fp_line
+			(start -0.965 -0.55)
+			(end 0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "51b4b8b4-8893-4594-8c10-e771ccf8c63d")
+		)
+		(fp_line
+			(start 0.965 0.55)
+			(end -0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "441e9d05-fb07-48c9-8ded-9316b94d74b0")
+		)
+		(fp_line
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "827119d8-a482-41ef-9306-b44ab53da28f")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "39ab7264-6e6e-4523-9f5d-c65006bfaaff")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "ab311e7a-d375-4719-ad70-05c1ba68d1d4")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "877cd931-4fd4-4ce7-ac10-1b84cc8c29f8")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "65855fe9-d4fb-4c6d-8c87-43963fb25007")
+		)
+		(pad "1" smd rect
+			(at -0.435 0 90)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "e0e20c76-a172-4f26-9385-1877bc38781c")
+		)
+		(pad "2" smd rect
+			(at 0.435 0 90)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 12 "Net-(U2-VDDI)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "f859094a-e004-47c0-9ccc-10aeb1b541af")
+		)
+		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "M2SmartHomeFootprints:R_0402"
@@ -54666,6 +53367,285 @@
 			(net 222 "/thread-or-zigbee/SWCLK")
 			(pintype "bidirectional")
 			(uuid "e5dd5211-1f58-486c-a050-da3ae3793c04")
+		)
+	)
+	(footprint "M2SmartHomeFootprints:C_0402"
+		(layer "B.Cu")
+		(uuid "6b226bd1-e6ec-4d72-b06b-b1355a365856")
+		(at 98.08 130.76 -90)
+		(property "Reference" "C19"
+			(at 1.032 1.1564 90)
+			(layer "B.SilkS")
+			(uuid "89fcf069-04a0-4b62-a4e0-45efa36c472f")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 3.8768 -1.0936 90)
+			(layer "B.Fab")
+			(uuid "a3946e87-8ec0-4a5d-b9bc-cb4a9d406c30")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "25293457-ab1d-472b-9a77-7ce3bd70e215")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cdac03e9-32ea-45bd-a171-3e58702ec4b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4398f623-98e3-433f-9ce4-ed75a90f5e3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "GRM155R61A104KE01D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "08d26d12-8934-4830-9689-8d8415ceed56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2131bb03-9efe-4f90-936f-6b88ba770434")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e15d7009-a83e-45bb-a833-58023f380fa6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "74f4dc80-bd72-47fb-8d06-42514edfc99d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Val" "100n"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3d9ebea-39c5-4e66-b6f6-3794acbcc17f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "897c26a7-e9ed-4531-bfd6-0ea04ee42f24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fd6ee771-11ba-4e5b-9ab6-700dd5687b35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/5510f180-d6a5-44cc-86bf-8dca6f63646f")
+		(sheetname "emmc")
+		(sheetfile "emmc.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "998e7034-81ad-44d0-a4cd-0f19bd6719ff")
+		)
+		(fp_line
+			(start 0.965 0.55)
+			(end -0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8275125d-528b-4c0a-8e7a-32a7e408a006")
+		)
+		(fp_line
+			(start -0.965 -0.55)
+			(end 0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "2ab2cf1d-a08a-45a7-bbfe-22af9b76d70e")
+		)
+		(fp_line
+			(start 0.965 -0.55)
+			(end 0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "efe62194-6216-4b03-a44f-e8062b999c4d")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "d8743515-8636-4e46-8be9-c021f583bf0b")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "e957dbea-6858-4aa6-83f1-80fb76ac1849")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "d46bc244-7aea-4ab7-a969-9bab8ad80809")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "7d387de3-6d5d-471e-a0cc-c8c3096f33d9")
+		)
+		(pad "1" smd rect
+			(at -0.435 0 270)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "48075bde-9205-4426-9917-b21ea0b22db2")
+		)
+		(pad "2" smd rect
+			(at 0.435 0 270)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 7 "+3V3_eMMC")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "d413c71c-94c3-4471-8357-84406d3307a4")
+		)
+		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "M2SmartHomeFootprints:R_0402"
@@ -57482,6 +56462,285 @@
 	)
 	(footprint "M2SmartHomeFootprints:C_0402"
 		(layer "B.Cu")
+		(uuid "a325c24c-fb4b-49b2-b0fd-b04495a71de1")
+		(at 96.89 130.73 -90)
+		(property "Reference" "C18"
+			(at 1.032 1.1564 90)
+			(layer "B.SilkS")
+			(uuid "50d6549d-e42a-42e5-b38c-c2e73b608368")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "C_4u7_0402"
+			(at 3.8768 -1.0936 90)
+			(layer "B.Fab")
+			(uuid "99a16ebd-1e12-4800-882f-1553128d9d99")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6b7fe942-bc26-4352-abcf-6f95d1f0016f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R60J475ME47%23"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "def55cb8-e71e-4213-890f-e6742c91c7b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 4.7 µF, 6.3 V, 0402 [1005 Metric], ±20%, X5R, GRM Series"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "37efff8f-3111-4a79-8517-8bdd2ffc663d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "GRM155R60J475ME47D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "786f57fc-7a48-40a0-9a68-ec65955e6c61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "be8d4b6b-0cf4-4d0b-8db6-a82fec228c3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "abb2f788-c17f-47a5-9423-837d8bb56a8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "89026787-d221-4750-839f-d97b3f64f0a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Val" "4u7"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed2e7675-ab48-4c3e-b02a-3f32f9197754")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "daaf9817-6d58-413d-bf6c-4f8aafb8bad8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2c15d4ed-e518-4fc3-bb15-18e82bfb3162")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/42a05918-3f74-4532-aad3-353fb9003d3d")
+		(sheetname "emmc")
+		(sheetfile "emmc.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "568282ac-2e74-4e2b-8012-37d017614b8b")
+		)
+		(fp_line
+			(start 0.965 0.55)
+			(end -0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "229a777a-80cb-4567-961b-b44e60b81d24")
+		)
+		(fp_line
+			(start -0.965 -0.55)
+			(end 0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "1460cd3d-e52f-4574-be7a-670f83a81b47")
+		)
+		(fp_line
+			(start 0.965 -0.55)
+			(end 0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "4eed9bc8-2a0a-4598-8dbe-40c7106d084d")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "64af2a09-8a6e-4b4b-858f-21217228ec55")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "6e03b7cc-8161-4403-be4a-6bbfae05196b")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "9adb6f11-3cb6-4377-90f7-5948f9528066")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "3cc9a53d-2a3b-4108-8926-855022fcc59d")
+		)
+		(pad "1" smd rect
+			(at -0.435 0 270)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "35b382d0-f3de-4c82-b554-07afff7d1650")
+		)
+		(pad "2" smd rect
+			(at 0.435 0 270)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 7 "+3V3_eMMC")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "67a29276-c7ad-4f90-b8aa-ec6bffc301f3")
+		)
+		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
+	(footprint "M2SmartHomeFootprints:C_0402"
+		(layer "B.Cu")
 		(uuid "a71abce3-cf24-44ed-aacb-8c765fced812")
 		(at 95.3 160)
 		(property "Reference" "C73"
@@ -57873,6 +57132,285 @@
 			(net 208 "Net-(U3-IRQ12_I)")
 			(pintype "bidirectional")
 			(uuid "20ec6145-9355-4a5f-bd5f-0db19755e2bc")
+		)
+	)
+	(footprint "M2SmartHomeFootprints:C_0402"
+		(layer "B.Cu")
+		(uuid "ae4d322c-2c9f-4aa0-bdbf-6f5c5bf52c84")
+		(at 80.045 140.29 180)
+		(property "Reference" "C16"
+			(at 1.032 1.1564 180)
+			(layer "B.SilkS")
+			(uuid "9dcfadcb-b8a1-47df-b82f-baa25cb2b77c")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 3.8768 -1.0936 180)
+			(layer "B.Fab")
+			(uuid "4af17abd-c734-4aa8-96a7-5306a5aa43da")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f52ced61-55de-47c6-8bcb-b2fed5289ed0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a26cef80-8186-4408-a1e3-3a98cee25416")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e632b335-339c-4a16-a617-50f46118f3b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "GRM155R61A104KE01D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "badaba52-cf52-4392-b87c-4556818b7c6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "92dfbb5c-0152-401a-a5d4-1837513af3a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "01114b32-20bb-436f-8741-8f217a2460da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bc7db6f7-4ca8-4bb0-8ba2-3699802f1aa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Val" "100n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f934b407-49ad-4964-8808-93e3fa69a6c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f3eacd37-9833-43f0-9036-47f2df2d6ba9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "11baff51-7171-4e14-99d6-87417a430814")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/8bd89034-fcbd-43dc-8713-f06c33dd0cdb")
+		(sheetname "emmc")
+		(sheetfile "emmc.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0.965 0.55)
+			(end -0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "58a40872-44cb-4909-83ff-a21ad91078aa")
+		)
+		(fp_line
+			(start 0.965 -0.55)
+			(end 0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "a164c9e6-8b06-4b2d-a0ac-e67e2a02ac82")
+		)
+		(fp_line
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "db96774e-320c-436e-8263-062bd54fb32d")
+		)
+		(fp_line
+			(start -0.965 -0.55)
+			(end 0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "a29a85cf-808d-4023-89f6-b89274a8a5ad")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "0a266cb8-1c4c-48d3-b8c0-c3fe2d341916")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "3eb1620d-772b-4b5e-8c8b-c000ca54e1e9")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "a33432d6-2c7d-4c1a-93cf-5ec6951996e3")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "faf4641e-4e02-4cc1-95e3-2b63c7231f63")
+		)
+		(pad "1" smd rect
+			(at -0.435 0 180)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "1c22d893-6719-48a5-adb9-df07a5917d62")
+		)
+		(pad "2" smd rect
+			(at 0.435 0 180)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 7 "+3V3_eMMC")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "e3261efc-ff94-4bf5-8dbe-4b8431f64ae2")
+		)
+		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
@@ -58373,6 +57911,285 @@
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "4d6b1c36-b60e-4d1c-b53b-11f12caa005d")
+		)
+		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
+	(footprint "M2SmartHomeFootprints:C_0402"
+		(layer "B.Cu")
+		(uuid "c5e8740d-e662-42e1-b4d9-f66caf0c5d95")
+		(at 95.72 130.12 90)
+		(property "Reference" "C23"
+			(at 1.032 1.1564 270)
+			(layer "B.SilkS")
+			(uuid "b566f1b7-0ced-4444-b8a3-4b0c44ae4c1b")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "C_4u7_0402"
+			(at 3.8768 -1.0936 270)
+			(layer "B.Fab")
+			(uuid "d24e1bc5-23b2-48b2-8c6a-0500fe2ed5ca")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2c768b67-81dd-4c3d-b260-c8c79c93c453")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R60J475ME47%23"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ba394cbf-80ef-4330-85bc-60a59aeaf6ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 4.7 µF, 6.3 V, 0402 [1005 Metric], ±20%, X5R, GRM Series"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9dea5cf4-15d3-4e2f-9e5a-785e6208d5b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "GRM155R60J475ME47D"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "be04ac50-869d-4e0d-8fac-fdb25b9e5233")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e72db2d9-bba7-4f3d-bbb9-d7370ec3dc34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3043da4b-5a3f-437a-b4c8-0bfda3f74e5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "40b87989-ae13-4f01-83c5-5de64e28ee45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Val" "4u7"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "019a5002-fcc3-48a7-85a3-fd3cd95807a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7b001fe5-4cd2-4724-96c3-a2128c1619ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0138f8a7-01f5-468f-bedc-8c33f875d6ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/3e8c1d16-2de0-40e4-8db9-9572b36cde52")
+		(sheetname "emmc")
+		(sheetfile "emmc.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0.965 -0.55)
+			(end 0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "1c92a3ef-9191-41a4-812a-b9d64a16e561")
+		)
+		(fp_line
+			(start -0.965 -0.55)
+			(end 0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f209638f-fc01-4cda-a843-df607e868ab5")
+		)
+		(fp_line
+			(start 0.965 0.55)
+			(end -0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "0f5d492c-c4a2-4f19-93c8-868a8e49277e")
+		)
+		(fp_line
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "7f3db8ce-a2d3-4a9b-9eb0-84eb61579d81")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "85ae1352-4739-45e4-9fc0-d158a9c8f6ef")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "1c50042d-2820-45de-9d72-cc918d9e35ed")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "4508a64d-bebd-4f62-a696-0095c52108a0")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "325a07a2-b0f0-4c77-badc-2027e371551d")
+		)
+		(pad "1" smd rect
+			(at -0.435 0 90)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "aaf218ab-3470-4531-9a72-1dcb6f6f0b01")
+		)
+		(pad "2" smd rect
+			(at 0.435 0 90)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 7 "+3V3_eMMC")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "4c168c66-dfe0-4d96-ac5b-9fbf322230c9")
 		)
 		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
 			(offset
@@ -59942,6 +59759,285 @@
 			)
 		)
 	)
+	(footprint "M2SmartHomeFootprints:C_0402"
+		(layer "B.Cu")
+		(uuid "eb0579a2-96da-4d37-840a-f61d3d7ce3f7")
+		(at 92.12 128.49 90)
+		(property "Reference" "C21"
+			(at 1.032 1.1564 270)
+			(layer "B.SilkS")
+			(uuid "24dd175e-90fd-47e8-9aa5-a655c2a7508a")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "C_1uF_0402"
+			(at 3.8768 -1.0936 270)
+			(layer "B.Fab")
+			(uuid "55f2227d-500f-46d8-8781-f6b30b831c37")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:C_0402"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "08a7f54b-a2b9-4c3b-8b1d-3add9804c00a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H105KE92%23"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "af000b75-f169-4f74-8d83-b88e424659ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 50 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "175399c0-a714-4b91-a07c-23adbe29fb32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "GRM155R61H105KE92D"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ee1965e4-9eeb-4457-bbcb-e16eab117290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cfd1fd0f-f52c-4e67-ae3e-066692505bfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "34f05bfa-feb5-45c4-9bf1-78ed9d6e22bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1150e2ca-52e7-4b7d-90a1-8716c68a0d83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Val" "1uF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bd202877-bfc6-4887-bb84-e48e2f447b35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0a7f95fb-b56b-4959-9ec1-23b35581ddb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "23e71e81-fbb2-4634-a187-3f26c26d2d04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/d6ad415e-1295-4f8b-8193-bff1569600a2/ad31770e-6adb-4cd7-9254-346a9284068b")
+		(sheetname "emmc")
+		(sheetfile "emmc.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0.965 -0.55)
+			(end 0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "eb0a31c3-563d-4d97-9ab0-07a2ef1b1505")
+		)
+		(fp_line
+			(start -0.965 -0.55)
+			(end 0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "d91d4c27-9662-444a-98a0-f972ec9a1752")
+		)
+		(fp_line
+			(start 0.965 0.55)
+			(end -0.965 0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "3d25b712-e22f-4d94-8d17-1ae6c5ea50a2")
+		)
+		(fp_line
+			(start -0.965 0.55)
+			(end -0.965 -0.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "653faf8d-108d-419b-9ac1-ac6c448e3327")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "8eeed33d-89c4-460b-8f11-020a7fb03e49")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "c27d7401-a783-4a7a-bc4c-7bddfb94222a")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "52d31eb2-c4fa-4b6d-9cd7-e77400af2fb3")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "5ff2968a-a664-43a2-a49f-2af6c34ffe77")
+		)
+		(pad "1" smd rect
+			(at -0.435 0 90)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "d099b6e9-1e29-478d-b49f-d126157f0089")
+		)
+		(pad "2" smd rect
+			(at 0.435 0 90)
+			(size 0.56 0.6)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 12 "Net-(U2-VDDI)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5180b353-e355-45db-ba7e-07eb0bd8640a")
+		)
+		(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "M2SmartHomeFootprints:R_0402"
 		(layer "B.Cu")
 		(uuid "ed2c1470-fa57-4874-b4d0-74c048fe0c77")
@@ -61340,5 +61436,21 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ef53a11a-a9ef-4f70-a00e-e7a6dd56d022")
+	)
+	(segment
+		(start 94.0875 127.15)
+		(end 94.0875 126.7875)
+		(width 0.09)
+		(layer "F.Cu")
+		(net 139)
+		(uuid "1133b517-5dd1-4c11-8633-50b3d6ed0125")
+	)
+	(segment
+		(start 94.0875 126.7875)
+		(end 93.8 126.5)
+		(width 0.09)
+		(layer "F.Cu")
+		(net 139)
+		(uuid "1876a208-2b9f-4f1b-b3eb-af7ebd394cbf")
 	)
 )
