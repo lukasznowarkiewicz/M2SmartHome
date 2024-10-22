@@ -2299,16 +2299,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 162.56) (xy 73.66 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "400a8ef0-80a1-4650-a8d2-c272b58cab53")
-	)
-	(wire
-		(pts
 			(xy 232.41 102.87) (xy 262.89 102.87)
 		)
 		(stroke
@@ -2799,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 142.24) (xy 156.21 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57e954e-da5c-478e-a8fd-4a55ba13c0c3")
+	)
+	(wire
+		(pts
 			(xy 232.41 87.63) (xy 270.51 87.63)
 		)
 		(stroke
@@ -2869,6 +2869,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 162.56) (xy 170.18 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a1e2be-5f90-4f51-b070-27275a5658b5")
+	)
+	(wire
+		(pts
 			(xy 142.24 121.92) (xy 142.24 120.65)
 		)
 		(stroke
@@ -2896,16 +2906,6 @@
 			(type default)
 		)
 		(uuid "cdf29dfe-288c-42f2-b7ca-d517bd5efd0c")
-	)
-	(wire
-		(pts
-			(xy 156.21 142.24) (xy 83.82 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceff0724-2165-43b5-be8c-4836c2a2dae8")
 	)
 	(wire
 		(pts
@@ -3989,6 +3989,72 @@
 			)
 		)
 		(uuid "fed953e0-5753-4d88-bc42-3596245867fc")
+	)
+	(label "PCIE.REFCLKP+"
+		(at 137.16 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84d39a33-15df-4516-b895-6d7b06c127d4")
+	)
+	(label "PCIE.PETN-"
+		(at 137.16 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac436441-afde-4d6d-8162-326edf33c23e")
+	)
+	(label "PCIE.PERN-"
+		(at 137.16 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caaf508b-fda2-4590-b458-537d0c09ef46")
+	)
+	(label "PCIE.PERP+"
+		(at 137.16 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e26c9a67-49f4-46e8-964b-114cfeec2d5a")
+	)
+	(label "PCIE.PETP+"
+		(at 137.16 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e446bdd7-4069-44f7-9810-c24d1d57c44e")
+	)
+	(label "PCIE.REFCLKN-"
+		(at 137.16 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc6149ef-1129-4c13-a865-35b74f6999c5")
 	)
 	(symbol
 		(lib_id "power:GND")
