@@ -5854,12 +5854,6 @@
 		(uuid "1da7bf6d-7adf-447a-9e34-7bdbeaef5dca")
 	)
 	(junction
-		(at 101.6 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20da0631-3ea8-42a0-93b1-eb8b32d2f8f4")
-	)
-	(junction
 		(at 173.99 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5878,6 +5872,12 @@
 		(uuid "398cd5e4-ba61-48d4-92c8-6ba8c26f7249")
 	)
 	(junction
+		(at 101.6 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ad53247-b913-4376-8e05-a09dd289cc0c")
+	)
+	(junction
 		(at 96.52 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5888,6 +5888,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6940c39b-4d13-4790-ba9a-69d9d58054db")
+	)
+	(junction
+		(at 111.76 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7271eb61-124b-477b-babe-20525b68d120")
 	)
 	(junction
 		(at 96.52 176.53)
@@ -5908,12 +5914,6 @@
 		(uuid "85fbae78-4df1-4fef-ac15-0fb4d4822970")
 	)
 	(junction
-		(at 111.76 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88429951-db8a-4ce8-a9ce-5442105cd137")
-	)
-	(junction
 		(at 189.23 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5924,12 +5924,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "888e86bd-3157-4355-9d79-c5835129d3bc")
-	)
-	(junction
-		(at 120.65 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8eff8f6c-7981-4db2-a848-7847e5dd9749")
 	)
 	(junction
 		(at 207.01 26.67)
@@ -5978,6 +5972,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "beac1368-869b-4899-aff6-137d0aa2a328")
+	)
+	(junction
+		(at 120.65 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfc56235-ebcc-45e8-9790-356fb83d62a1")
 	)
 	(junction
 		(at 86.36 92.71)
@@ -6132,6 +6132,16 @@
 			(type default)
 		)
 		(uuid "0a72f9fc-5581-4574-978a-28aa28eb9101")
+	)
+	(wire
+		(pts
+			(xy 101.6 166.37) (xy 111.76 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1e0e12-021d-40e0-b905-451f356bd19f")
 	)
 	(wire
 		(pts
@@ -6585,16 +6595,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 166.37) (xy 111.76 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "486cb1ce-f10b-4f2b-950c-70cd7338e83f")
-	)
-	(wire
-		(pts
 			(xy 190.5 59.69) (xy 203.2 59.69)
 		)
 		(stroke
@@ -6985,6 +6985,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 166.37) (xy 120.65 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807fe2ca-b114-45dd-b934-bcf256b3a135")
+	)
+	(wire
+		(pts
 			(xy 173.99 82.55) (xy 167.64 82.55)
 		)
 		(stroke
@@ -7195,7 +7205,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 166.37) (xy 121.92 166.37)
+			(xy 120.65 166.37) (xy 130.81 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7272,6 +7282,16 @@
 			(type default)
 		)
 		(uuid "a3eed046-c03f-4563-a566-1c19b72e132f")
+	)
+	(wire
+		(pts
+			(xy 111.76 166.37) (xy 114.3 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63f6e9a-ddb0-49bb-aede-de8848ed87fc")
 	)
 	(wire
 		(pts
@@ -7435,16 +7455,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 166.37) (xy 111.76 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf8eb6e2-9982-4cf6-98ad-fe5b51245113")
-	)
-	(wire
-		(pts
 			(xy 185.42 26.67) (xy 189.23 26.67)
 		)
 		(stroke
@@ -7492,16 +7502,6 @@
 			(type default)
 		)
 		(uuid "c6e7d79a-63dd-4570-8d57-d2510ab25457")
-	)
-	(wire
-		(pts
-			(xy 127 166.37) (xy 130.81 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c70b05ad-2571-44ff-9caf-2c4a01ea98c5")
 	)
 	(wire
 		(pts
@@ -7832,6 +7832,26 @@
 			)
 		)
 		(uuid "2f1ced73-1950-49d2-b13d-2d68b3daddae")
+	)
+	(text "Place near IC pins\n"
+		(exclude_from_sim no)
+		(at 257.302 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5cea4de7-8d17-4c11-bbd1-d66078edc1fe")
+	)
+	(text "Place near IC pins\n"
+		(exclude_from_sim no)
+		(at 117.094 187.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "def3e5bf-b24f-46c4-9ce1-6a46a47c27ca")
 	)
 	(label "EECLK"
 		(at 96.52 67.31 0)
@@ -12391,7 +12411,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:FB_120R_0603")
-		(at 121.92 166.37 0)
+		(at 114.3 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12400,7 +12420,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c813bfa-b8e0-48f9-ac0c-98d6f3a9ed09")
 		(property "Reference" "FB2"
-			(at 124.46 162.56 0)
+			(at 116.84 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12409,7 +12429,7 @@
 			)
 		)
 		(property "Value" "FB_120R_0603"
-			(at 142.24 176.53 0)
+			(at 134.62 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12420,7 +12440,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:FB_0603"
-			(at 142.24 179.07 0)
+			(at 134.62 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12431,7 +12451,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=BLM18AG121SN1D"
-			(at 142.24 181.61 0)
+			(at 134.62 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12442,7 +12462,7 @@
 			)
 		)
 		(property "Description" "SMD Ferrite Bead, 120 Ω @ 100 MHz, 2 A, 0603 [1608 Metric], BLM18A Series"
-			(at 121.92 166.37 0)
+			(at 114.3 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12451,7 +12471,7 @@
 			)
 		)
 		(property "MPN" "BLM18AG121SN1D"
-			(at 142.24 184.15 0)
+			(at 134.62 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12462,7 +12482,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 142.24 186.69 0)
+			(at 134.62 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12473,7 +12493,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 142.24 189.23 0)
+			(at 134.62 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12484,7 +12504,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 142.24 191.77 0)
+			(at 134.62 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12495,7 +12515,7 @@
 			)
 		)
 		(property "Impedance" "120R @ 100 MHz"
-			(at 142.24 194.31 0)
+			(at 134.62 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12505,7 +12525,7 @@
 			)
 		)
 		(property "Current" "2A"
-			(at 142.24 196.85 0)
+			(at 134.62 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
