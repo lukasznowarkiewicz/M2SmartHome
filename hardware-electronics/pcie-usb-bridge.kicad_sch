@@ -8124,6 +8124,17 @@
 		)
 		(uuid "def3e5bf-b24f-46c4-9ce1-6a46a47c27ca")
 	)
+	(label "USB_4_DP"
+		(at 170.18 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0221c0ac-fd0e-4708-ab4d-0f48dd32c556")
+	)
 	(label "EECLK"
 		(at 96.52 67.31 0)
 		(fields_autoplaced yes)
@@ -8167,6 +8178,17 @@
 			(justify left bottom)
 		)
 		(uuid "d0bbc13a-747d-4574-92c0-3f4258854dec")
+	)
+	(label "USB_4_DN"
+		(at 170.18 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbbb304b-7101-40cd-8d6c-8698cccab6a5")
 	)
 	(hierarchical_label "PERN-"
 		(shape input)
