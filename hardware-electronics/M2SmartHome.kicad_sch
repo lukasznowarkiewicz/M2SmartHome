@@ -4001,6 +4001,17 @@
 		)
 		(uuid "84d39a33-15df-4516-b895-6d7b06c127d4")
 	)
+	(label "PCIE.CAP.PETN"
+		(at 91.44 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2a5cd97-be75-445b-80e8-efd1106516c3")
+	)
 	(label "PCIE.PETN"
 		(at 137.16 156.21 0)
 		(fields_autoplaced yes)
@@ -4044,6 +4055,17 @@
 			(justify left bottom)
 		)
 		(uuid "e446bdd7-4069-44f7-9810-c24d1d57c44e")
+	)
+	(label "PCIE.CAP.PETP"
+		(at 91.44 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6f5ccf0-98c2-4e0c-8d4b-9879421263cc")
 	)
 	(label "PCIE.REFCLKN"
 		(at 137.16 142.24 0)
