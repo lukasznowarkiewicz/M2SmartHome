@@ -6107,12 +6107,6 @@
 		(uuid "76f13225-94ce-428d-b209-20e62a8f48d6")
 	)
 	(junction
-		(at 74.93 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8029c255-e1cc-4398-a225-2cdecfed4500")
-	)
-	(junction
 		(at 173.99 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6189,12 +6183,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfc56235-ebcc-45e8-9790-356fb83d62a1")
-	)
-	(junction
-		(at 86.36 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e097234e-dd96-406f-9ab2-dbab12ec1a5c")
 	)
 	(junction
 		(at 240.03 129.54)
@@ -6336,7 +6324,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 85.09) (xy 74.93 87.63)
+			(xy 74.93 85.09) (xy 74.93 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7613,16 +7601,6 @@
 			(type default)
 		)
 		(uuid "a6c43da0-232f-4beb-9d9f-38fe8b9efc53")
-	)
-	(wire
-		(pts
-			(xy 74.93 87.63) (xy 74.93 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a810c65e-b174-4fb9-90be-cba5d25cf0df")
 	)
 	(wire
 		(pts
@@ -16200,70 +16178,6 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:TP_SMD_1mm")
-		(at 86.36 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a09c742d-e404-4596-bd5d-91578df24e77")
-		(property "Reference" "TP5"
-			(at 78.486 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 82.55 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bdae4e8-030d-47a5-9512-94eb896b3f27")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/d5c056a6-6c83-4beb-8db4-afe66e2a7665"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "M2SmartHomeSymbols:TP_SMD_1mm")
 		(at 104.14 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18960,70 +18874,6 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/d5c056a6-6c83-4beb-8db4-afe66e2a7665"
 					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "M2SmartHomeSymbols:TP_SMD_1mm")
-		(at 74.93 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbd02cc7-e0f1-43b4-a7d3-27d9fb2486bf")
-		(property "Reference" "TP4"
-			(at 67.818 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 71.12 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
-			(at 74.93 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bdae4e8-030d-47a5-9512-94eb896b3f2a")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/d5c056a6-6c83-4beb-8db4-afe66e2a7665"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
