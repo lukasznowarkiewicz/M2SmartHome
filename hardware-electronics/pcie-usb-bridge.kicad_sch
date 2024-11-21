@@ -6394,7 +6394,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 41.91) (xy 106.68 41.91)
+			(xy 81.28 41.91) (xy 106.68 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6904,7 +6904,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 41.91) (xy 82.55 41.91)
+			(xy 73.66 41.91) (xy 76.2 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7004,7 +7004,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 44.45) (xy 106.68 44.45)
+			(xy 87.63 44.45) (xy 106.68 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7044,7 +7044,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 44.45) (xy 88.9 44.45)
+			(xy 73.66 44.45) (xy 82.55 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8142,8 +8142,8 @@
 		)
 		(uuid "def3e5bf-b24f-46c4-9ce1-6a46a47c27ca")
 	)
-	(label "REFCLK2P"
-		(at 95.25 41.91 0)
+	(label "PCIE.REFCLK2P"
+		(at 90.17 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8219,8 +8219,8 @@
 		)
 		(uuid "79968232-cb7d-464f-b579-0ed64e0efba9")
 	)
-	(label "REFCLK2N"
-		(at 95.25 44.45 0)
+	(label "PCIE.REFCLK2N"
+		(at 90.17 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8370,7 +8370,7 @@
 	)
 	(hierarchical_label "REFCLKP"
 		(shape input)
-		(at 80.01 41.91 180)
+		(at 73.66 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8418,7 +8418,7 @@
 	)
 	(hierarchical_label "REFCKLN"
 		(shape input)
-		(at 80.01 44.45 180)
+		(at 73.66 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17609,7 +17609,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:C_100n_0402")
-		(at 88.9 44.45 0)
+		(at 82.55 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17618,7 +17618,7 @@
 		(fields_autoplaced yes)
 		(uuid "c07c9c11-c66c-4830-a2c5-a71cbe0e2240")
 		(property "Reference" "C61"
-			(at 91.4463 38.1 0)
+			(at 85.0963 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17627,7 +17627,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 109.22 54.61 0)
+			(at 102.87 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17638,7 +17638,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 109.22 57.15 0)
+			(at 102.87 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17649,7 +17649,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
-			(at 109.22 59.69 0)
+			(at 102.87 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17660,7 +17660,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 88.9 44.45 0)
+			(at 82.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17669,7 +17669,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61A104KE01D"
-			(at 109.22 62.23 0)
+			(at 102.87 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17680,7 +17680,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 109.22 64.77 0)
+			(at 102.87 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17691,7 +17691,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 109.22 67.31 0)
+			(at 102.87 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17702,7 +17702,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 109.22 69.85 0)
+			(at 102.87 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17713,7 +17713,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 91.4463 40.64 0)
+			(at 85.0963 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17722,7 +17722,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 109.22 72.39 0)
+			(at 102.87 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17732,7 +17732,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 109.22 74.93 0)
+			(at 102.87 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18892,7 +18892,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:C_100n_0402")
-		(at 82.55 41.91 0)
+		(at 76.2 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18901,7 +18901,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3469156-14b9-4768-a6de-858b5a6f30c6")
 		(property "Reference" "C62"
-			(at 85.0963 35.56 0)
+			(at 78.7463 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18910,7 +18910,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 102.87 52.07 0)
+			(at 96.52 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18921,7 +18921,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 102.87 54.61 0)
+			(at 96.52 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18932,7 +18932,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
-			(at 102.87 57.15 0)
+			(at 96.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18943,7 +18943,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 82.55 41.91 0)
+			(at 76.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18952,7 +18952,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61A104KE01D"
-			(at 102.87 59.69 0)
+			(at 96.52 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18963,7 +18963,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 102.87 62.23 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18974,7 +18974,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 102.87 64.77 0)
+			(at 96.52 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18985,7 +18985,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 102.87 67.31 0)
+			(at 96.52 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18996,7 +18996,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 85.0963 38.1 0)
+			(at 78.7463 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19005,7 +19005,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 102.87 69.85 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19015,7 +19015,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 102.87 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
