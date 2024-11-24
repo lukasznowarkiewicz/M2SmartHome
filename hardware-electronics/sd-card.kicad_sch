@@ -4962,12 +4962,6 @@
 		(uuid "684b6577-4ede-40c8-b236-8d96736236de")
 	)
 	(junction
-		(at 266.7 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d7b6227-7914-405a-bd6f-e98fe54e1cf2")
-	)
-	(junction
 		(at 184.15 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5414,16 +5408,6 @@
 			(type default)
 		)
 		(uuid "39b5ea16-3bc7-4e96-af12-1e80aa80337f")
-	)
-	(wire
-		(pts
-			(xy 266.7 77.47) (xy 266.7 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bac0262-845d-4c2d-bed4-975eac46ab65")
 	)
 	(wire
 		(pts
@@ -6247,16 +6231,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 77.47) (xy 266.7 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c65be9f1-4ae9-407c-a553-65f75b765414")
-	)
-	(wire
-		(pts
 			(xy 64.77 74.93) (xy 68.58 74.93)
 		)
 		(stroke
@@ -6487,16 +6461,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 88.9) (xy 266.7 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea477660-5b3f-490e-ad22-6da1e2604b7c")
-	)
-	(wire
-		(pts
 			(xy 64.77 87.63) (xy 72.39 87.63)
 		)
 		(stroke
@@ -6587,7 +6551,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 77.47) (xy 275.59 77.47)
+			(xy 184.15 77.47) (xy 275.59 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9598,72 +9562,6 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/2a53ffe2-5715-44b3-b464-b3185e5be86d"
 					(reference "R72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 266.7 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ab62985-8d43-4ae2-998d-7caf7471fecc")
-		(property "Reference" "#PWR090"
-			(at 266.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 266.7 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c359529e-90b2-403a-b006-971014974687")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/2a53ffe2-5715-44b3-b464-b3185e5be86d"
-					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -13435,156 +13333,6 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/2a53ffe2-5715-44b3-b464-b3185e5be86d"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "M2SmartHomeSymbols:C_100n_0402")
-		(at 266.7 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "bd6bf36e-371d-4572-832c-470500820e9d")
-		(property "Reference" "C35"
-			(at 269.24 85.0836 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_100n_0402"
-			(at 276.86 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 279.4 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KE01%23"
-			(at 281.94 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 266.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM155R61A104KE01D"
-			(at 284.48 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 287.02 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 289.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 292.1 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 269.24 87.6236 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 294.64 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 297.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b06dbe80-d5fd-4199-b8db-b4e903f77d8b")
-		)
-		(pin "1"
-			(uuid "723255a9-3bd9-4575-bb7c-35cac36d6f08")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/2a53ffe2-5715-44b3-b464-b3185e5be86d"
-					(reference "C35")
 					(unit 1)
 				)
 			)
