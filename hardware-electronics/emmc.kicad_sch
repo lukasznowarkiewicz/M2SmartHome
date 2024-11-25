@@ -4883,6 +4883,12 @@
 		(uuid "431d108d-c867-4505-ba8e-2f65dc7abb44")
 	)
 	(junction
+		(at 50.8 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "443afbf8-3759-4d84-9dcb-753a7eec2f97")
+	)
+	(junction
 		(at 115.57 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4979,12 +4985,6 @@
 		(uuid "8dec70a3-7c81-4433-b01d-04aefad699a2")
 	)
 	(junction
-		(at 40.64 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e3caa74-f2fc-44bf-8f2a-327c5dac56f5")
-	)
-	(junction
 		(at 110.49 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5025,12 +5025,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b621c24c-5f14-4b3a-9b20-3d61a6a39619")
-	)
-	(junction
-		(at 45.72 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba8cc6dd-4ab1-48d0-bd37-4206d6808341")
 	)
 	(junction
 		(at 45.72 125.73)
@@ -6416,16 +6410,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 148.59) (xy 40.64 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9deba9e3-b858-4764-9114-067d7e3aa390")
-	)
-	(wire
-		(pts
 			(xy 276.86 88.9) (xy 276.86 82.55)
 		)
 		(stroke
@@ -7166,6 +7150,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 148.59) (xy 60.96 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fafe6950-a7f7-4a36-b262-2f6ca18c762d")
+	)
+	(wire
+		(pts
 			(xy 134.62 73.66) (xy 134.62 99.06)
 		)
 		(stroke
@@ -7312,7 +7306,7 @@
 		)
 		(uuid "813323c3-194d-457c-aac4-cbe7976b4b24")
 	)
-	(label "eMMC.DAT1"
+	(label "eMMC.DAT0"
 		(at 139.7 78.74 0)
 		(fields_autoplaced yes)
 		(effects
