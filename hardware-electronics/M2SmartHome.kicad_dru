@@ -19,11 +19,6 @@
 # TODO new rule: non-plated slots: min diameter/width 1.0mm
 # JLCPCB: "The minimum Non-Plated Slot Width is 1.0mm, please draw the slot outline in the mechanical layer(GML or GKO)""
 
-(rule "Track width, outer layer (1oz copper)"
-	(layer outer)
-	(condition "A.Type == 'track'")
-	(constraint track_width (min 0.127mm))
-)
 
 #(rule "Track spacing, outer layer (1oz copper)"
 #	(layer outer)
