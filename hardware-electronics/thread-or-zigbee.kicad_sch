@@ -5915,6 +5915,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 91.44) (xy 259.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9990c0a2-d103-4161-8634-5d4b610bbce8")
+	)
+	(wire
+		(pts
 			(xy 247.65 115.57) (xy 247.65 127)
 		)
 		(stroke
@@ -9889,7 +9899,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 259.08 92.71 0)
+		(at 259.08 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9898,7 +9908,7 @@
 		(fields_autoplaced yes)
 		(uuid "8eccb3fd-a8d9-49c4-9baf-660e1064ab34")
 		(property "Reference" "#PWR0164"
-			(at 259.08 96.52 0)
+			(at 259.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9907,7 +9917,7 @@
 			)
 		)
 		(property "Value" "+3V3_Thread"
-			(at 259.08 87.63 0)
+			(at 259.08 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9915,7 +9925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 92.71 0)
+			(at 259.08 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +9934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 92.71 0)
+			(at 259.08 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,7 +9943,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 259.08 92.71 0)
+			(at 259.08 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
