@@ -584,7 +584,7 @@
 		(uuid "0105aaef-0e08-4441-8bc7-c1ec464325d1")
 		(at 101.5 92.25 180)
 		(property "Reference" "C49"
-			(at -1.6 0.3 180)
+			(at -0.5 1.8 180)
 			(layer "F.SilkS")
 			(uuid "ed892dd1-c0c0-4a74-aa71-c8981649ab94")
 			(effects
@@ -856,6 +856,7 @@
 		(property "Reference" "C46"
 			(at -1.65 -0.2 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "904eb98a-5b85-44eb-a0c9-80c6429dbe39")
 			(effects
 				(font
@@ -1908,7 +1909,7 @@
 		(uuid "0fc3a540-843e-4807-ab7a-63b7f51a3ec5")
 		(at 98.55 88.55 180)
 		(property "Reference" "J3"
-			(at -2.9 -0.1 180)
+			(at -3.25 1 180)
 			(layer "F.SilkS")
 			(uuid "5e40a1d5-85d8-4e9d-865c-890cf818c653")
 			(effects
@@ -2317,7 +2318,7 @@
 		(uuid "124b7eaf-a601-4e5c-9838-20585054fe99")
 		(at 96.8 96.1925 180)
 		(property "Reference" "U7"
-			(at -2.4475 -3.55 -90)
+			(at -2.4475 -3.5575 -90)
 			(layer "F.SilkS")
 			(uuid "f112daf6-237f-412e-8dfb-f918cb41bdc3")
 			(effects
@@ -4315,7 +4316,7 @@
 		(uuid "15bb9e89-7585-4332-bac7-2c3422c2da74")
 		(at 83.8 93.3075 -90)
 		(property "Reference" "C57"
-			(at -2 -0.1 -90)
+			(at -2.4075 1.1 -90)
 			(layer "F.SilkS")
 			(uuid "f8089c59-d2c6-443a-807b-9c47240319d4")
 			(effects
@@ -6242,7 +6243,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP18"
-			(at 0.777817 -0.919239 0)
+			(at 0.708875 -0.917471 0)
 			(layer "F.SilkS")
 			(uuid "30ee2800-de53-414e-9739-c51d39e8d4de")
 			(effects
@@ -6915,7 +6916,7 @@
 		(descr "Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "Ferrite bead")
 		(property "Reference" "FB6"
-			(at 0.05 -1.2 0)
+			(at 0.05 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "65ff7db1-acb1-41fd-b214-cbc6c97ceab6")
 			(effects
@@ -7203,7 +7204,7 @@
 		(uuid "2d48831a-4129-4739-88db-56c3469e1781")
 		(at 82.9 98.6075 90)
 		(property "Reference" "C78"
-			(at 1.9 0.1 -90)
+			(at 1.7075 -0.05 -90)
 			(layer "F.SilkS")
 			(uuid "ba852c2e-c3a0-48e2-982f-e1eb6a8bdacd")
 			(effects
@@ -7765,6 +7766,7 @@
 		(property "Reference" "C42"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "44a614bb-64b4-4e12-a1b3-fe840faf1201")
 			(effects
 				(font
@@ -8033,7 +8035,7 @@
 		(uuid "34996343-9fdd-4a31-a05d-131544c3ce53")
 		(at 100.2475 98.15 -90)
 		(property "Reference" "R40"
-			(at 1.8 0 90)
+			(at 1.75 -0.0025 90)
 			(layer "F.SilkS")
 			(uuid "72b9d440-fa4b-47de-9b15-b2a898e39788")
 			(effects
@@ -8303,8 +8305,9 @@
 		(uuid "3768d264-a5ed-450c-af64-6f85f2e158be")
 		(at 90.7 95.35 180)
 		(property "Reference" "C68"
-			(at 1.032 -1.1564 180)
+			(at -1.1 -0.6 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d6b627a3-9380-4b74-af5c-c200fc60fcc1")
 			(effects
 				(font
@@ -8858,7 +8861,7 @@
 		(descr "Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L4"
-			(at -0.353553 -0.777817 90)
+			(at -0.15 -0.85 90)
 			(layer "F.SilkS")
 			(uuid "a1f1f873-ff91-4d53-86c5-f496424b2dcc")
 			(effects
@@ -9713,7 +9716,7 @@
 		(uuid "41eb518a-3698-440c-b2fe-1f71f965035f")
 		(at 81.8 98.6225 90)
 		(property "Reference" "C75"
-			(at 1.915 0.055 90)
+			(at 1.7725 0.05 90)
 			(layer "F.SilkS")
 			(uuid "318e4615-14d1-4a92-85b3-36b3a0430543")
 			(effects
@@ -10459,7 +10462,7 @@
 		(uuid "49ddebbd-91c5-422a-8d1e-1f47c8c840b9")
 		(at 91.8 92.45)
 		(property "Reference" "U5"
-			(at -3.1 -1.4 0)
+			(at -2.6 -2.85 0)
 			(layer "F.SilkS")
 			(uuid "66a79531-1ff1-4a59-b6cf-4878a438626c")
 			(effects
@@ -11146,7 +11149,7 @@
 		(uuid "50b880f7-dcc8-4b23-8e32-33a9c71ba6be")
 		(at 86 96.9075 180)
 		(property "Reference" "U1"
-			(at -1.8 -2.9 180)
+			(at 1.3 -4.8925 180)
 			(layer "F.SilkS")
 			(uuid "4a570eff-160d-46c2-a011-89e480ba08e1")
 			(effects
@@ -12249,7 +12252,7 @@
 		(uuid "575c6730-b534-40ef-aa50-6fa2443b6bfa")
 		(at 88.95 99.4575 90)
 		(property "Reference" "C56"
-			(at -1.95 -0.05 90)
+			(at -1.8925 -0.05 90)
 			(layer "F.SilkS")
 			(uuid "7329ac7a-b761-4e0a-94bf-e0a4288e8e98")
 			(effects
@@ -12519,7 +12522,7 @@
 		(uuid "583b1872-148d-4c86-af8a-116e16541583")
 		(at 91.3 97.95)
 		(property "Reference" "Y5"
-			(at 1.4 -2.45 0)
+			(at 1.05 -2.55 0)
 			(layer "F.SilkS")
 			(uuid "361b2640-eeb8-4bc8-ab42-e89a94a22092")
 			(effects
@@ -13938,7 +13941,7 @@
 		(descr "Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L2"
-			(at 0 0.9525 180)
+			(at -0.105 -0.85 180)
 			(layer "F.SilkS")
 			(uuid "e66c6126-a599-478b-a394-0dd9fa495853")
 			(effects
@@ -15300,7 +15303,7 @@
 		(uuid "65613892-13c3-4638-8870-3e37547230ca")
 		(at 85 93.3075 -90)
 		(property "Reference" "C58"
-			(at -1.9 0 90)
+			(at -2.0575 1.4 90)
 			(layer "F.SilkS")
 			(uuid "f25bc514-3672-4f3a-95c7-b3f7ee954197")
 			(effects
@@ -19791,6 +19794,7 @@
 		(property "Reference" "C50"
 			(at 0.045 -0.0475 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9e69f582-b6fa-4987-b65f-a57f1a1f1600")
 			(effects
 				(font
@@ -21528,7 +21532,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C59"
-			(at -0.777817 -1.626346 0)
+			(at -0.388909 -0.954594 90)
 			(layer "F.SilkS")
 			(uuid "c09bf522-dd3c-4993-9f9e-31383220ef07")
 			(effects
@@ -22095,7 +22099,7 @@
 		(descr "Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L3"
-			(at -0.955 -1.8475 135)
+			(at 0.141421 -1.131371 180)
 			(layer "F.SilkS")
 			(uuid "8bea68f8-6280-4644-9013-f99285b1463a")
 			(effects
@@ -22660,7 +22664,7 @@
 		(uuid "94ae94de-cf68-477d-af77-ed0ef00dfa7f")
 		(at 95.8475 99.9 90)
 		(property "Reference" "C43"
-			(at -1.65 0.1 90)
+			(at -1.5 0.0525 0)
 			(layer "F.SilkS")
 			(uuid "34860cfa-1c42-4880-b88c-5853f9a891a7")
 			(effects
@@ -23200,7 +23204,7 @@
 		(uuid "9bdc8892-82cb-4068-90cd-07688bed6f29")
 		(at 99.85 91.85 -90)
 		(property "Reference" "C51"
-			(at 0.15 -3.299999 0)
+			(at -2.9 -1.45 90)
 			(layer "F.SilkS")
 			(uuid "8fcf078e-0e07-433b-8329-c2b4703bfcfa")
 			(effects
@@ -23470,7 +23474,7 @@
 		(uuid "9d6df58c-421f-45af-a208-57d88758945e")
 		(at 85.45 88.55 180)
 		(property "Reference" "J4"
-			(at 2.9 -0.0875 180)
+			(at 2.9 0.6 180)
 			(layer "F.SilkS")
 			(uuid "8701dd42-d7a8-45ea-af2a-bd337aac80f5")
 			(effects
@@ -25859,7 +25863,7 @@
 		(uuid "aaed1238-1a01-4cf0-a365-6a67960b7573")
 		(at 93.6 97.95 -90)
 		(property "Reference" "C44"
-			(at -1.9 -0.2 90)
+			(at -2 0 90)
 			(layer "F.SilkS")
 			(uuid "e81694b2-c8ab-479a-800a-c92332661fab")
 			(effects
@@ -26129,7 +26133,7 @@
 		(uuid "b0243f25-60f8-4194-81ad-c241b23bf512")
 		(at 82.63 93.0175 -90)
 		(property "Reference" "C55"
-			(at -1.91 0.03 90)
+			(at -2.0675 0.93 90)
 			(layer "F.SilkS")
 			(uuid "ba82db99-e0a8-4059-9492-48a83aa5f7ac")
 			(effects
@@ -26939,7 +26943,7 @@
 		(uuid "b6130146-eb85-4be5-b465-032304f46add")
 		(at 90.75 100.6)
 		(property "Reference" "C67"
-			(at 0.1 1.15 0)
+			(at 0.05 1.2 0)
 			(layer "F.SilkS")
 			(uuid "2ad1bd66-37ef-423f-84c4-df5be2d06cad")
 			(effects
@@ -28608,7 +28612,7 @@
 		(uuid "bf8f7196-50a0-4067-9113-3795008d8dce")
 		(at 86.2 92.9075 -90)
 		(property "Reference" "C76"
-			(at 0.1 -0.9 90)
+			(at -1.6575 -1.3 0)
 			(layer "F.SilkS")
 			(uuid "4f38fc51-fbb4-441e-b7d8-abe29ed125cc")
 			(effects
@@ -29150,8 +29154,9 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C60"
-			(at -0.2 -1.4 -90)
+			(at -0.65 -1.05 -90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ab55298f-a46e-4328-a1d3-68770782087a")
 			(effects
 				(font
@@ -30725,6 +30730,7 @@
 		(property "Reference" "C52"
 			(at 0.045 0.0525 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f0fd39d9-35c9-4d27-976b-aac8b59f8f52")
 			(effects
 				(font
@@ -30995,7 +31001,7 @@
 		(descr "Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L1"
-			(at 1.6 -0.3 0)
+			(at 0.8525 -1.9 0)
 			(layer "F.SilkS")
 			(uuid "5b3ec004-e29f-403a-b610-14ad23d65794")
 			(effects
@@ -31290,7 +31296,7 @@
 		(uuid "dba88236-c331-4037-acf5-1893a3b51945")
 		(at 97.0475 99.9 90)
 		(property "Reference" "C45"
-			(at -1.65 0 90)
+			(at -1.5 0.7525 0)
 			(layer "F.SilkS")
 			(uuid "b38c25d8-9456-4499-8784-3d42b388688b")
 			(effects
@@ -32126,7 +32132,7 @@
 		(uuid "e1aa34fa-78a1-462c-9ca7-399eab7615d9")
 		(at 94.5 90.45 -90)
 		(property "Reference" "R73"
-			(at 0 -0.949999 90)
+			(at -2.3 -1.3 90)
 			(layer "F.SilkS")
 			(uuid "74874006-09c8-47d0-b005-848819056263")
 			(effects
@@ -32383,7 +32389,7 @@
 		(uuid "e44c50bf-a874-4743-be20-b69243c2f7e2")
 		(at 89.3 94.15)
 		(property "Reference" "C41"
-			(at -0.25 -0.9 0)
+			(at -0.3 -2.75 90)
 			(layer "F.SilkS")
 			(uuid "b45a7f0e-b8c3-4acc-9438-891f4f179072")
 			(effects
@@ -32655,7 +32661,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C54"
-			(at -0.5475 1.155 45)
+			(at -0.565685 -0.707107 0)
 			(layer "F.SilkS")
 			(uuid "e1dc3699-f355-4f01-a1aa-0e66924ed5ac")
 			(effects
@@ -33207,7 +33213,7 @@
 		(uuid "eae8968b-7ff3-457e-af97-e6c44a265828")
 		(at 101.1 94.95 180)
 		(property "Reference" "Y4"
-			(at -0.85 -2.5 0)
+			(at -0.7 -2.6 0)
 			(layer "F.SilkS")
 			(uuid "219b0faf-daff-4076-a1ac-78ce39c43388")
 			(effects
@@ -33862,6 +33868,7 @@
 		(property "Reference" "R30"
 			(at 0 -0.85 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "561764ff-dbbb-4069-8406-5c8523415eb9")
 			(effects
 				(font
@@ -36919,7 +36926,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C53"
-			(at 0 -0.755001 0)
+			(at 1.9 -0.8 0)
 			(layer "F.SilkS")
 			(uuid "72cc8562-3cbb-4a41-a017-64d3c7454318")
 			(effects
