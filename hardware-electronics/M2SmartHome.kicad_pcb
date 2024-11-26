@@ -4483,7 +4483,7 @@
 		(uuid "16233466-4748-4ce8-b38a-f1dc5f9d4327")
 		(at 92 166)
 		(property "Reference" "J1"
-			(at 0 4 0)
+			(at 0.05 -3.4 0)
 			(layer "F.SilkS")
 			(uuid "d886ea29-d913-485a-be47-c710c42baa95")
 			(effects
@@ -6141,7 +6141,7 @@
 		(property "Reference" "TP18"
 			(at 0.779585 -0.84676 0)
 			(layer "F.SilkS")
-			(uuid "30ee2800-de53-414e-9739-c51d39e8d4de")
+			(uuid "b55c0c80-a47d-4930-9ce9-52959269ccc2")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -6152,7 +6152,7 @@
 		(property "Value" "~"
 			(at 0 1.550001 45)
 			(layer "F.Fab")
-			(uuid "1da962a8-6d10-42d4-9665-6f2a62351ccf")
+			(uuid "653abbb6-7d55-4c09-9709-186adb8854e7")
 			(effects
 				(font
 					(size 1 1)
@@ -6165,7 +6165,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c8fecdec-7051-4e47-b0cf-ac4e1e3d6691")
+			(uuid "3419d08b-7f3c-408f-bb9e-3d189a2df821")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6178,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a50e422e-7a29-44f3-823b-aa03f36a21d1")
+			(uuid "0b0d16a4-ef27-4057-b55e-a243182e0ebf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,7 +6191,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7d60fb0-3971-4cdc-be21-7ba5547f67e1")
+			(uuid "2d299524-12db-4f56-834b-4420c51218eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,7 +6212,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "3abcd3ad-cc33-4a02-9163-3b1827770d76")
+			(uuid "3848ed8f-a348-4a00-a7ff-ab8703c30b34")
 		)
 		(fp_circle
 			(center 0 0)
@@ -6223,12 +6223,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "0129570a-266e-4b39-a496-0a48e2d864a0")
+			(uuid "96f36af1-fc39-494b-bf3c-3a837ce36b5c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.45 45)
 			(layer "F.Fab")
-			(uuid "8c38b4d6-0432-4baa-9c5e-6dc5e6868674")
+			(uuid "e34b9ee5-0a2d-4759-ba7f-27d864d65238")
 			(effects
 				(font
 					(size 1 1)
@@ -6242,7 +6242,7 @@
 			(layers "F.Cu" "F.Mask")
 			(net 149 "/thread-or-zigbee/RESET")
 			(pintype "bidirectional")
-			(uuid "7e2a2842-f2fc-4567-973e-69d6164efdae")
+			(uuid "5320d13e-5ff9-4c6b-ac0d-a7297e6563d3")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:FB_0603"
@@ -38175,9 +38175,9 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP17"
-			(at 2 -1 180)
+			(at -0.4 1.5575 180)
 			(layer "B.SilkS")
-			(uuid "ccb0f5e2-e9a4-4604-8f3e-5fc828006347")
+			(uuid "432baaf4-3771-440d-840a-f4cb6df49ad2")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -38189,7 +38189,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "8e8edb37-cc0f-4f62-a801-629841bf4ac8")
+			(uuid "191e7162-51cc-433e-b27c-939e400ef018")
 			(effects
 				(font
 					(size 1 1)
@@ -38203,7 +38203,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d4597069-8b47-4a77-85cd-6f3fea0c879c")
+			(uuid "ccdb4957-28f9-475b-8696-4e1a46c6d09d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38217,7 +38217,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d770f468-8f04-48fd-acbe-4c88629b8f73")
+			(uuid "73daef82-85c6-4f61-90a7-935055734d80")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38231,7 +38231,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "94ae73f4-1805-4be8-ad00-531e91cf85f9")
+			(uuid "137277e2-b3df-476e-bc12-4ff05d3d8410")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38253,7 +38253,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "1a9b5891-920d-40d1-84b2-25805b597816")
+			(uuid "64eb7160-5f9f-44a4-b52c-a85e14906e19")
 		)
 		(fp_circle
 			(center 0 0)
@@ -38264,12 +38264,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "f69bf731-fce6-4597-8299-2074680578b1")
+			(uuid "a0557a9c-4f80-431e-a14c-9d5b05d2ca5f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "1e106c1c-c9e0-405b-9045-47698881502d")
+			(uuid "4430e5a5-913e-4f55-92b6-f7d979498239")
 			(effects
 				(font
 					(size 1 1)
@@ -38284,7 +38284,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 183 "Net-(U3-SMBDATA)")
 			(pintype "bidirectional")
-			(uuid "8580deb6-98a9-4eb8-b4ab-478037503268")
+			(uuid "87004106-1ccb-42f9-b3f7-219e63e855c4")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:C_0402"
@@ -39138,7 +39138,7 @@
 		(uuid "1cef13da-a6eb-48a1-a7f6-0cf274ba946c")
 		(at 93.5 153.1075 135)
 		(property "Reference" "C70"
-			(at 1.032 1.1564 135)
+			(at -2.009951 0.040659 135)
 			(layer "B.SilkS")
 			(uuid "4608f170-8bd1-4883-9ed6-748e781cae57")
 			(effects
@@ -39424,7 +39424,7 @@
 		(property "Reference" "TP3"
 			(at -1.95 0 180)
 			(layer "B.SilkS")
-			(uuid "7887d97f-f1db-4f0e-b536-10f45312d9b2")
+			(uuid "b80bc89f-f5a0-4491-9995-466e68243fd5")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -39436,7 +39436,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "54c07139-efaa-4449-bc32-16880c66936c")
+			(uuid "e6b5141c-f5fa-438f-a3ce-45b05a9722d3")
 			(effects
 				(font
 					(size 1 1)
@@ -39450,7 +39450,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ac96f168-8219-4e66-a473-806df6680c4f")
+			(uuid "608ce39d-50a9-4726-839f-4efb97ea4eb1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39464,7 +39464,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1e9f0d20-83f3-4f9a-b30e-38526616dd78")
+			(uuid "6beff4bd-6bcc-4c4e-aa5e-81bf68c4526e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39478,7 +39478,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "70c0cb8e-20fe-4916-bb14-0e9eef2155d0")
+			(uuid "c7b0b156-69bc-4e4e-bb24-6687f6c22acf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39500,7 +39500,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "48a721f4-f1bb-4dc8-96a7-c0e6f9de9c4f")
+			(uuid "82c7b9ec-a7b9-4146-816f-87590da13671")
 		)
 		(fp_circle
 			(center 0 0)
@@ -39511,12 +39511,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "aa58295a-9a33-4693-bccd-65746173fa0b")
+			(uuid "e872067f-033b-49b3-9327-3545c20b3924")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "baf888b0-e7c2-4dde-a77a-ea69fc955055")
+			(uuid "d33bc6a3-2514-474b-b16b-9eb620547fe3")
 			(effects
 				(font
 					(size 1 1)
@@ -39531,7 +39531,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 187 "Net-(U3-TDI)")
 			(pintype "bidirectional")
-			(uuid "a83106b4-2924-4dd6-aefb-491aa66b112c")
+			(uuid "85a5194f-0b7e-40e4-a631-fa63ece481c8")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:FB_0603"
@@ -39841,7 +39841,7 @@
 		(uuid "2336346f-73f1-4759-ab4e-7b80ac3ebb4b")
 		(at 89.2 147.9075 90)
 		(property "Reference" "R65"
-			(at -1.460662 -0.287323 90)
+			(at -0.0425 -0.8 90)
 			(layer "B.SilkS")
 			(uuid "1eba822f-9ad8-4c30-9e38-f8a60698c798")
 			(effects
@@ -42075,7 +42075,7 @@
 		(uuid "38f4edfb-df10-4d57-8ffa-44f6d6b633fd")
 		(at 90.4 147.907501 90)
 		(property "Reference" "C74"
-			(at 1.032 1.1564 90)
+			(at 3.307501 0 90)
 			(layer "B.SilkS")
 			(uuid "9910b4ce-6d11-4432-a08d-5ca33aa26aab")
 			(effects
@@ -42361,7 +42361,7 @@
 		(property "Reference" "TP10"
 			(at 2.15 -0.6 180)
 			(layer "B.SilkS")
-			(uuid "f74c2e25-42fb-413a-8e6a-3c5ff3eea6f8")
+			(uuid "9f29de65-b2f9-481b-8a74-2d930afcae42")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -42373,7 +42373,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "179fe3d4-8ec9-4124-b745-0d8b9aeab3f6")
+			(uuid "d1e272ad-198a-41d0-ae12-05146feec01f")
 			(effects
 				(font
 					(size 1 1)
@@ -42387,7 +42387,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b52fa601-6f10-40b5-996b-8ce41f66a10f")
+			(uuid "8cf66b99-5f5f-4d90-9e98-8deb66988a20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42401,7 +42401,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a0e971a0-f19a-4ae8-9187-4f963fe0aed0")
+			(uuid "c8a70f77-375c-453d-a155-56a780a76302")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42415,7 +42415,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1ee59561-c5bd-491e-a8d4-d6855f7d2951")
+			(uuid "f785c5b5-c75d-4876-ab90-cf4616b37d83")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42437,7 +42437,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "114d9e1e-9db5-4fa6-baed-5bce79c86426")
+			(uuid "ccbd7da9-f0af-43c1-aedf-66b471867814")
 		)
 		(fp_circle
 			(center 0 0)
@@ -42448,12 +42448,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "f39d2be7-cab7-45ef-9805-9d42da6dea4b")
+			(uuid "bea05be9-0f0f-4e26-aa4b-f3071053a9dd")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "ecc4ef34-573e-4313-929b-b502b63e8867")
+			(uuid "411ae7f3-3f2f-41a3-864c-3ca86a56ad91")
 			(effects
 				(font
 					(size 1 1)
@@ -42468,7 +42468,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 178 "Net-(U3-IO_HIT_I)")
 			(pintype "bidirectional")
-			(uuid "9c4b5cde-3757-4683-bba0-d86f4a7ae560")
+			(uuid "ddad5636-28f8-4ae8-8aca-1db66f4f1904")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:FB_0603"
@@ -42478,7 +42478,7 @@
 		(descr "Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "Ferrite bead")
 		(property "Reference" "FB2"
-			(at 0 1.43 90)
+			(at 2.4075 0.5 90)
 			(layer "B.SilkS")
 			(uuid "66716133-d372-4f06-ac34-7a9b1a7959ba")
 			(effects
@@ -42776,13 +42776,13 @@
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "3a7119b1-d400-4b15-9e0a-b4edc12ed775")
-		(at 88.8 153.0075 45)
+		(at 88.65 152.8 45)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP15"
-			(at 0 1.448001 45)
+			(at 0 1.202082 45)
 			(layer "B.SilkS")
-			(uuid "d30a7558-d631-4db3-b2ff-93d9ba8e6692")
+			(uuid "05d183a2-e89f-48e1-b45e-9e55a83462a2")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -42794,7 +42794,7 @@
 		(property "Value" "~"
 			(at 0 -1.550001 45)
 			(layer "B.Fab")
-			(uuid "368d4683-3168-49d9-90c2-0885ad5a50cb")
+			(uuid "616b1a4f-4c94-42c1-ad53-606e539163e0")
 			(effects
 				(font
 					(size 1 1)
@@ -42808,7 +42808,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0a15505f-5f83-4b10-ad2d-8b08f0970caa")
+			(uuid "1a5881ad-6d0c-4fdb-9d5b-4587b5e67601")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42822,7 +42822,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cfe8580e-39ad-4bdb-98c7-c98941b836d3")
+			(uuid "85612335-30ba-4a4a-a64f-ee8abbb362d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42836,7 +42836,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9a61a6cc-1242-45cb-812b-9fc28e4b2082")
+			(uuid "07f31c3d-e730-40e4-a848-23dc8d1560ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42858,7 +42858,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "d17f86d7-5ee9-4536-8051-04599c1434e1")
+			(uuid "c9a347f4-16f2-4370-8b2b-98b3f0bd2acf")
 		)
 		(fp_circle
 			(center 0 0)
@@ -42869,12 +42869,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "42b95c9a-a0f8-480d-928c-d77d7dc9a6d7")
+			(uuid "95faf1ec-b1f7-4e41-9bf4-22dcc828b4b0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 45)
 			(layer "B.Fab")
-			(uuid "8c68803d-4fb2-49d1-bc84-95273bc36141")
+			(uuid "b21ac71a-379e-4fe5-8d71-9d3b98af303c")
 			(effects
 				(font
 					(size 1 1)
@@ -42889,7 +42889,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 217 "Net-(U11-PG)")
 			(pintype "bidirectional")
-			(uuid "08198c97-0939-4213-bb1a-d412c04f8cf1")
+			(uuid "7f843393-9600-4a53-9099-6430a6bdbc6d")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:C_0402"
@@ -43179,7 +43179,7 @@
 		(uuid "4293b6bc-141b-4182-a88b-c343d1a58bb6")
 		(at 89.26623 149.580294)
 		(property "Reference" "R66"
-			(at 1.032 1.1564 0)
+			(at -1.96623 0.169706 0)
 			(layer "B.SilkS")
 			(uuid "bee88bca-5fbd-4a6f-82fa-96175f89fdd3")
 			(effects
@@ -44011,7 +44011,7 @@
 		(uuid "460c590b-4fd6-4c52-927b-d02bd4b27f89")
 		(at 95.4 151.6075 45)
 		(property "Reference" "L5"
-			(at 0 0 45)
+			(at 0.040659 2.434215 45)
 			(layer "B.SilkS")
 			(uuid "3c94b9d6-d4a4-4705-bb01-ce9aca847b3d")
 			(effects
@@ -44216,7 +44216,7 @@
 		(uuid "4a4a0282-e3e5-44f7-a09f-1fb2d6e89670")
 		(at 91.5 146.1075 180)
 		(property "Reference" "R52"
-			(at 0 1.1 180)
+			(at -0.15 1.0075 180)
 			(layer "B.SilkS")
 			(uuid "d442a6e6-f565-458a-82f6-ee50427f542f")
 			(effects
@@ -45348,7 +45348,7 @@
 		(property "Reference" "TP20"
 			(at 0.45 -1.55 180)
 			(layer "B.SilkS")
-			(uuid "af8208f1-8526-4f6c-b35c-0d6a7f75fde3")
+			(uuid "e7c23c38-b697-4470-ab66-2c119b5fc7a1")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -45360,7 +45360,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "7391dc50-311a-449b-bb2f-93483b993e7b")
+			(uuid "de726675-4b5c-4553-a190-028e3a589d33")
 			(effects
 				(font
 					(size 1 1)
@@ -45374,7 +45374,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4abfe4c7-1d57-4cb6-a2a0-e7846bf745cc")
+			(uuid "de34134a-bc46-48e4-8c3e-f8677d892697")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45388,7 +45388,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ba6aa2a3-7d6d-405d-a7be-92b9c97aefd7")
+			(uuid "0cf4a1e6-f218-4071-b0d6-552e42e23725")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45402,7 +45402,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a9b4da13-d91d-4944-b3d9-b45b8f5fd6b7")
+			(uuid "5f3df704-da79-40ed-93bf-3133b3c3dff5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45424,7 +45424,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "81354f78-ff33-4921-8811-c8439a26b09a")
+			(uuid "c9e71454-ead0-4de8-9b6f-e3663b607a84")
 		)
 		(fp_circle
 			(center 0 0)
@@ -45435,12 +45435,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "ba1d16f2-f8ab-45ef-96de-a89fc6c0bbfa")
+			(uuid "8eb3f73b-c40b-46b2-b372-301021558ff1")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "df3e95bd-3eb1-41e1-8088-fa69a57fdb9c")
+			(uuid "0458ddce-7025-4091-9d3b-3f8c7c998f50")
 			(effects
 				(font
 					(size 1 1)
@@ -45455,7 +45455,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 195 "/thread-or-zigbee/SWDIO")
 			(pintype "bidirectional")
-			(uuid "ebc67fa0-cccc-4b61-84cd-885f98deadb3")
+			(uuid "4c812e87-3935-4dbb-9606-fb39689953c3")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:C_0402"
@@ -45749,7 +45749,7 @@
 		(property "Reference" "TP19"
 			(at -2.2 -0.15 180)
 			(layer "B.SilkS")
-			(uuid "542a551f-ed3b-4cdc-9ef4-896ea9294406")
+			(uuid "282196d8-8f6b-4013-9ef9-8917a05db14a")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -45761,7 +45761,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "9608a302-713e-4539-bc4a-21a61fcd2095")
+			(uuid "d00ac4e0-3862-4f68-b4d8-b250a251a7c4")
 			(effects
 				(font
 					(size 1 1)
@@ -45775,7 +45775,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6cc69986-ed12-4993-9d74-75cac86e3311")
+			(uuid "5d8b5662-dd42-4d4a-ad9a-e44a53323cb5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45789,7 +45789,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "355f3abb-2bb0-4ae7-af6f-e93ff7bdfd6f")
+			(uuid "594d97f0-c3c0-4780-9bee-b580d49f60ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45803,7 +45803,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "779ede94-848c-41eb-b12f-a4b7b1437f25")
+			(uuid "bcc583ed-641a-49cf-9920-410709be91d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45825,7 +45825,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "80a1ba4c-f12e-47e6-b122-b98850175ce2")
+			(uuid "413d7746-acc2-4b2f-8fe5-26c7110f9e4d")
 		)
 		(fp_circle
 			(center 0 0)
@@ -45836,12 +45836,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "a61efce7-2831-4e0f-841b-33fc0ed7bd8b")
+			(uuid "c0e7d893-9142-4e1e-9e12-31f4bc094920")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "614e3ef7-3d01-4fe5-8ba0-c8589a4a0455")
+			(uuid "494efe5b-60e9-4ead-a9f6-37fea392c1d4")
 			(effects
 				(font
 					(size 1 1)
@@ -45856,7 +45856,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 196 "/thread-or-zigbee/SWCLK")
 			(pintype "bidirectional")
-			(uuid "e5dd5211-1f58-486c-a050-da3ae3793c04")
+			(uuid "44fa5ccb-d28a-445c-84b9-1414d309f434")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:C_0402"
@@ -47278,7 +47278,7 @@
 		(property "Reference" "TP8"
 			(at -1.95 0.05 180)
 			(layer "B.SilkS")
-			(uuid "8e35268c-b7c5-4285-b0cf-103576b30d5b")
+			(uuid "d838935a-f69f-4b22-9e84-b6e5f304bdf1")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -47290,7 +47290,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "fbed646c-e15e-4f8c-9d56-dafef09b775f")
+			(uuid "dda84ffa-3b26-4f8e-bacb-d5e6c85a0c9c")
 			(effects
 				(font
 					(size 1 1)
@@ -47304,7 +47304,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8ee50482-8e34-4015-84e1-7bba982817e7")
+			(uuid "d2666bc8-7151-4f44-ac8c-b568897e70db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47318,7 +47318,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b33f1b28-1908-4c02-80dd-c7715438d062")
+			(uuid "c3ff6770-85ca-4e17-93a3-19317bc701b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47332,7 +47332,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "30170e5c-9231-4a38-a823-3021a83213d1")
+			(uuid "b07b9bc8-d52e-4109-a4f3-80059f7490c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47354,7 +47354,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "cf7a9a23-2df9-45ab-8a89-1fab48abd54c")
+			(uuid "57169357-27e5-4b04-9b3f-1b22c4914b34")
 		)
 		(fp_circle
 			(center 0 0)
@@ -47365,12 +47365,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "075da0cc-f341-4373-b86f-e44a0e005925")
+			(uuid "cda56c9b-a04e-4522-a346-bfe1d3e6a693")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "95f16003-1c16-481b-8126-d359153cacfb")
+			(uuid "432c6aa5-f031-4964-aa6e-ac29c2009caa")
 			(effects
 				(font
 					(size 1 1)
@@ -47385,7 +47385,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 184 "Net-(U3-SCAN_EN)")
 			(pintype "bidirectional")
-			(uuid "c2664a10-925c-45d6-be16-acb2116f0388")
+			(uuid "b316ea2c-ccb6-4f1a-ab0d-139e22cdce88")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:C_0402"
@@ -47393,7 +47393,7 @@
 		(uuid "8951988e-e1c4-454c-b52d-ac7804ae3b67")
 		(at 91.9 147.7075 -90)
 		(property "Reference" "C69"
-			(at 0.000317 0.98198 90)
+			(at -2.2575 -1.15 90)
 			(layer "B.SilkS")
 			(uuid "63ad753a-2315-41aa-bad3-afcb87d782cc")
 			(effects
@@ -48243,7 +48243,7 @@
 		(property "Reference" "TP11"
 			(at 2.05 -0.6 180)
 			(layer "B.SilkS")
-			(uuid "73460f60-9876-4619-9949-d8b7f73c4cf3")
+			(uuid "e6a5cb7e-533a-42b4-ac55-3bd951762a10")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -48255,7 +48255,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "ee1ca7b8-3386-4cc4-99f8-2d63123c7b71")
+			(uuid "e2bd3b60-033a-4b7e-adca-fb8a9d2c0d6d")
 			(effects
 				(font
 					(size 1 1)
@@ -48269,7 +48269,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2860c447-1522-4441-b943-a186c4401a16")
+			(uuid "e7c424da-5a89-4544-b223-946c3ad70f2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48283,7 +48283,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "08d18037-ec87-4e91-a9a2-cbbcd40ae7f4")
+			(uuid "654d6074-9abb-47b3-ab8c-356bcd521d8a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48297,7 +48297,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ae07ac6d-5fa5-47a6-8513-da5006ee678f")
+			(uuid "a405a0ba-a0f9-403a-8ede-989722abaa35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48319,7 +48319,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "7a9eed60-8f3a-490a-b228-1ffd8b937f35")
+			(uuid "ee00d18b-a633-49f2-965d-f6f930f6f9d2")
 		)
 		(fp_circle
 			(center 0 0)
@@ -48330,12 +48330,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "7843a70c-bc55-42c1-bec3-682192c4147b")
+			(uuid "ebf2db65-6adc-4f66-b233-88ba4175d678")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "765609d7-50bd-4470-a211-8cc6a3576cbc")
+			(uuid "93890292-d17d-462e-adef-eaea55eb0888")
 			(effects
 				(font
 					(size 1 1)
@@ -48350,7 +48350,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 186 "Net-(U3-IRQ1_I)")
 			(pintype "bidirectional")
-			(uuid "d0fade37-2253-4e35-ac52-7318aca45cd0")
+			(uuid "25c7be3a-dbd0-4b0b-8477-5b45b47182c7")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
@@ -48362,7 +48362,7 @@
 		(property "Reference" "TP6"
 			(at 2 -0.1 0)
 			(layer "B.SilkS")
-			(uuid "5d4979d3-81f7-48ac-bc13-c02ba87b275b")
+			(uuid "75c2a10e-6904-4a66-8461-4923d204429e")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -48374,7 +48374,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 0)
 			(layer "B.Fab")
-			(uuid "3ccfb00d-9f88-444d-81fe-c042e29c9d8d")
+			(uuid "0043a7a9-95d9-4ddf-856c-1a9ce672e8c6")
 			(effects
 				(font
 					(size 1 1)
@@ -48388,7 +48388,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "393d06ff-db98-4bfd-87b3-93b266622c99")
+			(uuid "0c7797a9-3567-47be-8434-44db254071c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48402,7 +48402,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9ea6dbcc-2726-469f-8845-2411350137db")
+			(uuid "9625f1fa-af3c-49eb-993b-25d3c2c56680")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48416,7 +48416,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "96668c46-0bb4-433a-8eb2-bf116fdcc39a")
+			(uuid "bbd6624b-1817-4c87-8029-ddfb3e076634")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48438,7 +48438,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "7cb7eafd-1d37-4f55-b209-6bfffb578592")
+			(uuid "05d8fe87-3516-4b86-a84f-05b3a24437ef")
 		)
 		(fp_circle
 			(center 0 0)
@@ -48449,12 +48449,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "072fbfb2-254c-4e78-8d62-feae76abf497")
+			(uuid "ee48655a-b8f5-4ee6-9fd5-46f3488c8de4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 0)
 			(layer "B.Fab")
-			(uuid "7d365275-8d89-495a-b5e4-9a7fe2c6e717")
+			(uuid "1a6c78fa-ae2c-4fe3-bcee-f5c02a530d26")
 			(effects
 				(font
 					(size 1 1)
@@ -48469,7 +48469,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 180 "Net-(U3-PME_L)")
 			(pintype "bidirectional")
-			(uuid "77b8d44f-d7cf-4ea7-abb2-84860f9a427d")
+			(uuid "d2b8ac0a-82ea-4e67-b01c-0a87d53e358f")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:R_0402"
@@ -49609,7 +49609,7 @@
 		(property "Reference" "TP9"
 			(at 1.75 -0.45 180)
 			(layer "B.SilkS")
-			(uuid "d75a39ba-e7f8-4de1-a949-33cb7032ab4d")
+			(uuid "4b487596-20cb-4c76-b5ab-828b1da7bb15")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -49621,7 +49621,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "5fdbe00c-de27-4f4c-a08f-f7d773c1d52d")
+			(uuid "d7711e0e-f23e-440e-a91b-c0eacf648641")
 			(effects
 				(font
 					(size 1 1)
@@ -49635,7 +49635,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d07cb662-bef5-4fce-9051-86e31894bb3f")
+			(uuid "e2b52850-8e4c-4f31-bbba-1bcf3c7f0931")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49649,7 +49649,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5f95e2f7-620d-4448-b1ea-5bd8276c3f88")
+			(uuid "8945cf66-541d-47b0-9709-acd85dafa16f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49663,7 +49663,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ab2d84a6-9f05-42c8-a2a0-ebb9f5e188a2")
+			(uuid "9e02994e-1d97-4580-afcc-51e371eb6d15")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49685,7 +49685,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "e7a66adb-b473-4a3a-84c4-b5fe1f7d541d")
+			(uuid "8388b4e6-fbfc-4d8c-9ac2-e52f499eee60")
 		)
 		(fp_circle
 			(center 0 0)
@@ -49696,12 +49696,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "c69fb958-9178-42e3-8641-fd36f0ea1225")
+			(uuid "be8b6623-0e0d-4cff-bd2b-02fb2295f715")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "aaa284fa-a438-47db-959d-8512cdc600e9")
+			(uuid "2ee9be29-065e-42bf-a9b1-4318c951bd42")
 			(effects
 				(font
 					(size 1 1)
@@ -49716,7 +49716,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 188 "Net-(U3-SMI_O)")
 			(pintype "bidirectional")
-			(uuid "073f3480-e518-4114-8d00-b26c99bb7392")
+			(uuid "75aea162-a022-4be9-98d9-ce924e2d2088")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:C_0402"
@@ -50856,7 +50856,7 @@
 		(property "Reference" "TP13"
 			(at 1.65 1.1 180)
 			(layer "B.SilkS")
-			(uuid "48757982-b42e-4a69-9b91-103e4b175433")
+			(uuid "c6a4517a-dba4-4662-8d68-2db900f9b50f")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -50868,7 +50868,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "f086c5fd-ba0b-4faf-a7b4-e1bf6b75f056")
+			(uuid "130db8ea-1ebf-4aa9-ba68-9fe093b3aec5")
 			(effects
 				(font
 					(size 1 1)
@@ -50882,7 +50882,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d1b82dac-28b1-4077-9b39-67874049d0a6")
+			(uuid "8ca6cb34-91e7-4a9f-a6eb-7f536a5b6e14")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50896,7 +50896,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8d6657a8-1185-4e21-b90c-eb66abcc5894")
+			(uuid "da3e38db-0d1a-4db6-a85d-67f49f01fe0c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50910,7 +50910,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "529af86c-9e59-4fec-b3ca-469f2ec37380")
+			(uuid "140eb678-76de-442a-b037-a511df105e85")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50932,7 +50932,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "e4897a13-3e59-4be9-b24c-fd34412ee22f")
+			(uuid "175f6972-e756-4b5a-ae7d-1b714b6fd717")
 		)
 		(fp_circle
 			(center 0 0)
@@ -50943,12 +50943,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "6580a947-287f-44bf-a911-cbb807cb3910")
+			(uuid "b6100a23-bf30-49d0-b005-ae1af9d8aedc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "a310cf95-98db-4afd-9363-462aeb336553")
+			(uuid "87232b35-f0ef-4c0f-a8a8-2a466426d628")
 			(effects
 				(font
 					(size 1 1)
@@ -50963,7 +50963,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 182 "Net-(U3-IRQ12_I)")
 			(pintype "bidirectional")
-			(uuid "20ec6145-9355-4a5f-bd5f-0db19755e2bc")
+			(uuid "09bca39e-1e9b-4c48-97e6-c434c6050823")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:C_0402"
@@ -51253,7 +51253,7 @@
 		(uuid "aa976e30-4432-4db8-9ee1-bfe43c53eb66")
 		(at 89.1 156.2)
 		(property "Reference" "C62"
-			(at -0.934999 -1.1 0)
+			(at 0.15 -1 0)
 			(layer "B.SilkS")
 			(uuid "89772bae-48ff-4f43-9581-15f03334acd6")
 			(effects
@@ -52385,7 +52385,7 @@
 		(property "Reference" "TP16"
 			(at 1.95 1.05 180)
 			(layer "B.SilkS")
-			(uuid "479af070-d602-424d-b7bb-a02a8ad62eb5")
+			(uuid "fcc8617e-a5c5-4a6f-86cc-be9100df08f2")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -52397,7 +52397,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "d325e432-b0fe-4a60-8ae0-233badce2f3a")
+			(uuid "d88c6826-0d6a-456b-8cdd-739f1aaa6e56")
 			(effects
 				(font
 					(size 1 1)
@@ -52411,7 +52411,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "eb855eba-f6b7-470d-96f3-ddcfd4d649ac")
+			(uuid "dc9128b6-928d-4a87-a705-2695e8e8a50a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52425,7 +52425,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cf5c0d5c-4cdc-4b7a-93d1-98ab70ce023d")
+			(uuid "2c530b82-c993-4e77-8073-777e7e71065e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52439,7 +52439,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9133ce4d-e09c-434a-ba12-42f966b93f26")
+			(uuid "0de7f11b-591f-4cff-8fb7-896234658203")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52461,7 +52461,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "d7289453-a6ec-402c-b3ae-885ef9c28f7e")
+			(uuid "4f751a13-4a10-4e91-a3ce-66b266ceba5c")
 		)
 		(fp_circle
 			(center 0 0)
@@ -52472,12 +52472,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "44eed459-082d-4f76-aefb-2ac895cc73fe")
+			(uuid "f0fa9424-50b5-46e7-a080-cd900b12b000")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "17c8bb22-036a-48ea-91b4-f537a25d16fe")
+			(uuid "6385d3d9-956e-45a1-9299-b6292c6f657a")
 			(effects
 				(font
 					(size 1 1)
@@ -52492,7 +52492,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 185 "Net-(U3-SMBCLK)")
 			(pintype "bidirectional")
-			(uuid "76a944d0-5845-488d-8432-931e02beefe8")
+			(uuid "d7c64231-32c7-41b2-9d00-5a20bbefbb67")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:TestPoint_Pad_D1.0mm"
@@ -52504,7 +52504,7 @@
 		(property "Reference" "TP7"
 			(at -1.95 0 180)
 			(layer "B.SilkS")
-			(uuid "77f5bf93-0b34-477e-ad3d-d19336403bb7")
+			(uuid "f1f55f90-fc41-403d-8b82-6967f0cd1d57")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -52516,7 +52516,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "7e876028-45a0-422c-81a2-bbd009ddeea6")
+			(uuid "29c48f16-bc65-43d5-b610-9372411bfbdd")
 			(effects
 				(font
 					(size 1 1)
@@ -52530,7 +52530,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "89c4dba4-d839-4315-ad30-3f8a9a1bab19")
+			(uuid "85a35876-bc9a-4883-940d-ddd43eadc49d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52544,7 +52544,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e772cd91-325f-47af-a326-0cb00421cca0")
+			(uuid "44d516a8-5b32-4e9d-ac3c-248e99b6808b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52558,7 +52558,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "37c8e52b-99db-43ba-af6d-b263ecd6ad61")
+			(uuid "67d060dd-a259-4fac-adfe-ebdbbbeb9c6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52580,7 +52580,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "190961fb-368f-4337-afd1-3e99cd19d635")
+			(uuid "a9133a25-16ac-48e1-bd15-0276ccfef622")
 		)
 		(fp_circle
 			(center 0 0)
@@ -52591,12 +52591,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "b30a0bb2-5abd-4fa6-80de-653d50a4bef0")
+			(uuid "29a3ea08-f7f8-4385-b0e1-422fd7a41fa1")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "2debb494-6a31-42b3-8579-449217649c44")
+			(uuid "d29637f7-135b-4960-948a-c0ced310d85c")
 			(effects
 				(font
 					(size 1 1)
@@ -52611,7 +52611,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 179 "Net-(U3-LEG_EMU_EN)")
 			(pintype "bidirectional")
-			(uuid "e8e05deb-4ac1-4b48-87af-e29d8aaf02f2")
+			(uuid "f5fd7897-1cfb-466e-ab06-d12c703acd94")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:R_0402"
@@ -54583,7 +54583,7 @@
 		(property "Reference" "TP21"
 			(at 0.0525 -1.545 180)
 			(layer "B.SilkS")
-			(uuid "e2bba67e-a68e-4565-8875-89afbe48b4ae")
+			(uuid "36d31d7a-afc4-4fb0-aba1-33803db845d1")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -54595,7 +54595,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "c7b8bd86-28b1-4a50-9ea2-a0a0856cb09f")
+			(uuid "816e2c30-db21-4113-932b-f7c946325f64")
 			(effects
 				(font
 					(size 1 1)
@@ -54609,7 +54609,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2fc11748-d9ad-40af-859e-6ec965d534fb")
+			(uuid "42491e09-a90e-4287-9d7c-fce0675fc93e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54623,7 +54623,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d81a8b13-3814-4787-9fd6-d78d0703980a")
+			(uuid "3e5e03c6-5e06-4cf7-abe2-f10a37946985")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54637,7 +54637,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "838dae7a-7472-4ec9-83b0-d4b35deb32ba")
+			(uuid "46065188-b5fd-4b24-9efa-47cce6d3e1a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54659,7 +54659,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "9a715362-b326-4ff9-8385-5fe43456215c")
+			(uuid "5fef54a8-5489-43ab-92b5-32b452f6d334")
 		)
 		(fp_circle
 			(center 0 0)
@@ -54670,12 +54670,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "8d683c38-cb88-4133-9ca6-3dfe4c41b437")
+			(uuid "a6881174-b33c-4d00-b377-ddd0d5312269")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "b8638636-e4b0-4283-8b2a-32cb91f9a8c5")
+			(uuid "a421cac9-5156-41bc-8df8-01b632b4ad9a")
 			(effects
 				(font
 					(size 1 1)
@@ -54690,7 +54690,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 1 "GND")
 			(pintype "bidirectional")
-			(uuid "7644d653-0944-4b82-8b92-91c90f1ff23e")
+			(uuid "9be08be6-34ec-43cc-9027-6a17ccfb355f")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:C_0402"
@@ -54980,7 +54980,7 @@
 		(uuid "ccbf82c3-f320-48a2-9b8c-b1bef2ede1d2")
 		(at 89.5 146.1075)
 		(property "Reference" "R47"
-			(at 1.032 1.1564 0)
+			(at -0.55 -0.9575 0)
 			(layer "B.SilkS")
 			(uuid "c77cbca9-803d-4568-ae4e-789fc84cc85d")
 			(effects
@@ -55826,7 +55826,7 @@
 		(uuid "d00bcf10-1c9b-432b-bd18-8dbe90cbc55a")
 		(at 97.9 144.0075)
 		(property "Reference" "U10"
-			(at -0.09329 8.7407 0)
+			(at 2.95 0.0925 90)
 			(layer "B.SilkS")
 			(uuid "0eedc4de-56cf-46db-b7ae-cf5e209518be")
 			(effects
@@ -56479,7 +56479,7 @@
 		(uuid "d027b85f-edd5-4d35-a474-27c05005a71f")
 		(at 94.9 147.5075 90)
 		(property "Reference" "C71"
-			(at 1.032 1.1564 90)
+			(at 1.9075 0.05 90)
 			(layer "B.SilkS")
 			(uuid "8be65ce0-166f-4f00-ac84-eb95c0abcead")
 			(effects
@@ -57043,9 +57043,9 @@
 		(uuid "d898fda7-e410-4012-9be8-14f805a173a9")
 		(at 91.9 150.6075 -45)
 		(property "Reference" "U11"
-			(at 1.515 2.017 135)
+			(at 0.949291 -1.808426 135)
 			(layer "B.SilkS")
-			(uuid "25b6cdac-0938-4d00-93f2-4da94356dfde")
+			(uuid "9d8aa654-14ca-4c2f-82de-39f8420d1f64")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -57057,7 +57057,7 @@
 		(property "Value" "~"
 			(at 11.039999 -2.017 135)
 			(layer "B.Fab")
-			(uuid "3155709e-b63c-4d2b-9ce9-46db364b9069")
+			(uuid "671e0b0f-881a-44de-9714-84349a73bfc1")
 			(effects
 				(font
 					(size 1 1)
@@ -57071,7 +57071,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "df9a06c6-ffd3-4ada-9392-80e55f560127")
+			(uuid "ef831d38-bc2f-47ba-8cff-0a3d516e0173")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57085,7 +57085,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7de78cea-d48b-422d-8b89-75c998651bf6")
+			(uuid "b7826d01-49e3-469a-8853-fbb831036ec9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57099,7 +57099,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0cd81ae3-85b7-4948-a09e-37daf21d1a87")
+			(uuid "9a47c184-a785-4f08-9c84-3dd4f6cbcb98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57113,35 +57113,14 @@
 		(sheetfile "pcie-usb-bridge.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0.8 1.205)
+			(start -0.4 1.205)
 			(end -0.8 1.205)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "356c971f-81a2-448d-9677-df970ab6fd7d")
-		)
-		(fp_line
-			(start 0.8 -1.205)
-			(end -0.8 -1.205)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "93575e65-0643-4e74-82c5-b4d4b0217ede")
-		)
-		(fp_circle
-			(center -1.745 0.75)
-			(end -1.645 0.75)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.SilkS")
-			(uuid "eec6b706-638e-4465-be37-d0d1888c14b3")
+			(uuid "ebce2532-7678-4fca-be2e-b973db502089")
 		)
 		(fp_line
 			(start -1.365 -1.3)
@@ -57151,7 +57130,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "5ba24537-a006-49c1-b2b6-3b1142072ab5")
+			(uuid "8fb4cc21-cef1-433a-81d0-c4ad92645399")
 		)
 		(fp_line
 			(start 1.365 1.3)
@@ -57161,7 +57140,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "3def2734-e6b9-4a5d-ada0-b932f2628301")
+			(uuid "479af7ca-bdc9-4a2b-b1d0-07a8a008bd23")
 		)
 		(fp_line
 			(start 1.365 -1.3)
@@ -57171,7 +57150,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "2a8ac604-5f12-499f-aa6c-c470b31a4f89")
+			(uuid "98818fee-487c-4e94-b4aa-e5b9b0ce2136")
 		)
 		(fp_line
 			(start 1.365 -1.3)
@@ -57181,7 +57160,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "b17de1fc-9543-4cde-ac3c-17b2f430e936")
+			(uuid "85713dc3-b585-4524-84e7-60de7721fa33")
 		)
 		(fp_line
 			(start 0.8 1.050001)
@@ -57191,7 +57170,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "f72c532d-238d-4ce6-96ab-4cba4421faf0")
+			(uuid "94657e0e-a133-4865-aa56-5e20730b1298")
 		)
 		(fp_line
 			(start -0.8 -1.050001)
@@ -57201,7 +57180,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "c7f137bf-47a3-4b8e-bd72-7f19a0c9f39a")
+			(uuid "2d4f8867-aa72-4d9b-95b8-98e5e60be415")
 		)
 		(fp_line
 			(start 0.8 -1.050001)
@@ -57211,7 +57190,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e495abb9-cda6-48fc-94e2-a6d8739778c4")
+			(uuid "8db7d72d-8ba0-4430-ba8a-f4ccae363add")
 		)
 		(fp_line
 			(start 0.8 -1.050001)
@@ -57221,18 +57200,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "5f1d40b0-cef3-4f2e-8cd7-3f5d6c71fe60")
-		)
-		(fp_circle
-			(center -1.745 0.75)
-			(end -1.645 0.75)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Fab")
-			(uuid "da77ce8f-7238-4db8-88d4-6a6379000690")
+			(uuid "120db79c-f1d1-4531-9e98-9e22f7755edd")
 		)
 		(pad "1" smd roundrect
 			(at -0.685 0.75 315)
@@ -57243,7 +57211,7 @@
 			(pinfunction "EN")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "939d9b32-8984-40d9-afc7-51916624e1a1")
+			(uuid "e5eb09f0-2403-49eb-a883-a504bd47ba4e")
 		)
 		(pad "2" smd roundrect
 			(at -0.685 0.25 315)
@@ -57254,7 +57222,7 @@
 			(pinfunction "FB")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "f19a62be-f6b7-41f0-980c-280bf6db0fe2")
+			(uuid "945fdafa-d8ab-4bcf-a0ca-6fae4ce078c0")
 		)
 		(pad "3" smd roundrect
 			(at -0.685 -0.25 315)
@@ -57265,7 +57233,7 @@
 			(pinfunction "AGND")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "352dce97-ef17-47a1-9df4-786a0c185a7d")
+			(uuid "f26e8389-c947-418d-87d3-8413f4630eaa")
 		)
 		(pad "4" smd roundrect
 			(at -0.685 -0.75 315)
@@ -57276,7 +57244,7 @@
 			(pinfunction "NC")
 			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
-			(uuid "99899fcb-bf94-490d-b9d5-d650803e8cec")
+			(uuid "8e54a83c-996b-49a4-8ac5-f32c5e2ee42c")
 		)
 		(pad "5" smd roundrect
 			(at 0.685 -0.75 315)
@@ -57287,7 +57255,7 @@
 			(pinfunction "PGND")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "9a103892-0a4c-4f95-b36e-9cd41f3fb574")
+			(uuid "96541937-5b6e-4891-b637-739cfa48f8f7")
 		)
 		(pad "6" smd roundrect
 			(at 0.685 -0.25 315)
@@ -57298,7 +57266,7 @@
 			(pinfunction "SW")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "a0de04a7-7592-4da3-9d94-4ffeb0229757")
+			(uuid "705646a7-0465-49a8-acb3-818067851cd9")
 		)
 		(pad "7" smd roundrect
 			(at 0.685 0.25 315)
@@ -57309,7 +57277,7 @@
 			(pinfunction "VIN")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "ad4742b6-b115-4458-ba99-ee7da291ea53")
+			(uuid "2e9deae9-32c9-43fc-8aae-c7f314c737ac")
 		)
 		(pad "8" smd roundrect
 			(at 0.685 0.75 315)
@@ -57320,7 +57288,7 @@
 			(pinfunction "PG")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "ee57d7d0-b191-4564-9ce0-5e59db2834ea")
+			(uuid "91120768-88c2-426f-97d3-94c4032081f9")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:R_0402"
@@ -59306,7 +59274,7 @@
 		(property "Reference" "TP14"
 			(at -2.15 0.05 180)
 			(layer "B.SilkS")
-			(uuid "986cf4d8-235d-4119-ae61-d3373f20a867")
+			(uuid "7958a2ac-f58b-4d24-9074-992f62c2467c")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -59318,7 +59286,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "fd6df34f-307d-4835-a83e-3cd905d09637")
+			(uuid "30b1c614-b0b3-4f27-9298-7424a219a678")
 			(effects
 				(font
 					(size 1 1)
@@ -59332,7 +59300,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "98c4b579-6d5c-47ac-9101-6c6ac3c89e65")
+			(uuid "8f1692d4-261d-45b0-a2d0-e5cf7f9d1159")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59346,7 +59314,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f02e55e8-ec9b-4436-b17c-c7b76a0d98b1")
+			(uuid "dbf6b294-5574-4ee4-bf6c-5293051d85fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59360,7 +59328,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "16863d25-a1e4-4536-9648-ab4de3317366")
+			(uuid "a9e675ca-1aef-4050-aa74-33539e24bcb3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59382,7 +59350,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "63ccce10-991b-445c-81db-f0ca3644595a")
+			(uuid "9ab84272-ba92-4073-991b-7850fd35e15a")
 		)
 		(fp_circle
 			(center 0 0)
@@ -59393,12 +59361,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "5137294b-6eb0-4a2f-a349-bef0b3f1126e")
+			(uuid "3cd18778-c443-421f-a8a7-16cea0969297")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "f2ae5010-6188-419b-92a5-dd2b984786bb")
+			(uuid "76d56ace-4919-432b-a2a5-b21b1d00be41")
 			(effects
 				(font
 					(size 1 1)
@@ -59413,7 +59381,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 181 "Net-(U3-IRQ12_O)")
 			(pintype "bidirectional")
-			(uuid "4003880c-2261-4941-b298-726700927d28")
+			(uuid "e6bccbd0-79c0-4e23-a7d4-b4641fa4ebd3")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:C_0402"
@@ -59707,7 +59675,7 @@
 		(property "Reference" "TP12"
 			(at -2.05 0 180)
 			(layer "B.SilkS")
-			(uuid "1c1b8f97-cd8d-4cee-98ac-ea242dc5784d")
+			(uuid "3a0261c5-68a9-4991-a9b5-a48b4989e37b")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -59719,7 +59687,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "5756ac58-3608-44a3-91d5-ae8ed8164a9d")
+			(uuid "284f177b-f3c0-44bc-914c-3877ed95e48e")
 			(effects
 				(font
 					(size 1 1)
@@ -59733,7 +59701,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8382bd3b-a821-4d57-a44e-1bc1e26d7b6c")
+			(uuid "3dc5a7b1-f513-4fcf-9233-63eb77ce80c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59747,7 +59715,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "eb6289e4-06b6-4ec1-8d73-d6861438ebd2")
+			(uuid "96cc1d9e-3f84-4554-a70b-02e17ac29922")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59761,7 +59729,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c5181eef-9499-4c7e-aded-6cb5a64a228e")
+			(uuid "8e7bb7d5-ac1e-42ab-9f86-37c688f8a8fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59783,7 +59751,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "50232666-0bbb-4a60-926a-fa992e9997d4")
+			(uuid "2dfecc10-d552-4eb4-b03f-be677bc53861")
 		)
 		(fp_circle
 			(center 0 0)
@@ -59794,12 +59762,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "5232727a-3ffe-4d65-8a4b-401a98ff7bc7")
+			(uuid "4ab59a9e-a0c4-4ca0-a46d-5894905281dc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "6be8dc40-f0ea-4f59-b848-e23a03bdf362")
+			(uuid "c0e5e761-c7bd-4d8b-963b-02d13a20147e")
 			(effects
 				(font
 					(size 1 1)
@@ -59814,7 +59782,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 190 "Net-(U3-IRQ1_O)")
 			(pintype "bidirectional")
-			(uuid "3c385f5d-d9c8-4e80-abb4-bfc0ea714a7c")
+			(uuid "911bd972-0f6a-4ccc-88f7-3ecf8f05f2e2")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:R_0402"
@@ -60390,7 +60358,7 @@
 		(property "Reference" "TP1"
 			(at -1.9 0.1 180)
 			(layer "B.SilkS")
-			(uuid "f180e802-1f02-4163-a3cd-4de974b00d90")
+			(uuid "1000e345-4bd5-436c-88ce-5ba896bd301f")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -60402,7 +60370,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "fd4d453b-7e60-4749-ba46-bd4714ef9ef9")
+			(uuid "344e19e3-0924-4c0f-aa61-1d817919dfa1")
 			(effects
 				(font
 					(size 1 1)
@@ -60416,7 +60384,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d6660b24-47da-467e-94e1-f58922eef5b4")
+			(uuid "c47083e4-d741-4d9b-8fb5-9813d311108f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60430,7 +60398,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "50e5c373-0ec2-4b84-8904-26fd47404873")
+			(uuid "578df6c4-1db3-48d9-9250-5d793bdf37d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60444,7 +60412,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "94947395-dda5-470e-8b33-8e883893e826")
+			(uuid "77380ffd-96b7-4f3c-a52d-c9c47e80ef76")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60466,7 +60434,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "2e729c4e-35a9-4d3f-b42f-875b26e68886")
+			(uuid "71daf79a-32df-499a-b1a0-4a5b77498bcc")
 		)
 		(fp_circle
 			(center 0 0)
@@ -60477,12 +60445,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "9cb13899-7841-4839-84b6-52fc3c53603a")
+			(uuid "343cbc69-394c-4127-a813-3586bac54f4b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "6f2f642d-f5ac-4caf-a5d2-74b8c14bead3")
+			(uuid "25876ace-d024-4cf9-921e-7e57bfe7e3cd")
 			(effects
 				(font
 					(size 1 1)
@@ -60497,7 +60465,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 191 "Net-(U3-TCK)")
 			(pintype "bidirectional")
-			(uuid "ca398b84-fcbc-48cf-8c5b-fe6487ba028b")
+			(uuid "8afda7d3-c52f-4163-a28d-47cc0353ff47")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:R_0402"
@@ -60505,7 +60473,7 @@
 		(uuid "f8610ebe-7e88-4612-a7ac-4401e758cf60")
 		(at 90.1 151.6075 135)
 		(property "Reference" "R39"
-			(at 1.032 1.1564 135)
+			(at 1.808426 -0.595737 180)
 			(layer "B.SilkS")
 			(uuid "35b06022-3f6e-4482-89a4-e8f1c4c2810c")
 			(effects
@@ -61637,7 +61605,7 @@
 		(property "Reference" "TP2"
 			(at -1.95 0.05 180)
 			(layer "B.SilkS")
-			(uuid "c9c96195-3cd5-4b31-9d7a-a4568ae33c6a")
+			(uuid "c8775d57-2bbc-4ef1-9ba9-2862d9117e88")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -61649,7 +61617,7 @@
 		(property "Value" "~"
 			(at 0 -1.55 180)
 			(layer "B.Fab")
-			(uuid "35a259de-8cfd-4dc6-85d8-caf8aeac81ee")
+			(uuid "c0ecf42f-957f-4bc6-8902-9ea1bcd9a116")
 			(effects
 				(font
 					(size 1 1)
@@ -61663,7 +61631,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "183cb915-499a-4f0f-aab2-e5a24865c418")
+			(uuid "25a99367-9bd0-418f-8731-77419eb0d3e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61677,7 +61645,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ea9a81d1-b75f-4f06-b7aa-e689f6e4c711")
+			(uuid "c601eedd-d79c-426b-b72a-d5a34259f3f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61691,7 +61659,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8c529acb-cb48-4498-8fbc-f8ba2aad9c9c")
+			(uuid "b5d0d1b9-b2f6-4c4d-ac58-423e18d03b87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61713,7 +61681,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "8d0e06e0-fc8d-4ac0-a43f-0a41c3fd92d0")
+			(uuid "60780156-6c51-4074-90d9-eea2560c140e")
 		)
 		(fp_circle
 			(center 0 0)
@@ -61724,12 +61692,12 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "870c9eb4-5cbb-4f90-8623-c829ecf8bb84")
+			(uuid "30739d36-37c5-4fa2-96f9-d06c7bed0896")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.45 180)
 			(layer "B.Fab")
-			(uuid "efd0188c-aa23-4be7-bd31-ad7298139c63")
+			(uuid "983a40db-4469-49af-9ef3-c24fe052e5f8")
 			(effects
 				(font
 					(size 1 1)
@@ -61744,7 +61712,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 189 "Net-(U3-TDO)")
 			(pintype "bidirectional")
-			(uuid "390e6f6a-697f-46af-bfcc-694c6a7531f9")
+			(uuid "73eb33ad-bd07-4616-8849-184f94fe87d8")
 		)
 	)
 	(footprint "M2SmartHomeFootprints:R_0402"
@@ -84305,28 +84273,20 @@
 		(uuid "610d4fda-b9cf-4811-8274-d79225cf0617")
 	)
 	(segment
+		(start 90.407591 151.915091)
+		(end 89.522682 152.8)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 217)
+		(uuid "2c6e2625-2ab6-4bac-a81a-699375fd1fe0")
+	)
+	(segment
 		(start 91.53934 151.3075)
 		(end 91.015182 151.3075)
 		(width 0.1)
 		(layer "B.Cu")
 		(net 217)
 		(uuid "2fb0bb0c-9349-48cf-bccd-9f849a5b6a27")
-	)
-	(segment
-		(start 89.315182 153.0075)
-		(end 88.8 153.0075)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 217)
-		(uuid "5d5ac669-f704-430c-a9bb-6b83e28e2708")
-	)
-	(segment
-		(start 90.407591 151.915091)
-		(end 89.315182 153.0075)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 217)
-		(uuid "86026635-a50b-44f0-8423-62156a4f2be2")
 	)
 	(segment
 		(start 91.015182 151.3075)
@@ -84343,6 +84303,14 @@
 		(layer "B.Cu")
 		(net 217)
 		(uuid "bc0a3175-8ac7-4f9e-ad1c-ce821a06c9e6")
+	)
+	(segment
+		(start 89.522682 152.8)
+		(end 88.65 152.8)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 217)
+		(uuid "e477dcaa-80f0-4111-a45d-36d683454f5c")
 	)
 	(segment
 		(start 84.55 115.4575)
