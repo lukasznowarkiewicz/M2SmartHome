@@ -6,7 +6,7 @@
 	(descr "SMD pad as test Point, diameter 1.0mm")
 	(tags "test point SMD pad")
 	(property "Reference" "REF**"
-		(at 0 -1.448 0)
+		(at 0 -1.6 0)
 		(layer "F.SilkS")
 		(uuid "ed08342a-eaee-43e9-b96e-1dd00b47763e")
 		(effects
@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
