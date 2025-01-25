@@ -10,7 +10,7 @@
 		(effects
 			(font
 				(size 0.480888 0.480888)
-				(thickness 0.15)
+				(thickness 0.120222)
 			)
 		)
 	)
@@ -21,7 +21,7 @@
 		(effects
 			(font
 				(size 0.480307 0.480307)
-				(thickness 0.15)
+				(thickness 0.120077)
 			)
 		)
 	)
@@ -543,5 +543,16 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "d5e210c4-f18d-4925-b9dd-22a327cac7f2")
+	)
+	(model "${KIPRJMOD}/Library/step/RTL8188FTV-VC-CG.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )
