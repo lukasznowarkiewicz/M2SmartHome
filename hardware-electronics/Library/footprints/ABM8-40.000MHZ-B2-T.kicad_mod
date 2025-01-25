@@ -65,6 +65,7 @@
 		)
 	)
 	(attr smd)
+	(private_layers "User.1")
 	(fp_line
 		(start -1.25 -0.18)
 		(end -1.25 0.18)
@@ -192,5 +193,16 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "ec5da850-7020-479f-8d0a-921c8bd7bb79")
+	)
+	(model "${KIPRJMOD}/Library/step/ABM8-40.000MHZ-B2-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )
