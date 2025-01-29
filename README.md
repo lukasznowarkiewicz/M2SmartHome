@@ -21,40 +21,48 @@ The device is equipped with onboard eMMC memory, an SD card reader, WiFi 802.11n
   - **Thread Radio**: EFR32MG21 (Silicon Labs)
 
 
-##Block diagram
+## Block diagram
 
 ![Block diagram](images/M2SmartHome_block_diagram.png)
 
 
-###PCie to USB bridge
+### PCie to USB bridge
 
 Diodes Inc. (Pericom) PI7C9X440SLBFDE PCIe 1.0 x1 4x USB 2.0 bridge
 
 
 
-###eMMC memory with controller
+![board-3d-pcie-bridge](images/board-3d-pcie-bridge.png)
+
+### eMMC memory with controller
 
 Kingston EMMC16G-MW28-01E10 eMMC flash memory
 Microchip USB2244 controller
 Microchip 24AA04T-I/OT serial EEPROM for storing device configuration to be loaded during startup
 
 
-###micro SD card reader and controller
+![board-3d-eMMC](images/board-3d-eMMC.png)
+
+### micro SD card reader and controller
 
 Hirose HRS_DM3AT-SF-PEJM5 push-in micro SD card slot
 Microchip USB2244 controller
 Microchip 24AA04T-I/OT serial EEPROM for storing device configuration to be loaded during startup
 
+![board-3d-uSD](images/board-3d-uSD.png)
 
-###Thread radio
+### Thread radio
 
 Silicon Labs EFR32MG21B020F1024IM32-B 802.15.4 thread radio SOC
 Silicon Labs CP2102N-A02-GQFN20 USB UART
 
-###WiFi radio
+![board-3d-thread](images/board-3d-thread.png)
+
+### WiFi radio
 
 Realtek RTL8188FTV-VC-CG wifi radio SOC
 
+![board-3d-wifi](images/board-3d-wifi.png)
 
 ## Board design
 
@@ -89,7 +97,7 @@ Describe what works what not
 
 
 
-###Firmware
+### Firmware
 
 reguirements:
 - USB devices not detachable
