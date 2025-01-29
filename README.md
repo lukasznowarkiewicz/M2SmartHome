@@ -13,7 +13,7 @@ The device is equipped with onboard eMMC memory, an SD card reader, WiFi 802.11n
 
 ## Features
 
-- **Form Factor**: M.2 2280
+- **Form Factor**: M.2 2280 Key M
 - **Interface**: M.2 edge conenctor PCIe x1 
 - **Storage**: Onboard eMMC, SD card reader
 - **Wireless Connectivity**:
@@ -23,22 +23,23 @@ The device is equipped with onboard eMMC memory, an SD card reader, WiFi 802.11n
 
 ## Block diagram
 
+On the diagram below siplified system architecture has been presented. PCIe x1 interface from host device is connected to PCIe bridge. To four USB 2.0 ports all crucial components are connected: eMMC memory controller, micro SD card controller, USB to UART bridge with Thread / ZigBee RF SOC and WiFi network card. 
+
 ![Block diagram](images/M2SmartHome_block_diagram.png)
 
 
 ### PCie to USB bridge
-
-Diodes Inc. (Pericom) PI7C9X440SLBFDE PCIe 1.0 x1 4x USB 2.0 bridge
-
+As a PCIe bridge choosen the `PI7C9X440SLBFDE` sold by Diodes Inc. (oryginally manufactured by Pericom). `7C9X440SLBFDE` is a PCIe-to-USB 2.0 host controller with a single x1 PCIe 1.1 interface, compliant with the PCIe Base Specification 1.1, supporting programmable driver current, de-emphasis levels, and advanced power management (L0, L0s, L1, L2, L2/L3Ready, L3, D0, D3Hot, D3Cold). It features four USB 2.0 ports with EHCI (480 Mbps) and OHCI (12 Mbps, 1.5 Mbps) controllers for high-, full-, and low-speed transactions. An EEPROM connected via I²C has been added to enable optional features and configurable settings.
 
 
+[TODO] - add schematic
+
+This part of the schematic has been highlighted in green on the board:
 ![board-3d-pcie-bridge](images/board-3d-pcie-bridge.png)
 
 ### eMMC memory with controller
 
-Kingston EMMC16G-MW28-01E10 eMMC flash memory
-Microchip USB2244 controller
-Microchip 24AA04T-I/OT serial EEPROM for storing device configuration to be loaded during startup
+The USB2244 is connected to a Pericom PCIe-to-USB bridge, acting as a USB 2.0-to-eMMC controller for Kingston’s EMMC16G-MW28-01E10, with a Microchip 24AA04T-I/OT EEPROM for optional configuration. The eMMC is powered directly from the M.2 3.3V rail, eliminating the need for an LDO. The eMMC interface uses D0–D8, CMD, and CLK lines, with 49.9kΩ pull-ups on CMD and data lines. The EEPROM is connected via I²C (SCL, SDA) with 4.7kΩ pull-ups, storing configuration settings for the USB controller. This setup provides high-speed eMMC access over USB in an M.2 form factor.
 
 ![M2SmartHome-emmc](images/M2SmartHome-emmc.svg)
 
@@ -46,9 +47,7 @@ Microchip 24AA04T-I/OT serial EEPROM for storing device configuration to be load
 
 ### micro SD card reader and controller
 
-Hirose HRS_DM3AT-SF-PEJM5 push-in micro SD card slot
-Microchip USB2244 controller
-Microchip 24AA04T-I/OT serial EEPROM for storing device configuration to be loaded during startup
+The USB2244 controller interfaces with a Hirose HRS_DM3AT-SF-PEJM5 push-in microSD card slot for USB-to-microSD storage access, with a Microchip 24AA04T-I/OT EEPROM for configuration storage. The microSD card is powered by the internal 3.3V regulator of the USB2244. The SD interface utilizes CLK, CMD, and D0–D3 lines, with 49.9kΩ pull-ups on CMD and data lines for stable operation. The EEPROM is connected via I²C (SCL, SDA) with 4.7kΩ pull-ups, allowing the USB2244 to load stored device settings at startup.
 
 ![M2SmartHome-sd-card](images/M2SmartHome-sd-card.svg)
 
@@ -56,8 +55,7 @@ Microchip 24AA04T-I/OT serial EEPROM for storing device configuration to be load
 
 ### Thread radio
 
-Silicon Labs EFR32MG21B020F1024IM32-B 802.15.4 thread radio SOC
-Silicon Labs CP2102N-A02-GQFN20 USB UART
+The Silicon Labs EFR32MG21B020F1024IM32-B is a 802.15.4 Thread radio SoC, providing wireless connectivity, while the Silicon Labs CP2102N-A02-GQFN20 acts as a USB-to-UART bridge for communication with a host system. The EFR32MG21 is powered from the M.2 3.3V rail, with its radio interface using an external antenna for Thread communication. The CP2102N is connected via USB 2.0 (D+, D-) to the host via PCIe USB bridge. 
 
 ![M2SmartHome-thread-or-zigbee](images/M2SmartHome-thread-or-zigbee.svg)
 
@@ -65,7 +63,7 @@ Silicon Labs CP2102N-A02-GQFN20 USB UART
 
 ### WiFi radio
 
-Realtek RTL8188FTV-VC-CG wifi radio SOC
+The Realtek RTL8188FTV-VC-CG is a WiFi 802.11b/g/n 2.4GHz radio SoC, providing wireless connectivity. It is powered from the M.2 3.3V rail and interfaces with the host system via a USB 2.0 connection. The RF section is connected to an external antenna. 
 
 ![M2SmartHome-wifi](images/M2SmartHome-wifi.svg)
 
@@ -73,7 +71,6 @@ Realtek RTL8188FTV-VC-CG wifi radio SOC
 
 ## Board design
 
-Highlight certain regions
 Board dimensions
 Board renders
 
