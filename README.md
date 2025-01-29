@@ -93,7 +93,22 @@ Photos inside PC
 Describe what works what not
 
 ### PCie USB bridge
+This part of the device is not yet working. 
 
+What already verified:
+- proper supply voltages
+- Stable oscillations on crystal
+- PCIe REF CLK - stable 100 MHz at the IC
+- Square signal on TX line from HOST
+- Host trying to initialise the device - properly set M.2 channel configuration, `lspci` shows additional bridge when inserted card
+- PERST is properly pulled low and high - host tries to initialise device and when restarting it hungs on boot, probably due to lack of response
+- removing serial EEPROM
+- pulling I2C data lines up and down, left floating (found in another IC that when flash not used data lines should be pulled down)
+
+Current hypothesis:
+- power sequencing
+- lacking of some configuration pins pull-ups / pull-downs
+- 
 
 ### eMMC memory
 
