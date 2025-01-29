@@ -318,20 +318,16 @@ Benchmarked using Gnome Disks tool. Tested 3 different uSD cards.
 
 ### Thread radio
 
+To be described.
+
 ### WiFi radio
 
-
+To be described.
 
 
 ### Firmware
 
-reguirements:
-- USB devices not detachable
-- custom description
-
-
-
-
+Custom firmware is not yet ready.
 
 
 ## Repository Structure
@@ -339,3 +335,5 @@ reguirements:
 This repository contains the following directories:
 
 - `hardware-electronics` - Kicad 8 project (schematic, board and libraries) 
+- `images` - contains photos and reders used in this README
+- `firmware` - contains flash binary files for custom devices configurations
