@@ -93,7 +93,7 @@ Photos inside PC
 Describe what works what not
 
 ### PCie USB bridge
-This part of the device is not yet working. 
+This part of the device is not yet working properly. 
 
 What already verified:
 - proper supply voltages
@@ -108,9 +108,102 @@ What already verified:
 Current hypothesis:
 - power sequencing
 - lacking of some configuration pins pull-ups / pull-downs
-- 
 
 ### eMMC memory
+
+This part has been tested by the removal of the series resistors on USB data lines and conencting this directly to USB port through cable, while beeing powered from M.2 port. eMMC memory is properly detected in the operating system, it is readable and writtable. Works without any issues during benchmarking and extended write test. Tested on HP 820 SFF on Ubuntu 22.04.
+
+
+`lsusb -d 0424:2240 -vvv`:
+```bash
+Bus 001 Device 008: ID 0424:2240 Microchip Technology, Inc. (formerly SMSC) Ultra Fast Media
+Couldn't open device, some information will be missing
+Device Descriptor:
+bLength 18
+bDescriptorType 1
+bcdUSB 2.00
+bDeviceClass 0 [unknown]
+bDeviceSubClass 0 [unknown]
+bDeviceProtocol 0
+bMaxPacketSize0 64
+idVendor 0x0424 Microchip Technology, Inc. (formerly SMSC)
+idProduct 0x2240 Ultra Fast Media
+bcdDevice 1.98
+iManufacturer 1 Generic
+iProduct 2 Ultra Fast Media
+iSerial 3 000000225001
+bNumConfigurations 1
+Configuration Descriptor:
+bLength 9
+bDescriptorType 2
+wTotalLength 0x0020
+bNumInterfaces 1
+bConfigurationValue 1
+iConfiguration 0
+bmAttributes 0x80
+(Bus Powered)
+MaxPower 96mA
+Interface Descriptor:
+bLength 9
+bDescriptorType 4
+bInterfaceNumber 0
+bAlternateSetting 0
+bNumEndpoints 2
+bInterfaceClass 8 Mass Storage
+bInterfaceSubClass 6 SCSI
+bInterfaceProtocol 80 Bulk-Only
+iInterface 0
+Endpoint Descriptor:
+bLength 7
+bDescriptorType 5
+bEndpointAddress 0x02 EP 2 OUT
+bmAttributes 2
+Transfer Type Bulk
+Synch Type None
+Usage Type Data
+wMaxPacketSize 0x0200 1x 512 bytes
+bInterval 1
+Endpoint Descriptor:
+bLength 7
+bDescriptorType 5
+bEndpointAddress 0x82 EP 2 IN
+bmAttributes 2
+Transfer Type Bulk
+Synch Type None
+Usage Type Data
+wMaxPacketSize 0x0200 1x 512 bytes
+bInterval 0
+
+```
+
+`lsblk`:
+```bash
+NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS
+sdb 8:16 1 14.6G 0 disk
+```
+
+`dmesg`:
+```bash
+[ 2402.769465] usb 1-13: new high-speed USB device number 8 using xhci_hcd
+[ 2402.902304] usb 1-13: New USB device found, idVendor=0424, idProduct=2240, bcdDevice= 1.98
+[ 2402.902327] usb 1-13: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2402.902335] usb 1-13: Product: Ultra Fast Media
+[ 2402.902341] usb 1-13: Manufacturer: Generic
+[ 2402.902347] usb 1-13: SerialNumber: 000000225001
+[ 2402.907570] usb-storage 1-13:1.0: USB Mass Storage device detected
+[ 2402.907866] scsi host2: usb-storage 1-13:1.0
+[ 2403.963071] scsi 2:0:0:0: Direct-Access Generic Ultra HS-COMBO 1.98 PQ: 0 ANSI: 0
+[ 2403.963267] sd 2:0:0:0: Attached scsi generic sg1 type 0
+[ 2403.969432] sd 2:0:0:0: [sdb] 30615552 512-byte logical blocks: (15.7 GB/14.6 GiB)
+[ 2403.970000] sd 2:0:0:0: [sdb] Write Protect is off
+[ 2403.970004] sd 2:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 2403.970608] sd 2:0:0:0: [sdb] No Caching mode page found
+[ 2403.970611] sd 2:0:0:0: [sdb] Assuming drive cache: write through
+[ 2403.974170] sd 2:0:0:0: [sdb] Attached SCSI removable disk
+```
+
+Benchmarked using Gnome Disks tool:
+![eMMC benchmark](images/eMMC_benchmark.png)
 
 ### uSD reader
 
