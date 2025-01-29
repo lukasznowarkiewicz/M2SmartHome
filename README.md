@@ -1,5 +1,7 @@
 # M2SmartHome
 
+## You are on development branch rev.1.1.0
+
 ![M2SH Photo](images/M2SH-photo.jpeg)
 
 ## Overview
