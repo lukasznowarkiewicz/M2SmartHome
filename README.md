@@ -40,6 +40,7 @@ Kingston EMMC16G-MW28-01E10 eMMC flash memory
 Microchip USB2244 controller
 Microchip 24AA04T-I/OT serial EEPROM for storing device configuration to be loaded during startup
 
+![M2SmartHome-emmc](images/M2SmartHome-emmc.svg)
 
 ![board-3d-eMMC](images/board-3d-eMMC.png)
 
@@ -49,6 +50,8 @@ Hirose HRS_DM3AT-SF-PEJM5 push-in micro SD card slot
 Microchip USB2244 controller
 Microchip 24AA04T-I/OT serial EEPROM for storing device configuration to be loaded during startup
 
+![M2SmartHome-sd-card](images/M2SmartHome-sd-card.svg)
+
 ![board-3d-uSD](images/board-3d-uSD.png)
 
 ### Thread radio
@@ -56,11 +59,15 @@ Microchip 24AA04T-I/OT serial EEPROM for storing device configuration to be load
 Silicon Labs EFR32MG21B020F1024IM32-B 802.15.4 thread radio SOC
 Silicon Labs CP2102N-A02-GQFN20 USB UART
 
+![M2SmartHome-thread-or-zigbee](images/M2SmartHome-thread-or-zigbee.svg)
+
 ![board-3d-thread](images/board-3d-thread.png)
 
 ### WiFi radio
 
 Realtek RTL8188FTV-VC-CG wifi radio SOC
+
+![M2SmartHome-wifi](images/M2SmartHome-wifi.svg)
 
 ![board-3d-wifi](images/board-3d-wifi.png)
 
