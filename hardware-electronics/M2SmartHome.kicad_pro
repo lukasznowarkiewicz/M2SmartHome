@@ -464,9 +464,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "M2SmartHomeSymbols"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "M2SmartHome.kicad_pro",
@@ -501,7 +499,7 @@
         "microvia_diameter": 0.4,
         "microvia_drill": 0.3,
         "name": "100Ohm-diff",
-        "pcb_color": "rgb(255, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.4,
@@ -530,7 +528,6 @@
       "version": 3
     },
     "net_colors": {
-      "+1V0_core": "rgb(0, 255, 0)",
       "+3V3": "rgb(221, 133, 0)",
       "+3V3_Bridge": "rgb(132, 0, 132)"
     },
