@@ -13,6 +13,8 @@ The device is equipped with onboard eMMC memory, an SD card reader, WiFi 802.11n
 ![Render 1](images/M2SmartHome_cc9c86150_render_1.png)
 ![Render 2](images/M2SmartHome_cc9c86150_render_2.png)
 
+This readme reffers to the Rev.1.0.0. 
+
 ## Features
 
 - **Form Factor**: M.2 2280 Key M
