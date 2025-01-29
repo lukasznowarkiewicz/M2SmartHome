@@ -111,7 +111,7 @@ Current hypothesis:
 
 ### eMMC memory
 
-This part has been tested by the removal of the series resistors on USB data lines and conencting this directly to USB port through cable, while beeing powered from M.2 port. eMMC memory is properly detected in the operating system, it is readable and writtable. Works without any issues during benchmarking and extended write test. Tested on HP 820 SFF on Ubuntu 22.04.
+This part has been tested by the removal of the series resistors on USB data lines and conencting this directly to USB port through cable, while beeing powered from M.2 port. eMMC memory is properly detected in the operating system, it is readable and writtable. Works without any issues during benchmarking and extended write test. Tested on HP 800 G3 SFF on Ubuntu 22.04.
 
 
 `lsusb -d 0424:2240 -vvv`:
@@ -206,6 +206,115 @@ Benchmarked using Gnome Disks tool:
 ![eMMC benchmark](images/eMMC_benchmark.png)
 
 ### uSD reader
+
+This part has been tested by the removal of the series resistors on USB data lines and conencting this directly to USB port through cable, while beeing powered from M.2 port. Various micro SD cards are properly detected in the operating system, they are readable and writtable. Works without any issues during benchmarking and extended write test. Tested on HP 800 G3 SFF on Ubuntu 22.04.
+
+`lsusb -d 0424:2240 -vvv`:
+```bash
+Bus 001 Device 005: ID 0424:2240 Microchip Technology, Inc. (formerly SMSC) Ultra Fast Media
+Couldn't open device, some information will be missing
+Device Descriptor:
+bLength 18
+bDescriptorType 1
+bcdUSB 2.00
+bDeviceClass 0 [unknown]
+bDeviceSubClass 0 [unknown]
+bDeviceProtocol 0
+bMaxPacketSize0 64
+idVendor 0x0424 Microchip Technology, Inc. (formerly SMSC)
+idProduct 0x2240 Ultra Fast Media
+bcdDevice 1.98
+iManufacturer 1 Generic
+iProduct 2 Ultra Fast Media
+iSerial 3 000000225001
+bNumConfigurations 1
+Configuration Descriptor:
+bLength 9
+bDescriptorType 2
+wTotalLength 0x0020
+bNumInterfaces 1
+bConfigurationValue 1
+iConfiguration 0
+bmAttributes 0x80
+(Bus Powered)
+MaxPower 96mA
+Interface Descriptor:
+bLength 9
+bDescriptorType 4
+bInterfaceNumber 0
+bAlternateSetting 0
+bNumEndpoints 2
+bInterfaceClass 8 Mass Storage
+bInterfaceSubClass 6 SCSI
+bInterfaceProtocol 80 Bulk-Only
+iInterface 0
+Endpoint Descriptor:
+bLength 7
+bDescriptorType 5
+bEndpointAddress 0x02 EP 2 OUT
+bmAttributes 2
+Transfer Type Bulk
+Synch Type None
+Usage Type Data
+wMaxPacketSize 0x0200 1x 512 bytes
+bInterval 1
+Endpoint Descriptor:
+bLength 7
+bDescriptorType 5
+bEndpointAddress 0x82 EP 2 IN
+bmAttributes 2
+Transfer Type Bulk
+Synch Type None
+Usage Type Data
+wMaxPacketSize 0x0200 1x 512 bytes
+bInterval 0
+```
+
+`lsblk`:
+```bash
+NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS
+sdb 8:16 1 3.7G 0 disk
+└─sdb1 8:17 1 3.7G 0 part /media/user/9016-4EF8
+```
+
+`dmesg` with connected just empty reader:
+```bash
+[ 33.892694] usb 1-13: new high-speed USB device number 5 using xhci_hcd
+[ 34.027971] usb 1-13: New USB device found, idVendor=0424, idProduct=2240, bcdDevice= 1.98
+[ 34.027977] usb 1-13: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 34.027979] usb 1-13: Product: Ultra Fast Media
+[ 34.027981] usb 1-13: Manufacturer: Generic
+[ 34.027983] usb 1-13: SerialNumber: 000000225001
+[ 34.051629] usb-storage 1-13:1.0: USB Mass Storage device detected
+[ 34.051918] scsi host2: usb-storage 1-13:1.0
+[ 34.052013] usbcore: registered new interface driver usb-storage
+[ 34.054051] usbcore: registered new interface driver uas
+[ 35.074189] scsi 2:0:0:0: Direct-Access Generic Ultra HS-COMBO 1.98 PQ: 0 ANSI: 0
+[ 35.074516] sd 2:0:0:0: Attached scsi generic sg1 type 0
+[ 35.075325] sd 2:0:0:0: [sdb] Media removed, stopped polling
+[ 35.075721] sd 2:0:0:0: [sdb] Attached SCSI removable disk
+```
+
+
+`dmesg` when inserted 4GB micro SD card:
+```bash
+[ 651.529877] sd 2:0:0:0: [sdb] 7759872 512-byte logical blocks: (3.97 GB/3.70 GiB)
+[ 651.531210] sdb: detected capacity change from 0 to 7759872
+[ 651.532979] sdb: sdb1
+```
+
+Benchmarked using Gnome Disks tool. Tested 3 different uSD cards. 
+1. Off brand 4GB class 4 micro SD card 
+![uSD off brand benchmark](images/uSD_benchmark_non_brand.png)
+
+2. ATP 1GB SLC industrial micro SD card:
+![1GB ATP benchmark](images/uSD_benchmark_1GB_industrial_ATP.png)
+
+
+3. San Disk Extreme 32GB class Ultra 3:
+![32GB SanDisk extreme benchmark](images/uSD_benchmark_sandisk_extreme.png)
+
+
 
 ### Thread radio
 
