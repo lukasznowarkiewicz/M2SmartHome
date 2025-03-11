@@ -677,6 +677,765 @@
 			)
 		)
 	)
+	(symbol "24LC01B_SN"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.7 16.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "24LC01B_SN"
+			(at -12.7 -19.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:24LC01B_SN"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/24AA01-24LC01B-24FC01-1K-I2C-Serial-EEPROM-20001711N.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Microchip Serial EEPROM Memory 1kbit 900ns 2.5 to 5.5 V 8-Pin SOIC | Microchip Technology Inc. 24LC01B/SN\n                        \n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SO-8 Microchip"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/24LC01B/SN/Microchip/view-part/?ref=snap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "24LC01B/SN"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/24LC01B/SN/Microchip/view-part/?ref=eda"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "24LC01B_SN_0_0"
+			(rectangle
+				(start -12.7 -15.24)
+				(end 12.7 15.24)
+				(stroke
+					(width 0.41)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -17.78 7.62 0)
+				(length 5.08)
+				(name "A0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 5.08 0)
+				(length 5.08)
+				(name "A1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 2.54 0)
+				(length 5.08)
+				(name "A2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -12.7 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -7.62 0)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 0 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "WP"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 12.7 180)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "2N7002"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at -8.89 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2N7002"
+			(at -8.89 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:TRANS_2N7002"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Diotec Semiconductor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23 Diotec"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/2N7002/Diotec/view-part/?ref=eda"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2023-01-11"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2N7002/Diotec/view-part/?ref=snap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            MOSFET, SOT-23, N, 60V, 0.28A, 5Ω, 150°C\n                        \n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diotec Semiconductor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "2N7002_0_0"
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -2.54) (xy 0.762 -3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.905) (xy 0.762 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0) (xy 0.762 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.762) (xy 0.762 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.54) (xy 0.762 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.54) (xy 3.81 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 3.175) (xy 0.762 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 0.762 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0.508) (xy 3.302 0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0.508) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 2.54) (xy 3.81 0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.318 0.508) (xy 3.81 0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.016 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254) (xy 3.81 0.508)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "ABM8-12.000MHZ-B2-T"
 		(pin_names
 			(offset 1.016)
@@ -3616,6 +4375,189 @@
 			)
 		)
 	)
+	(symbol "C_10nF_5pct_50V_0402_C0402C103J5RACTU"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 -3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_10nF_5pct_50V_0402_C0402C103J5RACTU"
+			(at 0 -7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "M2SH:C_0402"
+			(at 0 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C103J5RAC7867"
+			(at 0 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 10 nF, ±5%, 50 V, C0G/NP0, 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C103J5RACTU"
+			(at 0 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 -18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 0 -23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10nF"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMD Capacitor Ceramic 10nF C0G NP0 50V 0402 KEMET"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_10nF_5pct_50V_0402_C0402C103J5RACTU_0_1"
+			(polyline
+				(pts
+					(xy -0.508 -1.524) (xy -0.508 1.524)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 1.524)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_10nF_5pct_50V_0402_C0402C103J5RACTU_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "C_120pF_0402"
 		(pin_numbers hide)
 		(pin_names hide)
@@ -4010,6 +4952,189 @@
 			)
 			(pin passive line
 				(at 5.08 0 180)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_1nF_10pct_25V_0402_ KGM05AR71E102KH"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 -3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_1nF_10pct_25V_0402_ KGM05AR71E102KH"
+			(at 0 -7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "M2SH:C_0402"
+			(at 0 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/78f46414e6dac38b7cca12338ea208b0/X7RDielectric.pdf"
+			(at 0 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Capacitor Ceramic 1nF 25V 0402 Kyocera"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM05AR71E102KH"
+			(at 0 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 -18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 0 -23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1nF"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMD Capacitor Ceramic 1nF 25V 0402 Kyocera"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_1nF_10pct_25V_0402_ KGM05AR71E102KH_0_1"
+			(polyline
+				(pts
+					(xy -0.508 -1.524) (xy -0.508 1.524)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 1.524)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1nF_10pct_25V_0402_ KGM05AR71E102KH_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
 				(length 2.032)
 				(name "~"
 					(effects
@@ -4852,6 +5977,189 @@
 			)
 		)
 	)
+	(symbol "C_22uF_10pct_10V_0603_C1608X5R1A226M080AC"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 -3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_22uF_10pct_10V_0603_C1608X5R1A226M080AC"
+			(at 0 -7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "M2SH:C_0603"
+			(at 0 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
+			(at 0 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 22 µF, ±10%, 10V, X5R, 0603"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1608X5R1A226M080AC"
+			(at 0 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 -18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 0 -23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22µF"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMD Capacitor Ceramic X5R 10V 0603 TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_22uF_10pct_10V_0603_C1608X5R1A226M080AC_0_1"
+			(polyline
+				(pts
+					(xy -0.508 -1.524) (xy -0.508 1.524)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 1.524)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_22uF_10pct_10V_0603_C1608X5R1A226M080AC_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "C_2p7_0201"
 		(pin_numbers hide)
 		(pin_names hide)
@@ -5040,6 +6348,189 @@
 			)
 			(pin passive line
 				(at 5.08 0 180)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_33pF_5pct_50V_0402_C1005NP01H330J050BA"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 -3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C_33pF_5pct_50V_0402_C1005NP01H330J050BA"
+			(at 0 -7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "M2SH:C_0402"
+			(at 0 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2942820.pdf"
+			(at 0 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 33 pF, ±5%, 50 V, C0G/NP0, 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1005NP01H330J050BA"
+			(at 0 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 -18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 0 -23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "33pF"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMD Capacitor Ceramic 33pF C0G NP0 50V 0402 TDK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_33pF_5pct_50V_0402_C1005NP01H330J050BA_0_1"
+			(polyline
+				(pts
+					(xy -0.508 -1.524) (xy -0.508 1.524)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 1.524)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_33pF_5pct_50V_0402_C1005NP01H330J050BA_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
 				(length 2.032)
 				(name "~"
 					(effects
@@ -6463,6 +7954,449 @@
 			)
 		)
 		(symbol "ECS-240-10-47-CKM-TR_0_0"
+			(rectangle
+				(start -12.7 5.08)
+				(end 12.7 -5.08)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 2.54 0)
+				(length 5.08)
+				(name "IN/OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "OUT/IN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -5.08 180)
+				(length 5.08)
+				(name "GND__1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "ECS-480-18-33-JGN-TR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at -12.7168 7.6301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ECS-480-18-33-JGN-TR"
+			(at -12.7149 -7.629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:ECS-480-18-33-JGN-TR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/122/ecx_32-6206.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The sub miniature ECX-32 is a compact SMD Crystal."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ECS Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "SMD-4 ECX"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "ECX-32-33-4 ECS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ECS-480-18-33-JGN-TR/ECS/view-part/?ref=eda"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-480-18-33-JGN-TR/ECS/view-part/?ref=snap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECS-480-18-33-JGN-TR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            48 MHz ±20ppm Crystal 18pF 40 Ohms 4-SMD, No Lead\n                        \n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "ECS-480-18-33-JGN-TR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ECS-480-18-33-JGN-TR_0_0"
+			(rectangle
+				(start -12.7 -5.08)
+				(end 12.7 7.62)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 2.54 0)
+				(length 5.08)
+				(name "IN/OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "OUT/IN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "ECS-480-8-33B-CWN-TR"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XTAL"
+			(at 40.64 12.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ECS-480-8-33B-CWN-TR"
+			(at 40.64 10.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:ECS-480-8-33B-CWN-TR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/122/ECS_33B-1222132.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ECS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECS-480-8-33B-CWN-TR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "ECS-480-8-33B-CWN-TR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CRYSTAL_ECS-480-8-33B-CWN-TR_ECS CRYSTAL_ECS-480-8-33B-CWN-TR_ECS-M CRYSTAL_ECS-480-8-33B-CWN-TR_ECS-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ECS-480-8-33B-CWN-TR_0_0"
 			(rectangle
 				(start -12.7 5.08)
 				(end 12.7 -5.08)
@@ -9130,6 +11064,213 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 0.635)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "FB_220Ohm_600mA_0805_BLM21PG221SN1D"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 -3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FB_220Ohm_600mA_0805_BLM21PG221SN1D"
+			(at 0 -7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "M2SH:FB_0805"
+			(at 0 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-us/products/en-us/products/productdata/8796738977822/ENFA0005.pdf"
+			(at 0 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite Bead, 220 Ω @ 100 MHz, 2 A, 0805"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM21PG221SN1D"
+			(at 0 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 -18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 0 -23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "220Ω"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMD Ferrite Bead 220Ohm 2A 0805 Murata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FB_220Ohm_600mA_0805_BLM21PG221SN1D_0_1"
+			(arc
+				(start -1.016 0)
+				(mid -1.524 0.5058)
+				(end -2.032 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid -0.508 0.5058)
+				(end -1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 0.508 0.5058)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.032 0)
+				(mid 1.524 0.5058)
+				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FB_220Ohm_600mA_0805_BLM21PG221SN1D_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.508)
 				(name "~"
 					(effects
 						(font
@@ -16224,6 +18365,176 @@
 			)
 		)
 	)
+	(symbol "R_1k87_1pct_0402_CRCW04021K87FKED"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 -3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R_1k87_1pct_0402_CRCW04021K87FKED"
+			(at 0 -7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "M2SH:R_0402"
+			(at 0 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 0 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor, 1.87 kΩ, ±1%, 62.5 mW, 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW04021K87FKED"
+			(at 0 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 0 -23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1.87kΩ"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMD Resistor 1.87k 1% 0402 Vishay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_1k87_1pct_0402_CRCW04021K87FKED_0_1"
+			(rectangle
+				(start -1.905 0.889)
+				(end 1.905 -0.889)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1k87_1pct_0402_CRCW04021K87FKED_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 0.635)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.635)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "R_1k_0402"
 		(pin_numbers hide)
 		(pin_names hide)
@@ -18132,6 +20443,176 @@
 			)
 		)
 	)
+	(symbol "R_4k99_1pct_125mW_0402_CRCW04024K99FKEDHP"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 -3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R_4k99_1pct_125mW_0402_CRCW04024K99FKEDHP"
+			(at 0 -7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "M2SH:R_0402"
+			(at 0 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 0 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor, 4.99 kΩ, ±1%, 125 mW, 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW04024K99FKEDHP"
+			(at 0 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 0 -23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "4.99kΩ"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMD Resistor 4.99k 1% 0402 Vishay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_4k99_1pct_125mW_0402_CRCW04024K99FKEDHP_0_1"
+			(rectangle
+				(start -1.905 0.889)
+				(end 1.905 -0.889)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_4k99_1pct_125mW_0402_CRCW04024K99FKEDHP_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 0.635)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.635)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "R_500R_0402"
 		(pin_numbers hide)
 		(pin_names hide)
@@ -18893,6 +21374,176 @@
 			)
 		)
 	)
+	(symbol "R_9k09_1pct_0402_CRCW04029K09FKED"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 -3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R_9k09_1pct_0402_CRCW04029K09FKED"
+			(at 0 -7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "M2SH:R_0402"
+			(at 0 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
+			(at 0 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor, 9.09 kΩ, ±1%, 62.5 mW, 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW04029K09FKED"
+			(at 0 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 0 -23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "9.09kΩ"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ki_keywords" "SMD Resistor 9.09k 1% 0402 Vishay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_9k09_1pct_0402_CRCW04029K09FKED_0_1"
+			(rectangle
+				(start -1.905 0.889)
+				(end 1.905 -0.889)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_9k09_1pct_0402_CRCW04029K09FKED_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 0.635)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.635)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "TPS62822DLCR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19100,6 +21751,359 @@
 			)
 		)
 	)
+	(symbol "TPS74401RGWT"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.7 18.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TPS74401RGWT"
+			(at -12.7 -29.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:TPS74401RGWT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps74401.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1736960213478&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps74401"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS74401RGWT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPS74401RGWT_0_0"
+			(rectangle
+				(start -12.7 -25.4)
+				(end 12.7 17.78)
+				(stroke
+					(width 0.41)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 17.78 15.24 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 15.24 0)
+				(length 5.08)
+				(name "BIAS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 0 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -20.32 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -10.16 0)
+				(length 5.08)
+				(name "SS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -5.08 0)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 12.7 180)
+				(length 5.08)
+				(name "OUT__1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 10.16 180)
+				(length 5.08)
+				(name "OUT__2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 7.62 180)
+				(length 5.08)
+				(name "OUT__3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -15.24 0)
+				(length 5.08)
+				(name "THERMAL_PAD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 12.7 0)
+				(length 5.08)
+				(name "IN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 10.16 0)
+				(length 5.08)
+				(name "IN__1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 7.62 0)
+				(length 5.08)
+				(name "IN__2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 5.08 0)
+				(length 5.08)
+				(name "IN__3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 5.08 180)
+				(length 5.08)
+				(name "PG"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "TP_SMD_1mm"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19172,6 +22176,2091 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TUSB7340IRKMT"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 40.64 10.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TUSB7340IRKMT"
+			(at 40.64 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:TUSB7340IRKMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tusb7340.pdf?ts=1736892874662"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TUSB7340IRKMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "TUSB7340IRKMT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "RKM100_5P5X5P5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TUSB7340IRKMT_1_1"
+			(polyline
+				(pts
+					(xy 7.62 -71.12) (xy 73.66 -71.12)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 -71.12)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 73.66 -71.12) (xy 73.66 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 73.66 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 -60.96 0)
+				(length 7.62)
+				(name "USB_SSRXN_DN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -53.34 0)
+				(length 7.62)
+				(name "USB_SSTXP_DN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -66.04 180)
+				(length 7.62)
+				(name "USB_DM_DN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 7.62)
+				(name "*GRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -33.02 0)
+				(length 7.62)
+				(name "USB_SSTXP_DN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -38.1 0)
+				(length 7.62)
+				(name "USB_SSRXP_DN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -15.24 180)
+				(length 7.62)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -43.18 0)
+				(length 7.62)
+				(name "USB_DP_DN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "XO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "XI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -45.72 180)
+				(length 7.62)
+				(name "USB_DM_DN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -50.8 180)
+				(length 7.62)
+				(name "USB_SSRXN_DN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -55.88 180)
+				(length 7.62)
+				(name "USB_SSTXN_DN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -12.7 180)
+				(length 7.62)
+				(name "JTAG_TCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -10.16 180)
+				(length 7.62)
+				(name "JTAG_TDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -50.8 0)
+				(length 7.62)
+				(name "*OVERCUR1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -60.96 180)
+				(length 7.62)
+				(name "*OVERCUR2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -15.24 0)
+				(length 7.62)
+				(name "*PERST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -20.32 0)
+				(length 7.62)
+				(name "PCIE_TXN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -25.4 0)
+				(length 7.62)
+				(name "PCIE_RXN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -10.16 0)
+				(length 7.62)
+				(name "PCIE_REFCLKP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -43.18 180)
+				(length 7.62)
+				(name "*PWRON3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -22.86 180)
+				(length 7.62)
+				(name "*PWRON4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 0 180)
+				(length 7.62)
+				(name "GPIO[0]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -25.4 180)
+				(length 7.62)
+				(name "USB_DM_DN4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -30.48 180)
+				(length 7.62)
+				(name "USB_SSRXN_DN4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -35.56 180)
+				(length 7.62)
+				(name "USB_SSTXN_DN4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -55.88 0)
+				(length 7.62)
+				(name "USB_SSTXN_DN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -63.5 0)
+				(length 7.62)
+				(name "USB_DP_DN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "FREQSEL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -35.56 0)
+				(length 7.62)
+				(name "USB_SSTXN_DN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -40.64 0)
+				(length 7.62)
+				(name "USB_SSRXN_DN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -45.72 0)
+				(length 7.62)
+				(name "USB_DM_DN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -17.78 180)
+				(length 7.62)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -48.26 180)
+				(length 7.62)
+				(name "USB_DP_DN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -53.34 180)
+				(length 7.62)
+				(name "USB_SSRXP_DN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -58.42 180)
+				(length 7.62)
+				(name "USB_SSTXP_DN3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -5.08 180)
+				(length 7.62)
+				(name "JTAG_TMS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -7.62 180)
+				(length 7.62)
+				(name "JTAG_TDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -2.54 180)
+				(length 7.62)
+				(name "*JTAG_RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -48.26 0)
+				(length 7.62)
+				(name "*PWRON1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -63.5 180)
+				(length 7.62)
+				(name "*PWRON2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -27.94 0)
+				(length 7.62)
+				(name "*WAKE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -30.48 0)
+				(length 7.62)
+				(name "*CLKREQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -17.78 0)
+				(length 7.62)
+				(name "PCIE_TXP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -22.86 0)
+				(length 7.62)
+				(name "PCIE_RXP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -12.7 0)
+				(length 7.62)
+				(name "PCIE_REFCLKN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -40.64 180)
+				(length 7.62)
+				(name "*OVERCUR3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -20.32 180)
+				(length 7.62)
+				(name "*OVERCUR4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -27.94 180)
+				(length 7.62)
+				(name "USB_DP_DN4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -33.02 180)
+				(length 7.62)
+				(name "USB_SSRXP_DN4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 81.28 -38.1 180)
+				(length 7.62)
+				(name "USB_SSTXP_DN4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -58.42 0)
+				(length 7.62)
+				(name "USB_SSRXP_DN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TUSB7340IRKMT_2_1"
+			(polyline
+				(pts
+					(xy 7.62 -68.58) (xy 53.34 -68.58)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 -68.58)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 53.34 -68.58) (xy 53.34 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 53.34 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -63.5 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -50.8 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -17.78 0)
+				(length 7.62)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -48.26 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -50.8 0)
+				(length 7.62)
+				(name "VDDA_3P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -53.34 0)
+				(length 7.62)
+				(name "VDDA_3P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -10.16 0)
+				(length 7.62)
+				(name "R1EXT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -55.88 0)
+				(length 7.62)
+				(name "VDDA_3P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -25.4 0)
+				(length 7.62)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -38.1 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -33.02 0)
+				(length 7.62)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -33.02 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -35.56 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -35.56 0)
+				(length 7.62)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -30.48 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -38.1 0)
+				(length 7.62)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -58.42 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -30.48 0)
+				(length 7.62)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -63.5 0)
+				(length 7.62)
+				(name "VDDA_3P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -40.64 0)
+				(length 7.62)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -17.78 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -43.18 0)
+				(length 7.62)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -15.24 0)
+				(length 7.62)
+				(name "AUX_DET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -12.7 180)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -55.88 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -53.34 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -60.96 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -48.26 0)
+				(length 7.62)
+				(name "VDDA_3P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -22.86 0)
+				(length 7.62)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -45.72 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -43.18 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -15.24 180)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 0 180)
+				(length 7.62)
+				(name "VSS_OSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -58.42 0)
+				(length 7.62)
+				(name "VDDA_3P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -12.7 0)
+				(length 7.62)
+				(name "R1EXTRTN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -40.64 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -60.96 0)
+				(length 7.62)
+				(name "VDDA_3P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -27.94 0)
+				(length 7.62)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "SMI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -27.94 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -45.72 0)
+				(length 7.62)
+				(name "VDDA_3P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -25.4 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -22.86 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -20.32 180)
+				(length 7.62)
+				(name "VDD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 7.62)
+				(name "GPIO[1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "GPIO[2]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "GPIO[3]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -20.32 0)
+				(length 7.62)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -10.16 180)
+				(length 7.62)
+				(name "VSS_NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -7.62 180)
+				(length 7.62)
+				(name "VSS_NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -5.08 180)
+				(length 7.62)
+				(name "VSS_NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 60.96 -2.54 180)
+				(length 7.62)
+				(name "VSS_NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C4"
 					(effects
 						(font
 							(size 1.27 1.27)

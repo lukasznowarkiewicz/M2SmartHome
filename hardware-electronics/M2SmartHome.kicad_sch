@@ -10,212 +10,6 @@
 		(rev "Rev 1.0.0")
 	)
 	(lib_symbols
-		(symbol "M2SmartHomeSymbols:C_220nF_0402"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_220nF_0402"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "M2SmartHomeFootprints:C_0402"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A224KE19D"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 220 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "GRM155R61A224KE19D"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Your Name"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "220nF"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "10V"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "X5R"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_220nF_0402_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_220nF_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "M2SmartHomeSymbols:M.2-Key-M-edge-connector"
 			(pin_names
 				(offset 1.016)
@@ -1974,10 +1768,6 @@
 		(uuid "30570138-de10-4f3f-958d-829b088b9ada")
 	)
 	(no_connect
-		(at 135.89 107.95)
-		(uuid "3fee4c35-84f6-4ec2-a0a2-ef68b9276333")
-	)
-	(no_connect
 		(at 104.14 54.61)
 		(uuid "416d3a23-3429-4441-a8b4-59358b95004f")
 	)
@@ -2020,10 +1810,6 @@
 	(no_connect
 		(at 135.89 80.01)
 		(uuid "a0ad7eb0-bfae-4557-8c0e-766354129882")
-	)
-	(no_connect
-		(at 135.89 105.41)
-		(uuid "a9de490b-7020-4787-aa43-631f272f4c13")
 	)
 	(no_connect
 		(at 135.89 49.53)
@@ -2129,6 +1915,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 107.95) (xy 151.13 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c07d2c-1162-4b9b-a568-ae1ca1283a1f")
+	)
+	(wire
+		(pts
 			(xy 102.87 52.07) (xy 104.14 52.07)
 		)
 		(stroke
@@ -2169,6 +1965,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 105.41) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21338528-c23d-49e9-a569-8282b1139952")
+	)
+	(wire
+		(pts
 			(xy 102.87 97.79) (xy 104.14 97.79)
 		)
 		(stroke
@@ -2186,16 +1992,6 @@
 			(type default)
 		)
 		(uuid "233e1a1a-cb1f-41ff-9bb2-01c2015de07d")
-	)
-	(wire
-		(pts
-			(xy 124.46 153.67) (xy 162.56 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "249e3105-bb28-4e3d-a68f-f6109ef53783")
 	)
 	(wire
 		(pts
@@ -2439,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 102.87) (xy 135.89 102.87)
+			(xy 143.51 102.87) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2629,7 +2425,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 156.21) (xy 110.49 156.21)
+			(xy 77.47 156.21) (xy 165.1 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2669,6 +2465,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 107.95) (xy 151.13 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3517cb-c77c-488f-b0b1-44558cc66774")
+	)
+	(wire
+		(pts
 			(xy 138.43 40.64) (xy 138.43 43.18)
 		)
 		(stroke
@@ -2686,6 +2492,16 @@
 			(type default)
 		)
 		(uuid "8e8d4168-29e3-4a03-a83a-8bb945137f27")
+	)
+	(wire
+		(pts
+			(xy 147.32 105.41) (xy 147.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e6ea08-620b-4834-83f4-3e6877265e0d")
 	)
 	(wire
 		(pts
@@ -2726,6 +2542,16 @@
 			(type default)
 		)
 		(uuid "a23f8714-c1bf-43eb-a4e1-233dbc2c92c2")
+	)
+	(wire
+		(pts
+			(xy 151.13 62.23) (xy 176.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a94387-1681-407f-b005-66a01684223c")
 	)
 	(wire
 		(pts
@@ -2799,6 +2625,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 58.42) (xy 176.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b939d144-7e0d-4035-9a27-529af7ac3ba3")
+	)
+	(wire
+		(pts
 			(xy 232.41 87.63) (xy 270.51 87.63)
 		)
 		(stroke
@@ -2829,7 +2665,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 62.23) (xy 148.59 102.87)
+			(xy 143.51 53.34) (xy 143.51 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2859,7 +2695,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 153.67) (xy 119.38 153.67)
+			(xy 80.01 153.67) (xy 162.56 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2939,7 +2775,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 62.23) (xy 148.59 62.23)
+			(xy 176.53 53.34) (xy 143.51 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3066,16 +2902,6 @@
 			(type default)
 		)
 		(uuid "f2b320c7-5aa2-4870-9314-bddbefce3e01")
-	)
-	(wire
-		(pts
-			(xy 115.57 156.21) (xy 165.1 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3ba1647-6e5f-4d69-8fc2-37077bae0cfe")
 	)
 	(wire
 		(pts
@@ -3960,26 +3786,6 @@
 			"BCQggfIECD4d803g6+trvjfo7iTwDwR+AVC0Vk+zKdBkAAAAAElFTkSuQmCC"
 		)
 	)
-	(text "PIN 24? wakeup on bridge?"
-		(exclude_from_sim no)
-		(at 150.622 108.458 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "92f30750-d485-476d-9561-1b05bced1a09")
-	)
-	(text "add capacitors on data lines"
-		(exclude_from_sim no)
-		(at 122.174 167.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f2241951-41ab-43b8-b31a-8fcba31ad3f4")
-	)
 	(text "CONFIG_x set to PCIe SSD"
 		(exclude_from_sim no)
 		(at 77.724 41.91 0)
@@ -4000,17 +3806,6 @@
 			(justify left bottom)
 		)
 		(uuid "84d39a33-15df-4516-b895-6d7b06c127d4")
-	)
-	(label "PCIE.CAP.PETN"
-		(at 91.44 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2a5cd97-be75-445b-80e8-efd1106516c3")
 	)
 	(label "PCIE.PETN"
 		(at 137.16 156.21 0)
@@ -4055,17 +3850,6 @@
 			(justify left bottom)
 		)
 		(uuid "e446bdd7-4069-44f7-9810-c24d1d57c44e")
-	)
-	(label "PCIE.CAP.PETP"
-		(at 91.44 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6f5ccf0-98c2-4e0c-8d4b-9879421263cc")
 	)
 	(label "PCIE.REFCLKN"
 		(at 137.16 142.24 0)
@@ -5557,155 +5341,6 @@
 		)
 	)
 	(symbol
-		(lib_id "M2SmartHomeSymbols:C_220nF_0402")
-		(at 110.49 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2d5d7f3-5d45-4f9b-b571-f58d26d78de3")
-		(property "Reference" "C80"
-			(at 113.0363 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C_220nF_0402"
-			(at 130.81 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 130.81 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A224KE19D"
-			(at 130.81 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 220 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 110.49 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM155R61A224KE19D"
-			(at 130.81 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 130.81 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 130.81 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 130.81 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "220nF"
-			(at 113.0363 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 130.81 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 130.81 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9707d5d-70a2-4e5a-a5c6-bc5410789498")
-		)
-		(pin "2"
-			(uuid "702a475d-e303-4182-8ace-a9f1bb08fc9a")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c"
-					(reference "C80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 138.43 40.64 0)
 		(unit 1)
@@ -6043,155 +5678,6 @@
 		)
 	)
 	(symbol
-		(lib_id "M2SmartHomeSymbols:C_220nF_0402")
-		(at 119.38 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db5d6ec9-6ae4-47c4-a8e2-fb6b28c6962c")
-		(property "Reference" "C79"
-			(at 121.9263 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "C_220nF_0402"
-			(at 139.7 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:C_0402"
-			(at 139.7 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A224KE19D"
-			(at 139.7 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 220 nF, 10 V, 0402 [1005 Metric], ±10%, X5R, GRM Series"
-			(at 119.38 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM155R61A224KE19D"
-			(at 139.7 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 139.7 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 139.7 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 139.7 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "220nF"
-			(at 121.9263 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 139.7 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 139.7 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9707d5d-70a2-4e5a-a5c6-bc5410789499")
-		)
-		(pin "2"
-			(uuid "702a475d-e303-4182-8ace-a9f1bb08fc9b")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c"
-					(reference "C79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 102.87 113.03 270)
 		(unit 1)
@@ -6500,8 +5986,8 @@
 		)
 	)
 	(sheet
-		(at 176.53 57.15)
-		(size 55.88 52.07)
+		(at 176.53 46.99)
+		(size 55.88 62.23)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6512,7 +5998,7 @@
 		)
 		(uuid "d5c056a6-6c83-4beb-8db4-afe66e2a7665")
 		(property "Sheetname" "pcie-usb-bridge"
-			(at 176.53 56.4384 0)
+			(at 176.53 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +6096,7 @@
 			(uuid "fa35ad8e-dbda-4dd2-b466-27f445f1b7d9")
 		)
 		(pin "PERST_L" input
-			(at 176.53 62.23 180)
+			(at 176.53 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,6 +6164,66 @@
 				(justify left)
 			)
 			(uuid "f9780277-7e1d-4e4a-9f1e-6c3373db4c25")
+		)
+		(pin "PCIE_WAKE_L" input
+			(at 176.53 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "217c723e-9a95-4892-838c-00754e9b97e1")
+		)
+		(pin "PCIE_RXN" input
+			(at 176.53 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5dfb2451-f04b-4477-9660-f3405aaff825")
+		)
+		(pin "PCIE_RXP" input
+			(at 176.53 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "45944545-59af-4380-b9e0-610de9078d4f")
+		)
+		(pin "PCIE_TXP" input
+			(at 176.53 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8595a6b0-bc1a-4e89-829c-02ee7474040b")
+		)
+		(pin "PCIE_TXN" input
+			(at 176.53 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d8e2d86-869d-45ee-ac34-40a5a3a42622")
+		)
+		(pin "PCIE_CLKREQ_L" input
+			(at 176.53 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bfd94604-6ae8-48ca-9feb-7ca14c0485aa")
 		)
 		(instances
 			(project "M2SmartHome"
