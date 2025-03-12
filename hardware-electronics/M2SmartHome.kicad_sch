@@ -3807,7 +3807,7 @@
 		)
 		(uuid "84d39a33-15df-4516-b895-6d7b06c127d4")
 	)
-	(label "PCIE.PETN"
+	(label "PCIE.TXN"
 		(at 137.16 156.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3818,7 +3818,7 @@
 		)
 		(uuid "ac436441-afde-4d6d-8162-326edf33c23e")
 	)
-	(label "PCIE.PERN"
+	(label "PCIE.RXN"
 		(at 137.16 165.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3829,7 +3829,7 @@
 		)
 		(uuid "caaf508b-fda2-4590-b458-537d0c09ef46")
 	)
-	(label "PCIE.PERP"
+	(label "PCIE.RXP"
 		(at 137.16 162.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3840,7 +3840,7 @@
 		)
 		(uuid "e26c9a67-49f4-46e8-964b-114cfeec2d5a")
 	)
-	(label "PCIE.PETP"
+	(label "PCIE.TXP"
 		(at 137.16 153.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6115,36 +6115,6 @@
 			)
 			(uuid "e54d5358-840b-4509-a1f2-d1718fc323b5")
 		)
-		(pin "PERN" input
-			(at 176.53 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b67429f1-234c-44af-bbc6-10dfe778ba40")
-		)
-		(pin "PETP" input
-			(at 176.53 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "aef498d7-4ecf-44e6-be84-345dce813027")
-		)
-		(pin "PERP" input
-			(at 176.53 81.28 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bc323d1f-8b1e-4230-8d52-0a8a9bb807d5")
-		)
 		(pin "REFCKLN" input
 			(at 176.53 69.85 180)
 			(effects
@@ -6154,16 +6124,6 @@
 				(justify left)
 			)
 			(uuid "b982b6f5-772f-4f30-a18e-6684fc60c6d2")
-		)
-		(pin "PETN" input
-			(at 176.53 77.47 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f9780277-7e1d-4e4a-9f1e-6c3373db4c25")
 		)
 		(pin "PCIE_WAKE_L" input
 			(at 176.53 62.23 180)
@@ -6176,7 +6136,7 @@
 			(uuid "217c723e-9a95-4892-838c-00754e9b97e1")
 		)
 		(pin "PCIE_RXN" input
-			(at 176.53 90.17 180)
+			(at 176.53 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,7 +6146,7 @@
 			(uuid "5dfb2451-f04b-4477-9660-f3405aaff825")
 		)
 		(pin "PCIE_RXP" input
-			(at 176.53 92.71 180)
+			(at 176.53 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6156,7 @@
 			(uuid "45944545-59af-4380-b9e0-610de9078d4f")
 		)
 		(pin "PCIE_TXP" input
-			(at 176.53 99.06 180)
+			(at 176.53 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,7 +6166,7 @@
 			(uuid "8595a6b0-bc1a-4e89-829c-02ee7474040b")
 		)
 		(pin "PCIE_TXN" input
-			(at 176.53 101.6 180)
+			(at 176.53 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
