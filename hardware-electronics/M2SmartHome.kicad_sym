@@ -13327,7 +13327,7 @@
 			(pin passive line
 				(at -16.51 -7.62 0)
 				(length 5.08)
-				(name "SATA-B+/PERn0"
+				(name "HostRx0_DevTx0n"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -13363,7 +13363,7 @@
 			(pin passive line
 				(at -16.51 -10.16 0)
 				(length 5.08)
-				(name "SATA-B-/PERp0"
+				(name "HostRx0_DevTx0p"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -13435,7 +13435,7 @@
 			(pin passive line
 				(at -16.51 -15.24 0)
 				(length 5.08)
-				(name "SATA-A-/PETn0"
+				(name "HostTx0_DevRx0n"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -13471,7 +13471,7 @@
 			(pin passive line
 				(at -16.51 -17.78 0)
 				(length 5.08)
-				(name "SATA-A+/PETp0"
+				(name "HostTx0_DevRx0p"
 					(effects
 						(font
 							(size 1.016 1.016)
