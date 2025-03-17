@@ -710,7 +710,7 @@
 				(pin passive line
 					(at -16.51 -7.62 0)
 					(length 5.08)
-					(name "SATA-B+/PERn0"
+					(name "HostRx0_DevTx0n"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -746,7 +746,7 @@
 				(pin passive line
 					(at -16.51 -10.16 0)
 					(length 5.08)
-					(name "SATA-B-/PERp0"
+					(name "HostRx0_DevTx0p"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -818,7 +818,7 @@
 				(pin passive line
 					(at -16.51 -15.24 0)
 					(length 5.08)
-					(name "SATA-A-/PETn0"
+					(name "HostTx0_DevRx0n"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -854,7 +854,7 @@
 				(pin passive line
 					(at -16.51 -17.78 0)
 					(length 5.08)
-					(name "SATA-A+/PETp0"
+					(name "HostTx0_DevRx0p"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1875,6 +1875,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 81.28) (xy 176.53 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03467b59-a290-404b-a83a-3831aa838530")
+	)
+	(wire
+		(pts
 			(xy 96.52 67.31) (xy 97.79 67.31)
 		)
 		(stroke
@@ -1882,16 +1892,6 @@
 			(type default)
 		)
 		(uuid "096e2ed2-90ba-41c8-9916-12c49af1902e")
-	)
-	(wire
-		(pts
-			(xy 172.72 83.82) (xy 176.53 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09b1bcdf-dac9-4239-a0d4-42277fd5aabb")
 	)
 	(wire
 		(pts
@@ -2032,6 +2032,16 @@
 			(type default)
 		)
 		(uuid "2d909687-29ab-4199-bc78-3af2a41fe070")
+	)
+	(wire
+		(pts
+			(xy 165.1 77.47) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de47761-6136-4b43-b15a-5239975f98c1")
 	)
 	(wire
 		(pts
@@ -2185,16 +2195,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 77.47) (xy 165.1 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5556fde9-6e04-4ffd-af98-f107bf90a3a4")
-	)
-	(wire
-		(pts
 			(xy 297.18 105.41) (xy 267.97 105.41)
 		)
 		(stroke
@@ -2255,6 +2255,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 83.82) (xy 176.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6320aab6-0267-43ee-9da2-5b081e9312ba")
+	)
+	(wire
+		(pts
 			(xy 232.41 74.93) (xy 267.97 74.93)
 		)
 		(stroke
@@ -2272,16 +2282,6 @@
 			(type default)
 		)
 		(uuid "6866fad6-dea4-4d6f-9322-e26e21bbd7eb")
-	)
-	(wire
-		(pts
-			(xy 176.53 81.28) (xy 170.18 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68c829eb-959c-4679-92aa-32244f022e8a")
 	)
 	(wire
 		(pts
@@ -2555,16 +2555,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 74.93) (xy 176.53 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a42c271d-12e3-47cd-8a6a-3366a8948f7f")
-	)
-	(wire
-		(pts
 			(xy 176.53 67.31) (xy 153.67 67.31)
 		)
 		(stroke
@@ -2812,6 +2802,16 @@
 			(type default)
 		)
 		(uuid "e1031086-c3d0-4525-8368-8869638bb66f")
+	)
+	(wire
+		(pts
+			(xy 162.56 74.93) (xy 176.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3adea7f-1b8b-40f3-95dd-54f8f52982a1")
 	)
 	(wire
 		(pts
@@ -3796,6 +3796,39 @@
 		)
 		(uuid "fed953e0-5753-4d88-bc42-3596245867fc")
 	)
+	(label "PCIE.TXP"
+		(at 137.16 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "294ed0c8-a8cc-4ab7-9a57-fcf6d75cb6fd")
+	)
+	(label "PCIE.RXP"
+		(at 137.16 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4da13dac-2038-4057-9744-b421c006a667")
+	)
+	(label "PCIE.RXN"
+		(at 137.16 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d79af74-8fbc-414c-874c-1ac0b61f8516")
+	)
 	(label "PCIE.REFCLKP"
 		(at 137.16 139.7 0)
 		(fields_autoplaced yes)
@@ -3808,17 +3841,6 @@
 		(uuid "84d39a33-15df-4516-b895-6d7b06c127d4")
 	)
 	(label "PCIE.TXN"
-		(at 137.16 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac436441-afde-4d6d-8162-326edf33c23e")
-	)
-	(label "PCIE.RXN"
 		(at 137.16 165.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3827,29 +3849,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "caaf508b-fda2-4590-b458-537d0c09ef46")
-	)
-	(label "PCIE.RXP"
-		(at 137.16 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e26c9a67-49f4-46e8-964b-114cfeec2d5a")
-	)
-	(label "PCIE.TXP"
-		(at 137.16 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e446bdd7-4069-44f7-9810-c24d1d57c44e")
+		(uuid "ba9e4073-3fb1-4be2-b149-613ac6cc4477")
 	)
 	(label "PCIE.REFCLKN"
 		(at 137.16 142.24 0)
@@ -6136,7 +6136,7 @@
 			(uuid "217c723e-9a95-4892-838c-00754e9b97e1")
 		)
 		(pin "PCIE_RXN" input
-			(at 176.53 83.82 180)
+			(at 176.53 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,7 +6146,7 @@
 			(uuid "5dfb2451-f04b-4477-9660-f3405aaff825")
 		)
 		(pin "PCIE_RXP" input
-			(at 176.53 81.28 180)
+			(at 176.53 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +6156,7 @@
 			(uuid "45944545-59af-4380-b9e0-610de9078d4f")
 		)
 		(pin "PCIE_TXP" input
-			(at 176.53 74.93 180)
+			(at 176.53 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +6166,7 @@
 			(uuid "8595a6b0-bc1a-4e89-829c-02ee7474040b")
 		)
 		(pin "PCIE_TXN" input
-			(at 176.53 77.47 180)
+			(at 176.53 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
