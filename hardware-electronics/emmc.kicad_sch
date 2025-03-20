@@ -5224,6 +5224,10 @@
 		(at 88.9 101.6)
 		(uuid "d22d4d81-7455-4c8c-94a9-f99d5e9c65bd")
 	)
+	(no_connect
+		(at 129.54 185.42)
+		(uuid "f082c6b7-fb82-47ef-8a31-2501270a3933")
+	)
 	(wire
 		(pts
 			(xy 91.44 104.14) (xy 88.9 104.14)
@@ -5966,6 +5970,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 182.88) (xy 129.54 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cb98ac-5169-4f3e-ab20-7cbac84254e5")
+	)
+	(wire
+		(pts
 			(xy 147.32 69.85) (xy 153.67 69.85)
 		)
 		(stroke
@@ -6056,6 +6070,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 187.96) (xy 129.54 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b2e492-66c6-4988-ad81-0a87b5c6a574")
+	)
+	(wire
+		(pts
 			(xy 66.04 57.15) (xy 66.04 49.53)
 		)
 		(stroke
@@ -6093,6 +6117,16 @@
 			(type default)
 		)
 		(uuid "68f598fb-0ffd-4189-b0dc-37f2fea10062")
+	)
+	(wire
+		(pts
+			(xy 121.92 195.58) (xy 129.54 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac4b17d-2b79-454d-912f-3bc3e60a00ec")
 	)
 	(wire
 		(pts
@@ -6816,6 +6850,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 193.04) (xy 129.54 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e408b7-7af1-470b-ac5c-28e743899b3f")
+	)
+	(wire
+		(pts
 			(xy 203.2 101.6) (xy 203.2 106.68)
 		)
 		(stroke
@@ -7166,6 +7210,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 190.5) (xy 129.54 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f02de9-2e0f-4c71-bc42-a21428d30711")
+	)
+	(wire
+		(pts
 			(xy 219.71 93.98) (xy 228.6 93.98)
 		)
 		(stroke
@@ -7314,6 +7368,17 @@
 		)
 		(uuid "7bb45d48-24cb-419d-b4af-86e44ec2375f")
 	)
+	(label "SDA"
+		(at 121.92 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15d596e0-a74b-4e96-b39f-3ab4b7f1eafe")
+	)
 	(label "eMMC.CLK"
 		(at 139.7 96.52 0)
 		(fields_autoplaced yes)
@@ -7402,6 +7467,17 @@
 		)
 		(uuid "813323c3-194d-457c-aac4-cbe7976b4b24")
 	)
+	(label "SCK"
+		(at 121.92 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84453506-3ab8-4a06-8d3e-13a2a4ca1c44")
+	)
 	(label "eMMC.DAT1"
 		(at 139.7 78.74 0)
 		(fields_autoplaced yes)
@@ -7412,6 +7488,17 @@
 			(justify left bottom)
 		)
 		(uuid "907bc21c-8148-4913-b14c-765541ddfcb1")
+	)
+	(label "SDA"
+		(at 121.92 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "986c29f1-3710-4c13-abcd-b82d6d3b388f")
 	)
 	(label "eMMC.DAT0"
 		(at 139.7 76.2 0)
@@ -15281,6 +15368,73 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 120.65 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b88c7c08-42d5-4cae-a6f5-bf55a0e8b210")
+		(property "Reference" "#PWR0171"
+			(at 124.46 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.84 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 120.65 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18e3e377-63dd-46fe-b646-c4b2c0b44ded")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/d6ad415e-1295-4f8b-8193-bff1569600a2"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 119.38 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16961,6 +17115,73 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/d6ad415e-1295-4f8b-8193-bff1569600a2"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 193.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd7b375a-69c4-4e05-b473-55583f8cd573")
+		(property "Reference" "#PWR0172"
+			(at 114.3 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 193.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b6fadb2-a1c2-4167-9d50-c1f610beb233")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/d6ad415e-1295-4f8b-8193-bff1569600a2"
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)

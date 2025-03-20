@@ -10251,6 +10251,10 @@
 		(uuid "312bb9b9-06aa-4314-ba97-a71a21a48a3e")
 	)
 	(no_connect
+		(at 283.21 242.57)
+		(uuid "346698b6-cde2-470b-bc6a-eada36586764")
+	)
+	(no_connect
 		(at 250.19 107.95)
 		(uuid "395a0b79-8b8c-46f4-b76d-2c363e31e9f0")
 	)
@@ -10572,6 +10576,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 252.73) (xy 283.21 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bf6a15-2dda-4788-af7c-325b77f6264e")
+	)
+	(wire
+		(pts
 			(xy 229.87 120.65) (xy 220.98 120.65)
 		)
 		(stroke
@@ -10859,6 +10873,26 @@
 			(type default)
 		)
 		(uuid "206923bc-d855-4894-a901-4b2fdc0168ac")
+	)
+	(wire
+		(pts
+			(xy 275.59 245.11) (xy 283.21 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2092797e-ba71-4a89-9ded-90e5cc56acdc")
+	)
+	(wire
+		(pts
+			(xy 274.32 250.19) (xy 283.21 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223bfe52-2ad0-4ded-889a-4a0651f9f0da")
 	)
 	(wire
 		(pts
@@ -12972,6 +13006,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 240.03) (xy 283.21 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f6e6cd-f8ca-4225-ab1d-95ea91f1ec25")
+	)
+	(wire
+		(pts
 			(xy 248.92 194.31) (xy 248.92 191.77)
 		)
 		(stroke
@@ -14282,6 +14326,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 247.65) (xy 283.21 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82a3c3e-7bb3-45b6-a19a-3edb52f73745")
+	)
+	(wire
+		(pts
 			(xy 143.51 71.12) (xy 140.97 71.12)
 		)
 		(stroke
@@ -14558,6 +14612,17 @@
 		)
 		(uuid "55a17dbb-1ea4-49d7-aa0f-00f34847e5e6")
 	)
+	(label "SCL"
+		(at 275.59 247.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5896169c-2ec0-4169-b5f3-68a3dd75a79d")
+	)
 	(label "JTAG_TDI"
 		(at 341.63 67.31 180)
 		(fields_autoplaced yes)
@@ -14822,6 +14887,17 @@
 		)
 		(uuid "dabff6c6-8364-43f3-817f-2a40698ccf0c")
 	)
+	(label "SDA"
+		(at 275.59 245.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dea8b4af-f606-4d8e-8d89-f828cbb70efe")
+	)
 	(label "R_USB_4_DN"
 		(at 332.74 82.55 0)
 		(fields_autoplaced yes)
@@ -14832,6 +14908,17 @@
 			(justify left bottom)
 		)
 		(uuid "e011131e-2994-49dd-a59e-c8fc6bb4a115")
+	)
+	(label "SDA"
+		(at 275.59 252.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e441a84c-4479-42f2-b124-08320dda8e38")
 	)
 	(label "GRSTZ"
 		(at 238.76 57.15 0)
@@ -19220,6 +19307,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 274.32 240.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "490461d2-8f6f-41b9-9b84-2bec50493772")
+		(property "Reference" "#PWR0170"
+			(at 278.13 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 270.51 240.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 274.32 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47ea483b-ca2c-4472-818e-309721b02d02")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/d5c056a6-6c83-4beb-8db4-afe66e2a7665"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "M2SmartHomeSymbols:R_10k_0402")
 		(at 55.88 45.72 90)
 		(unit 1)
@@ -21487,6 +21641,73 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/d5c056a6-6c83-4beb-8db4-afe66e2a7665"
 					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 250.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b145858-dba0-40e1-983b-14d89c083139")
+		(property "Reference" "#PWR0166"
+			(at 267.97 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 250.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d00f9651-6a06-4ba0-ad0b-77756a7a4550")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/d5c056a6-6c83-4beb-8db4-afe66e2a7665"
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -26714,7 +26935,7 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:TC2030-IDC-NL")
-		(at 274.32 256.54 0)
+		(at 290.83 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26723,7 +26944,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0960908-56a0-47cf-81fa-ee1c219c9b4a")
 		(property "Reference" "J6"
-			(at 280.67 253.9999 0)
+			(at 297.18 245.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26732,7 +26953,7 @@
 			)
 		)
 		(property "Value" "TC2030-IDC-NL"
-			(at 280.67 256.5399 0)
+			(at 297.18 247.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26741,7 +26962,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:TAG_TC2030-IDC-NL"
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26751,7 +26972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26760,7 +26981,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26769,7 +26990,7 @@
 			)
 		)
 		(property "MF" "Tag-Connect"
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26779,7 +27000,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            PLUG-OF-NAILS 6-PIN W/O LEGS 8\n                        \n"
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26789,7 +27010,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26799,7 +27020,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26809,7 +27030,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TC2030-IDC-NL/Tag-Connect/view-part/?ref=eda"
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26819,7 +27040,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendation"
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26829,7 +27050,7 @@
 			)
 		)
 		(property "PARTREV" "MS"
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26839,7 +27060,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TC2030-IDC-NL/Tag-Connect/view-part/?ref=snap"
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26849,7 +27070,7 @@
 			)
 		)
 		(property "MP" "TC2030-IDC-NL"
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26859,7 +27080,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26869,7 +27090,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Tag-Connect"
-			(at 274.32 256.54 0)
+			(at 290.83 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
