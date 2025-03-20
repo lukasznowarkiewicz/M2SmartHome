@@ -1741,189 +1741,6 @@
 				)
 			)
 		)
-		(symbol "M2SmartHomeSymbols:FB_120R_0603"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "FB_120R_0603"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "M2SmartHomeFootprints:FB_0603"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=BLM18AG121SN1D"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Ferrite Bead, 120 Ω @ 100 MHz, 2 A, 0603 [1608 Metric], BLM18A Series"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "BLM18AG121SN1D"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Your Name"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Impedance" "120R @ 100 MHz"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Current" "2A"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0603, SMT, FERRITE BEAD, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FB_120R_0603_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FB_120R_0603_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "M2SmartHomeSymbols:KP-1608CGCK"
 			(pin_numbers hide)
 			(pin_names
@@ -3780,12 +3597,6 @@
 		(uuid "5866f51e-c80d-445a-b6be-8d139dd10d02")
 	)
 	(junction
-		(at 264.16 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7baf1b7f-d37f-4dd5-b5c5-2f03f28af516")
-	)
-	(junction
 		(at 128.27 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4077,16 +3888,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 54.61) (xy 269.24 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ea038e7-bcc9-47ea-83e4-52aa60904506")
-	)
-	(wire
-		(pts
 			(xy 173.99 83.82) (xy 172.72 83.82)
 		)
 		(stroke
@@ -4247,17 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 54.61) (xy 264.16 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "961eb9f7-b057-4aa8-a79b-773ea1c19ffe")
-	)
-	(wire
-		(pts
-			(xy 201.93 52.07) (xy 201.93 54.61)
+			(xy 209.55 52.07) (xy 209.55 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4507,7 +4298,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 54.61) (xy 204.47 54.61)
+			(xy 209.55 54.61) (xy 213.36 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4544,16 +4335,6 @@
 			(type default)
 		)
 		(uuid "ef37d6fe-c65b-4175-af73-050144f5cd3c")
-	)
-	(wire
-		(pts
-			(xy 209.55 54.61) (xy 213.36 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f04dc161-ed3f-41da-a367-ad2a494b7b2a")
 	)
 	(wire
 		(pts
@@ -5006,59 +4787,17 @@
 		)
 	)
 	(symbol
-		(lib_id "M2SmartHomeSymbols:FB_120R_0603")
-		(at 204.47 54.61 0)
+		(lib_id "power:+3V3")
+		(at 132.08 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "05665b2a-40e1-4833-8b8d-c4c0378fbc47")
-		(property "Reference" "FB8"
-			(at 207.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "FB_120R_0603"
-			(at 224.79 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:FB_0603"
-			(at 224.79 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=BLM18AG121SN1D"
-			(at 224.79 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Ferrite Bead, 120 Ω @ 100 MHz, 2 A, 0603 [1608 Metric], BLM18A Series"
-			(at 204.47 54.61 0)
+		(uuid "0c3d8c15-d998-48cf-a43a-49613a3f0f59")
+		(property "Reference" "#PWR0165"
+			(at 135.89 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,113 +4805,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BLM18AG121SN1D"
-			(at 224.79 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 224.79 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 224.79 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 224.79 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Impedance" "120R @ 100 MHz"
-			(at 224.79 82.55 0)
+		(property "Value" "+3V3"
+			(at 128.27 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "2A"
-			(at 224.79 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed043721-41c3-42e0-971b-5c276a4c8cec")
-		)
-		(pin "1"
-			(uuid "5aa8c577-ae4e-45df-932e-16941774635f")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "FB8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 137.16 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07475a68-0d05-4af3-96e5-b6dc0b1780c9")
-		(property "Reference" "#PWR0177"
-			(at 137.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_wifi"
-			(at 137.16 59.182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 67.31 0)
+			(at 132.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5181,7 +4824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 67.31 0)
+			(at 132.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,7 +4833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 137.16 67.31 0)
+			(at 132.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,12 +4842,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "601e9ef1-8297-4a18-b9c5-c9f6edcc0ff9")
+			(uuid "a0aaaa14-4d29-4cb8-a9b3-26eb66f5dc91")
 		)
 		(instances
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "#PWR0177")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -5344,7 +4987,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 201.93 52.07 0)
+		(at 209.55 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5353,7 +4996,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eb75f9c-b734-432e-91e7-747c4df18cd0")
 		(property "Reference" "#PWR0131"
-			(at 201.93 55.88 0)
+			(at 209.55 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +5005,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.93 46.99 0)
+			(at 209.55 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +5013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 52.07 0)
+			(at 209.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,7 +5022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 52.07 0)
+			(at 209.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +5031,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 201.93 52.07 0)
+			(at 209.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,71 +5046,6 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 200.66 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f7ed223-7762-45a4-a202-273f6dfe97c4")
-		(property "Reference" "#PWR0166"
-			(at 200.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_wifi"
-			(at 200.66 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 200.66 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9acd06c0-0c4e-4107-bd58-e72d27be46b4")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -5776,6 +5354,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 175.26 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "313824c1-527e-45b8-826b-f1e73a38438f")
+		(property "Reference" "#PWR0159"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 179.07 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54291fd9-ae74-4177-9c42-db17a5597b8a")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 167.64 0)
 		(unit 1)
@@ -5836,6 +5481,71 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 137.16 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38b86148-83bf-4a33-ab20-4b29ca352947")
+		(property "Reference" "#PWR0161"
+			(at 137.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 137.16 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9434bd1a-7023-47df-b60d-0db56838e4b5")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -6127,6 +5837,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 173.99 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "490daa8a-7939-4cb5-8992-5b78bca20490")
+		(property "Reference" "#PWR0122"
+			(at 173.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f59bc5b-6e5b-4d6d-a9a8-80c880f06acd")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 99.06 270)
 		(unit 1)
@@ -6188,6 +5964,73 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 153.67 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4daf2c4b-e541-4fc2-8198-ade9300b6c53")
+		(property "Reference" "#PWR0163"
+			(at 149.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 157.48 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 153.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "105d59ef-1902-4ed1-bd35-dc511760a6a4")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -6729,6 +6572,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 200.66 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "657e8664-5c03-4a8c-b55d-d966446f0c84")
+		(property "Reference" "#PWR0157"
+			(at 200.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 200.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7a742aa-a974-4322-b9fe-4e0d93ff76e2")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 157.48 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e63c13a-14b2-4723-8c21-40cfc650fcb5")
+		(property "Reference" "#PWR0162"
+			(at 153.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 161.29 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 157.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19c4b3e3-d914-4cd7-a975-81c24478b608")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 186.69 91.44 90)
 		(unit 1)
@@ -6790,73 +6766,6 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 93.98 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73978087-8ab9-41a8-a3f7-dc898b11aa79")
-		(property "Reference" "#PWR0110"
-			(at 97.79 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_wifi"
-			(at 90.17 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9833fa75-dba8-4146-b69d-215297dc7123")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -7315,211 +7224,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 132.08 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "847de249-2e18-4003-93bf-21270a6dd45b")
-		(property "Reference" "#PWR0175"
-			(at 135.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_wifi"
-			(at 123.952 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 132.08 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "941cf90e-1530-40d3-850a-2d79a9fdfd17")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "#PWR0175")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 157.48 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b65a866-8f77-4688-a9e2-8ac6f1f93054")
-		(property "Reference" "#PWR0172"
-			(at 153.67 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_wifi"
-			(at 165.608 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 157.48 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76ab7b22-fd80-428c-af6e-ff4bdcfbd93d")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "#PWR0172")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 175.26 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9120ece7-03de-4bee-b742-51eb8eb540ed")
-		(property "Reference" "#PWR0171"
-			(at 171.45 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_wifi"
-			(at 183.388 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 175.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e2ce7d8-9c21-4873-83b8-e1251a7abedf")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "#PWR0171")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 173.99 81.28 0)
+		(at 148.59 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "915ef6c0-d8fa-4724-831c-519e1855f1e6")
-		(property "Reference" "#PWR0165"
-			(at 173.99 85.09 0)
+		(uuid "8bbab1c7-8bdd-4656-8fa7-db78fc6b847a")
+		(property "Reference" "#PWR0164"
+			(at 144.78 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,16 +7241,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_wifi"
-			(at 173.99 76.2 0)
+		(property "Value" "+3V3"
+			(at 152.4 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 81.28 0)
+			(at 148.59 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7545,7 +7260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 81.28 0)
+			(at 148.59 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7554,7 +7269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 173.99 81.28 0)
+			(at 148.59 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7563,12 +7278,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bccd37b1-083a-4a5a-9683-0c088a733f55")
+			(uuid "abbd35a1-5be7-41cc-938d-b3d7726e21c3")
 		)
 		(instances
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "#PWR0165")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -8241,71 +7956,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 153.67 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0ba1745-c414-4561-bead-53c16bd3c9cf")
-		(property "Reference" "#PWR0173"
-			(at 149.86 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_wifi"
-			(at 161.798 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 153.67 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3036faa2-41c6-4e0a-9731-f5bfb1f6d162")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "#PWR0173")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 186.69 82.55 90)
 		(unit 1)
@@ -8440,16 +8090,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 269.24 53.34 0)
+		(at 93.98 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a816a67a-0faf-4b2a-bbae-6c7ac4487261")
-		(property "Reference" "#PWR0163"
-			(at 269.24 57.15 0)
+		(uuid "a827f760-b0f6-41b1-9b4a-d9ec8ce78fde")
+		(property "Reference" "#PWR0110"
+			(at 97.79 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,16 +8107,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_wifi"
-			(at 269.24 48.26 0)
+		(property "Value" "+3V3"
+			(at 90.17 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 53.34 0)
+			(at 93.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,7 +8126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 53.34 0)
+			(at 93.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,7 +8135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 269.24 53.34 0)
+			(at 93.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,12 +8144,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fa9fd85-2498-4fe5-9cce-66c8a7b02dbb")
+			(uuid "6d95319d-c799-4bb7-a39d-528485a4fc84")
 		)
 		(instances
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "#PWR0163")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -8655,71 +8306,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 148.59 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab416253-b168-42d1-adde-4affa3e873ab")
-		(property "Reference" "#PWR0174"
-			(at 144.78 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_wifi"
-			(at 156.718 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 148.59 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d87ff61-bbb7-4683-a3cf-17bf2a04d5db")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "#PWR0174")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 233.68 64.77 0)
 		(unit 1)
@@ -8848,6 +8434,71 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 132.08 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5efe9c4-2f2c-4ac1-af4e-da5bf4bd5eee")
+		(property "Reference" "#PWR0160"
+			(at 132.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 132.08 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24589915-82e7-4ee2-9073-b4825cabe67b")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -9150,71 +8801,6 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "C77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 175.26 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d053dbaa-0450-4dff-8ee4-a6ff5132e669")
-		(property "Reference" "#PWR0170"
-			(at 171.45 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_wifi"
-			(at 183.388 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6a61941-70e6-4609-974f-b801d88acebc")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -9737,71 +9323,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 132.08 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3e7deb8-25f7-49b5-8d86-9556098dddc4")
-		(property "Reference" "#PWR0176"
-			(at 132.08 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_wifi"
-			(at 132.08 59.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 132.08 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7c80a0c-7a2c-4af3-b11d-e86c2c013cde")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
-					(reference "#PWR0176")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 128.27 167.64 0)
 		(unit 1)
@@ -10011,6 +9532,73 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 175.26 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1545f30-c331-4877-81fe-ecd009236174")
+		(property "Reference" "#PWR0158"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 179.07 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5cd20b5-a777-4a3c-acd4-1e43701dfd3b")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/7a341d5c-2113-408f-a1b4-1e4771333f4d"
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
