@@ -1,5 +1,5 @@
 
-**** 03/25/25 07:01:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/25/25 07:20:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-simulation"  [ \\Mac\Home\repo\M2SmartHome\hardware-electronics\Spice simulations\i2c_eeprom_ICP\i2c_eeprom_
 
@@ -33,36 +33,41 @@
 
 **** INCLUDING SCHEMATIC1.net ****
 * source I2C_EEPROM_ICP
-R_R1         SDA_MEM 3V3  4.7k TC=0,0 
+R_R1         SDA_MEM 3V3  1k TC=0,0 
 R_R2         SDA_IC 3V3  1k TC=0,0 
 V_V1         3V3 0 3.3Vdc
 V_V2         N15213 0 DC 0 AC 0
 +PULSE 0 3.2 0 10n 10n 4.9800e-6 10u
 V_V3         N15621 0 DC 0 AC 0
 +PULSE 0 3.3 3u 10n 10n 5u 50u
-X_M2         SDA_MEM N16638 SDA_IC 2N7002/FAI
-V_V4         M_UN0001 0 DC 0 AC 0
+X_M2         SDA_MEM 0 SDA_IC 2N7002/FAI
+V_V4         N22220 0 DC 0 AC 0
 +PULSE 0 3.3 5u 10n 10n 4.9800e-6 10u
 R_R6         N21211 N15213  1 TC=0,0 
-R_R8         N16638 3V3  4.7k TC=0,0 
-V_V5         5V0 0 5.0Vdc
+R_R8         0 3V3  4.7k TC=0,0 
 X_S1    N21211 0 SDA_IC 0 SCHEMATIC1_S1 
-X_S2    N15621 0 SDA_MEM 0 SCHEMATIC1_S2 
+X_S3    N22220 0 SDA_MEM 0 SCHEMATIC1_S3 
+X_S4    N15621 0 SDA_MEM 0 SCHEMATIC1_S4 
 
 .subckt SCHEMATIC1_S1 1 2 3 4  
 S_S1         3 4 1 2 Sbreak
 RS_S1         1 2 1G
 .ends SCHEMATIC1_S1
 
-.subckt SCHEMATIC1_S2 1 2 3 4  
-S_S2         3 4 1 2 Sbreak
-RS_S2         1 2 1G
-.ends SCHEMATIC1_S2
+.subckt SCHEMATIC1_S3 1 2 3 4  
+S_S3         3 4 1 2 Sbreak
+RS_S3         1 2 1G
+.ends SCHEMATIC1_S3
+
+.subckt SCHEMATIC1_S4 1 2 3 4  
+S_S4         3 4 1 2 Sbreak
+RS_S4         1 2 1G
+.ends SCHEMATIC1_S4
 
 **** RESUMING simulation.cir ****
 .END
 
-**** 03/25/25 07:01:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/25/25 07:20:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-simulation"  [ \\Mac\Home\repo\M2SmartHome\hardware-electronics\Spice simulations\i2c_eeprom_ICP\i2c_eeprom_
 
@@ -77,11 +82,9 @@ RS_S2         1 2 1G
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(  3V3)    3.3000  (  5V0)    5.0000  (N15213)    0.0000 (N15621)    0.0000     
+(  3V3)    3.3000  (N15213)    0.0000 (N15621)    0.0000 (N21211)    0.0000     
 
-(N16638)    3.3000 (N21211)    0.0000 (SDA_IC)    3.2967 (SDA_MEM)    3.2846    
-
-(M_UN0001)    0.0000                  
+(N22220)    0.0000 (SDA_IC)    3.2967 (SDA_MEM)    3.2931                   
 
 
 
@@ -89,19 +92,18 @@ RS_S2         1 2 1G
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1        -6.581E-06
+    V_V1        -7.123E-04
     V_V2         0.000E+00
     V_V3         0.000E+00
     V_V4         0.000E+00
-    V_V5         0.000E+00
 
-    TOTAL POWER DISSIPATION   2.17E-05  WATTS
+    TOTAL POWER DISSIPATION   2.35E-03  WATTS
 
 
 
           JOB CONCLUDED
 
-**** 03/25/25 07:01:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 03/25/25 07:20:43 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "SCHEMATIC1-simulation"  [ \\Mac\Home\repo\M2SmartHome\hardware-electronics\Spice simulations\i2c_eeprom_ICP\i2c_eeprom_
 
@@ -113,5 +115,5 @@ RS_S2         1 2 1G
 
 
 
-  Total job time (using Solver 1)   =        1.24
+  Total job time (using Solver 1)   =        1.14
 

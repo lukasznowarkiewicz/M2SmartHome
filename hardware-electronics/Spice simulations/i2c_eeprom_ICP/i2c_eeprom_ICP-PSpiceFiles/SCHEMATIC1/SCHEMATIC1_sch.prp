@@ -13,11 +13,11 @@
             ("level"	"0")
             ("model_params"
                 ("VALUE"
-                    ("value"	"4.7k")
+                    ("value"	"1k")
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
-                    ("value"	"50.66nW")
+                    ("value"	"47.82nW")
                     ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
@@ -68,7 +68,7 @@
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
-                    ("value"	"50.71nW")
+                    ("value"	"10.87nW")
                     ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
@@ -119,7 +119,7 @@
                     ("pspice_param"	"DC")
                 )
                 ("BiasValue Power"
-                    ("value"	"-21.68uW")
+                    ("value"	"-2.351mW")
                     ("pspice_param"	"BiasValue Power")
                 )
                 ("PSpice Model Type"
@@ -141,41 +141,41 @@
                     ("value"	"0")
                     ("pspice_param"	"AC")
                 )
-                ("BiasValue Power"
-                    ("value"	"0W")
-                    ("pspice_param"	"BiasValue Power")
-                )
-                ("PW"
-                    ("value"	"4.9800e-6")
-                    ("pspice_param"	"PW")
-                )
-                ("TF"
-                    ("value"	"10n")
-                    ("pspice_param"	"TF")
-                )
-                ("TD"
-                    ("value"	"0")
-                    ("pspice_param"	"TD")
-                )
-                ("TR"
-                    ("value"	"10n")
-                    ("pspice_param"	"TR")
-                )
-                ("V1"
-                    ("value"	"0")
-                    ("pspice_param"	"V1")
-                )
-                ("PER"
-                    ("value"	"10u")
-                    ("pspice_param"	"PER")
+                ("V2"
+                    ("value"	"3.2")
+                    ("pspice_param"	"V2")
                 )
                 ("AppProp"
                     ("value"	"Pulse$Voltage$2$-1")
                     ("pspice_param"	"AppProp")
                 )
-                ("V2"
-                    ("value"	"3.2")
-                    ("pspice_param"	"V2")
+                ("PER"
+                    ("value"	"10u")
+                    ("pspice_param"	"PER")
+                )
+                ("V1"
+                    ("value"	"0")
+                    ("pspice_param"	"V1")
+                )
+                ("TR"
+                    ("value"	"10n")
+                    ("pspice_param"	"TR")
+                )
+                ("TD"
+                    ("value"	"0")
+                    ("pspice_param"	"TD")
+                )
+                ("TF"
+                    ("value"	"10n")
+                    ("pspice_param"	"TF")
+                )
+                ("PW"
+                    ("value"	"4.9800e-6")
+                    ("pspice_param"	"PW")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
                 )
             )
         )
@@ -236,7 +236,7 @@
             ("level"	"0")
             ("model_params"
                 ("BiasValue Power"
-                    ("value"	"23.80pW")
+                    ("value"	"1.085uW")
                     ("pspice_param"	"BiasValue Power")
                 )
                 ("Schematics' Source Library"
@@ -357,7 +357,7 @@
                     ("pspice_param"	"VALUE")
                 )
                 ("BiasValue Power"
-                    ("value"	"11.18fW")
+                    ("value"	"2.317mW")
                     ("pspice_param"	"BiasValue Power")
                 )
                 ("DIST"
@@ -398,43 +398,35 @@
                 )
             )
         )
-        ("V5"
-            ("device_name"	"VDC")
-            ("pspice_path"	"V_V5")
-            ("level"	"0")
-            ("model_params"
-                ("DC"
-                    ("value"	"5.0Vdc")
-                    ("pspice_param"	"DC")
-                )
-                ("BiasValue Power"
-                    ("value"	"0W")
-                    ("pspice_param"	"BiasValue Power")
-                )
-                ("PSpice Model Type"
-                    ("value"	"0011")
-                    ("pspice_param"	"PSpice Model Type")
-                )
-            )
-        )
         ("S1"
             ("device_name"	"Sbreak")
             ("pspice_path"	"RS_S1")
             ("level"	"0")
             ("model_params"
                 ("BiasValue Power"
-                    ("value"	"10.79uW")
+                    ("value"	"10.87uW")
                     ("pspice_param"	"BiasValue Power")
                 )
             )
         )
-        ("S2"
+        ("S3"
             ("device_name"	"Sbreak")
-            ("pspice_path"	"RS_S2")
+            ("pspice_path"	"RS_S3")
             ("level"	"0")
             ("model_params"
                 ("BiasValue Power"
-                    ("value"	"10.79uW")
+                    ("value"	"10.84uW")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("S4"
+            ("device_name"	"Sbreak")
+            ("pspice_path"	"RS_S4")
+            ("level"	"0")
+            ("model_params"
+                ("BiasValue Power"
+                    ("value"	"10.84uW")
                     ("pspice_param"	"BiasValue Power")
                 )
             )
