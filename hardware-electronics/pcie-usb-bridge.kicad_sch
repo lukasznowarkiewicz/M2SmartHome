@@ -9842,6 +9842,12 @@
 		(uuid "0293015a-01dc-45ee-9506-5f56a8c12ffd")
 	)
 	(junction
+		(at 247.65 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "030e3898-5538-4079-84d9-9863f8ce496d")
+	)
+	(junction
 		(at 207.01 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10762,6 +10768,16 @@
 			(type default)
 		)
 		(uuid "027f482a-6482-44f0-9f0a-04f0b4a6b9a2")
+	)
+	(wire
+		(pts
+			(xy 247.65 57.15) (xy 238.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ae77f2-2767-40b1-89b2-1a5033845e4e")
 	)
 	(wire
 		(pts
@@ -12155,7 +12171,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 57.15) (xy 238.76 57.15)
+			(xy 250.19 57.15) (xy 247.65 57.15)
 		)
 		(stroke
 			(width 0)
@@ -13002,6 +13018,16 @@
 			(type default)
 		)
 		(uuid "807fe2ca-b114-45dd-b934-bcf256b3a135")
+	)
+	(wire
+		(pts
+			(xy 247.65 43.18) (xy 229.87 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810c3016-7da9-4a85-9f4f-f1eba3559355")
 	)
 	(wire
 		(pts
@@ -14035,6 +14061,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 48.26) (xy 247.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b893ace7-3047-4ebb-96df-7a789d8f77e3")
+	)
+	(wire
+		(pts
 			(xy 180.34 265.43) (xy 218.44 265.43)
 		)
 		(stroke
@@ -14322,6 +14358,16 @@
 			(type default)
 		)
 		(uuid "c566858b-b107-4d14-bbf0-866d83455b0a")
+	)
+	(wire
+		(pts
+			(xy 247.65 53.34) (xy 247.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d9beb7-b342-40e6-84e9-bbe6344c19a4")
 	)
 	(wire
 		(pts
@@ -15183,6 +15229,16 @@
 		)
 		(uuid "24c18ddf-46c3-42ad-9a50-2890e2caabb5")
 	)
+	(text "Option - for testing if I2C\nwill remains high z in reset\n"
+		(exclude_from_sim no)
+		(at 231.648 46.736 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35871d9c-d4a4-4ce3-839d-93a65759104a")
+	)
 	(label "R_USB_1_DP"
 		(at 332.74 105.41 0)
 		(fields_autoplaced yes)
@@ -15347,6 +15403,17 @@
 			(justify right bottom)
 		)
 		(uuid "6b6e980b-7cb8-4b2e-9e34-047bd06cec72")
+	)
+	(label "Prog_pull_down"
+		(at 229.87 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ba05c41-4082-46fd-92ca-ddc9f48f4b8e")
 	)
 	(label "XI"
 		(at 373.38 173.99 180)
@@ -27718,6 +27785,147 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/d5c056a6-6c83-4beb-8db4-afe66e2a7665"
 					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M2SmartHomeSymbols:R_0_0402")
+		(at 247.65 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ac3ce497-1899-4426-aa3f-9c0a9d105e2d")
+		(property "Reference" "R61"
+			(at 250.19 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_0_0402"
+			(at 234.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "M2SmartHomeFootprints:R_0402"
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/crcw0402.pdf"
+			(at 229.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Thick Film Resistor, 0 Ω, Jumper, 1/16 W, 0402 [1005 Metric], CRCW Series"
+			(at 247.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW04020000Z0ED"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 224.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 222.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Your Name"
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 250.19 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Power" "1/16 W"
+			(at 237.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8bab187a-7196-41aa-bbdf-1a66bb950e5f")
+		)
+		(pin "1"
+			(uuid "a95c206c-68ae-4c46-9af1-f472b235c3e3")
+		)
+		(instances
+			(project "M2SmartHome"
+				(path "/da663dec-9e91-4003-a791-431d460ad63c/d5c056a6-6c83-4beb-8db4-afe66e2a7665"
+					(reference "R61")
 					(unit 1)
 				)
 			)
