@@ -10640,6 +10640,10 @@
 		(uuid "868f36c7-27ed-499f-9bb9-b94796c7c73f")
 	)
 	(no_connect
+		(at 214.63 228.6)
+		(uuid "90d9f218-9199-4856-8ea1-437a79c8283f")
+	)
+	(no_connect
 		(at 140.97 58.42)
 		(uuid "93a59d1b-010a-4e3d-8adc-a2c20538dfe4")
 	)
@@ -10983,16 +10987,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 228.6) (xy 214.63 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11bf6a15-2dda-4788-af7c-325b77f6264e")
-	)
-	(wire
-		(pts
 			(xy 229.87 120.65) (xy 220.98 120.65)
 		)
 		(stroke
@@ -11313,7 +11307,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 220.98) (xy 214.63 220.98)
+			(xy 200.66 220.98) (xy 214.63 220.98)
 		)
 		(stroke
 			(width 0)
@@ -15123,7 +15117,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 223.52) (xy 214.63 223.52)
+			(xy 200.66 223.52) (xy 214.63 223.52)
 		)
 		(stroke
 			(width 0)
@@ -15428,8 +15422,8 @@
 		)
 		(uuid "45442a97-4539-4c67-823d-5d9ab9a4bafe")
 	)
-	(label "SCL"
-		(at 207.01 223.52 0)
+	(label "SDA_prog"
+		(at 200.66 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15437,7 +15431,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5896169c-2ec0-4169-b5f3-68a3dd75a79d")
+		(uuid "57ce554b-11a4-4681-a4b7-d87d4b83b1b1")
 	)
 	(label "Prog_pull_down"
 		(at 241.3 280.67 180)
@@ -15460,6 +15454,17 @@
 			(justify right bottom)
 		)
 		(uuid "5c405544-55fe-4ddc-b352-13a93d1b5235")
+	)
+	(label "SDA_prog"
+		(at 241.3 262.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5dfec820-309b-481c-a291-6d7e42b3dcd9")
 	)
 	(label "JTAG_TDO"
 		(at 341.63 64.77 180)
@@ -15714,8 +15719,8 @@
 		)
 		(uuid "dabff6c6-8364-43f3-817f-2a40698ccf0c")
 	)
-	(label "SDA"
-		(at 207.01 220.98 0)
+	(label "SCL_prog"
+		(at 241.3 255.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15723,7 +15728,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "dea8b4af-f606-4d8e-8d89-f828cbb70efe")
+		(uuid "deba4f97-4bf1-47b1-82f2-dae15955899d")
 	)
 	(label "R_USB_4_DN"
 		(at 332.74 82.55 0)
@@ -15735,17 +15740,6 @@
 			(justify left bottom)
 		)
 		(uuid "e011131e-2994-49dd-a59e-c8fc6bb4a115")
-	)
-	(label "SDA"
-		(at 207.01 228.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e441a84c-4479-42f2-b124-08320dda8e38")
 	)
 	(label "GRSTZ"
 		(at 238.76 57.15 0)
@@ -15768,6 +15762,17 @@
 			(justify right bottom)
 		)
 		(uuid "e9745e95-a6d8-46b5-bdc8-08fc71cbb71f")
+	)
+	(label "SCL_prog"
+		(at 200.66 223.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec434c3a-000a-4510-a714-a1081a01b905")
 	)
 	(label "R_USB_2_DP"
 		(at 248.92 100.33 180)
@@ -16857,16 +16862,16 @@
 	)
 	(symbol
 		(lib_id "M2SmartHomeSymbols:R_0_0402")
-		(at 190.5 274.32 90)
+		(at 190.5 274.32 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "0fb14918-135d-4b16-9cb1-a63d61ecd63b")
 		(property "Reference" "R74"
-			(at 193.04 270.51 90)
+			(at 187.96 270.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16876,7 +16881,7 @@
 			)
 		)
 		(property "Value" "R_0_0402"
-			(at 203.2 254 0)
+			(at 177.8 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16887,7 +16892,7 @@
 			)
 		)
 		(property "Footprint" "M2SmartHomeFootprints:R_0402"
-			(at 205.74 254 0)
+			(at 175.26 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16898,7 +16903,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/crcw0402.pdf"
-			(at 208.28 254 0)
+			(at 172.72 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16918,7 +16923,7 @@
 			)
 		)
 		(property "MPN" "CRCW04020000Z0ED"
-			(at 210.82 254 0)
+			(at 170.18 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16929,7 +16934,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 213.36 254 0)
+			(at 167.64 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16940,7 +16945,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 215.9 254 0)
+			(at 165.1 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16951,7 +16956,7 @@
 			)
 		)
 		(property "Author" "Your Name"
-			(at 218.44 254 0)
+			(at 162.56 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16962,7 +16967,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 193.04 273.05 90)
+			(at 187.96 273.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16972,7 +16977,7 @@
 			)
 		)
 		(property "Power" "1/16 W"
-			(at 200.66 254 0)
+			(at 180.34 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
