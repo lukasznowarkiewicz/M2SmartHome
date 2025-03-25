@@ -1,0 +1,118 @@
+
+**** 03/25/25 06:59:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulation"  [ \\Mac\Home\repo\M2SmartHome\hardware-electronics\Spice simulations\i2c_eeprom_ICP\i2c_eeprom_
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "simulation.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100u 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source I2C_EEPROM_ICP
+R_R1         SDA_MEM 3V3  4.7k TC=0,0 
+R_R2         SDA_IC 3V3  4.7k TC=0,0 
+V_V1         3V3 0 3.3Vdc
+V_V2         N15213 0 DC 0 AC 0
++PULSE 0 3.2 0 10n 10n 4.9800e-6 10u
+V_V3         N15621 0 DC 0 AC 0
++PULSE 0 3.3 3u 10n 10n 5u 50u
+X_M2         N18340 N16638 SDA_IC 2N7002/FAI
+V_V4         M_UN0001 0 DC 0 AC 0
++PULSE 0 3.3 5u 10n 10n 4.9800e-6 10u
+R_R6         N21211 N15213  1 TC=0,0 
+R_R7         SDA_MEM N18340  100 TC=0,0 
+R_R8         N16638 3V3  4.7k TC=0,0 
+V_V5         5V0 0 5.0Vdc
+X_S1    N21211 0 SDA_IC 0 SCHEMATIC1_S1 
+X_S2    N15621 0 SDA_MEM 0 SCHEMATIC1_S2 
+
+.subckt SCHEMATIC1_S1 1 2 3 4  
+S_S1         3 4 1 2 Sbreak
+RS_S1         1 2 1G
+.ends SCHEMATIC1_S1
+
+.subckt SCHEMATIC1_S2 1 2 3 4  
+S_S2         3 4 1 2 Sbreak
+RS_S2         1 2 1G
+.ends SCHEMATIC1_S2
+
+**** RESUMING simulation.cir ****
+.END
+
+**** 03/25/25 06:59:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulation"  [ \\Mac\Home\repo\M2SmartHome\hardware-electronics\Spice simulations\i2c_eeprom_ICP\i2c_eeprom_
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  3V3)    3.3000  (  5V0)    5.0000  (N15213)    0.0000 (N15621)    0.0000     
+
+(N16638)    3.3000 (N18340)    3.2846 (N21211)    0.0000 (SDA_IC)    3.2846     
+
+(SDA_MEM)    3.2846                   (M_UN0001)    0.0000                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -6.569E-06
+    V_V2         0.000E+00
+    V_V3         0.000E+00
+    V_V4         0.000E+00
+    V_V5         0.000E+00
+
+    TOTAL POWER DISSIPATION   2.17E-05  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/25/25 06:59:00 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulation"  [ \\Mac\Home\repo\M2SmartHome\hardware-electronics\Spice simulations\i2c_eeprom_ICP\i2c_eeprom_
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        1.03
+
