@@ -5554,6 +5554,10 @@
 		(uuid "0248056c-8195-47d8-8c15-1cc7399c8c48")
 	)
 	(no_connect
+		(at 190.5 160.02)
+		(uuid "2f00e606-4d0a-4c89-a522-9c8a884d10f6")
+	)
+	(no_connect
 		(at 27.94 99.06)
 		(uuid "6a48e15f-5fe4-41f6-8b04-a3bd93501497")
 	)
@@ -6515,16 +6519,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 152.4) (xy 190.5 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b2e492-66c6-4988-ad81-0a87b5c6a574")
-	)
-	(wire
-		(pts
 			(xy 66.04 57.15) (xy 66.04 49.53)
 		)
 		(stroke
@@ -6582,16 +6576,6 @@
 			(type default)
 		)
 		(uuid "690cf96b-130f-4171-a5f0-a2629b55d5f1")
-	)
-	(wire
-		(pts
-			(xy 182.88 160.02) (xy 190.5 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ac4b17d-2b79-454d-912f-3bc3e60a00ec")
 	)
 	(wire
 		(pts
@@ -7192,6 +7176,26 @@
 			(type default)
 		)
 		(uuid "a9e079b5-38de-4717-b79e-0dc1abb11d2a")
+	)
+	(wire
+		(pts
+			(xy 173.99 154.94) (xy 190.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa034c45-edfd-4a76-9e22-0652aff4ebdd")
+	)
+	(wire
+		(pts
+			(xy 173.99 152.4) (xy 190.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4661fd-7a61-494c-9e75-6e9d92626ae9")
 	)
 	(wire
 		(pts
@@ -7825,16 +7829,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 154.94) (xy 190.5 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8f02de9-2e0f-4c71-bc42-a21428d30711")
-	)
-	(wire
-		(pts
 			(xy 95.25 171.45) (xy 96.52 171.45)
 		)
 		(stroke
@@ -8094,17 +8088,6 @@
 		)
 		(uuid "10d93cd8-7046-4716-b390-0b30ceb566c4")
 	)
-	(label "SDA"
-		(at 182.88 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15d596e0-a74b-4e96-b39f-3ab4b7f1eafe")
-	)
 	(label "eMMC.CLK"
 		(at 139.7 96.52 0)
 		(fields_autoplaced yes)
@@ -8137,6 +8120,17 @@
 			(justify left bottom)
 		)
 		(uuid "34969a46-152c-4c14-9a9b-9071b0784b0f")
+	)
+	(label "SDA_prog"
+		(at 114.3 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35f055eb-e4c3-45e9-9ec5-a9bb7bc8dba4")
 	)
 	(label "eMMC.DAT7"
 		(at 139.7 93.98 0)
@@ -8204,17 +8198,6 @@
 		)
 		(uuid "813323c3-194d-457c-aac4-cbe7976b4b24")
 	)
-	(label "SCK"
-		(at 182.88 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84453506-3ab8-4a06-8d3e-13a2a4ca1c44")
-	)
 	(label "eMMC.DAT1"
 		(at 139.7 78.74 0)
 		(fields_autoplaced yes)
@@ -8225,17 +8208,6 @@
 			(justify left bottom)
 		)
 		(uuid "907bc21c-8148-4913-b14c-765541ddfcb1")
-	)
-	(label "SDA"
-		(at 182.88 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "986c29f1-3710-4c13-abcd-b82d6d3b388f")
 	)
 	(label "eMMC.DAT0"
 		(at 139.7 76.2 0)
@@ -8325,6 +8297,17 @@
 		)
 		(uuid "e297b57a-7026-47c0-ac40-ffb4d28fd85d")
 	)
+	(label "SDA_prog"
+		(at 173.99 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea70af55-5b95-4c92-9cfb-8f638b07e09e")
+	)
 	(label "XTAL2"
 		(at 147.32 69.85 0)
 		(fields_autoplaced yes)
@@ -8347,6 +8330,17 @@
 		)
 		(uuid "f422ef29-30a5-4209-a94b-988c8a502961")
 	)
+	(label "SCL_prog"
+		(at 114.3 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f45e0110-eb69-4f55-83ba-93e70e6cd8ed")
+	)
 	(label "Prog_pull_down"
 		(at 173.99 149.86 0)
 		(fields_autoplaced yes)
@@ -8357,6 +8351,17 @@
 			(justify left bottom)
 		)
 		(uuid "f9e4a6d0-2a32-4e72-9a95-6e46acf61ada")
+	)
+	(label "SCL_prog"
+		(at 173.99 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb422854-ec0a-4c65-aa03-fb7f69f62e1d")
 	)
 	(label "~{reset}"
 		(at 148.59 64.77 0)
