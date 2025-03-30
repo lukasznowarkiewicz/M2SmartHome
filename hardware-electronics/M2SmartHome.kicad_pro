@@ -493,6 +493,40 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.0,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.0,
+        "line_style": 0,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.2,
+        "name": "50ohm-SE_eMMC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.0,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.0,
+        "line_style": 0,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.2,
+        "name": "50ohm-SE_uSD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.145,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
@@ -545,6 +579,14 @@
       {
         "netclass": "85Ohm-diff_PCIe",
         "pattern": "*PCIE*"
+      },
+      {
+        "netclass": "50ohm-SE_uSD",
+        "pattern": "*uSD*"
+      },
+      {
+        "netclass": "50ohm-SE_eMMC",
+        "pattern": "*eMMC*"
       }
     ]
   },
