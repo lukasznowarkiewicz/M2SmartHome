@@ -9080,8 +9080,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 101.6 173.99 270)
-		(mirror x)
+		(at 101.6 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9105,7 +9104,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 99.695 168.91 0)
+			(at 103.505 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +9115,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 97.79 168.91 0)
+			(at 105.41 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
