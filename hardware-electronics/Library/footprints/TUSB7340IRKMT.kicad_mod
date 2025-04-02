@@ -63,8 +63,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -4.6 -4.6)
-		(end -4.6 -4)
+		(start -4.65 -4.65)
+		(end -4.65 -4.05)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "e4ef78ea-3642-46d6-b5d9-727efa1c8ca3")
 	)
 	(fp_line
-		(start -4.6 4)
-		(end -4.6 4.6)
+		(start -4.65 4.05)
+		(end -4.65 4.65)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -83,8 +83,8 @@
 		(uuid "86a6ffc3-b061-4cd7-bf57-4a9a7543adf5")
 	)
 	(fp_line
-		(start -4.6 4.6)
-		(end -4 4.6)
+		(start -4.65 4.65)
+		(end -4.05 4.65)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -93,8 +93,8 @@
 		(uuid "835d726b-6da4-4ca0-8620-401211bc4672")
 	)
 	(fp_line
-		(start -4 -4.6)
-		(end -4.6 -4.6)
+		(start -4.05 -4.65)
+		(end -4.65 -4.65)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -103,8 +103,8 @@
 		(uuid "5963ae59-b445-45c0-8bb8-0d68e2c3500d")
 	)
 	(fp_line
-		(start 4 4.6)
-		(end 4.6 4.6)
+		(start 4.05 4.65)
+		(end 4.65 4.65)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -113,8 +113,8 @@
 		(uuid "32ec1f01-d70d-4868-a187-3de5b4deb367")
 	)
 	(fp_line
-		(start 4.6 -4.6)
-		(end 4 -4.6)
+		(start 4.65 -4.65)
+		(end 4.05 -4.65)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -123,8 +123,8 @@
 		(uuid "2bd53ecc-d3ba-48bc-9062-eeed3ee67171")
 	)
 	(fp_line
-		(start 4.6 -4)
-		(end 4.6 -4.6)
+		(start 4.65 -4.05)
+		(end 4.65 -4.65)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -133,8 +133,8 @@
 		(uuid "e3dfc0e7-ba4a-477e-9dca-90283f28436c")
 	)
 	(fp_line
-		(start 4.6 4.6)
-		(end 4.6 4)
+		(start 4.65 4.65)
+		(end 4.65 4.05)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -597,6 +597,13 @@
 		(solder_mask_margin 0.102)
 		(uuid "099331ff-cacc-462c-ae09-6f768a754e51")
 	)
+	(pad "A53" smd rect
+		(at 0 0)
+		(size 5.5 5.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f5ac5555-01d3-4266-b8d9-2a908fc02804")
+	)
 	(pad "B1" smd rect
 		(at -3.65 -3.025)
 		(size 0.4 0.25)
@@ -960,12 +967,5 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "2afe31cb-2961-4495-8dcf-e984bd890ab6")
-	)
-	(pad "PAD" smd rect
-		(at 0 0)
-		(size 5.5 5.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
-		(uuid "f5ac5555-01d3-4266-b8d9-2a908fc02804")
 	)
 )
