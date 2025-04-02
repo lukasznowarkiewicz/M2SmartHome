@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -93,16 +96,6 @@
 		(uuid "45022b19-bf43-4688-9230-c1456f7bd3d1")
 	)
 	(fp_line
-		(start -6.005 8.075)
-		(end 5.705 8.075)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "fdbfeadc-91b9-485f-848c-1e34dd177eed")
-	)
-	(fp_line
 		(start 5.145 -8.075)
 		(end 6.925 -8.075)
 		(stroke
@@ -121,17 +114,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "7f4a2201-307e-474b-afc2-e81d554445b9")
-	)
-	(fp_circle
-		(center 2.775 -9.575)
-		(end 2.875 -9.575)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "e0c87df6-6ab8-4174-b0f4-ea81c7edc16d")
 	)
 	(fp_line
 		(start -7.675 -8.975)
@@ -252,17 +234,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "e94d5dfc-b791-4740-b660-521f399ba730")
-	)
-	(fp_circle
-		(center 2.775 -9.575)
-		(end 2.875 -9.575)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Fab")
-		(uuid "c75d2e56-0d05-4b22-af38-deec26b12ab6")
 	)
 	(fp_text user "PCB Edge"
 		(at -2.36766 9.12 0)
