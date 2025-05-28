@@ -11,9 +11,8 @@ M2SmartHome is an add-on card that operates on PCIe 2.0 x1 and can be installed 
 
 The device is equipped with onboard eMMC memory, an SD card reader, WiFi 802.11n 2.4GHz radio (RTL8188), and a Thread radio (EFR32) from Silicon Labs. Once installed in an M.2 slot, it provides both storage for the operating system and enhanced connectivity, making it an ideal choice for smart home setups.
 
-[TODO] replace renders
-![Render 1](images/M2SmartHome_cc9c86150_render_1.png)
-![Render 2](images/M2SmartHome_cc9c86150_render_2.png)
+![Render 1](images/M2SmartHome_render_1.png)
+![Render 2](images/M2SmartHome_render_2.png)
 
 
 ## Features
@@ -83,11 +82,23 @@ The Realtek RTL8188FTV-VC-CG is a WiFi 802.11b/g/n 2.4GHz radio SoC, providing w
 
 ## Manufacturing
 
-Board has been manufactured by JLCPCB
+PCB has been manufactured by JLCPCB
 
 Add stackup
+![PCB stackup](images/PCB_stackup.png)
+
 Add impedance 
-Board photos
+![PCB impedance](images/PCB_impedance.png)
+
+![JLCPCB settings](images/PCB_jlcpcb.png)
+
+
+![PCB_solder_paste](images/PCB_solder_paste.png)
+
+![PCB_with components](images/PCB_with_components.png)
+
+
+![PCB_soldered](images/PCB_soldered.png)
 
 ## Board bring up 
 
