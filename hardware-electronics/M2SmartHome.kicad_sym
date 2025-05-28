@@ -10847,11 +10847,36 @@
 			)
 		)
 		(symbol "FB_1000R_0402_0_1"
-			(rectangle
-				(start 0.635 0.889)
-				(end 4.445 -0.889)
+			(polyline
+				(pts
+					(xy -0.889 0) (xy -1.2954 0)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 0.7874 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.2794 -1.8288) (xy -1.4986 -1.1176) (xy 0.2032 1.8288) (xy 1.4224 1.1176) (xy -0.2794 -1.8288)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -10861,8 +10886,8 @@
 		)
 		(symbol "FB_1000R_0402_1_1"
 			(pin passive line
-				(at 0 0 0)
-				(length 0.635)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name "~"
 					(effects
 						(font
@@ -10879,8 +10904,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 0.635)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "~"
 					(effects
 						(font
@@ -11030,11 +11055,36 @@
 			)
 		)
 		(symbol "FB_120R_0603_0_1"
-			(rectangle
-				(start 0.635 0.889)
-				(end 4.445 -0.889)
+			(polyline
+				(pts
+					(xy -0.889 0) (xy -1.2954 0)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 0.7874 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.2794 -1.8288) (xy -1.4986 -1.1176) (xy 0.2032 1.8288) (xy 1.4224 1.1176) (xy -0.2794 -1.8288)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -11044,8 +11094,8 @@
 		)
 		(symbol "FB_120R_0603_1_1"
 			(pin passive line
-				(at 0 0 0)
-				(length 0.635)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name "~"
 					(effects
 						(font
@@ -11062,8 +11112,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 0.635)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "~"
 					(effects
 						(font
@@ -11200,10 +11250,10 @@
 			)
 		)
 		(symbol "FB_220Ohm_600mA_0805_BLM21PG221SN1D_0_1"
-			(arc
-				(start -1.016 0)
-				(mid -1.524 0.5058)
-				(end -2.032 0)
+			(polyline
+				(pts
+					(xy -0.889 0) (xy -1.2954 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -11212,10 +11262,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 0 0)
-				(mid -0.508 0.5058)
-				(end -1.016 0)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 0.7874 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -11224,22 +11274,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 1.016 0)
-				(mid 0.508 0.5058)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
+			(polyline
+				(pts
+					(xy -0.2794 -1.8288) (xy -1.4986 -1.1176) (xy 0.2032 1.8288) (xy 1.4224 1.1176) (xy -0.2794 -1.8288)
 				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.032 0)
-				(mid 1.524 0.5058)
-				(end 1.016 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -11252,7 +11290,7 @@
 		(symbol "FB_220Ohm_600mA_0805_BLM21PG221SN1D_1_1"
 			(pin passive line
 				(at -2.54 0 0)
-				(length 0.508)
+				(length 1.27)
 				(name "~"
 					(effects
 						(font
@@ -11270,7 +11308,7 @@
 			)
 			(pin passive line
 				(at 2.54 0 180)
-				(length 0.508)
+				(length 1.27)
 				(name "~"
 					(effects
 						(font
