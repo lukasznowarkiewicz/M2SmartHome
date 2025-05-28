@@ -1,4 +1,4 @@
-(footprint "FB_0805_2012Metric"
+(footprint "FB_0805"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -281,15 +281,15 @@
 		(roundrect_rratio 0.25)
 		(uuid "a3b9cc28-5bad-460d-bb56-bb5ed6bb563f")
 	)
-	(model "${KIPRJMOD}/Library/step/ferrite_bead_0805.STEP"
+	(model "${KIPRJMOD}/Library/step/IND_BLM21_MUR.step"
 		(offset
-			(xyz -1 0.6 0.9)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 90)
+			(xyz 0 0 0)
 		)
 	)
 )
