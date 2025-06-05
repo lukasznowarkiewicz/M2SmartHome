@@ -274,9 +274,23 @@ Last check is in a tree form if all four USB devices connected to the hub are vi
 
 ### eMMC memory
 
+eMMC controller is connected to fourth port of USB HUB present in PCIe bridge (`sudo lsusb -vt`). Note that exact same chip is used for micro SD card slot, but connected to two.
 
+```bash
+/:  Bus 003.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/4p, 480M
+    ID 1d6b:0002 Linux Foundation 2.0 root hub
+    |__ Port 001: Dev 002, If 0, Class=Vendor Specific Class, Driver=rtl8xxxu, 480M
+        ID 0bda:f179 Realtek Semiconductor Corp. RTL8188FTV 802.11b/g/n 1T1R 2.4G WLAN Adapter
+    |__ Port 002: Dev 003, If 0, Class=Mass Storage, Driver=usb-storage, 480M
+        ID 0424:2240 Microchip Technology, Inc. (formerly SMSC) 
+    |__ Port 003: Dev 004, If 0, Class=Vendor Specific Class, Driver=cp210x, 12M
+        ID 10c4:ea60 Silicon Labs CP210x UART Bridge
+    |__ Port 004: Dev 005, If 0, Class=Mass Storage, Driver=usb-storage, 480M
+        ID 0424:2240 Microchip Technology, Inc. (formerly SMSC) <---------------------------
+```
 
-`lsusb -d 0424:2240 -vvv`:
+It's configuration can be read using `lsusb -d 0424:2240 -vvv` and should be similar to the one below.
+
 ```bash
 Bus 001 Device 008: ID 0424:2240 Microchip Technology, Inc. (formerly SMSC) Ultra Fast Media
 Couldn't open device, some information will be missing
@@ -338,13 +352,15 @@ bInterval 0
 
 ```
 
-`lsblk`:
+If eMMC memory connected to controller is seen properly it should be listed as block device `lsblk` with correct memory - something below 16GB.
+
 ```bash
 NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS
 sdb 8:16 1 14.6G 0 disk
 ```
 
-`dmesg`:
+Additionally, it's recommended to check kernel debug messages during system startup to ensure no errors were reported. This can be done using the command: `sudo dmesg`.
+
 ```bash
 [ 2402.769465] usb 1-13: new high-speed USB device number 8 using xhci_hcd
 [ 2402.902304] usb 1-13: New USB device found, idVendor=0424, idProduct=2240, bcdDevice= 1.98
@@ -364,13 +380,18 @@ sdb 8:16 1 14.6G 0 disk
 [ 2403.974170] sd 2:0:0:0: [sdb] Attached SCSI removable disk
 ```
 
-Benchmarked using Gnome Disks tool:
+It is recommended to quickly benchmark the memory using Gnome Disks tool, as inproperly solder may result in lower read/write speeds. The expected average read speed around 33MB/s and average access time below 1 ms. 
 ![eMMC benchmark](images/eMMC_benchmark.png)
 
+For more detailed benchmark used KDiskMark, which have option to select test file size and generate different write/read patterns beeing closer to more real life scenario. 
 
-Extended write/read test which took aproximately 6 hours:
+![eMMC benchamrk](images/eMMC_KDiskMark_32MiB.png)
+
+![eMMC benchamrk](images/eMMC_KDiskMark_1GiB.png)
+
+
+For complete test may use `badblocks` as a extended write/read test which took aproximately 6 hours. Application writes patterns to the entire memory surface and checks if all data has been written correctly. Usage `sudo badblocks -wsv /dev/sdX`
 ```bash 
-sudo badblocks -wsv /dev/sdc
 Checking for bad blocks in read-write mode
 From block 0 to 15307775
 Testing with pattern 0xaa: done                                                 
@@ -383,6 +404,8 @@ Testing with pattern 0x00: done
 Reading and comparing: done                                                 
 Pass completed, 0 bad blocks found. (0/0/0 errors)
 ```
+
+
 
 ### uSD reader
 
