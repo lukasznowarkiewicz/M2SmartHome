@@ -168,108 +168,6 @@ sudo lspci -vvv | grep -A 80 TUSB
         Capabilities: [150 v1] Device Serial Number 08-00-28-00-00-20-00-00
         Kernel driver in use: xhci_hcd
         Kernel modules: xhci_pci
-
-
-
-Bus 003 Device 002: ID 0bda:f179 Realtek Semiconductor Corp. RTL8188FTV 802.11b/g/n 1T1R 2.4G WLAN Adapter
-Device Descriptor:
-  bLength                18
-  bDescriptorType         1
-  bcdUSB               2.00
-  bDeviceClass            0 [unknown]
-  bDeviceSubClass         0 [unknown]
-  bDeviceProtocol         0 
-  bMaxPacketSize0        64
-  idVendor           0x0bda Realtek Semiconductor Corp.
-  idProduct          0xf179 RTL8188FTV 802.11b/g/n 1T1R 2.4G WLAN Adapter
-  bcdDevice            0.00
-  iManufacturer           1 Realtek
-  iProduct                2 802.11n NIC
-  iSerial                 3 00E04CB82100
-  bNumConfigurations      1
-  Configuration Descriptor:
-    bLength                 9
-    bDescriptorType         2
-    wTotalLength       0x0035
-    bNumInterfaces          1
-    bConfigurationValue     1
-    iConfiguration          0 
-    bmAttributes         0x80
-      (Bus Powered)
-    MaxPower              500mA
-    Interface Descriptor:
-      bLength                 9
-      bDescriptorType         4
-      bInterfaceNumber        0
-      bAlternateSetting       0
-      bNumEndpoints           5
-      bInterfaceClass       255 Vendor Specific Class
-      bInterfaceSubClass    255 Vendor Specific Subclass
-      bInterfaceProtocol    255 Vendor Specific Protocol
-      iInterface              0 
-      Endpoint Descriptor:
-        bLength                 7
-        bDescriptorType         5
-        bEndpointAddress     0x81  EP 1 IN
-        bmAttributes            2
-          Transfer Type            Bulk
-          Synch Type               None
-          Usage Type               Data
-        wMaxPacketSize     0x0200  1x 512 bytes
-        bInterval               0
-      Endpoint Descriptor:
-        bLength                 7
-        bDescriptorType         5
-        bEndpointAddress     0x02  EP 2 OUT
-        bmAttributes            2
-          Transfer Type            Bulk
-          Synch Type               None
-          Usage Type               Data
-        wMaxPacketSize     0x0200  1x 512 bytes
-        bInterval               0
-      Endpoint Descriptor:
-        bLength                 7
-        bDescriptorType         5
-        bEndpointAddress     0x03  EP 3 OUT
-        bmAttributes            2
-          Transfer Type            Bulk
-          Synch Type               None
-          Usage Type               Data
-        wMaxPacketSize     0x0200  1x 512 bytes
-        bInterval               0
-      Endpoint Descriptor:
-        bLength                 7
-        bDescriptorType         5
-        bEndpointAddress     0x04  EP 4 OUT
-        bmAttributes            2
-          Transfer Type            Bulk
-          Synch Type               None
-          Usage Type               Data
-        wMaxPacketSize     0x0200  1x 512 bytes
-        bInterval               0
-      Endpoint Descriptor:
-        bLength                 7
-        bDescriptorType         5
-        bEndpointAddress     0x85  EP 5 IN
-        bmAttributes            3
-          Transfer Type            Interrupt
-          Synch Type               None
-          Usage Type               Data
-        wMaxPacketSize     0x0040  1x 64 bytes
-        bInterval               1
-Device Qualifier (for other device speed):
-  bLength                10
-  bDescriptorType         6
-  bcdUSB               2.00
-  bDeviceClass            0 [unknown]
-  bDeviceSubClass         0 [unknown]
-  bDeviceProtocol         0 
-  bMaxPacketSize0        64
-  bNumConfigurations      1
-can't get debug descriptor: Resource temporarily unavailable
-Device Status:     0x0002
-  (Bus Powered)
-  Remote Wakeup Enabled
 ```
 
 
@@ -1079,7 +977,76 @@ iperf Done.
 
 ### Firmware
 
-Custom firmware is not yet ready.
+#### USB2240 eMMC and micro SD controller
+
+Both eMMC storage and micro SD reader utilizes USB2240 controller. 
+
+
+#### Thread radio
+
+Thread radio uses CP2102n USB UART bridge which supports modification of USB parameters as VID, PID, manufacturer and product description. This gives oppurtinity to create own device not easily distinguished in the operating system as USB Serial bridge, rather as custom made piece of hardware. Provided by the manufacturer method of the modification is using [Simplicity Studio](https://www.silabs.com/developer-tools/simplicity-studio) and has been described in [USBXpress™ Device Configuration and Programming Guide](https://www.silabs.com/documents/public/application-notes/AN721.pdf) Due to fact Simplicity Studio is a full fledged IDE, for the customization used simple script `cp210x-cfg` from https://github.com/irrwisch1/cp210x-cfg. Worth to mention is the necessity of additional packages: `sudo apt install build-essential libusb-1.0-0-dev`  
+For this device customized only manufacturer string and product description as changing VID and PID would require creation of the custom device driver. 
+Checking for proper detection of the device:
+```bash
+sudo ./cp210x-cfg -l
+ID 10c4:ea60 @ bus 003, dev 004: CP2102N USB to UART Bridge Controller
+```
+Change of the product description:
+```bash
+sudo ./cp210x-cfg -d 003.004 -N "M2SH Thread radio"
+ID 10c4:ea60 @ bus 003, dev 004: CP2102N USB to UART Bridge Controller
+Model: CP2102N QFN20
+Vendor ID: 10c4
+Product ID: ea60
+Name: CP2102N USB to UART Bridge Controller
+Manufacturer: Silicon Labs
+Serial: 9ac4a9c38069ed11b176ea8cedc06881
+Use internal serial: 1
+ret: 678
+IMPORTANT: Device needs to be replugged for some changes to take effect!
+```
+Change of the manufacturer name:
+```bash
+./cp210x-cfg -C 'Smart Living'
+ID 10c4:ea60 @ bus 003, dev 004: M2SH Thread radio
+Model: CP2102N QFN20
+Vendor ID: 10c4
+Product ID: ea60
+Name: M2SH Thread radio
+Manufacturer: Smart Living
+Serial: 9ac4a9c38069ed11b176ea8cedc06881
+Use internal serial: 1
+ret: 678
+```
+After turn off of the PC and back on (CP2102n chip's power is not controlled from the USB HUB and cannot be toggled) those fields should be changed:
+```bash
+Bus 003 Device 004: ID 10c4:ea60 Silicon Labs CP210x UART Bridge
+Device Descriptor:
+  [...]
+  idVendor           0x10c4 Silicon Labs
+  idProduct          0xea60 CP210x UART Bridge
+  bcdDevice            1.00
+  iManufacturer           1 Smart Living
+  iProduct                2 M2SH Thread radio
+  iSerial                 3 9ac4a9c38069ed11b176ea8cedc06881
+  [...]
+```
+
+[TODO] add section about flashing FR chip
+
+
+#### WiFi
+
+The brand-new `RTL8188FTV` chip comes unprogrammed, lacking both a MAC address and a serial number. Currently, it's not possible to flash its internal memory using any publicly available tools. The only known method to utilize this network card at the moment involves changing the MAC address directly within the driver, as detailed in the Wi-Fi bring-up section.
+
+Below is a brief summary of the tools explored during the search for a suitable programming solution:
+
+* [**RtPGToolUI**](https://237833645.github.io/doc/work/mtk_work/技术总结报告/RTL8152B调试/res/Realtek%20Linux%20USB%20PG%20Tool%20User%20Guide.pdf): Designed for older wired PCIe Ethernet cards.
+* [**Unofficial GitHub Tool**](https://github.com/redchenjs/rtnicpg): Also supports only wired Ethernet cards.
+* [**Linux driver for RTL8188**](https://github.com/torvalds/linux/tree/master/drivers/net/wireless/realtek/rtl8xxxu): Developed from scratch, doesn't include any tools for internal memory customization.
+
+No source files were found for the RTL8188 driver, which previously served as the basis for leaked tools used in customizing network cards.
+
 
 
 ## Repository Structure
