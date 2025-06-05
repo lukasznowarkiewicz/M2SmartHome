@@ -5482,12 +5482,6 @@
 		(uuid "e47a3199-d168-4d65-a03e-4e2541f037ab")
 	)
 	(junction
-		(at 33.02 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e84f87dc-58db-4f4f-8fe3-39ceb790603f")
-	)
-	(junction
 		(at 64.77 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6139,16 +6133,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 156.21) (xy 33.02 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51d2e6f4-02d6-4cf0-90d3-4906339abaf3")
-	)
-	(wire
-		(pts
 			(xy 97.79 91.44) (xy 97.79 92.71)
 		)
 		(stroke
@@ -6459,16 +6443,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 156.21) (xy 41.91 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a7aba8b-ea31-47a5-8c6a-88e71f7ee2ff")
-	)
-	(wire
-		(pts
 			(xy 114.3 60.96) (xy 114.3 71.12)
 		)
 		(stroke
@@ -6569,7 +6543,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 156.21) (xy 33.02 156.21)
+			(xy 24.13 156.21) (xy 34.29 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7149,16 +7123,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 163.83) (xy 33.02 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d78b15de-5580-4cdc-a5fb-8dd7b25d983c")
-	)
-	(wire
-		(pts
 			(xy 143.51 91.44) (xy 129.54 91.44)
 		)
 		(stroke
@@ -7226,16 +7190,6 @@
 			(type default)
 		)
 		(uuid "e2900aff-4230-47b9-afb6-b9511361d10a")
-	)
-	(wire
-		(pts
-			(xy 33.02 167.64) (xy 49.53 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e47b37c1-8506-426a-8094-e0550b14c3a8")
 	)
 	(wire
 		(pts
@@ -7407,16 +7361,6 @@
 		)
 		(uuid "ffe778ee-4dcf-4c88-96df-2e02e8589123")
 	)
-	(text "Option - for testing if I2C\nactually is pulled low in reset\n"
-		(exclude_from_sim no)
-		(at 41.402 171.958 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6dc4ea94-e9a8-4263-998c-e4d29222af01")
-	)
 	(text "place R36 close to the IC"
 		(exclude_from_sim no)
 		(at 178.308 114.046 0)
@@ -7436,17 +7380,6 @@
 			)
 		)
 		(uuid "e8797621-934b-43da-a042-069b60d66f3c")
-	)
-	(label "Prog_pull_down"
-		(at 49.53 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "03e4e2f6-9e18-4032-90b6-e60486a30c45")
 	)
 	(label "XTAL1"
 		(at 137.16 59.69 0)
@@ -7680,7 +7613,7 @@
 		(uuid "b181a59d-3f5b-400e-bcd8-aefd1ebad879")
 	)
 	(label "~{reset}"
-		(at 41.91 156.21 180)
+		(at 34.29 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8021,147 +7954,6 @@
 			(project "M2SmartHome"
 				(path "/da663dec-9e91-4003-a791-431d460ad63c/2a53ffe2-5715-44b3-b464-b3185e5be86d"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "M2SmartHomeSymbols:R_0_0402")
-		(at 33.02 158.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "0eab780b-a3d8-40aa-bc40-8a71d1cc1ae1")
-		(property "Reference" "R62"
-			(at 35.56 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_0_0402"
-			(at 20.32 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "M2SmartHomeFootprints:R_0402"
-			(at 17.78 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/crcw0402.pdf"
-			(at 15.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Thick Film Resistor, 0 Ω, Jumper, 1/16 W, 0402 [1005 Metric], CRCW Series"
-			(at 33.02 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW04020000Z0ED"
-			(at 12.7 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 10.16 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 7.62 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Your Name"
-			(at 5.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 35.56 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "1/16 W"
-			(at 22.86 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0ac4da12-f849-4647-8769-41b9a148ebe0")
-		)
-		(pin "1"
-			(uuid "a6bd1bc0-61a5-450f-accb-b8ebc1894e4c")
-		)
-		(instances
-			(project "M2SmartHome"
-				(path "/da663dec-9e91-4003-a791-431d460ad63c/2a53ffe2-5715-44b3-b464-b3185e5be86d"
-					(reference "R62")
 					(unit 1)
 				)
 			)
