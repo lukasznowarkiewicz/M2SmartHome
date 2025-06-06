@@ -552,7 +552,24 @@ Pass completed, 0 bad blocks found. (0/0/0 errors)
 
 ### Thread radio
 
-To be described.
+Thread radio consist of two main parts USB UART converter and Thread Radio chip. 
+
+USB UART controller is connected to the third port of USB HUB present in PCIe bridge (`sudo lsusb -vt`).
+
+```bash
+/:  Bus 003.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/4p, 480M
+    ID 1d6b:0002 Linux Foundation 2.0 root hub
+    |__ Port 001: Dev 002, If 0, Class=Vendor Specific Class, Driver=rtl8xxxu, 480M
+        ID 0bda:f179 Realtek Semiconductor Corp. RTL8188FTV 802.11b/g/n 1T1R 2.4G WLAN Adapter
+    |__ Port 002: Dev 003, If 0, Class=Mass Storage, Driver=usb-storage, 480M
+        ID 0424:2240 Microchip Technology, Inc. (formerly SMSC) 
+    |__ Port 003: Dev 004, If 0, Class=Vendor Specific Class, Driver=cp210x, 12M
+        ID 10c4:ea60 Silicon Labs CP210x UART Bridge <---------------------------------------
+    |__ Port 004: Dev 005, If 0, Class=Mass Storage, Driver=usb-storage, 480M
+        ID 0424:2240 Microchip Technology, Inc. (formerly SMSC) 
+```
+
+It's configuration can be read using `lsusb -d 10c4:ea60 -vvv` and should be similar to the one below.
 
 ```bash
 Bus 003 Device 004: ID 10c4:ea60 Silicon Labs CP210x UART Bridge
@@ -617,6 +634,47 @@ can't get debug descriptor: Resource temporarily unavailable
 Device Status:     0x0000
   (Bus Powered)
 ```
+
+For basic check of EFR32MG21 thread radio module have to probe it through SWD. For this test use FTDI FT2232C/H, with 470 ohm resistor between TDI and TDO pins. 
+```bash
+FTDI                          Target
+# ----                          ------
+# 1  - Vref   ----------------- Vcc
+# 3  - nTRST  -
+# 4  - GND    ----------------- GND
+# 5  - TDI    ---/\470 Ohm/\--- SWDIO
+# 7  - TMS    -
+# 9  - TCK    ----------------- SWCLK
+# 11 - RTCK   -
+# 13 - TDO    ----------------- SWDIO
+# 15 - nSRST  - - - - - - - - - nRESET
+```
+Configuration file for OpenOCD is located in the firmware/thread/OpenOCD folder. For probing use TagConnect TC2030 cable and connect it to J9 port on the PCB. 
+Command for probing: `openocd -f ft2232_efr32.cfg -f target/efm32.cfg` (note efm32 is not the desired chip, but this config allows probe of the efr32)
+Expected result:
+```bash
+Open On-Chip Debugger 0.12.0
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : FTDI SWD mode enabled
+cortex_m reset_config sysresetreq
+
+Info : Listening on port 6666 for tcl connections
+Info : Listening on port 4444 for telnet connections
+Info : clock speed 1000 kHz
+Info : SWD DPIDR 0x6ba02477
+Info : [efm32.cpu] Cortex-M33 r0p3 processor detected
+Info : [efm32.cpu] target has 8 breakpoints, 4 watchpoints
+Info : starting gdb server for efm32.cpu on 3333
+Info : Listening on port 3333 for gdb connections
+Error: [efm32.cpu] clearing lockup after double fault
+Polling target efm32.cpu failed, trying to reexamine
+Info : [efm32.cpu] Cortex-M33 r0p3 processor detected
+Info : [efm32.cpu] target has 8 breakpoints, 4 watchpoints
+```
+
+
 
 
 ### WiFi radio
