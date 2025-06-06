@@ -859,8 +859,54 @@ Test above was performed in very noisy environent (over 30 wifi networks seen on
 
 #### USB2240 eMMC and micro SD controller
 
-Both eMMC storage and micro SD reader utilizes USB2240 controller. 
+Both eMMC storage and micro SD reader utilizes USB2240 controller. It's configuration is stored on external I2C EEPROM. There two ways of programming it with custom settings: 
+- use tools provided by the manufacturer (last supported OS is Windows Vista) and programm it through USB port
+- flash directly I2C EEPROM using CH341A programmer, AsProgrammer software with provided .bin file
 
+##### Flashing USB2240 using USBDM
+
+Requirements for this method:
+- M.2 equipped computer running Windows Vista 32 bit version (or running Windows Vista 32 bit in virtual machine, ex. Virtual box)
+
+Binaries and software used in this method located in `firmware/eMMC_and_uSD/USBDM`. To run the software either install Windows Vista 32bit natively or run it in virtual machine. In this tutorial run it in virtual box using [this](https://archive.org/details/windowsvistahp32virtualbox) disk image. Install USBDM program. If using virtual machine redirect USB devices to the guest OS. Program should automatically detect it and read defautl values. 
+
+![USBDM_1](images/USBDM_1.png)
+
+![USBDM_2](images/USBDM_2.png)
+
+May change manufacturer, product description, VID, PID, etc. upon liking. 
+
+![USBDM_3](images/USBDM_3.png)
+
+![USBDM_4](images/USBDM_4.png)
+
+To flash it just click `Update now`
+
+![USBDM_5](images/USBDM_5.png)
+
+Similarly may modify settings for uSD card reader:
+![USBDM_uSD](images/USBDM_uSD.png)
+
+##### Flashing USB2240 using AsProgrammer
+
+Requirements for this method:
+- USB CH341A programmer with [3V3 modification](https://www.youtube.com/watch?v=C53-aqp4hbI)
+- [AsProgrammer](https://github.com/nofeletru/UsbAsp-flash/releases 
+) in this tutorial used [version 2.1.2](https://github.com/nofeletru/UsbAsp-flash/releases/tag/v2.1.2) and Windows environment to run it (native / Wine / Virtual machine)
+- TagConnect TC2030 cable - in this tutorial used [DIY version](https://github.com/afedorov3/Tag-Connect-DIY)
+
+To program eMMC controller - conenct TC2030 to J7 and for uSD to J8.
+
+![AsProgrammer_CH341A_programming](images/AsProgrammer_CH341A_programming.png)
+
+Binary files to be flashed located in `firmware/eMMC_and_uSD/AsProgrammer`:
+- `usb2240_eeprom_m2sh_eMMC.bin` 
+- `usb2240_eeprom_m2sh_uSD.bin`
+
+In the application select I2C, choose IC->I2C->_24Cxxx->_24C04. Open provided file. To make any modification may do them right in the AsProgrammer window and as a reference use USB2240 datasheet. 
+ To start programming click icon `Unprotect -> erase -> program -> verify` 
+
+![AsProgrammer_eMMC](images/AsProgrammer_eMMC.png)
 
 #### Thread radio
 
