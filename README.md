@@ -679,12 +679,24 @@ Info : [efm32.cpu] target has 8 breakpoints, 4 watchpoints
 
 ### WiFi radio
 
-To be described.
-
+`RTL8188` controller is connected to the first port of USB HUB present in PCIe bridge (`sudo lsusb -vt`).
 
 ```bash
-lsusb -d 0bda:f179 -vvv
+/:  Bus 003.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/4p, 480M
+    ID 1d6b:0002 Linux Foundation 2.0 root hub
+    |__ Port 001: Dev 002, If 0, Class=Vendor Specific Class, Driver=rtl8xxxu, 480M
+        ID 0bda:f179 Realtek Semiconductor Corp. RTL8188FTV 802.11b/g/n 1T1R 2.4G WLAN Adapter <----
+    |__ Port 002: Dev 003, If 0, Class=Mass Storage, Driver=usb-storage, 480M
+        ID 0424:2240 Microchip Technology, Inc. (formerly SMSC) 
+    |__ Port 003: Dev 004, If 0, Class=Vendor Specific Class, Driver=cp210x, 12M
+        ID 10c4:ea60 Silicon Labs CP210x UART Bridge 
+    |__ Port 004: Dev 005, If 0, Class=Mass Storage, Driver=usb-storage, 480M
+        ID 0424:2240 Microchip Technology, Inc. (formerly SMSC) 
+```
 
+When listed with `lsusb -d 0bda:f179 -vvv` default config should looks like below.
+
+```bash
 Bus 001 Device 054: ID 0bda:f179 Realtek Semiconductor Corp. RTL8188FTV 802.11b/g/n 1T1R 2.4G WLAN Adapter
 Couldn't open device, some information will be missing
 Device Descriptor:
@@ -774,7 +786,8 @@ Device Descriptor:
         bInterval               1
 ```
 
-dmesg:
+It is worth to check if device is not throwings any errors `sudo dmesg`.
+
 ```bash
 [ 4347.746012] usb 1-13: new high-speed USB device number 54 using xhci_hcd
 [ 4347.872442] usb 1-13: New USB device found, idVendor=0bda, idProduct=f179, bcdDevice= 0.00
@@ -793,19 +806,16 @@ dmesg:
 [ 4349.130891] rtl8xxxu 1-13:1.0 wlxffffffffffff: renamed from wlan0
 ```
 
-assigning custom MAC address (temporarly)
+To perform functional test have to connect antenna ended with U.FL. connector to J4 port and assing MAC address to the card. New chip comes unconfigured, having 0xFF values across entire memory map. This results in card beeing not able to connect to any network. To perofm this functional test have to override MAC address in the driver. Note that it is not persistent and after powering off change will dissapear as it has not been written to RTL8188's internal flash. Commands for assiging MAC address:
 ```bash
 sudo ip link set wlxffffffffffff down
 sudo ip link set wlxffffffffffff address 12:34:56:78:9A:BC
-ip a
 sudo ip link set wlxffffffffffff up
 ip link show wlxffffffffffff 
-sudo iw dev wlxffffffffffff scan
 ```
 
-scanning for wifi networks after modification:
+Scan for available networks after modification `sudo iw dev wlxffffffffffff scan`
 ```bash
-sudo iw dev wlxffffffffffff scan
 BSS c8:bc:c8:fd:91:27(on wlxffffffffffff)
 	TSF: 3469783757152 usec (40d, 03:49:43)
 	freq: 2412.0
@@ -813,261 +823,26 @@ BSS c8:bc:c8:fd:91:27(on wlxffffffffffff)
 	capability: ESS Privacy ShortPreamble ShortSlotTime RadioMeasure (0x1431)
 	signal: -76.00 dBm
 	last seen: 954 ms ago
-	SSID: Gruszka
-	Supported rates: 1.0* 2.0* 5.5* 11.0* 6.0 9.0 12.0 18.0 
-	DS Parameter set: channel 1
-	TIM: DTIM Count 0 DTIM Period 3 Bitmap Control 0x0 Bitmap[0] 0x0
-	Country: JP	Environment: Indoor/Outdoor
-		Channels [1 - 13] @ 30 dBm
-	ERP: Use_Protection
-	Extended supported rates: 24.0 36.0 48.0 54.0 
-	RSN:	 * Version: 1
-		 * Group cipher: CCMP
-		 * Pairwise ciphers: CCMP
-		 * Authentication suites: PSK
-		 * Capabilities: 1-PTKSA-RC 1-GTKSA-RC (0x0000)
-	HT capabilities:
-		Capabilities: 0x41ac
-			HT20
-			SM Power Save disabled
-			RX HT20 SGI
-			TX STBC
-			RX STBC 1-stream
-			Max AMSDU length: 3839 bytes
-			No DSSS/CCK HT40
-			40 MHz Intolerant
-		Maximum RX AMPDU length 65535 bytes (exponent: 0x003)
-		Minimum RX AMPDU time spacing: 4 usec (0x05)
-		HT RX MCS rate indexes supported: 0-23
-		HT TX MCS rate indexes are undefined
-	AP Channel Report:
-		 * operating class: 116
-		 * channel(s): 36
-	AP Channel Report:
-		 * operating class: 128
-		 * channel(s): 36
-	AP Channel Report:
-		 * operating class: 81
-		 * channel(s): 11
-	HT operation:
-		 * primary channel: 1
-		 * secondary channel offset: no secondary
-		 * STA channel width: 20 MHz
-		 * RIFS: 0
-		 * HT protection: nonmember
-		 * non-GF present: 0
-		 * OBSS non-GF present: 1
-		 * dual beacon: 0
-		 * dual CTS protection: 0
-		 * STBC beacon: 0
-		 * L-SIG TXOP Prot: 0
-		 * PCO active: 0
-		 * PCO phase: 0
-	RM enabled capabilities:
-		Capabilities: 0x02 0x00 0x01 0x00 0x00
-			Neighbor Report
-			AP Channel Report
-		Nonoperating Channel Max Measurement Duration: 0
-		Measurement Pilot Capability: 0
-	WMM:	 * Parameter version 1
-		 * BE: CW 15-1023, AIFSN 3
-		 * BK: CW 15-1023, AIFSN 7
-		 * VI: CW 7-15, AIFSN 2, TXOP 3008 usec
-		 * VO: CW 3-7, AIFSN 2, TXOP 1504 usec
-BSS 00:eb:d8:12:60:03(on wlxffffffffffff)
-	TSF: 7773816861829 usec (89d, 23:23:36)
-	freq: 2427.0
-	beacon interval: 100 TUs
-	capability: ESS Privacy ShortSlotTime APSD (0x0c11)
-	signal: -68.00 dBm
-	last seen: 0 ms ago
-	Information elements from Probe Response frame:
-	SSID: Dabrowskiego_89_180_B
-	Supported rates: 1.0* 2.0* 5.5* 11.0* 9.0 18.0 36.0 54.0 
-	DS Parameter set: channel 4
-	ERP: Barker_Preamble_Mode
-	Extended supported rates: 6.0 12.0 24.0 48.0 
-	WPA:	 * Version: 1
-		 * Group cipher: CCMP
-		 * Pairwise ciphers: CCMP
-		 * Authentication suites: PSK
-	RSN:	 * Version: 1
-		 * Group cipher: CCMP
-		 * Pairwise ciphers: CCMP
-		 * Authentication suites: PSK
-		 * Capabilities: 1-PTKSA-RC 1-GTKSA-RC (0x0000)
-	HT capabilities:
-		Capabilities: 0x11ef
-			RX LDPC
-			HT20/HT40
-			SM Power Save disabled
-			RX HT20 SGI
-			RX HT40 SGI
-			TX STBC
-			RX STBC 1-stream
-			Max AMSDU length: 3839 bytes
-			DSSS/CCK HT40
-		Maximum RX AMPDU length 65535 bytes (exponent: 0x003)
-		Minimum RX AMPDU time spacing: 4 usec (0x05)
-		HT RX MCS rate indexes supported: 0-15
-		HT TX MCS rate indexes are undefined
-	HT operation:
-		 * primary channel: 4
-		 * secondary channel offset: no secondary
-		 * STA channel width: 20 MHz
-		 * RIFS: 0
-		 * HT protection: 20 MHz
-		 * non-GF present: 1
-		 * OBSS non-GF present: 0
-		 * dual beacon: 0
-		 * dual CTS protection: 0
-		 * STBC beacon: 0
-		 * L-SIG TXOP Prot: 0
-		 * PCO active: 0
-		 * PCO phase: 0
-	Overlapping BSS scan params:
-		 * passive dwell: 20 TUs
-		 * active dwell: 10 TUs
-		 * channel width trigger scan interval: 300 s
-		 * scan passive total per channel: 200 TUs
-		 * scan active total per channel: 20 TUs
-		 * BSS width channel transition delay factor: 5
-		 * OBSS Scan Activity Threshold: 0.25 %
-	BSS Load:
-		 * station count: 2
-		 * channel utilisation: 0/255
-		 * available admission capacity: 31250 [*32us]
-	WMM:	 * Parameter version 1
-		 * u-APSD
-		 * BE: CW 15-1023, AIFSN 3
-		 * BK: CW 15-1023, AIFSN 7
-		 * VI: CW 7-15, AIFSN 2, TXOP 3008 usec
-		 * VO: CW 3-7, AIFSN 2, TXOP 1504 usec
-	AP Channel Report:
-		 * operating class: 11
-		 * channel(s): 1 2 3 4 5 6 7 8 9
-	VHT capabilities:
-		VHT Capabilities (0x33c979b1):
-			Max MPDU length: 7991
-			Supported Channel Width: neither 160 nor 80+80
-			RX LDPC
-			short GI (80 MHz)
-			TX STBC
-			SU Beamformer
-			SU Beamformee
-			MU Beamformer
-			+HTC-VHT
-			RX antenna pattern consistency
-			TX antenna pattern consistency
-		VHT RX MCS set:
-			1 streams: MCS 0-9
-			2 streams: MCS 0-9
-			3 streams: not supported
-			4 streams: not supported
-			5 streams: not supported
-			6 streams: not supported
-			7 streams: not supported
-			8 streams: not supported
-		VHT RX highest supported: 780 Mbps
-		VHT TX MCS set:
-			1 streams: MCS 0-9
-			2 streams: MCS 0-9
-			3 streams: not supported
-			4 streams: not supported
-			5 streams: not supported
-			6 streams: not supported
-			7 streams: not supported
-			8 streams: not supported
-		VHT TX highest supported: 780 Mbps
-		VHT extended NSS: not supported
-	VHT operation:
-		 * channel width: 0 (20 or 40 MHz)
-		 * center freq segment 1: 0
-		 * center freq segment 2: 0
-		 * VHT basic MCS set: 0xfffa
-	WPS:	 * Version: 1.0
-		 * Wi-Fi Protected Setup State: 2 (Configured)
-		 * Response Type: 3 (AP)
-		 * UUID: 00000000-0000-1000-0000-00ebd8126003
-		 * Manufacturer: MERCUSYS
-		 * Model: AC12G
-		 * Model Number: 2.0
-		 * Serial Number: 1.1.1.3
-		 * Primary Device Type: 6-0050f204-1
-		 * Device name: AC12G
-		 * Config methods: Label, Display, PBC
-		 * RF Bands: 0x3
-		 * Version2: 2.0
-BSS c0:25:2f:a3:5c:38(on wlxffffffffffff)
-	TSF: 982184921730 usec (11d, 08:49:44)
-	freq: 2437.0
-	beacon interval: 100 TUs
+	SSID: Pineapple
+  [...]
 ```
 
+Perform functional test of the throughput using `iperf3`. On second device running in the same network (have bigger throughput than EUT, ex. beeing connected over 802.11ac standard or 802.3 1000BASE-T) run `iperf3 -s`. On the EUT `iperf3 -c 192.168.1.xxx -t 60`
 
 Iperf testing with highly 
 ```bash
-iperf3 -c 192.168.1.150 -t 60
-Connecting to host 192.168.1.150, port 5201
+Connecting to host 192.168.1.xxx, port 5201
 [  5] local 192.168.1.129 port 39064 connected to 192.168.1.150 port 5201
 [ ID] Interval           Transfer     Bitrate         Retr  Cwnd
 [  5]   0.00-1.00   sec  2.50 MBytes  20.9 Mbits/sec    1    246 KBytes       
 [  5]   1.00-2.00   sec  1.12 MBytes  9.45 Mbits/sec    0    255 KBytes       
 [  5]   2.00-3.00   sec  1.62 MBytes  13.6 Mbits/sec   60    148 KBytes       
-[  5]   3.00-4.00   sec  2.25 MBytes  18.9 Mbits/sec    0    221 KBytes       
-[  5]   4.00-5.00   sec  2.12 MBytes  17.8 Mbits/sec    0    247 KBytes       
-[  5]   5.00-6.00   sec  1.62 MBytes  13.6 Mbits/sec    1   77.8 KBytes       
-[  5]   6.00-7.00   sec   640 KBytes  5.25 Mbits/sec    0    281 KBytes       
-[  5]   7.00-8.00   sec   640 KBytes  5.24 Mbits/sec    0    296 KBytes       
-[  5]   8.00-9.00   sec  1.38 MBytes  11.5 Mbits/sec    1    328 KBytes       
-[  5]   9.00-10.00  sec  2.00 MBytes  16.8 Mbits/sec    0    328 KBytes       
-[  5]  10.00-11.00  sec  1.38 MBytes  11.5 Mbits/sec    1    175 KBytes       
-[  5]  11.00-12.00  sec  2.12 MBytes  17.8 Mbits/sec    0    232 KBytes       
-[  5]  12.00-13.00  sec  2.12 MBytes  17.8 Mbits/sec    1   53.7 KBytes       
-[  5]  13.00-14.00  sec  1.38 MBytes  11.5 Mbits/sec    0    256 KBytes       
-[  5]  14.00-15.00  sec   640 KBytes  5.24 Mbits/sec    0    256 KBytes       
-[  5]  15.00-16.00  sec  1.50 MBytes  12.6 Mbits/sec    0    297 KBytes       
-[  5]  16.00-17.00  sec  1.38 MBytes  11.5 Mbits/sec    0    332 KBytes       
-[  5]  17.00-18.00  sec  2.12 MBytes  17.8 Mbits/sec    1    348 KBytes       
-[  5]  18.00-19.00  sec  2.75 MBytes  23.1 Mbits/sec    0    348 KBytes       
-[  5]  19.00-20.00  sec  2.38 MBytes  19.9 Mbits/sec    0    348 KBytes       
-[  5]  20.00-21.00  sec  2.75 MBytes  23.1 Mbits/sec    0    348 KBytes       
-[  5]  21.00-22.00  sec  3.00 MBytes  25.2 Mbits/sec    0    348 KBytes       
-[  5]  22.00-23.00  sec  2.88 MBytes  24.1 Mbits/sec    0    348 KBytes       
-[  5]  23.00-24.00  sec  2.50 MBytes  21.0 Mbits/sec    0    409 KBytes       
-[  5]  24.00-25.00  sec  1.62 MBytes  13.6 Mbits/sec    0    409 KBytes       
-[  5]  25.00-26.00  sec  1.62 MBytes  13.6 Mbits/sec    0    409 KBytes       
-[  5]  26.00-27.00  sec  1.75 MBytes  14.7 Mbits/sec    0    409 KBytes       
-[  5]  27.00-28.00  sec   896 KBytes  7.33 Mbits/sec    1    423 KBytes       
-[  5]  28.00-29.00  sec  1.75 MBytes  14.7 Mbits/sec    0    443 KBytes       
-[  5]  29.00-30.00  sec  1.00 MBytes  8.39 Mbits/sec    0    443 KBytes       
-[  5]  30.00-31.00  sec  1.88 MBytes  15.7 Mbits/sec    1    488 KBytes       
-[  5]  31.00-32.00  sec  1.00 MBytes  8.39 Mbits/sec    0    488 KBytes       
-[  5]  32.00-33.00  sec  2.12 MBytes  17.8 Mbits/sec    0    512 KBytes       
+[...]   
 [  5]  33.00-34.00  sec  3.12 MBytes  26.2 Mbits/sec    0    512 KBytes       
 [  5]  34.00-35.00  sec  3.12 MBytes  26.2 Mbits/sec    0    512 KBytes       
 [  5]  35.00-36.00  sec  3.00 MBytes  25.2 Mbits/sec    0    247 KBytes       
 [  5]  36.00-37.00  sec  2.38 MBytes  19.9 Mbits/sec    0    341 KBytes       
-[  5]  37.00-38.00  sec  2.12 MBytes  17.8 Mbits/sec   92    262 KBytes       
-[  5]  38.00-39.00  sec  2.12 MBytes  17.8 Mbits/sec   82    195 KBytes       
-[  5]  39.00-40.00  sec  2.12 MBytes  17.8 Mbits/sec   36    106 KBytes       
-[  5]  40.00-41.00  sec  2.00 MBytes  16.8 Mbits/sec    0   86.3 KBytes       
-[  5]  41.00-42.00  sec  1.00 MBytes  8.38 Mbits/sec    0   93.3 KBytes       
-[  5]  42.00-43.00  sec  2.12 MBytes  17.8 Mbits/sec    0    103 KBytes       
-[  5]  43.00-44.00  sec  1.00 MBytes  8.39 Mbits/sec    0    112 KBytes       
-[  5]  44.00-45.00  sec  1.00 MBytes  8.39 Mbits/sec    1   1.41 KBytes       
-[  5]  45.00-46.00  sec  2.12 MBytes  17.8 Mbits/sec    0    180 KBytes       
-[  5]  46.00-47.00  sec  1.00 MBytes  8.39 Mbits/sec    0    223 KBytes       
-[  5]  47.00-48.00  sec  2.12 MBytes  17.8 Mbits/sec    0    267 KBytes       
-[  5]  48.00-49.00  sec  2.00 MBytes  16.8 Mbits/sec    0    288 KBytes       
-[  5]  49.00-50.00  sec  3.38 MBytes  28.3 Mbits/sec    0    305 KBytes       
-[  5]  50.00-51.00  sec  3.00 MBytes  25.2 Mbits/sec    0    321 KBytes       
-[  5]  51.00-52.00  sec  2.12 MBytes  17.8 Mbits/sec    0    321 KBytes       
-[  5]  52.00-53.00  sec  2.12 MBytes  17.8 Mbits/sec    0    321 KBytes       
-[  5]  53.00-54.00  sec  3.00 MBytes  25.2 Mbits/sec    0    321 KBytes       
-[  5]  54.00-55.00  sec  2.12 MBytes  17.8 Mbits/sec    0    321 KBytes       
-[  5]  55.00-56.00  sec  2.12 MBytes  17.8 Mbits/sec    0    321 KBytes       
-[  5]  56.00-57.00  sec  2.00 MBytes  16.8 Mbits/sec    0    321 KBytes       
+[...]
 [  5]  57.00-58.00  sec  1.00 MBytes  8.38 Mbits/sec    1    325 KBytes       
 [  5]  58.00-59.00  sec  1.12 MBytes  9.44 Mbits/sec    0    325 KBytes       
 [  5]  59.00-60.00  sec  1.00 MBytes  8.38 Mbits/sec    2    249 KBytes       
@@ -1078,6 +853,7 @@ Connecting to host 192.168.1.150, port 5201
 
 iperf Done.
 ```
+Test above was performed in very noisy environent (over 30 wifi networks seen on 2.4GHz) but a few packets were transmitted with the speed close to 30Mbit/s which is considered as good result for 802.11n running on 2.4GHz.
 
 ### Firmware
 
