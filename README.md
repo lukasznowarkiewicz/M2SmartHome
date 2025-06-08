@@ -674,28 +674,6 @@ Info : [efm32.cpu] Cortex-M33 r0p3 processor detected
 Info : [efm32.cpu] target has 8 breakpoints, 4 watchpoints
 ```
 
-To flash firmware [Segger J-Link Base](https://www.segger.com/products/debug-probes/j-link/models/j-link-base/) programmer is necessary (supported by Simiplicity studio). For flashing bootloader used [Simplicity commander](https://www.silabs.com/developer-tools/simplicity-studio/simplicity-commander). Bootloader and firmware used for test are from [NabuCasa github release page](https://github.com/NabuCasa/silabs-firmware-builder/releases/tag/v2025.04.04-1)
-
-To flash bootloader power M2SH from external power supply (3V3 LDO output from segger j-link programmer may be not sufficient), connect TC2030 SWD cable to J9 connector on PCB. In simplicity commander under `Device info` chip should be detected.  
-![j-link_connection](images/j-link_connection.png)
-
-In the `Flash` tab select downloaded bootloader file, then click `Flash`
-
-![flashing_bootloader](images/flashing_bootloader.png)
-
-After successfull flash, when connecting to chip's UART (through present on M2SH CP2102n) bootloader should be shown those options:
-```bash
-Gecko Bootloader v2.04.02
-1. upload gbl
-2. run
-3. ebl info
-BL > 
-```
-
-To flash firmware may send it via XModem (choose option 1 - `upload gbl` and send the firmware `sx -X skyconnect_zigbee_ncp_7.4.4.1.gbl </dev/ttyUSB0 > /dev/ttyUSB0`) or use Simplicity commander and flash it through SWD - select proper file and just press `Flash`.
-
-![flashing_firmware](images/flashing_firmware.png)
-
 ### WiFi radio
 
 `RTL8188` controller is connected to the first port of USB HUB present in PCIe bridge (`sudo lsusb -vt`).
@@ -977,7 +955,28 @@ Device Descriptor:
   [...]
 ```
 
-[TODO] add section about flashing FR chip
+To flash the firmware [Segger J-Link Base](https://www.segger.com/products/debug-probes/j-link/models/j-link-base/) programmer is necessary (supported by Simiplicity studio). For flashing bootloader used [Simplicity commander](https://www.silabs.com/developer-tools/simplicity-studio/simplicity-commander). Bootloader and firmware used for test are from [NabuCasa github release page](https://github.com/NabuCasa/silabs-firmware-builder/releases/tag/v2025.04.04-1)
+
+To flash bootloader power M2SH from external power supply (3V3 LDO output from segger j-link programmer may be not sufficient), connect TC2030 SWD cable to J9 connector on PCB. In simplicity commander under `Device info` chip should be detected.  
+![j-link_connection](images/j-link_connection.png)
+
+In the `Flash` tab select downloaded bootloader file, then click `Flash`
+
+![flashing_bootloader](images/flashing_bootloader.png)
+
+After successfull flash, when connecting to chip's UART (through present on M2SH CP2102n) bootloader should be shown those options:
+```bash
+Gecko Bootloader v2.04.02
+1. upload gbl
+2. run
+3. ebl info
+BL > 
+```
+
+To flash firmware may send it via XModem (choose option 1 - `upload gbl` and send the firmware `sx -X skyconnect_zigbee_ncp_7.4.4.1.gbl </dev/ttyUSB0 > /dev/ttyUSB0`) or use Simplicity commander and flash it through SWD - select proper file and just press `Flash`.
+
+![flashing_firmware](images/flashing_firmware.png)
+
 
 
 #### WiFi
