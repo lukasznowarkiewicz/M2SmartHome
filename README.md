@@ -106,6 +106,16 @@ The top side of the board was soldered using a UYUE 946C hotplate, with a prehea
 
 ![PCB_soldered](images/PCB_soldered.png)
 
+
+## Required modifications
+
+Rev.1.1.0 is not flawless, a few moodifications are required
+
+- Q5 transistor Drain and Source swap places
+- U7 pin 24 decouple connection cut from 3V3
+- Add connection U5 RTS pin to U6 PB00 pin 16
+- Add connection U5 CTS pin to U6 PB01 pin 15
+
 ## Board bring up 
 
 Board bringup starts with visual inspecion, completion check, as well as DNP components check. Removed all shorts and corrected invidual components using soldering iron. 
