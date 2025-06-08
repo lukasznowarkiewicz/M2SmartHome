@@ -1,7 +1,6 @@
 # M2SmartHome
 
-[TODO] update photo
-![M2SH Photo](images/M2SH-photo.jpeg)
+![M2SH Photo](images/M2SH-photo.png)
 
 ## Overview
 
