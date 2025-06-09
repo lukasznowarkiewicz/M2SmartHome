@@ -39,9 +39,9 @@ As a PCIe bridge choosen the `TUSB7340` manufactured by Texas Instruments. `TUSB
 ![Pcie bridge schematic](images/M2SmartHome-pcie-usb-bridge.svg)
 
 Components related to this part of the schematic has been highlighted in green on the board view:
-[TODO] replace render
-![board-3d-pcie-bridge](images/board-3d-pcie-bridge-T.png)
-![board-3d-pcie-bridge](images/board-3d-pcie-bridge-B.png)
+
+![board-3d-pcie-bridge](images/board-3d-PCIe-bridge-T.png)
+![board-3d-pcie-bridge](images/board-3d-PCIe-bridge-B.png)
 
 ### eMMC memory with controller
 
@@ -125,7 +125,7 @@ First powering up - using lab bench power supply connected to +3V3 power bus, wi
 
 All tests were performed using x86 architecture 64 bit computer. In this case HP EliteDesk 800 G3 USFF. All tests performed using Ubuntu 24.04 LTS. For testing thread and wifi used `LXC LXC1BL4820240722009` 2.4 GHz tuned antennas. 
 
-[todo] Add photo of EUT
+![EUT_in_PC](images/EUT_in_PC.png)
 
 ### PCie USB bridge
 
