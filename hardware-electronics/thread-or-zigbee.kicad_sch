@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "M2SmartHome")
-		(date "2025-05-28")
-		(rev "Rev 1.1.0")
+		(date "2025-06-09")
+		(rev "Rev 1.1.1")
 	)
 	(lib_symbols
 		(symbol "M2SmartHomeSymbols:ABM8-38.400MHZ-10-D1G-T"
@@ -6481,9 +6481,9 @@
 		)
 		(uuid "ff24c655-db2f-4d40-b339-2e03e9f5300f")
 	)
-	(text "SWD debug interface\n(FTDI MPSSE)"
+	(text "SWD debug interface"
 		(exclude_from_sim no)
-		(at 93.726 127.254 0)
+		(at 96.266 129.794 0)
 		(effects
 			(font
 				(size 1.27 1.27)
