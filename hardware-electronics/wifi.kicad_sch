@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "M2SmartHome")
-		(date "2025-05-28")
-		(rev "Rev 1.1.0")
+		(date "2025-06-09")
+		(rev "Rev 1.1.1")
 	)
 	(lib_symbols
 		(symbol "M2SmartHomeSymbols:04025A270FAT2A"
@@ -4435,16 +4435,6 @@
 			(type default)
 		)
 		(uuid "fcc99898-8ef4-4443-ad58-e46cc3f114ba")
-	)
-	(text "Datasheet not specyfing PULLUP or PULLDOWN\n"
-		(exclude_from_sim no)
-		(at 224.028 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1d994f6e-2bcf-4645-b309-eef211b1b3aa")
 	)
 	(text "OSC set to 40MHz ->"
 		(exclude_from_sim no)
